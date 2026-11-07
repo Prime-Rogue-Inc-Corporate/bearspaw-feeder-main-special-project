@@ -15,154 +15,179 @@
    "status": "confirmed"
   },
   "README.md": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:44:49Z",
    "sha256": "b9c75bc983f7bd54ec64334712c1b6ac03af5b454f83b10ccd470fbb3059fdf0",
    "stamped_utc": "2026-11-07T11:49:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:44:51Z",
    "sha256": "55259db055e1c35e5486057bb9893e53b201d366bf8848f4df5ef3086cc461ff",
    "stamped_utc": "2026-11-07T11:55:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:44:53Z",
    "sha256": "826a3dc5423ac20c1c462866c27291e52b0b8b18742dcad896e081b55d83fe06",
    "stamped_utc": "2026-11-07T11:49:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1154Z-2026-10-95pct-installation.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:44:55Z",
    "sha256": "0bf7ecfba56200db5333b04659034dfcad7d730f38daf2878b86b0baafdefbb4",
    "stamped_utc": "2026-11-07T11:55:12Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1154Z-2026-11-02-get-ready.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:44:58Z",
    "sha256": "54ca99ef9acf8db7e0bc9e3f832c056ed02e718a8a421ef68ca19d0e15f29807",
    "stamped_utc": "2026-11-07T11:55:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1154Z-2026-11-04-restrictions-in-effect.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:00Z",
    "sha256": "28f5575ac26ae485d1dee1251b5ee9d764e12717efa8f87192da0d3bf383becf",
    "stamped_utc": "2026-11-07T11:55:14Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1154Z-2026-11-06-water-use-green-zone.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:03Z",
    "sha256": "f20e0c24037662988904964a6daf482cf3baaa89ac319c5aaa89a25982e5d277",
    "stamped_utc": "2026-11-07T11:55:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1154Z-2026-11-06-winter-season.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:06Z",
    "sha256": "9ca1eb4bcf34183006573b3bd9a96ab8b83537a93727fdfdc9d628ae37127238",
    "stamped_utc": "2026-11-07T11:55:16Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/pages/area-construction/2026-11-07T1154Z.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:09Z",
    "sha256": "9ab9cc9dc81cd19c6fe7abdc62e19aad0bde86ec8001fa2d37aa1189dd2003ea",
    "stamped_utc": "2026-11-07T11:55:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/pages/parkdale-repairs/2026-11-07T1149Z.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:10Z",
    "sha256": "7fea7e48ae72e868c09620995f6928cf1116f075a5e6b4082d2a58277abdfd84",
    "stamped_utc": "2026-11-07T11:49:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/pages/replacement-project/2026-11-07T1149Z.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:13Z",
    "sha256": "de5101c1b3a226832af8b574bf788395ba0a268fc8f84ff4f628a5a473724143",
    "stamped_utc": "2026-11-07T11:50:01Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/pages/stage4-status/2026-11-07T1149Z.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:16Z",
    "sha256": "e7d4caaac43d90dc634936bac4f82db9dff13100a8c06537e97784b805c66521",
    "stamped_utc": "2026-11-07T11:50:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:19Z",
    "sha256": "d36e5b37e8984e18c7490ce293624b0cf936e25b98a1383c689827892a9d1ee0",
    "stamped_utc": "2026-11-07T11:55:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:21Z",
    "sha256": "f2613eb95d670396dbb3ad0112e6a7b1c00c58e03b556e68343f82dc609266d4",
    "stamped_utc": "2026-11-07T11:50:06Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/3x6m-4vs7/2026-11-07T1152Z-newsroom-latest.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:23Z",
    "sha256": "c681e2dc35904c09dbb6fdb927a29d9ecc2412bf9fe98ca55302dd8dcb155616",
    "stamped_utc": "2026-11-07T11:53:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/4yk7-rbpq/2026-11-07T1152Z-current-incidents-construction.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:25Z",
    "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
    "stamped_utc": "2026-11-07T11:53:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/catalog/2026-11-07T1149Z-closures.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:28Z",
    "sha256": "ae7d3031b4d90cbe8d751549ee71b09d1ed1fce714f2194bb6b62d5596916724",
    "stamped_utc": "2026-11-07T11:50:09Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/catalog/2026-11-07T1149Z-detours.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:30Z",
    "sha256": "3a6469339b0324fd8faa4747783afa780bd6aad3554d78d8f3265d22e78674dc",
    "stamped_utc": "2026-11-07T11:50:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/catalog/2026-11-07T1149Z-water.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:32Z",
    "sha256": "79c404b6f079481f644cef462e7f1583e8e38fca76583174c2af083345a70aac",
    "stamped_utc": "2026-11-07T11:50:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/dpcu-jr23/2026-11-07T1149Z-metadata.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:35Z",
    "sha256": "e59c501bf5ffc4ba1657f3599bc5a2f46082484c34e5b5474155a202dd5ae026",
    "stamped_utc": "2026-11-07T11:50:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/dpcu-jr23/2026-11-07T1149Z-water-main-breaks.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:38Z",
    "sha256": "6dfddc33cc752e956bb40273c0db44c882ba7f3612fe668d3ae58d805c9e5cac",
    "stamped_utc": "2026-11-07T11:50:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/w6h9-w33i/2026-11-07T1149Z-metadata.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:40Z",
    "sha256": "599b864ecb7b844ec84049b74f9fde6828d8396df90a6038b11a4ccd1b0fe886",
    "stamped_utc": "2026-11-07T11:50:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/w6h9-w33i/2026-11-07T1152Z-corridor-mains.geojson": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:42Z",
    "sha256": "fd66e7784e2f983852ca2988d8ed26f4c940568cea434b00dd966df53e40e067",
    "stamped_utc": "2026-11-07T11:53:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/w6h9-w33i/2026-11-07T1152Z-glenmore-mains.geojson": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:45Z",
    "sha256": "d23d545c063acf1df21f5f3c34c8f8e8aba1ab56734b40b1f5ec800bd1bf0b1e",
    "stamped_utc": "2026-11-07T11:53:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/w8zq-79bq/2026-11-07T1152Z-construction-detours.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:48Z",
    "sha256": "025d03fa8de56894614bd1e16eef0a2d1bed5224c68af187925fb7e0de59de9c",
    "stamped_utc": "2026-11-07T11:53:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "site/project.yaml": {
    "bitcoin_block": 974918,
@@ -172,10 +197,11 @@
    "status": "confirmed"
   },
   "tools/fetch.py": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:50Z",
    "sha256": "dd866fe72b05ed168b05410ac09cf9b15f94edf790f997c685ec1c6cc91f96e3",
    "stamped_utc": "2026-11-07T11:49:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "tools/stamp.py": {
    "bitcoin_block": 974918,
@@ -185,10 +211,11 @@
    "status": "confirmed"
   },
   "trigger/fetch.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974935,
+   "confirmed_seen_utc": "2026-11-07T17:45:53Z",
    "sha256": "413ef6da4d8f8f57c8905dfc13b90ca024259c7577b62601feac3b57977106a5",
    "stamped_utc": "2026-11-07T11:55:20Z",
-   "status": "pending"
+   "status": "confirmed"
   }
  },
  "superseded": [

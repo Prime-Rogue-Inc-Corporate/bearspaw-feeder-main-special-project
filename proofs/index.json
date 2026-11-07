@@ -22,8 +22,80 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "f1fbdb0c2963627070702a9335aeceb18e2e539fcf42fbbd42ab247e7c7cd3de",
-   "stamped_utc": "2026-11-07T11:49:23Z",
+   "sha256": "47aabf775d567c66697d9293f28850ca3d10bd66c219c680a59d10d28ba7df16",
+   "stamped_utc": "2026-11-07T11:50:21Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
+   "bitcoin_block": null,
+   "sha256": "826a3dc5423ac20c1c462866c27291e52b0b8b18742dcad896e081b55d83fe06",
+   "stamped_utc": "2026-11-07T11:49:57Z",
+   "status": "pending"
+  },
+  "raw/city/pages/parkdale-repairs/2026-11-07T1149Z.html": {
+   "bitcoin_block": null,
+   "sha256": "7fea7e48ae72e868c09620995f6928cf1116f075a5e6b4082d2a58277abdfd84",
+   "stamped_utc": "2026-11-07T11:49:59Z",
+   "status": "pending"
+  },
+  "raw/city/pages/replacement-project/2026-11-07T1149Z.html": {
+   "bitcoin_block": null,
+   "sha256": "de5101c1b3a226832af8b574bf788395ba0a268fc8f84ff4f628a5a473724143",
+   "stamped_utc": "2026-11-07T11:50:01Z",
+   "status": "pending"
+  },
+  "raw/city/pages/stage4-status/2026-11-07T1149Z.html": {
+   "bitcoin_block": null,
+   "sha256": "e7d4caaac43d90dc634936bac4f82db9dff13100a8c06537e97784b805c66521",
+   "stamped_utc": "2026-11-07T11:50:02Z",
+   "status": "pending"
+  },
+  "raw/fetch-log.jsonl": {
+   "bitcoin_block": null,
+   "sha256": "c03a4e9e866ce0d7c60c2b929c4c82bfcdf68cd0c719687de075c1acc45a210a",
+   "stamped_utc": "2026-11-07T11:50:04Z",
+   "status": "pending"
+  },
+  "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
+   "bitcoin_block": null,
+   "sha256": "f2613eb95d670396dbb3ad0112e6a7b1c00c58e03b556e68343f82dc609266d4",
+   "stamped_utc": "2026-11-07T11:50:06Z",
+   "status": "pending"
+  },
+  "raw/opendata/catalog/2026-11-07T1149Z-closures.json": {
+   "bitcoin_block": null,
+   "sha256": "ae7d3031b4d90cbe8d751549ee71b09d1ed1fce714f2194bb6b62d5596916724",
+   "stamped_utc": "2026-11-07T11:50:09Z",
+   "status": "pending"
+  },
+  "raw/opendata/catalog/2026-11-07T1149Z-detours.json": {
+   "bitcoin_block": null,
+   "sha256": "3a6469339b0324fd8faa4747783afa780bd6aad3554d78d8f3265d22e78674dc",
+   "stamped_utc": "2026-11-07T11:50:11Z",
+   "status": "pending"
+  },
+  "raw/opendata/catalog/2026-11-07T1149Z-water.json": {
+   "bitcoin_block": null,
+   "sha256": "79c404b6f079481f644cef462e7f1583e8e38fca76583174c2af083345a70aac",
+   "stamped_utc": "2026-11-07T11:50:13Z",
+   "status": "pending"
+  },
+  "raw/opendata/dpcu-jr23/2026-11-07T1149Z-metadata.json": {
+   "bitcoin_block": null,
+   "sha256": "e59c501bf5ffc4ba1657f3599bc5a2f46082484c34e5b5474155a202dd5ae026",
+   "stamped_utc": "2026-11-07T11:50:15Z",
+   "status": "pending"
+  },
+  "raw/opendata/dpcu-jr23/2026-11-07T1149Z-water-main-breaks.csv": {
+   "bitcoin_block": null,
+   "sha256": "6dfddc33cc752e956bb40273c0db44c882ba7f3612fe668d3ae58d805c9e5cac",
+   "stamped_utc": "2026-11-07T11:50:17Z",
+   "status": "pending"
+  },
+  "raw/opendata/w6h9-w33i/2026-11-07T1149Z-metadata.json": {
+   "bitcoin_block": null,
+   "sha256": "599b864ecb7b844ec84049b74f9fde6828d8396df90a6038b11a4ccd1b0fe886",
+   "stamped_utc": "2026-11-07T11:50:19Z",
    "status": "pending"
   },
   "site/project.yaml": {
@@ -84,6 +156,14 @@
    "proof": "proofs/SHA256SUMS.d6a3beeb8ed2.ots",
    "sha256": "d6a3beeb8ed2654d5e3692e1d3d43c33488cdd634fa8eb94b57a5b9a06ba874f",
    "stamped_utc": "2026-11-07T09:48:38Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.f1fbdb0c2963.ots",
+   "sha256": "f1fbdb0c2963627070702a9335aeceb18e2e539fcf42fbbd42ab247e7c7cd3de",
+   "stamped_utc": "2026-11-07T11:49:23Z",
    "status": "pending"
   }
  ]

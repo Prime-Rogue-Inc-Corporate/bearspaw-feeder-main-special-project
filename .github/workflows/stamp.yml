@@ -1,0 +1,48 @@
+name: Checksums and Bitcoin stamps
+
+# Every push: rewrite SHA256SUMS, OpenTimestamps-stamp every new or changed file (and SHA256SUMS), commit the proofs.
+# Every 3 hours: upgrade pending proofs once their Bitcoin block is in (usually 1-12 h after stamping).
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["proofs/**", "SHA256SUMS"]
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stamp
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install opentimestamps-client==0.8.0
+      - name: Start from the latest main (runs queue behind each other; an older checkout would conflict)
+        run: git pull -q origin main
+      - name: Checksums
+        run: python3 tools/stamp.py sums
+      - name: Stamp new or changed files
+        run: python3 tools/stamp.py stamp
+      - name: Upgrade pending proofs
+        run: python3 tools/stamp.py upgrade
+      - name: Verify
+        run: python3 tools/stamp.py verify
+      - name: Commit
+        run: |
+          git config user.name "rwi-provenance"
+          git config user.email "rwi-provenance@users.noreply.github.com"
+          git add -A SHA256SUMS proofs
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "Provenance: checksums and OpenTimestamps proofs ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git pull --rebase origin main && git push

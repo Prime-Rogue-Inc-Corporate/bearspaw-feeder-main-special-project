@@ -1,0 +1,78 @@
+# RWI-SP-002 — Bearspaw South Feeder Main. The site build (roger-wilco-imagery-frontend, build.py load_projects) reads this file
+# for the project page. Hindcasts and briefs tasked to the project are registered here; their numbers are claimed in the
+# pipeline's reports/projects.yaml. This repository holds raw public records only; analysis lives in RWI's private repository.
+id: bearspaw
+code: RWI-SP-002
+title: Bearspaw South Feeder Main, Calgary — two failures and the rebuild
+status: open
+opened: '2026-11-07T09:00:00Z'
+updated: '2026-11-07T09:45:00Z'
+headline: >-
+  The Bearspaw South Feeder Main carries about 60 % of Calgary's treated water and has broken twice, in June 2024 and December
+  2025. RWI keeps the open record, archives it with checksums and Bitcoin timestamps, and follows the connection and commissioning
+  of the replacement main.
+local_tz: {name: Calgary, offset_h: -7}
+data_repo: https://github.com/Prime-Rogue-Inc-Corporate/bearspaw-feeder-main-special-project
+
+summary:
+  - >-
+    The Bearspaw South Feeder Main carries treated water from the Bearspaw treatment plant into north-west and central Calgary,
+    about 60 % of the city's supply. Its prestressed concrete cylinder pipe ruptured on 5 June 2024 and again on 30 December 2025,
+    the second time below 16 Avenue N.W. near Sarcee Trail.
+  - >-
+    The City's Independent Review Panel (final report 6 January 2026) found the risk had been known since the 2004 McKnight feeder
+    main break, while planned inspections were deferred. The Province's municipal inspection by David Goldie (report MSD 016-26,
+    dated 8 October, released 5 November 2026) found long-standing weaknesses in governance, risk management and capital delivery,
+    and made 20 recommendations.
+  - >-
+    A replacement main is being connected now. From 4 November 2026 the existing line is shut for about four weeks while the new
+    one is tied in, under city-wide Stage 4 outdoor water restrictions. The City says the new main should be in service in December.
+  - >-
+    This project keeps the public record in one place: City, Council and provincial documents, daily water-use figures, open data,
+    river and weather series and satellite imagery, each archived unchanged with a SHA-256 checksum and an OpenTimestamps proof.
+    Reports filed here separate what the record shows from inference.
+
+facts:
+  - {label: Share of Calgary's treated water, value: 'about 60 %', source: cp-panel-2026-01-07}
+  - {label: Pipe, value: 'prestressed concrete cylinder pipe (PCCP), being replaced with steel', source: panel-final-2026-01-06}
+  - {label: Failures, value: '5 Jun 2024; 30 Dec 2025 (16 Ave N.W. near Sarcee Trail)', source: calgaryjournal-2026-01-09}
+  - {label: Reviews, value: 'Independent Review Panel, 6 Jan 2026; provincial inspection MSD 016-26, released 5 Nov 2026 (20 recommendations)', source: goldie-msd-016-26}
+  - {label: Now, value: 'Stage 4 outdoor water restrictions from 4 Nov 2026 for about four weeks while the new main is connected', source: city-stage4-2026}
+  - {label: Commissioning, value: 'December 2026 (planned)', source: city-fall-handout-2026}
+
+timeline:
+  - {utc: '2004', event: 'McKnight feeder main (same pipe type) breaks; later reviews flag the Bearspaw South main as at risk', basis: 'official (Panel, as reported)', source: cp-panel-2026-01-07}
+  - {utc: '2024-06-05', event: 'First rupture of the Bearspaw South Feeder Main', basis: official, source: goldie-msd-016-26}
+  - {utc: '2025-12-30', event: 'Second rupture, below 16 Avenue N.W. near Sarcee Trail', basis: reporting, source: calgaryjournal-2026-01-09}
+  - {utc: '2026-01-06', event: 'Independent Review Panel final report (made public 7 Jan)', basis: official, source: panel-final-2026-01-06}
+  - {utc: '2026-01-16', event: 'Stage 4 restrictions lifted after the second repair', basis: reporting, source: livewire-2026-01-16}
+  - {utc: '2026-03-09', event: 'Stage 4 restrictions again for planned reinforcement work on the old main', basis: official, source: city-newsroom-2026-03-09}
+  - {utc: '2026-03-13', event: 'Province orders a municipal inspection; David Goldie appointed', basis: official, source: ab-fact-sheet-2026-03-13}
+  - {utc: '2026-10-22', event: 'City construction notice: the new main is to be connected in November and December', basis: official, source: city-notice-2026-10-22}
+  - {utc: '2026-11-04', event: 'Old main shut for the tie-in; city-wide Stage 4 restrictions for about four weeks', basis: official, source: city-stage4-2026}
+  - {utc: '2026-11-05', event: 'Provincial inspection report released (dated 8 Oct 2026; 20 recommendations)', basis: official, source: goldie-msd-016-26}
+  - {utc: '2026-12', event: 'Commissioning of the new main (planned)', basis: 'official (plan)', source: city-fall-handout-2026}
+
+status_log:
+  - {date: '7 Nov 2026', text: 'Project opened: page, public data repository with checksums and Bitcoin stamps, and register entry. The project brief (RWI-SP-002-BRIEF-01) will be filed here when its PDF is committed. Daily tracking of the tie-in starts with the first raw pulls.'}
+
+limits:
+  - 'Dates in the timeline are Calgary dates; exact times are given only where a source states them.'
+  - 'Site positions are not drawn until checked against City geometry (Calgary Open Data, Public Water Main).'
+  - 'Political statements about blame are outside RWI''s scope.'
+
+sources:
+  panel-final-2026-01-06: {outlet: 'Bearspaw South Feedermain Independent Review Panel (copy hosted by LiveWire Calgary)', title: 'Final Report', url: 'https://livewirecalgary.com/wp-content/uploads/2026/01/Water_Main_Review_-_Final_Report.pdf', published: '6 Jan 2026'}
+  goldie-msd-016-26: {outlet: 'Government of Alberta (Open Government)', title: 'Inspection of the management, administration and operations of the City of Calgary relating to the Bearspaw South Feeder Main', url: 'https://open.alberta.ca/publications/city-of-calgary-municipal-inspection-management-administration-operations-bearspaw-south-feeder-main', published: '5 Nov 2026'}
+  ab-fact-sheet-2026-03-13: {outlet: Government of Alberta, title: 'Municipal Inspection of the City of Calgary (fact sheet)', url: 'https://www.alberta.ca/system/files/ma-municipal-Inspection-calgary-fact-sheet-03-26.pdf', published: '13 Mar 2026'}
+  city-notice-2026-10-22: {outlet: City of Calgary, title: 'Bearspaw South Feeder Main: Connecting the new feeder main (construction notice)', url: 'https://www.calgary.ca/content/dam/www/is/utilities-delivery/bearspaw-feeder-main/documents/october-22-construction-notice.pdf', published: '22 Oct 2026'}
+  city-stage4-2026: {outlet: City of Calgary, title: 'Effective November 4: Stage 4 water restrictions', url: 'https://www.calgary.ca/emergencies/feeder-main-repair/make-every-drop-count.html', published: 'Nov 2026'}
+  city-fall-handout-2026: {outlet: City of Calgary, title: 'Fall water restrictions handout', url: 'https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/2026-bearpsaw-feedermain-h20c/fall-water-restrictions-one-page-handout.pdf', published: 'Nov 2026'}
+  city-newsroom-2026-03-09: {outlet: City of Calgary newsroom, title: 'Stage 4 water restrictions now in effect as Bearspaw South Feeder Main repairs begin', url: 'https://newsroom.calgary.ca/stage-4-water-restrictions-now-in-effect-as-bearspaw-south-feeder-main-repairs-begin/', published: '9 Mar 2026'}
+  cp-panel-2026-01-07: {outlet: 'The Canadian Press (via National Newswatch)', title: 'Report cites underinvestment, warning signals surrounding troubled Calgary water main', url: 'https://nationalnewswatch.com/2026/01/07/report-cites-underinvestment-warning-signals-surrounding-troubled-calgary-water-main', published: '7 Jan 2026'}
+  calgaryjournal-2026-01-09: {outlet: Calgary Journal, title: 'Report reveals Calgary feeder main issues on back burner for decades', url: 'https://calgaryjournal.ca/2026/01/09/report-reveals-calgary-feeder-main-issues-on-back-burner-for-decades/', published: '9 Jan 2026'}
+  livewire-2026-01-16: {outlet: LiveWire Calgary, title: 'Calgary ends water restrictions as Bearspaw feeder main stabilized', url: 'https://livewirecalgary.com/2026/01/16/calgary-ends-water-restrictions-as-bearspaw-feeder-main-stabilized/', published: '16 Jan 2026'}
+  livewire-2026-11-05: {outlet: LiveWire Calgary, title: 'Provincial Bearspaw feeder main inspection shows 2015 water report information withheld from council', url: 'https://livewirecalgary.com/2026/11/05/provincial-bearspaw-feeder-main-inspection-2015-raftelis-water-report-information-withheld/', published: '5 Nov 2026'}
+
+hindcasts: []
+briefs: []

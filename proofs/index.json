@@ -22,8 +22,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "33d05c732feda7f82f22708d52ddd8e86b14526abade0d31b74efa607a07249e",
-   "stamped_utc": "2026-11-07T11:52:45Z",
+   "sha256": "d2db9dd2693d3dacff190d7916ed47010aa153b7469850cac6b6eb215d59d7d7",
+   "stamped_utc": "2026-11-07T11:53:59Z",
    "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
@@ -52,14 +52,26 @@
   },
   "raw/fetch-log.jsonl": {
    "bitcoin_block": null,
-   "sha256": "c03a4e9e866ce0d7c60c2b929c4c82bfcdf68cd0c719687de075c1acc45a210a",
-   "stamped_utc": "2026-11-07T11:50:04Z",
+   "sha256": "af59e0819e118e230fc0d7eec0c5bea4e0880e656f965f349623605a49ca4fa7",
+   "stamped_utc": "2026-11-07T11:53:44Z",
    "status": "pending"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
    "bitcoin_block": null,
    "sha256": "f2613eb95d670396dbb3ad0112e6a7b1c00c58e03b556e68343f82dc609266d4",
    "stamped_utc": "2026-11-07T11:50:06Z",
+   "status": "pending"
+  },
+  "raw/opendata/3x6m-4vs7/2026-11-07T1152Z-newsroom-latest.csv": {
+   "bitcoin_block": null,
+   "sha256": "c681e2dc35904c09dbb6fdb927a29d9ecc2412bf9fe98ca55302dd8dcb155616",
+   "stamped_utc": "2026-11-07T11:53:46Z",
+   "status": "pending"
+  },
+  "raw/opendata/4yk7-rbpq/2026-11-07T1152Z-current-incidents-construction.csv": {
+   "bitcoin_block": null,
+   "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+   "stamped_utc": "2026-11-07T11:53:47Z",
    "status": "pending"
   },
   "raw/opendata/catalog/2026-11-07T1149Z-closures.json": {
@@ -96,6 +108,24 @@
    "bitcoin_block": null,
    "sha256": "599b864ecb7b844ec84049b74f9fde6828d8396df90a6038b11a4ccd1b0fe886",
    "stamped_utc": "2026-11-07T11:50:19Z",
+   "status": "pending"
+  },
+  "raw/opendata/w6h9-w33i/2026-11-07T1152Z-corridor-mains.geojson": {
+   "bitcoin_block": null,
+   "sha256": "fd66e7784e2f983852ca2988d8ed26f4c940568cea434b00dd966df53e40e067",
+   "stamped_utc": "2026-11-07T11:53:49Z",
+   "status": "pending"
+  },
+  "raw/opendata/w6h9-w33i/2026-11-07T1152Z-glenmore-mains.geojson": {
+   "bitcoin_block": null,
+   "sha256": "d23d545c063acf1df21f5f3c34c8f8e8aba1ab56734b40b1f5ec800bd1bf0b1e",
+   "stamped_utc": "2026-11-07T11:53:51Z",
+   "status": "pending"
+  },
+  "raw/opendata/w8zq-79bq/2026-11-07T1152Z-construction-detours.csv": {
+   "bitcoin_block": null,
+   "sha256": "025d03fa8de56894614bd1e16eef0a2d1bed5224c68af187925fb7e0de59de9c",
+   "stamped_utc": "2026-11-07T11:53:53Z",
    "status": "pending"
   },
   "site/project.yaml": {
@@ -180,6 +210,22 @@
    "proof": "proofs/SHA256SUMS.47aabf775d56.ots",
    "sha256": "47aabf775d567c66697d9293f28850ca3d10bd66c219c680a59d10d28ba7df16",
    "stamped_utc": "2026-11-07T11:50:21Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "raw/fetch-log.jsonl",
+   "proof": "proofs/raw/fetch-log.jsonl.c03a4e9e866c.ots",
+   "sha256": "c03a4e9e866ce0d7c60c2b929c4c82bfcdf68cd0c719687de075c1acc45a210a",
+   "stamped_utc": "2026-11-07T11:50:04Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.33d05c732fed.ots",
+   "sha256": "33d05c732feda7f82f22708d52ddd8e86b14526abade0d31b74efa607a07249e",
+   "stamped_utc": "2026-11-07T11:52:45Z",
    "status": "pending"
   }
  ]

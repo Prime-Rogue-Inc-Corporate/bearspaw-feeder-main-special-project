@@ -1,0 +1,40 @@
+name: Raw fetch
+
+# Archive the public records listed in trigger/fetch.tsv into raw/ (City open data and pages, provincial pages, river and
+# weather series). The City and Alberta sites are unreachable from the analysis sandbox, so they are pulled here.
+# A push that changes trigger/fetch.tsv runs it; then the stamping workflow checksums and Bitcoin-stamps the new files.
+
+on:
+  push:
+    branches: [main]
+    paths: ["trigger/fetch.tsv"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: raw-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch
+        run: python3 tools/fetch.py trigger/fetch.tsv
+      - name: Commit
+        run: |
+          git config user.name "rwi-raw-fetch"
+          git config user.email "rwi-raw-fetch@users.noreply.github.com"
+          git add -A raw
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "Raw fetch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main && git push
+      - name: Stamp the new files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run stamp.yml --ref main

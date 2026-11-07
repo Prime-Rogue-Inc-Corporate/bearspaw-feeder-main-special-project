@@ -1,0 +1,12 @@
+# path under raw/ <TAB> url   ({utc} = fetch time). Run 1, 7 Nov 2026: City open data for site checks + status pages.
+raw/opendata/dpcu-jr23/{utc}-water-main-breaks.csv	https://data.calgary.ca/api/views/dpcu-jr23/rows.csv?accessType=DOWNLOAD
+raw/opendata/dpcu-jr23/{utc}-metadata.json	https://data.calgary.ca/api/views/dpcu-jr23.json
+raw/opendata/w6h9-w33i/{utc}-metadata.json	https://data.calgary.ca/api/views/w6h9-w33i.json
+raw/opendata/catalog/{utc}-closures.json	https://data.calgary.ca/api/catalog/v1?domains=data.calgary.ca&q=road%20closures&limit=20
+raw/opendata/catalog/{utc}-detours.json	https://data.calgary.ca/api/catalog/v1?domains=data.calgary.ca&q=detours&limit=20
+raw/opendata/catalog/{utc}-water.json	https://data.calgary.ca/api/catalog/v1?domains=data.calgary.ca&q=water&limit=60
+raw/opendata/35ra-9556/{utc}-traffic-incidents-latest.csv	https://data.calgary.ca/resource/35ra-9556.csv?$limit=3000&$order=:id%20DESC
+raw/city/pages/stage4-status/{utc}.html	https://www.calgary.ca/emergencies/feeder-main-repair/make-every-drop-count.html
+raw/city/pages/replacement-project/{utc}.html	https://www.calgary.ca/planning/water/bearspaw-feeder-main/replacement-project.html
+raw/city/pages/parkdale-repairs/{utc}.html	https://www.calgary.ca/planning/water/bearspaw-feeder-main/bearspaw-south-feeder-main-parkdale-boulevard-repairs.html
+raw/city/newsroom/{utc}-nov4-restrictions.html	https://newsroom.calgary.ca/water-restrictions-take-effect-nov-4-as-bearspaw-south-feeder-main-enters-final-steps-of-construction/

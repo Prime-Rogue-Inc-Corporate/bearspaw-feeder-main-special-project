@@ -9,6 +9,7 @@ satellite imagery, archived unchanged. Analysis and drafts are kept elsewhere; n
 | Path | What |
 |---|---|
 | `raw/` | Archived public records, each as received |
+| `trigger/fetch.tsv`, `tools/fetch.py` | Records to archive next; the Raw fetch workflow pulls them into `raw/` and logs each fetch in `raw/fetch-log.jsonl` |
 | `site/project.yaml` | The project page manifest read by the site build |
 | `tools/stamp.py` | Checksums and Bitcoin timestamps |
 | `SHA256SUMS`, `proofs/` | SHA-256 of every file and its OpenTimestamps proof (`proofs/index.json` lists status and Bitcoin block) |

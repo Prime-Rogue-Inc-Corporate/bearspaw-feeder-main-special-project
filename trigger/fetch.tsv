@@ -1,6 +1,8 @@
-# path under raw/ <TAB> url   ({utc} = fetch time). Run 2, 7 Nov 2026: closures, current incidents, newsroom feed, mains along the corridor.
-raw/opendata/w8zq-79bq/{utc}-construction-detours.csv	https://data.calgary.ca/resource/w8zq-79bq.csv?$limit=5000
-raw/opendata/4yk7-rbpq/{utc}-current-incidents-construction.csv	https://data.calgary.ca/resource/4yk7-rbpq.csv?$limit=5000
-raw/opendata/3x6m-4vs7/{utc}-newsroom-latest.csv	https://data.calgary.ca/resource/3x6m-4vs7.csv?$limit=60&$order=:updated_at%20DESC
-raw/opendata/w6h9-w33i/{utc}-corridor-mains.geojson	https://data.calgary.ca/resource/w6h9-w33i.geojson?$limit=50000&$where=within_box(multilinestring,51.115,-114.30,51.035,-114.08)
-raw/opendata/w6h9-w33i/{utc}-glenmore-mains.geojson	https://data.calgary.ca/resource/w6h9-w33i.geojson?$limit=50000&$where=within_box(multilinestring,51.015,-114.18,50.95,-114.07)%20AND%20diam%3E=600
+# path under raw/ <TAB> url   ({utc} = fetch time). Run 3, 7 Nov 2026: City newsroom water releases 2–6 Nov.
+raw/city/newsroom/{utc}-2026-11-06-water-use-green-zone.html	https://newsroom.calgary.ca/water-use-stays-in-the-green-zone-as-bearspaw-south-feeder-main-work-progresses/
+raw/city/newsroom/{utc}-2026-11-05-water-savings-great-start.html	https://newsroom.calgary.ca/water-savings-off-to-a-great-start-as-bearspaw-south-feeder-main-connection-work-m
+raw/city/newsroom/{utc}-2026-11-04-restrictions-in-effect.html	https://newsroom.calgary.ca/water-restrictions-in-effect-as-calgary-enters-home-stretch-of-feeder-main-work/
+raw/city/newsroom/{utc}-2026-11-02-get-ready.html	https://newsroom.calgary.ca/its-time-to-get-ready-water-restrictions-start-wednesday-nov-4/
+raw/city/newsroom/{utc}-2026-11-06-winter-season.html	https://newsroom.calgary.ca/city-of-calgary-ready-for-the-winter-season/
+raw/city/newsroom/{utc}-2026-10-95pct-installation.html	https://newsroom.calgary.ca/bearspaw-south-feeder-main-reaches-95-installation-construction-to-connect-the-new-feeder-main-and-stage-4-water-restrictions-begin-november-4/
+raw/city/pages/area-construction/{utc}.html	https://www.calgary.ca/planning/water/bearspaw-feeder-main.html

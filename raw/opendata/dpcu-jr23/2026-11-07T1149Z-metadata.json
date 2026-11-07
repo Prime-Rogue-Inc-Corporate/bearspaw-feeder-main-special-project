@@ -1,0 +1,540 @@
+{
+  "id" : "dpcu-jr23",
+  "name" : "Water Main Breaks",
+  "assetType" : "dataset",
+  "attribution" : "The City of Calgary",
+  "averageRating" : 0,
+  "category" : "Environment",
+  "createdAt" : 1531348582,
+  "description" : "Main breaks happen year-round. There are many contributing factors including: Pipe Age, Pipe Material and Soil Conditions, and Temperature. See <a href=\"http://www.calgary.ca/UEP/Water/Pages/construction-projects/Water-main-repairs-and-maintenance/water-outages.aspx\">Water outages and main breaks</a> for more information.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 1050,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "iconUrl" : "fileId:a56a6e59-36bf-4e3f-b147-bd912f66dc29",
+  "indexUpdatedAt" : 1569879372,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 29909695,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1539637700,
+  "publicationGroup" : 15379110,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1793551070,
+  "rowsUpdatedBy" : "55bi-hyk4",
+  "tableId" : 15591103,
+  "totalTimesRated" : 0,
+  "viewCount" : 13405,
+  "viewLastModified" : 1793551068,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1539637700,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 781937,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1539637700,
+    "targetAudience" : "public",
+    "workflowId" : 2143,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "55bi-hyk4",
+      "displayName" : "Calgary Open Data"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 378862538,
+    "name" : "BREAK_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "break_date",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 67081965,
+    "width" : 311,
+    "cachedContents" : {
+      "largest" : "2026-08-23T00:00:00.000",
+      "non_null" : "37558",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1982-02-01T00:00:00.000",
+        "count" : "293"
+      }, {
+        "item" : "1982-03-01T00:00:00.000",
+        "count" : "237"
+      }, {
+        "item" : "1979-03-01T00:00:00.000",
+        "count" : "235"
+      }, {
+        "item" : "1982-01-01T00:00:00.000",
+        "count" : "222"
+      }, {
+        "item" : "1984-01-01T00:00:00.000",
+        "count" : "213"
+      }, {
+        "item" : "1985-02-01T00:00:00.000",
+        "count" : "213"
+      }, {
+        "item" : "1978-02-01T00:00:00.000",
+        "count" : "204"
+      }, {
+        "item" : "1986-10-01T00:00:00.000",
+        "count" : "196"
+      }, {
+        "item" : "1978-01-01T00:00:00.000",
+        "count" : "194"
+      }, {
+        "item" : "1982-05-01T00:00:00.000",
+        "count" : "191"
+      }, {
+        "item" : "1985-01-01T00:00:00.000",
+        "count" : "184"
+      }, {
+        "item" : "1983-12-01T00:00:00.000",
+        "count" : "181"
+      }, {
+        "item" : "1982-04-01T00:00:00.000",
+        "count" : "173"
+      }, {
+        "item" : "1985-11-01T00:00:00.000",
+        "count" : "172"
+      }, {
+        "item" : "1985-03-01T00:00:00.000",
+        "count" : "170"
+      }, {
+        "item" : "1985-07-01T00:00:00.000",
+        "count" : "168"
+      }, {
+        "item" : "1981-12-01T00:00:00.000",
+        "count" : "165"
+      }, {
+        "item" : "1979-01-01T00:00:00.000",
+        "count" : "163"
+      }, {
+        "item" : "1983-04-01T00:00:00.000",
+        "count" : "160"
+      }, {
+        "item" : "1984-12-01T00:00:00.000",
+        "count" : "159"
+      } ],
+      "not_null" : "36434",
+      "smallest" : "1956-01-01T00:00:00.000",
+      "count" : "37558",
+      "cardinality" : "37558"
+    },
+    "format" : {
+      "view" : "date_ymd",
+      "align" : "center"
+    }
+  }, {
+    "id" : 378862539,
+    "name" : "BREAK_TYPE",
+    "dataTypeName" : "text",
+    "description" : "A - Full Circular\nB - Split\nC - Corrosion\nD - Fitting\nE - Joint\nF - Diagonal Crack\nG - Hole\nS - Saddle\n\n",
+    "fieldName" : "break_type",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 67081961,
+    "width" : 386,
+    "cachedContents" : {
+      "largest" : "S4",
+      "non_null" : "37541",
+      "null" : "17",
+      "top" : [ {
+        "item" : "A",
+        "count" : "8519"
+      }, {
+        "item" : "G",
+        "count" : "7666"
+      }, {
+        "item" : "D",
+        "count" : "5170"
+      }, {
+        "item" : "CG",
+        "count" : "3988"
+      }, {
+        "item" : "AC",
+        "count" : "2903"
+      }, {
+        "item" : "E",
+        "count" : "2320"
+      }, {
+        "item" : "CD",
+        "count" : "1199"
+      }, {
+        "item" : "B",
+        "count" : "911"
+      }, {
+        "item" : "DG",
+        "count" : "746"
+      }, {
+        "item" : "C",
+        "count" : "645"
+      }, {
+        "item" : "CE",
+        "count" : "486"
+      }, {
+        "item" : "F",
+        "count" : "305"
+      }, {
+        "item" : "CDG",
+        "count" : "281"
+      }, {
+        "item" : "AG",
+        "count" : "229"
+      }, {
+        "item" : "BC",
+        "count" : "216"
+      }, {
+        "item" : "S",
+        "count" : "214"
+      }, {
+        "item" : "ACG",
+        "count" : "186"
+      }, {
+        "item" : "CS",
+        "count" : "116"
+      }, {
+        "item" : "CG2",
+        "count" : "110"
+      }, {
+        "item" : "CDS",
+        "count" : "85"
+      } ],
+      "not_null" : "36417",
+      "smallest" : "A",
+      "count" : "37558",
+      "cardinality" : "37558"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 378862540,
+    "name" : "STATUS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "status",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 67081964,
+    "width" : 385,
+    "cachedContents" : {
+      "largest" : "RETIRED",
+      "non_null" : "37558",
+      "null" : "0",
+      "top" : [ {
+        "item" : "RETIRED",
+        "count" : "22255"
+      }, {
+        "item" : "ACTIVE",
+        "count" : "15303"
+      } ],
+      "not_null" : "36434",
+      "smallest" : "ACTIVE",
+      "count" : "37558",
+      "cardinality" : "37558"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 378862541,
+    "name" : "point",
+    "dataTypeName" : "point",
+    "description" : "",
+    "fieldName" : "point",
+    "position" : 4,
+    "renderTypeName" : "point",
+    "tableColumnId" : 67081963,
+    "width" : 385,
+    "cachedContents" : {
+      "non_null" : "37558",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -113.9929324, 51.0378638 ],
+          "type" : "Point"
+        },
+        "count" : "10"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0993322, 51.0313841 ],
+          "type" : "Point"
+        },
+        "count" : "4"
+      }, {
+        "item" : {
+          "coordinates" : [ -113.9490763, 51.0471687 ],
+          "type" : "Point"
+        },
+        "count" : "4"
+      }, {
+        "item" : {
+          "coordinates" : [ -113.9752628, 51.0525353 ],
+          "type" : "Point"
+        },
+        "count" : "3"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0979168, 51.0314229 ],
+          "type" : "Point"
+        },
+        "count" : "3"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0722812, 50.9346616 ],
+          "type" : "Point"
+        },
+        "count" : "3"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0678991, 51.0457077 ],
+          "type" : "Point"
+        },
+        "count" : "3"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0605723, 51.0394315 ],
+          "type" : "Point"
+        },
+        "count" : "3"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.1352076, 51.0347469 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.1479454, 51.0820935 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.1216472, 50.9602815 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0802031, 50.9941837 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.1305693, 51.0646572 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0637266, 51.0644648 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -113.9714812, 51.0329627 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0500768, 50.971352 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.1923322, 51.1076027 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0272003, 50.936906 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -114.0753723, 50.9860351 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      }, {
+        "item" : {
+          "coordinates" : [ -113.9381432, 51.0801512 ],
+          "type" : "Point"
+        },
+        "count" : "2"
+      } ],
+      "not_null" : "36434",
+      "count" : "37558",
+      "cardinality" : "37558"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 378862543,
+    "name" : "City Quadrants",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : ":@computed_region_4a3i_ccfj",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 67081966,
+    "computationStrategy" : {
+      "source_columns" : [ "point" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_4a3i-ccfj",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 378862544,
+    "name" : "Ward Boundaries 2017",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : ":@computed_region_p8tp_5dkv",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 67081967,
+    "computationStrategy" : {
+      "source_columns" : [ "point" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_p8tp-5dkv",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 378862545,
+    "name" : "Ward Boundaries",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : ":@computed_region_4b54_tmc4",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 67081968,
+    "computationStrategy" : {
+      "source_columns" : [ "point" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_4b54-tmc4",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 378862546,
+    "name" : "Calgary Communities",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : ":@computed_region_kxmf_bzkv",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 67081969,
+    "computationStrategy" : {
+      "source_columns" : [ "point" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_kxmf-bzkv",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "break_date",
+        "ascending" : false
+      } ]
+    },
+    "custom_fields" : {
+      "License/Attribution" : {
+        "License URL" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+      },
+      "Additional Information" : {
+        "Source URL" : "http://www.calgary.ca/UEP/Water/Pages/construction-projects/Water-main-repairs-and-maintenance/water-outages.aspx"
+      },
+      "Data Supplier" : {
+        "Department" : [ "Infrastructure Services" ],
+        "Organization" : "The City of Calgary",
+        "Business Unit" : "Project Development"
+      },
+      "Time/Date" : {
+        "Update Frequency" : "Weekly"
+      },
+      "Geospatial Information" : {
+        "Map Projection" : "WGS84/Web Mercator",
+        "Dataset contains geospatial information" : "Yes"
+      }
+    },
+    "rowLabel" : "Main Breaks",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "55bi-hyk4",
+    "displayName" : "Calgary Open Data",
+    "profileImageUrlLarge" : "/api/users/55bi-hyk4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/55bi-hyk4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/55bi-hyk4/profile_images/TINY",
+    "screenName" : "Calgary Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 378862538,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "55bi-hyk4",
+    "displayName" : "Calgary Open Data",
+    "profileImageUrlLarge" : "/api/users/55bi-hyk4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/55bi-hyk4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/55bi-hyk4/profile_images/TINY",
+    "screenName" : "Calgary Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "water", "main break", "corrosion", "active", "retired" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

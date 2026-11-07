@@ -1,0 +1,2300 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "City of Calgary Newsroom",
+            "id" : "3x6m-4vs7",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "This is an aggregate news feed from a number of City sources.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-06T20:06:39.000Z",
+            "createdAt" : "2016-05-25T22:09:27.000Z",
+            "metadata_updated_at" : "2026-11-06T20:06:39.000Z",
+            "data_updated_at" : "2026-11-06T20:06:39.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 22,
+                "page_views_last_month" : 68,
+                "page_views_total" : 4476,
+                "page_views_last_week_log" : 4.523561956057013,
+                "page_views_last_month_log" : 6.10852445677817,
+                "page_views_total_log" : 12.128316602903544
+              },
+            "columns_name" : [ "PubDate", "Title", "Link" ],
+            "columns_field_name" : [ "pubdate", "title", "link" ],
+            "columns_datatype" : [ "Text", "Text", "Text" ],
+            "columns_description" : [ "", "", "" ],
+            "columns_format" :
+              [ {}, {}, { "displayStyle" : "plain", "align" : "left" } ],
+            "download_count" : 682,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-10-16T19:16:35.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "News and Events",
+            "domain_tags" :
+              [
+                "road closures",
+                "news",
+                "affordable housing",
+                "arts and culture"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "311 & Insights"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "No"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/3x6m-4vs7",
+        "link" : "https://data.calgary.ca/News-and-Events/City-of-Calgary-Newsroom/3x6m-4vs7",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Construction Detours",
+            "id" : "w8zq-79bq",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "These are scheduled road closures due to construction, planned maintenance and utility work. Construction detours within The City of Calgary are updated twice a day. (3 am and 3 pm)\nSee Source URL for RSS feed which updates more regularly.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-07T11:00:39.000Z",
+            "createdAt" : "2016-05-25T20:40:22.000Z",
+            "metadata_updated_at" : "2026-09-10T20:18:07.000Z",
+            "data_updated_at" : "2026-11-07T11:00:39.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 181,
+                "page_views_last_month" : 774,
+                "page_views_total" : 10321,
+                "page_views_last_week_log" : 7.507794640198696,
+                "page_views_last_month_log" : 9.5980525001616,
+                "page_views_total_log" : 13.33343491528405
+              },
+            "columns_name" :
+              [
+                "DESCRIPTION",
+                "Longitude",
+                "CONSTRUCTION INFO",
+                "END_DT",
+                "START_DT",
+                "Ward Boundaries",
+                "City Quadrants",
+                "Calgary Communities",
+                "Ward Boundaries 2013-2017",
+                "Latitude",
+                "Point"
+              ],
+            "columns_field_name" :
+              [
+                "description",
+                "longitude",
+                "construction_info",
+                "end_dt",
+                "start_dt",
+                ":@computed_region_4b54_tmc4",
+                ":@computed_region_4a3i_ccfj",
+                ":@computed_region_kxmf_bzkv",
+                ":@computed_region_p8tp_5dkv",
+                "latitude",
+                "point"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Calendar date",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Point"
+              ],
+            "columns_description" :
+              [
+                "Description of the road closure.",
+                "Longitude",
+                "",
+                "End date and time. Expected date and time the detour will end.",
+                "Start date and time. The date and time the detour will come into effect.\n",
+                "",
+                "",
+                "",
+                "",
+                "Latitude",
+                ""
+              ],
+            "columns_format" :
+              [
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "align" : "left" },
+                { "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {}
+              ],
+            "download_count" : 3314,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2019-05-21T16:51:28.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [ "infrastructure", "transportation" ],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [ "construction", "detour" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx?showRss=Construction"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/w8zq-79bq",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Construction-Detours/w8zq-79bq",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Land Use Redesignation Application Locations",
+            "id" : "c6k8-wmzd",
+            "resource_name" : null,
+            "parent_fxf" : [ "33vi-ew4s" ],
+            "description" : "Applications for land use redesignations, outline plans and road closures in Calgary. For more information on the land use redesignation process, visit <a href=\"https://www.calgary.ca/PDA/pd/Pages/Residential-Building-and-Development/Land-use-redesignation.aspx\">Calgary.ca</href>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-06T21:05:47.000Z",
+            "createdAt" : "2020-05-21T16:58:09.000Z",
+            "metadata_updated_at" : "2026-07-24T16:25:58.000Z",
+            "data_updated_at" : "2026-11-06T21:05:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 32,
+                "page_views_last_month" : 131,
+                "page_views_total" : 3076,
+                "page_views_last_week_log" : 5.044394119358453,
+                "page_views_last_month_log" : 7.044394119358453,
+                "page_views_total_log" : 11.587308728333547
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 14,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-07-24T16:25:58.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Business and Economic Activity",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Dev Business and Bldg Srvc"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/c6k8-wmzd",
+        "link" : "https://data.calgary.ca/Business-and-Economic-Activity/Land-Use-Redesignation-Application-Locations/c6k8-wmzd",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Land Use Redesignation Applications by Year",
+            "id" : "kzes-azi9",
+            "resource_name" : null,
+            "parent_fxf" : [ "33vi-ew4s" ],
+            "description" : "Applications for land use redesignations, outline plans and road closures in Calgary. For more information on the land use redesignation process, visit <a href=\"https://www.calgary.ca/PDA/pd/Pages/Residential-Building-and-Development/Land-use-redesignation.aspx\">Calgary.ca</href>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "chart",
+            "updatedAt" : "2026-11-06T21:05:47.000Z",
+            "createdAt" : "2020-05-21T18:01:10.000Z",
+            "metadata_updated_at" : "2026-07-24T16:38:29.000Z",
+            "data_updated_at" : "2026-11-06T21:05:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 10,
+                "page_views_last_month" : 61,
+                "page_views_total" : 1553,
+                "page_views_last_week_log" : 3.4594316186372978,
+                "page_views_last_month_log" : 5.954196310386876,
+                "page_views_total_log" : 10.60177078840771
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 12,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_chart",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-07-24T16:38:29.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Business and Economic Activity",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Dev Business and Bldg Srvc"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/kzes-azi9",
+        "link" : "https://data.calgary.ca/Business-and-Economic-Activity/Land-Use-Redesignation-Applications-by-Year/kzes-azi9",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Land Use Redesignation Applications",
+            "id" : "33vi-ew4s",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Applications for land use redesignations, outline plans and road closures in Calgary. For more information on the land use redesignation process, visit <a href=\"https://www.calgary.ca/PDA/pd/Pages/Residential-Building-and-Development/Land-use-redesignation.aspx\">Calgary.ca</href>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-06T21:05:47.000Z",
+            "createdAt" : "2020-05-21T16:45:53.000Z",
+            "metadata_updated_at" : "2026-11-06T21:05:36.000Z",
+            "data_updated_at" : "2026-11-06T21:05:47.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 60,
+                "page_views_last_month" : 318,
+                "page_views_total" : 10553,
+                "page_views_last_week_log" : 5.930737337562887,
+                "page_views_last_month_log" : 8.31741261376487,
+                "page_views_total_log" : 13.365502268193119
+              },
+            "columns_name" :
+              [
+                "FromLUD",
+                "CompletedDate",
+                "PermitNum",
+                "ProposedLUD",
+                "Latitude",
+                "multipoint",
+                "StatusCurrent",
+                "PermitType",
+                "Longitude",
+                "LocationAddresses",
+                "LocationCount",
+                "Address",
+                "Description",
+                "Applicant",
+                "AppliedDate"
+              ],
+            "columns_field_name" :
+              [
+                "fromlud",
+                "completeddate",
+                "permitnum",
+                "proposedlud",
+                "latitude",
+                "multipoint",
+                "statuscurrent",
+                "permittype",
+                "longitude",
+                "locationaddresses",
+                "locationcount",
+                "address",
+                "description",
+                "applicant",
+                "applieddate"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "MultiPoint",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date"
+              ],
+            "columns_description" :
+              [
+                "Land use district at the time of application",
+                "",
+                "Unique permit identification number",
+                "Proposed land use district in the application",
+                "The latitude of the permit location",
+                "Multipoint representation of the locations associated with the permit",
+                "Current status of the application",
+                "Type of permit",
+                "The longitude of the permit location",
+                "The addresses of the parcels associated with the permit",
+                "Count of parcel addresses associated with the permit",
+                "The property address associated with the application",
+                "Description of the permit",
+                "The applicant for the permit",
+                ""
+              ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 846,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2023-12-20T22:51:13.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Business and Economic Activity",
+            "domain_tags" :
+              [ "zoning", "plan", "loc", "zone", "closure", "rezone" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Dev Business and Bldg Srvc"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Time/Date_Temporal-Start-Date",
+                  "value" : "1982-01-01"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/33vi-ew4s",
+        "link" : "https://data.calgary.ca/Business-and-Economic-Activity/Land-Use-Redesignation-Applications/33vi-ew4s",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Adaptive Roadways",
+            "id" : "usjx-kn8w",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "To help provide Calgarians with the space needed to walk, run, skateboard and cycle, The City of Calgary has implemented an Adaptive Roadways Program (ARP). Under the program, road lanes are closed to motor vehicle traffic so they can be used by people who are walking, running, cycling, rollerblading and the like.\nSee <a href=\"https://www.calgary.ca/transportation/roads/traffic/traffic-safety-programs/adaptive-roadways-program-and-related-lane-closures.html\">Adaptive Roadways Program and related lane closures</a> for more information.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/traffic-safety-programs/adaptive-roadways-program-and-related-lane-closures.html",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-11T14:34:50.000Z",
+            "createdAt" : "2022-03-29T17:35:55.000Z",
+            "metadata_updated_at" : "2026-09-11T14:34:50.000Z",
+            "data_updated_at" : "2022-03-29T19:49:56.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 5,
+                "page_views_last_month" : 27,
+                "page_views_total" : 1360,
+                "page_views_last_week_log" : 2.584962500721156,
+                "page_views_last_month_log" : 4.807354922057604,
+                "page_views_total_log" : 10.410451351503994
+              },
+            "columns_name" :
+              [
+                "Location #",
+                "Date Implemented",
+                "Extents",
+                "Route",
+                "Total (km)",
+                "Future Length (km)",
+                "Upcoming Length (km)",
+                "Weekend Only Length (km)",
+                "Closed Length (km)",
+                "Current Operational Length (km)",
+                "Removal Date"
+              ],
+            "columns_field_name" :
+              [
+                "location",
+                "date_implemented",
+                "extents",
+                "route",
+                "total",
+                "future_length_km",
+                "upcoming_length_km",
+                "weekend_only_length_km",
+                "closed_length_km",
+                "current_operational_length",
+                "removal_date"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "",
+                "",
+                "beginning and end of the adaptive road or where the road closure begins and ends",
+                "road where adaptive road is implemented",
+                "Total length of road extents",
+                "Tracking future installations",
+                "Tracking upcoming installations",
+                "Two of the adaptive roadways operated on weekends only.  These are the 4 Avenue Connector location and Memorial Drive from early July to October 24.",
+                "Length of route closure when in operation",
+                "Length of active route closure",
+                ""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                { "precision" : "2" },
+                {},
+                {},
+                {},
+                { "precision" : "2" },
+                {},
+                {}
+              ],
+            "download_count" : 318,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-03-29T17:47:24.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" :
+              [
+                "road",
+                "adaptive",
+                "cycle",
+                "mobility",
+                "walk",
+                "streets",
+                "skate",
+                "run"
+              ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "No"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Irregular"
+                },
+                {
+                  "key" : "Time/Date_Temporal-End-Date",
+                  "value" : "04/14/2021"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Start-Date",
+                  "value" : "12/12/2020"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/usjx-kn8w",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Adaptive-Roadways/usjx-kn8w",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic Incidents",
+            "id" : "35ra-9556",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "This is an unofficial archive of traffic incidents within Calgary. Traffic incidents are traffic disruptions affecting traffic flow, such as traffic signal issues, hazardous road conditions, stalled vehicles, and unverified, unreported traffic collisions. This data is based off unrecorded imagery where traffic cameras are present. There may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2017-12-04T23:28:59.000Z",
+            "metadata_updated_at" : "2026-11-07T05:50:21.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 1757,
+                "page_views_last_month" : 10214,
+                "page_views_total" : 651399,
+                "page_views_last_week_log" : 10.779719355143405,
+                "page_views_last_month_log" : 13.31840158362059,
+                "page_views_total_log" : 19.31318419417063
+              },
+            "columns_name" :
+              [
+                "INCIDENT INFO",
+                "id",
+                "Ward Boundaries",
+                "QUADRANT",
+                "Latitude",
+                "Longitude",
+                "Calgary Communities",
+                "MODIFIED_DT_UTC",
+                "START_DT_UTC",
+                "Point",
+                "DESCRIPTION",
+                "Count",
+                "City Quadrants"
+              ],
+            "columns_field_name" :
+              [
+                "incident_info",
+                "id",
+                ":@computed_region_4b54_tmc4",
+                "quadrant",
+                "latitude",
+                "longitude",
+                ":@computed_region_kxmf_bzkv",
+                "modified_dt_utc",
+                "start_dt_utc",
+                "point",
+                "description",
+                "count",
+                ":@computed_region_4a3i_ccfj"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Point",
+                "Text",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                { "align" : "right" },
+                { "align" : "right" },
+                {},
+                { "align" : "right" },
+                { "precisionStyle" : "standard", "align" : "right" },
+                { "precisionStyle" : "standard", "align" : "right" },
+                {},
+                { "view" : "date_ymd_time", "align" : "left" },
+                { "view" : "date_ymd_time", "align" : "left" },
+                {},
+                { "align" : "right" },
+                { "align" : "right" },
+                {}
+              ],
+            "download_count" : 12218,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-09-18T19:28:25.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [ "safety", "road", "incident", "traffic" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/35ra-9556",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic Camera Locations",
+            "id" : "y47k-7e97",
+            "resource_name" : null,
+            "parent_fxf" : [ "k7p9-kppz" ],
+            "description" : "View up-to-the-minute traffic camera images of current road conditions on major routes as well as other key intersections. *These cameras are solely for traffic monitoring and not enforcement. Camera footage is not recorded. Cameras can be down for maintenance or in the case of collisions, to protect the identity of those involved.*",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T04:01:43.000Z",
+            "createdAt" : "2018-06-13T22:48:10.000Z",
+            "metadata_updated_at" : "2024-11-25T21:36:05.000Z",
+            "data_updated_at" : "2026-11-07T04:01:43.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 179,
+                "page_views_last_month" : 1094,
+                "page_views_total" : 71060,
+                "page_views_last_week_log" : 7.491853096329675,
+                "page_views_last_month_log" : 10.096715154488537,
+                "page_views_total_log" : 16.11677037056716
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 84,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-06-08T15:10:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-Traffic-Cameras.aspx"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/y47k-7e97",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-Camera-Locations/y47k-7e97",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Travel Times",
+            "id" : "aeb8-fh2w",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Current travel times when traveling by car between various points within the city.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-07T11:48:08.000Z",
+            "createdAt" : "2017-12-05T00:18:04.000Z",
+            "metadata_updated_at" : "2026-11-07T11:48:07.000Z",
+            "data_updated_at" : "2026-11-07T11:48:08.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 250,
+                "page_views_last_month" : 961,
+                "page_views_total" : 19461,
+                "page_views_last_week_log" : 7.971543553950772,
+                "page_views_last_month_log" : 9.909893083770042,
+                "page_views_total_log" : 14.248372354921253
+              },
+            "columns_name" :
+              [
+                "Corridor",
+                "Road Segment",
+                "Travel Time (mins)",
+                "Last update"
+              ],
+            "columns_field_name" :
+              [
+                "corridor",
+                "road_segment",
+                "travel_time_mins",
+                "last_update"
+              ],
+            "columns_datatype" : [ "Text", "Text", "Number", "Calendar date" ],
+            "columns_description" : [ "", "", "", "" ],
+            "columns_format" :
+              [ {}, {}, {}, { "view" : "date_ymd_time", "align" : "left" } ],
+            "download_count" : 886,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-01-16T22:21:16.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [ "travel time", "road" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Road-Drive-Travel-Times.aspx"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "No"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "INRIX Analytics"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "20 minutes"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/aeb8-fh2w",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Travel-Times/aeb8-fh2w",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic Cameras",
+            "id" : "k7p9-kppz",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "View up-to-the-minute traffic camera images of current road conditions on major routes as well as other key intersections. *These cameras are solely for traffic monitoring and not enforcement. Camera footage is not recorded. Cameras can be down for maintenance or in the case of collisions, to protect the identity of those involved.*",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-07T04:01:43.000Z",
+            "createdAt" : "2017-11-22T00:11:26.000Z",
+            "metadata_updated_at" : "2026-11-07T04:01:42.000Z",
+            "data_updated_at" : "2026-11-07T04:01:43.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 157,
+                "page_views_last_month" : 663,
+                "page_views_total" : 86455,
+                "page_views_last_week_log" : 7.303780748177103,
+                "page_views_last_month_log" : 9.375039431346925,
+                "page_views_total_log" : 16.399678469152942
+              },
+            "columns_name" :
+              [
+                "Point",
+                "Quadrant",
+                "Camera Location",
+                "City Quadrants",
+                "Calgary Communities",
+                "Ward Boundaries 2013-2017",
+                "Ward Boundaries",
+                "Camera URL"
+              ],
+            "columns_field_name" :
+              [
+                "point",
+                "quadrant",
+                "camera_location",
+                ":@computed_region_4a3i_ccfj",
+                ":@computed_region_kxmf_bzkv",
+                ":@computed_region_p8tp_5dkv",
+                ":@computed_region_4b54_tmc4",
+                "camera_url"
+              ],
+            "columns_datatype" :
+              [
+                "Point",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "URL"
+              ],
+            "columns_description" : [ "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [ {}, {}, {}, {}, {}, {}, {}, { "align" : "left" } ],
+            "download_count" : 3122,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-12-02T22:26:27.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [ "camera", "traffic", "monitoring" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-Traffic-Cameras.aspx"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/k7p9-kppz",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-Cameras/k7p9-kppz",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Heat map - Based on all Traffic Incidents",
+            "id" : "yj8z-ptzu",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "An archive of traffic incidents within Calgary updated every 10 minutes. This is an unofficial archive of traffic incidents within Calgary. Traffic incidents are traffic disruptions affecting traffic flow, such as traffic signal issues, hazardous road conditions, stalled vehicles, and unverified, unreported traffic collisions. This data is based off unrecorded imagery where traffic cameras are present. There may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2018-05-24T15:07:10.000Z",
+            "metadata_updated_at" : "2025-11-14T18:50:12.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 360,
+                "page_views_last_month" : 1876,
+                "page_views_total" : 87494,
+                "page_views_last_week_log" : 8.49585502688717,
+                "page_views_last_month_log" : 10.874212934830874,
+                "page_views_total_log" : 16.416912954422283
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 61,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-11-14T18:50:12.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/yj8z-ptzu",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Heat-map-Based-on-all-Traffic-Incidents/yj8z-ptzu",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Timeline of Incidents involving pedestrians",
+            "id" : "qm96-zrf3",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "This is an unofficial archive of traffic incidents within Calgary. Traffic incidents are traffic disruptions affecting traffic flow, such as traffic signal issues, hazardous road conditions, stalled vehicles, and unverified, unreported traffic collisions. This data is based off unrecorded imagery where traffic cameras are present. There may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "chart",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2021-10-19T20:38:02.000Z",
+            "metadata_updated_at" : "2024-02-22T17:20:12.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 184,
+                "page_views_last_month" : 731,
+                "page_views_total" : 26242,
+                "page_views_last_week_log" : 7.531381460516312,
+                "page_views_last_month_log" : 9.515699838284043,
+                "page_views_total_log" : 14.679645032345693
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 11,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_chart",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-02-22T17:20:12.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/qm96-zrf3",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Timeline-of-Incidents-involving-pedestrians/qm96-zrf3",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic incidents in Communities",
+            "id" : "5vyw-zf4x",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "An archive of traffic incidents within Calgary updated every 10 minutes. This is an unofficial archive of traffic incidents within Calgary. Traffic incidents are traffic disruptions affecting traffic flow, such as traffic signal issues, hazardous road conditions, stalled vehicles, and unverified, unreported traffic collisions. This data is based off unrecorded imagery where traffic cameras are present. There may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2021-10-19T17:14:54.000Z",
+            "metadata_updated_at" : "2024-01-19T20:55:51.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 158,
+                "page_views_last_month" : 699,
+                "page_views_total" : 26378,
+                "page_views_last_week_log" : 7.312882955284356,
+                "page_views_last_month_log" : 9.451211111832329,
+                "page_views_total_log" : 14.687102254131855
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 24,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-01-19T20:55:51.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/5vyw-zf4x",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-incidents-in-Communities/5vyw-zf4x",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Current Traffic Incidents",
+            "id" : "4jah-h97u",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Traffic incidents are traffic disruptions affecting traffic flow, such as traffic signal issues, hazardous road conditions, stalled vehicles, and unverified, unreported traffic collisions. This data is based off unrecorded imagery where traffic cameras are present. There may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-11-07T05:50:41.000Z",
+            "createdAt" : "2017-12-07T00:15:22.000Z",
+            "metadata_updated_at" : "2026-11-07T05:50:41.000Z",
+            "data_updated_at" : "2026-11-07T05:50:41.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 109,
+                "page_views_last_month" : 638,
+                "page_views_total" : 8107,
+                "page_views_last_week_log" : 6.78135971352466,
+                "page_views_last_month_log" : 9.319672120946995,
+                "page_views_total_log" : 12.9851303734669
+              },
+            "columns_name" :
+              [
+                "Point",
+                "INCIDENT INFO",
+                "Longitude",
+                "QUADRANT",
+                "Latitude",
+                "DESCRIPTION",
+                "Count",
+                "MODIFIED_DT_UTC",
+                "START_DT_UTC"
+              ],
+            "columns_field_name" :
+              [
+                "point",
+                "incident_info",
+                "longitude",
+                "quadrant",
+                "latitude",
+                "description",
+                "count",
+                "modified_dt_utc",
+                "start_dt_utc"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" : [ "", "", "", "", "", "", "", "", "" ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "view" : "date_ymd_time", "align" : "left" },
+                { "view" : "date_ymd_time", "align" : "left" }
+              ],
+            "download_count" : 9367,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-09-18T19:55:13.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [ "incident", "road", "safety", "traffic" ],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/4jah-h97u",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Current-Traffic-Incidents/4jah-h97u",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Current Traffic Incidents and Construction zones",
+            "id" : "4yk7-rbpq",
+            "resource_name" : null,
+            "parent_fxf" : [ "4jah-h97u" ],
+            "description" : "Traffic incidents within Calgary updated every 10 minutes. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T05:50:41.000Z",
+            "createdAt" : "2018-05-22T17:57:44.000Z",
+            "metadata_updated_at" : "2024-11-25T21:40:04.000Z",
+            "data_updated_at" : "2026-11-07T05:50:41.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 77,
+                "page_views_last_month" : 248,
+                "page_views_total" : 7230,
+                "page_views_last_week_log" : 6.285402218862249,
+                "page_views_last_month_log" : 7.960001932068081,
+                "page_views_total_log" : 12.819979460922664
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 93,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-01-20T22:14:59.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/4yk7-rbpq",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Current-Traffic-Incidents-and-Construction-zones/4yk7-rbpq",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Construction detours map",
+            "id" : "r8hf-c48q",
+            "resource_name" : null,
+            "parent_fxf" : [ "w8zq-79bq" ],
+            "description" : "Construction detours within The City of Calgary updated twice a day. (3 am and 3 pm)\r\nSee Source URL for RSS feed which updates more regularly.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-06T11:00:41.000Z",
+            "createdAt" : "2019-02-01T22:44:45.000Z",
+            "metadata_updated_at" : "2024-11-25T21:40:07.000Z",
+            "data_updated_at" : "2026-11-06T11:00:41.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 66,
+                "page_views_last_month" : 402,
+                "page_views_total" : 4022,
+                "page_views_last_week_log" : 6.066089190457772,
+                "page_views_last_month_log" : 8.654636028527968,
+                "page_views_total_log" : 11.974056022625629
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 39,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-01-20T22:13:57.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx?showRss=Construction"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                { "key" : "Time/Date_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/stories/s/u45n-7awa/"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/r8hf-c48q",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Construction-detours-map/r8hf-c48q",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic incidents timeline",
+            "id" : "diep-5icr",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "An archive of traffic incidents within Calgary updated every 10 minutes. Please note there may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "chart",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2021-10-19T20:27:46.000Z",
+            "metadata_updated_at" : "2023-02-01T15:39:30.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 131,
+                "page_views_last_month" : 540,
+                "page_views_total" : 6636,
+                "page_views_last_week_log" : 7.044394119358453,
+                "page_views_last_month_log" : 9.079484783826816,
+                "page_views_total_log" : 12.69631555889282
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 6,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_chart",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-10-19T20:31:14.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/diep-5icr",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-incidents-timeline/diep-5icr",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic incidents in Wards",
+            "id" : "x35s-9dsu",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "An archive of traffic incidents within Calgary updated every 10 minutes. Please note there may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2021-10-19T17:16:42.000Z",
+            "metadata_updated_at" : "2023-02-01T15:39:29.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 42,
+                "page_views_last_month" : 89,
+                "page_views_total" : 2013,
+                "page_views_last_week_log" : 5.426264754702098,
+                "page_views_last_month_log" : 6.491853096329675,
+                "page_views_total_log" : 10.975847968006784
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 20,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2021-10-19T17:18:01.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/x35s-9dsu",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-incidents-in-Wards/x35s-9dsu",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Heat map - Based on 2018 Traffic Incidents",
+            "id" : "h4qx-z4v2",
+            "resource_name" : null,
+            "parent_fxf" : [ "35ra-9556" ],
+            "description" : "An archive of traffic incidents within Calgary updated every 10 minutes. Please note there may be gaps in the data due to system or script malfunction. For more information, see the <a href=\"http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx\">Calgary Traffic Report page</a>.",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : "https://www.calgary.ca/transportation/roads/traffic/advisories-closures-and-detours/calgary-traffic-report.html",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-11-07T05:50:22.000Z",
+            "createdAt" : "2018-05-24T15:14:00.000Z",
+            "metadata_updated_at" : "2024-11-25T21:38:42.000Z",
+            "data_updated_at" : "2026-11-07T05:50:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 25,
+                "page_views_last_month" : 63,
+                "page_views_total" : 2601,
+                "page_views_last_week_log" : 4.700439718141093,
+                "page_views_last_month_log" : 6.0,
+                "page_views_total_log" : 11.345405246717796
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 54,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-01-20T22:16:58.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "EPSG:4326 WGS84"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Update-Frequency",
+                  "value" : "Continuous"
+                },
+                {
+                  "key" : "Time/Date_Temporal-Resolution",
+                  "value" : "10 minutes"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "December 2016-present"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/h4qx-z4v2",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Heat-map-Based-on-2018-Traffic-Incidents/h4qx-z4v2",
+        "owner" :
+          {
+            "id" : "fyqw-zhcp",
+            "user_type" : "interactive",
+            "display_name" : "Moffatt, Susan"
+          },
+        "creator" :
+          {
+            "id" : "fyqw-zhcp",
+            "user_type" : "interactive",
+            "display_name" : "Moffatt, Susan"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Traffic Incidents By Community",
+            "id" : "ivw3-k57b",
+            "resource_name" : null,
+            "parent_fxf" : [ "himp-urp7" ],
+            "description" : "",
+            "attribution" : "The City of Calgary",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2024-11-25T21:43:09.000Z",
+            "createdAt" : "2018-05-08T23:31:35.000Z",
+            "metadata_updated_at" : "2024-11-25T21:43:09.000Z",
+            "data_updated_at" : "2018-01-19T21:30:45.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 3,
+                "page_views_last_month" : 10,
+                "page_views_total" : 594,
+                "page_views_last_week_log" : 2.0,
+                "page_views_last_month_log" : 3.4594316186372978,
+                "page_views_total_log" : 9.216745858195306
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 22,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-05-08T23:31:34.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation/Transit",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                {
+                  "key" : "Additional-Information_Source-URL",
+                  "value" : "http://www.calgary.ca/Transportation/Roads/Pages/Traffic/Advisories-closures-and-detours/Calgary-traffic-report.aspx?showRss=Incident"
+                },
+                {
+                  "key" : "Data-Supplier_Business-Unit",
+                  "value" : "Mobility"
+                },
+                {
+                  "key" : "Data-Supplier_Organization",
+                  "value" : "The City of Calgary"
+                },
+                {
+                  "key" : "Geospatial-Information_Map-Projection",
+                  "value" : "WGS84/Web Mercator"
+                },
+                {
+                  "key" : "Geospatial-Information_Dataset-contains-geospatial-information",
+                  "value" : "Yes"
+                },
+                {
+                  "key" : "Time/Date_Creation-Date",
+                  "value" : "Jan 10, 2017"
+                },
+                {
+                  "key" : "Time/Date_Time-Period-Covered",
+                  "value" : "Jan 27, 2017-Jan 19, 2018"
+                },
+                {
+                  "key" : "Time/Date_How-Data-is-Collected",
+                  "value" : "Advanced Traveler Information System (ATIS)"
+                },
+                {
+                  "key" : "License/Attribution_License-URL",
+                  "value" : "https://data.calgary.ca/stories/s/u45n-7awa/"
+                }
+              ]
+          },
+        "metadata" :
+          { "domain" : "data.calgary.ca", "license" : "See Terms of Use" },
+        "permalink" : "https://data.calgary.ca/d/ivw3-k57b",
+        "link" : "https://data.calgary.ca/Transportation-Transit/Traffic-Incidents-By-Community/ivw3-k57b",
+        "owner" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          },
+        "creator" :
+          {
+            "id" : "55bi-hyk4",
+            "user_type" : "interactive",
+            "display_name" : "Calgary Open Data"
+          }
+      }
+    ],
+  "resultSetSize" : 22,
+  "timings" : { "serviceMillis" : 23, "searchMillis" : [ 2, 6 ] },
+  "warnings" : []
+}

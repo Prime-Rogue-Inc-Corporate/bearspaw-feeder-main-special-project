@@ -1,0 +1,627 @@
+{
+  "id" : "w6h9-w33i",
+  "name" : "Public Water Main",
+  "assetType" : "dataset",
+  "attribution" : "The City of Calgary",
+  "averageRating" : 0,
+  "category" : "Services and Amenities",
+  "createdAt" : 1709584879,
+  "description" : "Water main assets owned and operated by the City of Calgary for the distribution of drinking water.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 705,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40456974,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1709585458,
+  "publicationGroup" : 19471421,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1793576127,
+  "rowsUpdatedBy" : "rb3e-c97r",
+  "tableId" : 19471421,
+  "totalTimesRated" : 0,
+  "viewCount" : 5319,
+  "viewLastModified" : 1793576120,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1710449729,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6217092,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1710449729,
+    "targetAudience" : "public",
+    "workflowId" : 2143,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1710449729,
+      "failureCount" : 0,
+      "startedAt" : 1710449729,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "7gje-thpf",
+      "displayName" : "Open Data Administrator"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 590277752,
+    "name" : "P_ZONE",
+    "dataTypeName" : "text",
+    "description" : "pressure zone",
+    "fieldName" : "p_zone",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151691558,
+    "cachedContents" : {
+      "non_null" : "59274",
+      "largest" : "WILDWOOD",
+      "null" : "1466",
+      "top" : [ {
+        "item" : "GLENMORE",
+        "count" : "13883"
+      }, {
+        "item" : "NORTH HILL",
+        "count" : "12282"
+      }, {
+        "item" : "OGDEN",
+        "count" : "5730"
+      }, {
+        "item" : "SPY HILL EAST",
+        "count" : "3521"
+      }, {
+        "item" : "LOWER SARCEE",
+        "count" : "3116"
+      }, {
+        "item" : "SPY HILL WEST",
+        "count" : "2404"
+      }, {
+        "item" : "WEST CALGARY",
+        "count" : "2393"
+      }, {
+        "item" : "TOP HILL",
+        "count" : "2075"
+      }, {
+        "item" : "BROADCAST HILL",
+        "count" : "1858"
+      }, {
+        "item" : "BIG HILL WEST",
+        "count" : "1788"
+      }, {
+        "item" : "MIDNAPORE",
+        "count" : "1745"
+      }, {
+        "item" : "GLENDALE",
+        "count" : "1218"
+      }, {
+        "item" : "BIG HILL EAST",
+        "count" : "829"
+      }, {
+        "item" : "NOSE HILL",
+        "count" : "763"
+      }, {
+        "item" : "FOOTHILLS",
+        "count" : "699"
+      }, {
+        "item" : "STRATHCONA",
+        "count" : "645"
+      }, {
+        "item" : "UPPER SARCEE",
+        "count" : "626"
+      }, {
+        "item" : "BANKVIEW",
+        "count" : "564"
+      }, {
+        "item" : "WESTVIEW",
+        "count" : "488"
+      }, {
+        "item" : "NOSE HILL EAST",
+        "count" : "477"
+      } ],
+      "smallest" : "BANKVIEW",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277751,
+    "name" : "STATUS_IND",
+    "dataTypeName" : "text",
+    "description" : "status of asset",
+    "fieldName" : "status_ind",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151691557,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "PLANNED",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ACTIVE",
+        "count" : "60356"
+      }, {
+        "item" : "INACTIVE",
+        "count" : "382"
+      }, {
+        "item" : "PLANNED",
+        "count" : "2"
+      } ],
+      "smallest" : "ACTIVE",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277748,
+    "name" : "LENGTH",
+    "dataTypeName" : "number",
+    "description" : "length of water main in m",
+    "fieldName" : "length",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151691554,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "3194.1110000000003",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1.0",
+        "count" : "572"
+      }, {
+        "item" : "2.0",
+        "count" : "325"
+      }, {
+        "item" : "0.5",
+        "count" : "233"
+      }, {
+        "item" : "3.0",
+        "count" : "167"
+      }, {
+        "item" : "1.5",
+        "count" : "144"
+      }, {
+        "item" : "4.75",
+        "count" : "116"
+      }, {
+        "item" : "6.0",
+        "count" : "110"
+      }, {
+        "item" : "4.0",
+        "count" : "107"
+      }, {
+        "item" : "5.0",
+        "count" : "71"
+      }, {
+        "item" : "7.0",
+        "count" : "47"
+      }, {
+        "item" : "2.5",
+        "count" : "46"
+      }, {
+        "item" : "3.5",
+        "count" : "42"
+      }, {
+        "item" : "1.2",
+        "count" : "39"
+      }, {
+        "item" : "8.0",
+        "count" : "37"
+      }, {
+        "item" : "10.0",
+        "count" : "35"
+      }, {
+        "item" : "0.75",
+        "count" : "32"
+      }, {
+        "item" : "0.9999",
+        "count" : "30"
+      }, {
+        "item" : "1.0001",
+        "count" : "27"
+      }, {
+        "item" : "0.6",
+        "count" : "26"
+      }, {
+        "item" : "2.0001",
+        "count" : "26"
+      } ],
+      "smallest" : "0.0173",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277747,
+    "name" : "DIAM",
+    "dataTypeName" : "number",
+    "description" : "diameter of water main in mm",
+    "fieldName" : "diam",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151691553,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "1950",
+      "null" : "0",
+      "top" : [ {
+        "item" : "150",
+        "count" : "17219"
+      }, {
+        "item" : "200",
+        "count" : "14240"
+      }, {
+        "item" : "250",
+        "count" : "11012"
+      }, {
+        "item" : "300",
+        "count" : "9460"
+      }, {
+        "item" : "400",
+        "count" : "3767"
+      }, {
+        "item" : "100",
+        "count" : "1550"
+      }, {
+        "item" : "900",
+        "count" : "814"
+      }, {
+        "item" : "750",
+        "count" : "370"
+      }, {
+        "item" : "600",
+        "count" : "348"
+      }, {
+        "item" : "50",
+        "count" : "340"
+      }, {
+        "item" : "500",
+        "count" : "319"
+      }, {
+        "item" : "1050",
+        "count" : "290"
+      }, {
+        "item" : "1200",
+        "count" : "201"
+      }, {
+        "item" : "40",
+        "count" : "196"
+      }, {
+        "item" : "125",
+        "count" : "130"
+      }, {
+        "item" : "1350",
+        "count" : "91"
+      }, {
+        "item" : "25",
+        "count" : "88"
+      }, {
+        "item" : "450",
+        "count" : "73"
+      }, {
+        "item" : "350",
+        "count" : "73"
+      }, {
+        "item" : "1500",
+        "count" : "37"
+      } ],
+      "smallest" : "0",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277746,
+    "name" : "MATERIAL",
+    "dataTypeName" : "text",
+    "description" : "material of water main",
+    "fieldName" : "material",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151691552,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "YUDI",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PVC",
+        "count" : "33654"
+      }, {
+        "item" : "CI",
+        "count" : "7806"
+      }, {
+        "item" : "YDI",
+        "count" : "5683"
+      }, {
+        "item" : "PDI",
+        "count" : "3979"
+      }, {
+        "item" : "ST",
+        "count" : "2290"
+      }, {
+        "item" : "PVCG",
+        "count" : "1835"
+      }, {
+        "item" : "CON",
+        "count" : "1391"
+      }, {
+        "item" : "DI",
+        "count" : "1055"
+      }, {
+        "item" : "AC",
+        "count" : "628"
+      }, {
+        "item" : "PE",
+        "count" : "550"
+      }, {
+        "item" : "CU",
+        "count" : "526"
+      }, {
+        "item" : "YUDI",
+        "count" : "332"
+      }, {
+        "item" : "ECI",
+        "count" : "258"
+      }, {
+        "item" : "PCI",
+        "count" : "207"
+      }, {
+        "item" : "TUDI",
+        "count" : "163"
+      }, {
+        "item" : "YST",
+        "count" : "121"
+      }, {
+        "item" : "UNK",
+        "count" : "91"
+      }, {
+        "item" : "BDI",
+        "count" : "89"
+      }, {
+        "item" : "TWD",
+        "count" : "42"
+      }, {
+        "item" : "FPVC",
+        "count" : "11"
+      } ],
+      "smallest" : "AC",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277745,
+    "name" : "YEAR",
+    "dataTypeName" : "number",
+    "description" : "install year",
+    "fieldName" : "year",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151691551,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "2033",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2002",
+        "count" : "1443"
+      }, {
+        "item" : "1997",
+        "count" : "1438"
+      }, {
+        "item" : "1978",
+        "count" : "1380"
+      }, {
+        "item" : "1998",
+        "count" : "1333"
+      }, {
+        "item" : "1994",
+        "count" : "1330"
+      }, {
+        "item" : "1979",
+        "count" : "1310"
+      }, {
+        "item" : "1990",
+        "count" : "1308"
+      }, {
+        "item" : "1980",
+        "count" : "1299"
+      }, {
+        "item" : "1976",
+        "count" : "1245"
+      }, {
+        "item" : "1981",
+        "count" : "1221"
+      }, {
+        "item" : "2003",
+        "count" : "1209"
+      }, {
+        "item" : "2001",
+        "count" : "1201"
+      }, {
+        "item" : "2000",
+        "count" : "1193"
+      }, {
+        "item" : "1992",
+        "count" : "1189"
+      }, {
+        "item" : "1999",
+        "count" : "1188"
+      }, {
+        "item" : "1991",
+        "count" : "1157"
+      }, {
+        "item" : "1977",
+        "count" : "1150"
+      }, {
+        "item" : "2004",
+        "count" : "1144"
+      }, {
+        "item" : "1989",
+        "count" : "1112"
+      }, {
+        "item" : "2023",
+        "count" : "1082"
+      } ],
+      "smallest" : "1900",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 590277744,
+    "name" : "GLOBALID",
+    "dataTypeName" : "text",
+    "description" : "Global Unique identifier",
+    "fieldName" : "globalid",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151691550,
+    "cachedContents" : {
+      "non_null" : "60740",
+      "largest" : "ffffffa0-04a8-494c-89c6-bb0bbe5445b6",
+      "null" : "0",
+      "top" : [ {
+        "item" : "64659003-11aa-401a-913a-8799e148f906",
+        "count" : "1"
+      }, {
+        "item" : "b298f403-2f3d-4b19-ada0-615e9359a052",
+        "count" : "1"
+      }, {
+        "item" : "03f70a29-58da-41f8-9ae5-8f6c5c566054",
+        "count" : "1"
+      }, {
+        "item" : "1144f375-b335-48aa-aa44-72df49138d79",
+        "count" : "1"
+      }, {
+        "item" : "320d2cc1-ed01-4479-8344-be70f4d3529c",
+        "count" : "1"
+      }, {
+        "item" : "a7701243-4519-483a-9440-ee80e87278dc",
+        "count" : "1"
+      }, {
+        "item" : "7b58938b-8308-4ff6-9814-e05b62f35f88",
+        "count" : "1"
+      }, {
+        "item" : "56d1032a-8676-4e98-b238-d60a4710c700",
+        "count" : "1"
+      }, {
+        "item" : "b5dbd57d-991e-49fd-a528-f039d390c7a3",
+        "count" : "1"
+      }, {
+        "item" : "099d6697-f072-4319-9ca9-7ad84a95470d",
+        "count" : "1"
+      }, {
+        "item" : "92e62272-5d29-49db-a70d-7f31d52a592a",
+        "count" : "1"
+      }, {
+        "item" : "d0fb5b86-2020-4553-9cc7-544fe3de2528",
+        "count" : "1"
+      }, {
+        "item" : "c857d2d5-7e19-4b04-bdd4-b200db4102d2",
+        "count" : "1"
+      }, {
+        "item" : "12811b79-1842-4785-a274-8247303042c9",
+        "count" : "1"
+      }, {
+        "item" : "1736d716-5e0a-42ba-b358-ef8d83e2cd93",
+        "count" : "1"
+      }, {
+        "item" : "3ac2a67f-74ac-4851-8ee7-177c0c83cf98",
+        "count" : "1"
+      }, {
+        "item" : "4e2be4ba-0334-475f-9060-fe1aa2e2286a",
+        "count" : "1"
+      }, {
+        "item" : "7cc67fa5-bd43-4ce4-b26b-120f21850753",
+        "count" : "1"
+      }, {
+        "item" : "bef5b139-c097-402b-bb05-4f1506afc3b8",
+        "count" : "1"
+      }, {
+        "item" : "0749342a-5bc3-4f80-81e3-68c1dfc27572",
+        "count" : "1"
+      } ],
+      "smallest" : "0000cc64-ef3b-4741-a986-db6084b9abdb",
+      "count" : "60740",
+      "cardinality" : "60740"
+    },
+    "format" : { }
+  }, {
+    "id" : 590277741,
+    "name" : "MULTILINESTRING",
+    "dataTypeName" : "multiline",
+    "description" : "water main geometry",
+    "fieldName" : "multilinestring",
+    "position" : 14,
+    "renderTypeName" : "multiline",
+    "tableColumnId" : 151691547,
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "License/Attribution" : {
+        "License URL" : "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+      },
+      "Data Supplier" : {
+        "Organization" : "The City of Calgary",
+        "Business Unit" : "Water Services"
+      },
+      "Time/Date" : {
+        "Update Frequency" : "Monthly"
+      },
+      "Geospatial Information" : {
+        "Map Projection" : "EPSG:4326 WGS84",
+        "Dataset contains geospatial information" : "Yes"
+      }
+    },
+    "rowLabel" : "Water Main",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "55bi-hyk4",
+    "displayName" : "Calgary Open Data",
+    "profileImageUrlLarge" : "/api/users/55bi-hyk4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/55bi-hyk4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/55bi-hyk4/profile_images/TINY",
+    "screenName" : "Calgary Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "55bi-hyk4",
+    "displayName" : "Calgary Open Data",
+    "profileImageUrlLarge" : "/api/users/55bi-hyk4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/55bi-hyk4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/55bi-hyk4/profile_images/TINY",
+    "screenName" : "Calgary Open Data",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "water", "main", "service", "line", "drinking water", "distribution" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

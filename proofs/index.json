@@ -22,14 +22,50 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "d2db9dd2693d3dacff190d7916ed47010aa153b7469850cac6b6eb215d59d7d7",
-   "stamped_utc": "2026-11-07T11:53:59Z",
+   "sha256": "55259db055e1c35e5486057bb9893e53b201d366bf8848f4df5ef3086cc461ff",
+   "stamped_utc": "2026-11-07T11:55:22Z",
    "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": null,
    "sha256": "826a3dc5423ac20c1c462866c27291e52b0b8b18742dcad896e081b55d83fe06",
    "stamped_utc": "2026-11-07T11:49:57Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1154Z-2026-10-95pct-installation.html": {
+   "bitcoin_block": null,
+   "sha256": "0bf7ecfba56200db5333b04659034dfcad7d730f38daf2878b86b0baafdefbb4",
+   "stamped_utc": "2026-11-07T11:55:12Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1154Z-2026-11-02-get-ready.html": {
+   "bitcoin_block": null,
+   "sha256": "54ca99ef9acf8db7e0bc9e3f832c056ed02e718a8a421ef68ca19d0e15f29807",
+   "stamped_utc": "2026-11-07T11:55:13Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1154Z-2026-11-04-restrictions-in-effect.html": {
+   "bitcoin_block": null,
+   "sha256": "28f5575ac26ae485d1dee1251b5ee9d764e12717efa8f87192da0d3bf383becf",
+   "stamped_utc": "2026-11-07T11:55:14Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1154Z-2026-11-06-water-use-green-zone.html": {
+   "bitcoin_block": null,
+   "sha256": "f20e0c24037662988904964a6daf482cf3baaa89ac319c5aaa89a25982e5d277",
+   "stamped_utc": "2026-11-07T11:55:15Z",
+   "status": "pending"
+  },
+  "raw/city/newsroom/2026-11-07T1154Z-2026-11-06-winter-season.html": {
+   "bitcoin_block": null,
+   "sha256": "9ca1eb4bcf34183006573b3bd9a96ab8b83537a93727fdfdc9d628ae37127238",
+   "stamped_utc": "2026-11-07T11:55:16Z",
+   "status": "pending"
+  },
+  "raw/city/pages/area-construction/2026-11-07T1154Z.html": {
+   "bitcoin_block": null,
+   "sha256": "9ab9cc9dc81cd19c6fe7abdc62e19aad0bde86ec8001fa2d37aa1189dd2003ea",
+   "stamped_utc": "2026-11-07T11:55:17Z",
    "status": "pending"
   },
   "raw/city/pages/parkdale-repairs/2026-11-07T1149Z.html": {
@@ -52,8 +88,8 @@
   },
   "raw/fetch-log.jsonl": {
    "bitcoin_block": null,
-   "sha256": "af59e0819e118e230fc0d7eec0c5bea4e0880e656f965f349623605a49ca4fa7",
-   "stamped_utc": "2026-11-07T11:53:44Z",
+   "sha256": "d36e5b37e8984e18c7490ce293624b0cf936e25b98a1383c689827892a9d1ee0",
+   "stamped_utc": "2026-11-07T11:55:18Z",
    "status": "pending"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
@@ -150,8 +186,8 @@
   },
   "trigger/fetch.tsv": {
    "bitcoin_block": null,
-   "sha256": "e41df8056e32129d6271d0132b5d2c683e84aaf0ee5ad80ff6523da58651846e",
-   "stamped_utc": "2026-11-07T11:52:44Z",
+   "sha256": "413ef6da4d8f8f57c8905dfc13b90ca024259c7577b62601feac3b57977106a5",
+   "stamped_utc": "2026-11-07T11:55:20Z",
    "status": "pending"
   }
  },
@@ -226,6 +262,30 @@
    "proof": "proofs/SHA256SUMS.33d05c732fed.ots",
    "sha256": "33d05c732feda7f82f22708d52ddd8e86b14526abade0d31b74efa607a07249e",
    "stamped_utc": "2026-11-07T11:52:45Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "raw/fetch-log.jsonl",
+   "proof": "proofs/raw/fetch-log.jsonl.af59e0819e11.ots",
+   "sha256": "af59e0819e118e230fc0d7eec0c5bea4e0880e656f965f349623605a49ca4fa7",
+   "stamped_utc": "2026-11-07T11:53:44Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "trigger/fetch.tsv",
+   "proof": "proofs/trigger/fetch.tsv.e41df8056e32.ots",
+   "sha256": "e41df8056e32129d6271d0132b5d2c683e84aaf0ee5ad80ff6523da58651846e",
+   "stamped_utc": "2026-11-07T11:52:44Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.d2db9dd2693d.ots",
+   "sha256": "d2db9dd2693d3dacff190d7916ed47010aa153b7469850cac6b6eb215d59d7d7",
+   "stamped_utc": "2026-11-07T11:53:59Z",
    "status": "pending"
   }
  ]

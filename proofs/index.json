@@ -1,0 +1,40 @@
+{
+ "files": {
+  ".gitignore": {
+   "bitcoin_block": null,
+   "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+   "stamped_utc": "2026-11-07T09:26:39Z",
+   "status": "pending"
+  },
+  "LICENSE": {
+   "bitcoin_block": null,
+   "sha256": "ea87b822495068caf98ea4b1ad9ce539a61d589133424c44036362cbe1196b4a",
+   "stamped_utc": "2026-11-07T09:26:41Z",
+   "status": "pending"
+  },
+  "README.md": {
+   "bitcoin_block": null,
+   "sha256": "756e9b4b9c4409f49398097a76148081a8d7c285b9c50c38803064703c6e524e",
+   "stamped_utc": "2026-11-07T09:26:42Z",
+   "status": "pending"
+  },
+  "SHA256SUMS": {
+   "bitcoin_block": null,
+   "sha256": "2ede1f6f62fd17fdfe27fc525e012704088fa70ea153c745fc8ddbb33b2a77a1",
+   "stamped_utc": "2026-11-07T09:26:47Z",
+   "status": "pending"
+  },
+  "site/project.yaml": {
+   "bitcoin_block": null,
+   "sha256": "57921dcfa24c5f8f3d11d892aedf195f73de6beb59f68f15b18465fa54d957e1",
+   "stamped_utc": "2026-11-07T09:26:44Z",
+   "status": "pending"
+  },
+  "tools/stamp.py": {
+   "bitcoin_block": null,
+   "sha256": "a947c5455c9eb60d31f130e3563198ef23b4ed45e3721e414b1f2bc0217c5292",
+   "stamped_utc": "2026-11-07T09:26:45Z",
+   "status": "pending"
+  }
+ }
+}

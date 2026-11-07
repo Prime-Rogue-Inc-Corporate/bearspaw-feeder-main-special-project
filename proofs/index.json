@@ -20,14 +20,14 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "2ede1f6f62fd17fdfe27fc525e012704088fa70ea153c745fc8ddbb33b2a77a1",
-   "stamped_utc": "2026-11-07T09:26:47Z",
+   "sha256": "d6a3beeb8ed2654d5e3692e1d3d43c33488cdd634fa8eb94b57a5b9a06ba874f",
+   "stamped_utc": "2026-11-07T09:48:38Z",
    "status": "pending"
   },
   "site/project.yaml": {
    "bitcoin_block": null,
-   "sha256": "57921dcfa24c5f8f3d11d892aedf195f73de6beb59f68f15b18465fa54d957e1",
-   "stamped_utc": "2026-11-07T09:26:44Z",
+   "sha256": "12587fd8323e9f6a97f0ec2970574244175b1bbbf17bdb923c276751b7207d00",
+   "stamped_utc": "2026-11-07T09:48:37Z",
    "status": "pending"
   },
   "tools/stamp.py": {
@@ -36,5 +36,23 @@
    "stamped_utc": "2026-11-07T09:26:45Z",
    "status": "pending"
   }
- }
+ },
+ "superseded": [
+  {
+   "bitcoin_block": null,
+   "path": "site/project.yaml",
+   "proof": "proofs/site/project.yaml.57921dcfa24c.ots",
+   "sha256": "57921dcfa24c5f8f3d11d892aedf195f73de6beb59f68f15b18465fa54d957e1",
+   "stamped_utc": "2026-11-07T09:26:44Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.2ede1f6f62fd.ots",
+   "sha256": "2ede1f6f62fd17fdfe27fc525e012704088fa70ea153c745fc8ddbb33b2a77a1",
+   "stamped_utc": "2026-11-07T09:26:47Z",
+   "status": "pending"
+  }
+ ]
 }

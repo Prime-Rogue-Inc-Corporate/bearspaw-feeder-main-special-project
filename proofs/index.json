@@ -1,39 +1,55 @@
 {
  "files": {
   ".gitignore": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974918,
+   "confirmed_seen_utc": "2026-11-07T11:49:26Z",
    "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
    "stamped_utc": "2026-11-07T09:26:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "LICENSE": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974918,
+   "confirmed_seen_utc": "2026-11-07T11:49:28Z",
    "sha256": "ea87b822495068caf98ea4b1ad9ce539a61d589133424c44036362cbe1196b4a",
    "stamped_utc": "2026-11-07T09:26:41Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "README.md": {
    "bitcoin_block": null,
-   "sha256": "756e9b4b9c4409f49398097a76148081a8d7c285b9c50c38803064703c6e524e",
-   "stamped_utc": "2026-11-07T09:26:42Z",
+   "sha256": "b9c75bc983f7bd54ec64334712c1b6ac03af5b454f83b10ccd470fbb3059fdf0",
+   "stamped_utc": "2026-11-07T11:49:19Z",
    "status": "pending"
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "d6a3beeb8ed2654d5e3692e1d3d43c33488cdd634fa8eb94b57a5b9a06ba874f",
-   "stamped_utc": "2026-11-07T09:48:38Z",
+   "sha256": "f1fbdb0c2963627070702a9335aeceb18e2e539fcf42fbbd42ab247e7c7cd3de",
+   "stamped_utc": "2026-11-07T11:49:23Z",
    "status": "pending"
   },
   "site/project.yaml": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974918,
+   "confirmed_seen_utc": "2026-11-07T11:49:36Z",
    "sha256": "12587fd8323e9f6a97f0ec2970574244175b1bbbf17bdb923c276751b7207d00",
    "stamped_utc": "2026-11-07T09:48:37Z",
+   "status": "confirmed"
+  },
+  "tools/fetch.py": {
+   "bitcoin_block": null,
+   "sha256": "dd866fe72b05ed168b05410ac09cf9b15f94edf790f997c685ec1c6cc91f96e3",
+   "stamped_utc": "2026-11-07T11:49:20Z",
    "status": "pending"
   },
   "tools/stamp.py": {
-   "bitcoin_block": null,
+   "bitcoin_block": 974918,
+   "confirmed_seen_utc": "2026-11-07T11:49:40Z",
    "sha256": "a947c5455c9eb60d31f130e3563198ef23b4ed45e3721e414b1f2bc0217c5292",
    "stamped_utc": "2026-11-07T09:26:45Z",
+   "status": "confirmed"
+  },
+  "trigger/fetch.tsv": {
+   "bitcoin_block": null,
+   "sha256": "0eb32f4ba2896bc57cee5af030359d9dea3f4bb4eed2fe876cf06256dbf015e8",
+   "stamped_utc": "2026-11-07T11:49:22Z",
    "status": "pending"
   }
  },
@@ -52,6 +68,22 @@
    "proof": "proofs/SHA256SUMS.2ede1f6f62fd.ots",
    "sha256": "2ede1f6f62fd17fdfe27fc525e012704088fa70ea153c745fc8ddbb33b2a77a1",
    "stamped_utc": "2026-11-07T09:26:47Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "README.md",
+   "proof": "proofs/README.md.756e9b4b9c44.ots",
+   "sha256": "756e9b4b9c4409f49398097a76148081a8d7c285b9c50c38803064703c6e524e",
+   "stamped_utc": "2026-11-07T09:26:42Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.d6a3beeb8ed2.ots",
+   "sha256": "d6a3beeb8ed2654d5e3692e1d3d43c33488cdd634fa8eb94b57a5b9a06ba874f",
+   "stamped_utc": "2026-11-07T09:48:38Z",
    "status": "pending"
   }
  ]

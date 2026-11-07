@@ -22,8 +22,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "47aabf775d567c66697d9293f28850ca3d10bd66c219c680a59d10d28ba7df16",
-   "stamped_utc": "2026-11-07T11:50:21Z",
+   "sha256": "33d05c732feda7f82f22708d52ddd8e86b14526abade0d31b74efa607a07249e",
+   "stamped_utc": "2026-11-07T11:52:45Z",
    "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
@@ -120,8 +120,8 @@
   },
   "trigger/fetch.tsv": {
    "bitcoin_block": null,
-   "sha256": "0eb32f4ba2896bc57cee5af030359d9dea3f4bb4eed2fe876cf06256dbf015e8",
-   "stamped_utc": "2026-11-07T11:49:22Z",
+   "sha256": "e41df8056e32129d6271d0132b5d2c683e84aaf0ee5ad80ff6523da58651846e",
+   "stamped_utc": "2026-11-07T11:52:44Z",
    "status": "pending"
   }
  },
@@ -164,6 +164,22 @@
    "proof": "proofs/SHA256SUMS.f1fbdb0c2963.ots",
    "sha256": "f1fbdb0c2963627070702a9335aeceb18e2e539fcf42fbbd42ab247e7c7cd3de",
    "stamped_utc": "2026-11-07T11:49:23Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "trigger/fetch.tsv",
+   "proof": "proofs/trigger/fetch.tsv.0eb32f4ba289.ots",
+   "sha256": "0eb32f4ba2896bc57cee5af030359d9dea3f4bb4eed2fe876cf06256dbf015e8",
+   "stamped_utc": "2026-11-07T11:49:22Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.47aabf775d56.ots",
+   "sha256": "47aabf775d567c66697d9293f28850ca3d10bd66c219c680a59d10d28ba7df16",
+   "stamped_utc": "2026-11-07T11:50:21Z",
    "status": "pending"
   }
  ]

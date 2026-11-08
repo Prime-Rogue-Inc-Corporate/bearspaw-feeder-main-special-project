@@ -1,8 +1,4 @@
-# path under raw/ <TAB> url   ({utc} = fetch time). Run 3, 7 Nov 2026: City newsroom water releases 2–6 Nov.
-raw/city/newsroom/{utc}-2026-11-06-water-use-green-zone.html	https://newsroom.calgary.ca/water-use-stays-in-the-green-zone-as-bearspaw-south-feeder-main-work-progresses/
-raw/city/newsroom/{utc}-2026-11-05-water-savings-great-start.html	https://newsroom.calgary.ca/water-savings-off-to-a-great-start-as-bearspaw-south-feeder-main-connection-work-m
-raw/city/newsroom/{utc}-2026-11-04-restrictions-in-effect.html	https://newsroom.calgary.ca/water-restrictions-in-effect-as-calgary-enters-home-stretch-of-feeder-main-work/
-raw/city/newsroom/{utc}-2026-11-02-get-ready.html	https://newsroom.calgary.ca/its-time-to-get-ready-water-restrictions-start-wednesday-nov-4/
-raw/city/newsroom/{utc}-2026-11-06-winter-season.html	https://newsroom.calgary.ca/city-of-calgary-ready-for-the-winter-season/
-raw/city/newsroom/{utc}-2026-10-95pct-installation.html	https://newsroom.calgary.ca/bearspaw-south-feeder-main-reaches-95-installation-construction-to-connect-the-new-feeder-main-and-stage-4-water-restrictions-begin-november-4/
+# path under raw/ <TAB> url   ({utc} = fetch time). Run 4, 8 Nov 2026: newsroom feed and Stage 4 page for the project page status.
+raw/opendata/3x6m-4vs7/{utc}-newsroom-latest.csv	https://data.calgary.ca/resource/3x6m-4vs7.csv?$limit=40&$order=:updated_at%20DESC
+raw/city/pages/stage4-status/{utc}.html	https://www.calgary.ca/emergencies/feeder-main-repair/make-every-drop-count.html
 raw/city/pages/area-construction/{utc}.html	https://www.calgary.ca/planning/water/bearspaw-feeder-main.html

@@ -23,8 +23,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "69b1fb122258b150c911b2fb3fe64e8c8b5beb3c7a54e3d0b1461589a8d72ee6",
-   "stamped_utc": "2026-11-08T05:43:35Z",
+   "sha256": "42193b150e7d1134f96809386442f2cc24009e8b93ef1742196d5e634bb5696a",
+   "stamped_utc": "2026-11-08T05:44:56Z",
    "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
@@ -206,11 +206,10 @@
    "status": "confirmed"
   },
   "site/project.yaml": {
-   "bitcoin_block": 974918,
-   "confirmed_seen_utc": "2026-11-07T11:49:36Z",
-   "sha256": "12587fd8323e9f6a97f0ec2970574244175b1bbbf17bdb923c276751b7207d00",
-   "stamped_utc": "2026-11-07T09:48:37Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "62d07672a89302b0f2aca823ba5a836161e27798968bcf0cdac945e7876772b0",
+   "stamped_utc": "2026-11-08T05:44:54Z",
+   "status": "pending"
   },
   "tools/fetch.py": {
    "bitcoin_block": 974935,
@@ -360,6 +359,22 @@
    "proof": "proofs/SHA256SUMS.3c50f75e66f1.ots",
    "sha256": "3c50f75e66f18f59395fc14f5f4bf1d8b9ef077667c74d8965c9be13e2196f31",
    "stamped_utc": "2026-11-08T05:43:10Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": 974918,
+   "path": "site/project.yaml",
+   "proof": "proofs/site/project.yaml.12587fd8323e.ots",
+   "sha256": "12587fd8323e9f6a97f0ec2970574244175b1bbbf17bdb923c276751b7207d00",
+   "stamped_utc": "2026-11-07T09:48:37Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.69b1fb122258.ots",
+   "sha256": "69b1fb122258b150c911b2fb3fe64e8c8b5beb3c7a54e3d0b1461589a8d72ee6",
+   "stamped_utc": "2026-11-08T05:43:35Z",
    "status": "pending"
   }
  ]

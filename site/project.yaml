@@ -6,7 +6,7 @@ code: RWI-SP-002
 title: Bearspaw South Feeder Main, Calgary — two failures and the rebuild
 status: open
 opened: '2026-11-07T09:00:00Z'
-updated: '2026-11-07T09:25:00Z'
+updated: '2026-11-08T05:50:00Z'
 headline: >-
   The Bearspaw South Feeder Main carries about 60 % of Calgary's treated water and has broken twice, in June 2024 and December
   2025. RWI keeps the open record, archives it with checksums and Bitcoin timestamps, and follows the connection and commissioning
@@ -38,6 +38,9 @@ facts:
   - {label: Failures, value: '5 Jun 2024; 30 Dec 2025 (16 Ave N.W. near Sarcee Trail)', source: calgaryjournal-2026-01-09}
   - {label: Reviews, value: 'Independent Review Panel, 6 Jan 2026; provincial inspection MSD 016-26, released 5 Nov 2026 (20 recommendations)', source: goldie-msd-016-26}
   - {label: Now, value: 'Stage 4 outdoor water restrictions from 4 Nov 2026 for about four weeks while the new main is connected', source: city-stage4-2026}
+  - {label: Supply ceiling, value: '500 ML/day while the main is out (Calgary plus Airdrie, Chestermere, Strathmore and Tsuut''ina Nation); Glenmore plant carries about 80 %', source: city-nr-in-effect-4nov}
+  - {label: Water use, value: '490 ML on 5 Nov; 482 ML on 6 Nov (City figures, under the ceiling every day so far)', source: city-stage4-2026-11-08}
+  - {label: Connection points, value: '33/34 Ave & 83 St NW; 33 Ave & 89 St NW; Shaganappi pump station (Edworthy). Six Parkdale Blvd segments replaced at the same time', source: city-nr-95pct-28oct}
   - {label: Commissioning, value: 'December 2026 (planned)', source: city-fall-handout-2026}
 
 timeline:
@@ -54,11 +57,15 @@ timeline:
   - {utc: '2026-12', event: 'Commissioning of the new main (planned)', basis: 'official (plan)', source: city-fall-handout-2026}
 
 status_log:
+  - {date: '8 Nov 2026', text: 'City figure for 6 Nov: 482 ML used, under the 500 ML/day ceiling for a third day. Old main still draining as of the City''s 6 Nov update; crews setting up at 83 St, 89 St and Parkdale.', source: city-stage4-2026-11-08}
+  - {date: '7 Nov 2026', text: 'Ad hoc SITREP 031-AH1 issued (listed under Reports): water use against the ceiling, tie-in status, rivers, weather, imagery and radar since the shutdown. One lead held for the journalist desk for 24 hours.'}
+  - {date: '7 Nov 2026', text: 'Eight places added to the RWI watchlist as critical infrastructure (listed under Watched places). Positions come from City open data (Public Water Main, Water Main Breaks, Construction Detours), checked on Sentinel-2.'}
+  - {date: '7 Nov 2026', text: 'Raw fetch workflow added: City open data, City pages and newsroom releases are archived unchanged in raw/, logged in raw/fetch-log.jsonl, then checksummed and Bitcoin-stamped.'}
   - {date: '7 Nov 2026', text: 'Project opened: page, public data repository with checksums and Bitcoin stamps, and register entry. The project brief (RWI-SP-002-BRIEF-01) will be filed here when its PDF is committed. Daily tracking of the tie-in starts with the first raw pulls.'}
 
 limits:
   - 'Dates in the timeline are Calgary dates; exact times are given only where a source states them.'
-  - 'Site positions are not drawn until checked against City geometry (Calgary Open Data, Public Water Main).'
+  - 'Site positions come from City open data and are checked on Sentinel-2; where a position is derived (the 89 St tee, ±150 m), its place page says so.'
   - 'Political statements about blame are outside RWI''s scope.'
 
 sources:
@@ -72,6 +79,10 @@ sources:
   cp-panel-2026-01-07: {outlet: 'The Canadian Press (via National Newswatch)', title: 'Report cites underinvestment, warning signals surrounding troubled Calgary water main', url: 'https://nationalnewswatch.com/2026/01/07/report-cites-underinvestment-warning-signals-surrounding-troubled-calgary-water-main', published: '7 Jan 2026'}
   calgaryjournal-2026-01-09: {outlet: Calgary Journal, title: 'Report reveals Calgary feeder main issues on back burner for decades', url: 'https://calgaryjournal.ca/2026/01/09/report-reveals-calgary-feeder-main-issues-on-back-burner-for-decades/', published: '9 Jan 2026'}
   livewire-2026-01-16: {outlet: LiveWire Calgary, title: 'Calgary ends water restrictions as Bearspaw feeder main stabilized', url: 'https://livewirecalgary.com/2026/01/16/calgary-ends-water-restrictions-as-bearspaw-feeder-main-stabilized/', published: '16 Jan 2026'}
+  city-nr-in-effect-4nov: {outlet: City of Calgary newsroom, title: 'Water Restrictions in effect as Calgary enters home stretch of feeder main work', url: 'https://newsroom.calgary.ca/water-restrictions-in-effect-as-calgary-enters-home-stretch-of-feeder-main-work/', published: '4 Nov 2026 15:01 UTC (08:01 MST)'}
+  city-nr-green-zone-6nov: {outlet: City of Calgary newsroom, title: 'Water use stays in the green zone as Bearspaw South Feeder Main work progresses', url: 'https://newsroom.calgary.ca/water-use-stays-in-the-green-zone-as-bearspaw-south-feeder-main-work-progresses/', published: '6 Nov 2026 18:22 UTC (11:22 MST)'}
+  city-nr-95pct-28oct: {outlet: City of Calgary newsroom, title: 'Bearspaw South Feeder Main reaches 95% installation', url: 'https://newsroom.calgary.ca/bearspaw-south-feeder-main-reaches-95-installation-construction-to-connect-the-new-feeder-main-and-stage-4-water-restrictions-begin-november-4/', published: '28 Oct 2026 20:06 UTC (14:06 MDT)'}
+  city-stage4-2026-11-08: {outlet: City of Calgary, title: 'Stage 4 status page: daily water use', url: 'https://www.calgary.ca/emergencies/feeder-main-repair/make-every-drop-count.html', published: 'read 8 Nov 2026 05:43 UTC (7 Nov 22:43 MST); archived in raw/city/pages/stage4-status/'}
   livewire-2026-11-05: {outlet: LiveWire Calgary, title: 'Provincial Bearspaw feeder main inspection shows 2015 water report information withheld from council', url: 'https://livewirecalgary.com/2026/11/05/provincial-bearspaw-feeder-main-inspection-2015-raftelis-water-report-information-withheld/', published: '5 Nov 2026'}
 
 hindcasts: []

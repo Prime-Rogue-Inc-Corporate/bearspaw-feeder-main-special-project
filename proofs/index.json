@@ -22,11 +22,10 @@
    "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": 974935,
-   "confirmed_seen_utc": "2026-11-07T17:44:51Z",
-   "sha256": "55259db055e1c35e5486057bb9893e53b201d366bf8848f4df5ef3086cc461ff",
-   "stamped_utc": "2026-11-07T11:55:22Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "3c50f75e66f18f59395fc14f5f4bf1d8b9ef077667c74d8965c9be13e2196f31",
+   "stamped_utc": "2026-11-08T05:43:10Z",
+   "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
@@ -211,11 +210,10 @@
    "status": "confirmed"
   },
   "trigger/fetch.tsv": {
-   "bitcoin_block": 974935,
-   "confirmed_seen_utc": "2026-11-07T17:45:53Z",
-   "sha256": "413ef6da4d8f8f57c8905dfc13b90ca024259c7577b62601feac3b57977106a5",
-   "stamped_utc": "2026-11-07T11:55:20Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "ff36f642e59b5cbba30f19bce59907eee0e665fccda9113673f89a38a3d7a5c4",
+   "stamped_utc": "2026-11-08T05:43:08Z",
+   "status": "pending"
   }
  },
  "superseded": [
@@ -314,6 +312,22 @@
    "sha256": "d2db9dd2693d3dacff190d7916ed47010aa153b7469850cac6b6eb215d59d7d7",
    "stamped_utc": "2026-11-07T11:53:59Z",
    "status": "pending"
+  },
+  {
+   "bitcoin_block": 974935,
+   "path": "trigger/fetch.tsv",
+   "proof": "proofs/trigger/fetch.tsv.413ef6da4d8f.ots",
+   "sha256": "413ef6da4d8f8f57c8905dfc13b90ca024259c7577b62601feac3b57977106a5",
+   "stamped_utc": "2026-11-07T11:55:20Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": 974935,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.55259db055e1.ots",
+   "sha256": "55259db055e1c35e5486057bb9893e53b201d366bf8848f4df5ef3086cc461ff",
+   "stamped_utc": "2026-11-07T11:55:22Z",
+   "status": "confirmed"
   }
  ]
 }

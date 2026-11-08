@@ -23,8 +23,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "3c50f75e66f18f59395fc14f5f4bf1d8b9ef077667c74d8965c9be13e2196f31",
-   "stamped_utc": "2026-11-08T05:43:10Z",
+   "sha256": "69b1fb122258b150c911b2fb3fe64e8c8b5beb3c7a54e3d0b1461589a8d72ee6",
+   "stamped_utc": "2026-11-08T05:43:35Z",
    "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
@@ -76,6 +76,12 @@
    "stamped_utc": "2026-11-07T11:55:17Z",
    "status": "confirmed"
   },
+  "raw/city/pages/area-construction/2026-11-08T0543Z.html": {
+   "bitcoin_block": null,
+   "sha256": "46123ae5aa1a67dbba5d129ab6f554ef815fcef973220364db637ab762b14120",
+   "stamped_utc": "2026-11-08T05:43:29Z",
+   "status": "pending"
+  },
   "raw/city/pages/parkdale-repairs/2026-11-07T1149Z.html": {
    "bitcoin_block": 974935,
    "confirmed_seen_utc": "2026-11-07T17:45:10Z",
@@ -97,12 +103,17 @@
    "stamped_utc": "2026-11-07T11:50:02Z",
    "status": "confirmed"
   },
+  "raw/city/pages/stage4-status/2026-11-08T0543Z.html": {
+   "bitcoin_block": null,
+   "sha256": "a784c0d7f12ecb13af248d39af063c6557afe80b8d51f0132dd7e6af1cbd1771",
+   "stamped_utc": "2026-11-08T05:43:30Z",
+   "status": "pending"
+  },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": 974935,
-   "confirmed_seen_utc": "2026-11-07T17:45:19Z",
-   "sha256": "d36e5b37e8984e18c7490ce293624b0cf936e25b98a1383c689827892a9d1ee0",
-   "stamped_utc": "2026-11-07T11:55:18Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "5c376521f146cd19be8256d93085dfaaabb1bc90c3831a746913ddbc8d5f44cb",
+   "stamped_utc": "2026-11-08T05:43:32Z",
+   "status": "pending"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
    "bitcoin_block": 974935,
@@ -117,6 +128,12 @@
    "sha256": "c681e2dc35904c09dbb6fdb927a29d9ecc2412bf9fe98ca55302dd8dcb155616",
    "stamped_utc": "2026-11-07T11:53:46Z",
    "status": "confirmed"
+  },
+  "raw/opendata/3x6m-4vs7/2026-11-08T0543Z-newsroom-latest.csv": {
+   "bitcoin_block": null,
+   "sha256": "6fc64ff242a00a9289ad9700170bc9843e909bb446786316c3a2e4c80e1d4ac6",
+   "stamped_utc": "2026-11-08T05:43:33Z",
+   "status": "pending"
   },
   "raw/opendata/4yk7-rbpq/2026-11-07T1152Z-current-incidents-construction.csv": {
    "bitcoin_block": 974935,
@@ -328,6 +345,22 @@
    "sha256": "55259db055e1c35e5486057bb9893e53b201d366bf8848f4df5ef3086cc461ff",
    "stamped_utc": "2026-11-07T11:55:22Z",
    "status": "confirmed"
+  },
+  {
+   "bitcoin_block": 974935,
+   "path": "raw/fetch-log.jsonl",
+   "proof": "proofs/raw/fetch-log.jsonl.d36e5b37e898.ots",
+   "sha256": "d36e5b37e8984e18c7490ce293624b0cf936e25b98a1383c689827892a9d1ee0",
+   "stamped_utc": "2026-11-07T11:55:18Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.3c50f75e66f1.ots",
+   "sha256": "3c50f75e66f18f59395fc14f5f4bf1d8b9ef077667c74d8965c9be13e2196f31",
+   "stamped_utc": "2026-11-08T05:43:10Z",
+   "status": "pending"
   }
  ]
 }

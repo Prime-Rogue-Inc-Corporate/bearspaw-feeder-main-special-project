@@ -8,12 +8,15 @@ b9c75bc983f7bd54ec64334712c1b6ac03af5b454f83b10ccd470fbb3059fdf0  README.md
 f20e0c24037662988904964a6daf482cf3baaa89ac319c5aaa89a25982e5d277  raw/city/newsroom/2026-11-07T1154Z-2026-11-06-water-use-green-zone.html
 9ca1eb4bcf34183006573b3bd9a96ab8b83537a93727fdfdc9d628ae37127238  raw/city/newsroom/2026-11-07T1154Z-2026-11-06-winter-season.html
 9ab9cc9dc81cd19c6fe7abdc62e19aad0bde86ec8001fa2d37aa1189dd2003ea  raw/city/pages/area-construction/2026-11-07T1154Z.html
+46123ae5aa1a67dbba5d129ab6f554ef815fcef973220364db637ab762b14120  raw/city/pages/area-construction/2026-11-08T0543Z.html
 7fea7e48ae72e868c09620995f6928cf1116f075a5e6b4082d2a58277abdfd84  raw/city/pages/parkdale-repairs/2026-11-07T1149Z.html
 de5101c1b3a226832af8b574bf788395ba0a268fc8f84ff4f628a5a473724143  raw/city/pages/replacement-project/2026-11-07T1149Z.html
 e7d4caaac43d90dc634936bac4f82db9dff13100a8c06537e97784b805c66521  raw/city/pages/stage4-status/2026-11-07T1149Z.html
-d36e5b37e8984e18c7490ce293624b0cf936e25b98a1383c689827892a9d1ee0  raw/fetch-log.jsonl
+a784c0d7f12ecb13af248d39af063c6557afe80b8d51f0132dd7e6af1cbd1771  raw/city/pages/stage4-status/2026-11-08T0543Z.html
+5c376521f146cd19be8256d93085dfaaabb1bc90c3831a746913ddbc8d5f44cb  raw/fetch-log.jsonl
 f2613eb95d670396dbb3ad0112e6a7b1c00c58e03b556e68343f82dc609266d4  raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv
 c681e2dc35904c09dbb6fdb927a29d9ecc2412bf9fe98ca55302dd8dcb155616  raw/opendata/3x6m-4vs7/2026-11-07T1152Z-newsroom-latest.csv
+6fc64ff242a00a9289ad9700170bc9843e909bb446786316c3a2e4c80e1d4ac6  raw/opendata/3x6m-4vs7/2026-11-08T0543Z-newsroom-latest.csv
 75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070  raw/opendata/4yk7-rbpq/2026-11-07T1152Z-current-incidents-construction.csv
 ae7d3031b4d90cbe8d751549ee71b09d1ed1fce714f2194bb6b62d5596916724  raw/opendata/catalog/2026-11-07T1149Z-closures.json
 3a6469339b0324fd8faa4747783afa780bd6aad3554d78d8f3265d22e78674dc  raw/opendata/catalog/2026-11-07T1149Z-detours.json

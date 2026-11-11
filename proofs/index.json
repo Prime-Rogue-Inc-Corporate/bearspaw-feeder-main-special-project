@@ -23,8 +23,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "f42d0bda0a65328e17c451fb97cf57ed2f8021b2b39ca3fcd0d10acb76dd4b38",
-   "stamped_utc": "2026-11-11T09:46:20Z",
+   "sha256": "d6372110ba8ba4dff1a6bfc5c0aee705084020cf8cb326164a865ef0076059b8",
+   "stamped_utc": "2026-11-11T09:54:29Z",
    "status": "pending"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
@@ -346,6 +346,528 @@
    "stamped_utc": "2026-11-11T09:46:18Z",
    "status": "pending"
   },
+  "raw/workspace-2026-11-07/README.md": {
+   "bitcoin_block": null,
+   "sha256": "8a63fdf99440729cb81d58120e1db6545e2b2d8df16f7659051523c041546031",
+   "stamped_utc": "2026-11-11T09:51:24Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/maps/city_bsfm-2026-replacement-stageA-stageB-maps_screenshot.png": {
+   "bitcoin_block": null,
+   "sha256": "2dac81fbb9287714d49a8e323e97e496dcbe10383d03c8c205fb6be8a320ead0",
+   "stamped_utc": "2026-11-11T09:51:26Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/maps/city_bsfm-connection-locations-map_updated-2026-10-27_screenshot.png": {
+   "bitcoin_block": null,
+   "sha256": "705bac5b17423fe4eded0355f837b0d3c130cd07f6b22de2d875dce98becf4b8",
+   "stamped_utc": "2026-11-11T09:51:27Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/maps/city_bsfm-connection-work-gallery_screenshot.png": {
+   "bitcoin_block": null,
+   "sha256": "828f160d22b7ecadcc2c720b2828e476afe745c47b068d5238d72116e6177d81",
+   "stamped_utc": "2026-11-11T09:51:29Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/maps/city_bsfm-improvements-project-map_stageB-alignment-not-finalized.jpg": {
+   "bitcoin_block": null,
+   "sha256": "89c8cdbb4af3e7cc2dabd1a9723ef7ec33258b6510eb2b2927ff68d4edbfa94e",
+   "stamped_utc": "2026-11-11T09:51:30Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/maps/city_bsfm-stageA-B-setup-sites-map_25-0051187-CRV-44015.png": {
+   "bitcoin_block": null,
+   "sha256": "4aebdd1ec2b43c64012f1e803d2734b527c5e84f5640b800b5579d2bb9e379a1",
+   "stamped_utc": "2026-11-11T09:51:32Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/city/pages/calgary-ca_bsfm-replacement-project_text_as-of-2026-10-29_captured-by-kevin.txt": {
+   "bitcoin_block": null,
+   "sha256": "adc19e81a3d5b7900638ea1b07ee049a439d784e44e44d80a1dbdc4dc835fe57",
+   "stamped_utc": "2026-11-11T09:51:33Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "119102d6b19401e5a38a7966a4286f3927cf100784154baa58c314515c174bc8",
+   "stamped_utc": "2026-11-11T09:51:35Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/copernicus_glo30/cop_glo30_aoi_epsg32611_30m.tif": {
+   "bitcoin_block": null,
+   "sha256": "5492ead003b91cdac84b20a620c1bb71f5d4b596b8fb8c82733990cb7404510e",
+   "stamped_utc": "2026-11-11T09:51:37Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/copernicus_glo30/cop_glo30_aoi_hillshade.png": {
+   "bitcoin_block": null,
+   "sha256": "4c371dc4409f7ab355c8b834e8d64889022e2fa7496251d0a219fd52c8977f79",
+   "stamped_utc": "2026-11-11T09:51:39Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Download_Instructions.pdf": {
+   "bitcoin_block": null,
+   "sha256": "1db55eb9b236a26d7c913fa355d92f5fc88b29fcb440fbdda9fcd377b9f5642a",
+   "stamped_utc": "2026-11-11T09:51:40Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Metadata_Model.html": {
+   "bitcoin_block": null,
+   "sha256": "589f84f5a5348d6a1a49f06b3851754e2f20d62070debdf2d1204cce69466a3d",
+   "stamped_utc": "2026-11-11T09:51:42Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Product_Specification.pdf": {
+   "bitcoin_block": null,
+   "sha256": "36ba2fd94d83b8afd939bc8b6b8cdb3c4528119efe626004ed4f821f63c5f75e",
+   "stamped_utc": "2026-11-11T09:51:44Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.cpg": {
+   "bitcoin_block": null,
+   "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+   "stamped_utc": "2026-11-11T09:51:47Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.prj": {
+   "bitcoin_block": null,
+   "sha256": "3fbbefc8cc50d7da4d1b429cfd8a57ee98ad7ee18cd093ab1f30c5953ba8cecb",
+   "stamped_utc": "2026-11-11T09:51:49Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.shx": {
+   "bitcoin_block": null,
+   "sha256": "a29374123d6b51a5b1a531f73c66476be953bbe6c839a15c5472e7d550557838",
+   "stamped_utc": "2026-11-11T09:51:51Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/metadata/Metadata_DSM_NRCAN_Calgary_West_utm11_2020.gdb.zip": {
+   "bitcoin_block": null,
+   "sha256": "a4efa3f061e53015cb2ac81094dea1367748e819a6864670350ca020f1d065f7",
+   "stamped_utc": "2026-11-11T09:51:53Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/metadata/Metadata_DTM_NRCAN_Calgary_West_utm11_2020.gdb.zip": {
+   "bitcoin_block": null,
+   "sha256": "edf19a813952754eed074872cacf7d1341fda0d26b5ca009d49b19790b80edea",
+   "stamped_utc": "2026-11-11T09:51:55Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/hrdem/metadata/dsm_raw_tiles_SHA256SUMS_not_retained.txt": {
+   "bitcoin_block": null,
+   "sha256": "03d1afd5184f3aa1452d61f9cb8382da2394d7c00e5baada5dbdea8c196790f1",
+   "stamped_utc": "2026-11-11T09:51:56Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/alos-dem__ALPSMLC30_N050W115_DSM_aoi_epsg32611_30m.tif": {
+   "bitcoin_block": null,
+   "sha256": "fdcaa4bc621f8e9e631407b8402638b8006fa5d64692e5ecdb127c03ad2851bd",
+   "stamped_utc": "2026-11-11T09:51:58Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/alos-dem__ALPSMLC30_N051W115_DSM_aoi_epsg32611_30m.tif": {
+   "bitcoin_block": null,
+   "sha256": "6ff40a5187a594d5bafa285bdb78d5dfc4ff4ba6544bc62acc1529e8631cf0f6",
+   "stamped_utc": "2026-11-11T09:52:00Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/cop-dem-glo-90__Copernicus_DSM_COG_30_N50_00_W115_00_DEM_aoi_epsg32611_90m.tif": {
+   "bitcoin_block": null,
+   "sha256": "127b31ae45ebc1106dc405ffd93921cca073ad78622b382e7aeafa9dcaf63c07",
+   "stamped_utc": "2026-11-11T09:52:02Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/cop-dem-glo-90__Copernicus_DSM_COG_30_N51_00_W115_00_DEM_aoi_epsg32611_90m.tif": {
+   "bitcoin_block": null,
+   "sha256": "402a5bbec37b3a9450ccb951c6a1aaf8b77b6d45e89ece09adc33f114883c43d",
+   "stamped_utc": "2026-11-11T09:52:04Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/fetch_log.json": {
+   "bitcoin_block": null,
+   "sha256": "86233223aabe7c29f3277ddc58521b9215bf5a080e8afb8f8f74ed491cac8a42",
+   "stamped_utc": "2026-11-11T09:52:07Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/nasadem__NASADEM_HGT_n50w115_aoi_epsg32611_30m.tif": {
+   "bitcoin_block": null,
+   "sha256": "8bb9479e392c40218a1769f72537eef49a200a8c40daa581185f9d5fe2e7d10a",
+   "stamped_utc": "2026-11-11T09:52:11Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/nasadem__NASADEM_HGT_n51w115_aoi_epsg32611_30m.tif": {
+   "bitcoin_block": null,
+   "sha256": "2231e0ef5a4243c4b5a8a9705afb862a127ddeebb25197cf3d0f8bf0ce3b3094",
+   "stamped_utc": "2026-11-11T09:52:13Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/stac_pc_alos-dem.json": {
+   "bitcoin_block": null,
+   "sha256": "53581828454ec567fe0182d1274a65124403e436fec155b8b9c580b7fef5906e",
+   "stamped_utc": "2026-11-11T09:52:16Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/stac_pc_cop-dem-glo-30.json": {
+   "bitcoin_block": null,
+   "sha256": "9453d7d72b95decc0c1035a3252c3ebd916e858efb4e76b4af07fbf4d3291935",
+   "stamped_utc": "2026-11-11T09:52:18Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/stac_pc_cop-dem-glo-90.json": {
+   "bitcoin_block": null,
+   "sha256": "add17371b9565c57e35fe04dd59b517c081ddd19d3f5bb662d42baa00ee6f770",
+   "stamped_utc": "2026-11-11T09:52:20Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/dem/other_pc/stac_pc_nasadem.json": {
+   "bitcoin_block": null,
+   "sha256": "74eb6c56183f1054bfd2da5c8447fe0005bd1076afb15331dee2254c9f75af46",
+   "stamped_utc": "2026-11-11T09:52:22Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/docs/CAPTURES.jsonl": {
+   "bitcoin_block": null,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stamped_utc": "2026-11-11T09:52:24Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/docs/FETCH_QUEUE.tsv": {
+   "bitcoin_block": null,
+   "sha256": "5d29d25f540dfd37527b7c7a758f1c5417231a57e4bddb8842d3260c8d840ff2",
+   "stamped_utc": "2026-11-11T09:52:26Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/docs/REACHABILITY.tsv": {
+   "bitcoin_block": null,
+   "sha256": "08f097e6a33e7e64c35d73a12aed4b3982a5af6bd4baf99d293a1bb82aec411f",
+   "stamped_utc": "2026-11-11T09:52:27Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "663bfba6a91c0db01fb88c56b70a0a1553015f25c2d461af1e96522d3f985b0d",
+   "stamped_utc": "2026-11-11T09:52:32Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/_fetch_log.tsv": {
+   "bitcoin_block": null,
+   "sha256": "aa01c3e16cc7de6b9686912e4c7fab3b2d39938f66e89c88257f3fdd91044648",
+   "stamped_utc": "2026-11-11T09:52:34Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/climate-stations_bbox_calgary_25km.csv": {
+   "bitcoin_block": null,
+   "sha256": "a1e2a40b7be1fdfad69a1517827bbfabe5c29219079b6af2c0e1ded3069a5451",
+   "stamped_utc": "2026-11-11T09:52:36Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/climate-stations_bbox_calgary_25km.json": {
+   "bitcoin_block": null,
+   "sha256": "554ffd6b7f49fd93ff1434b9bd39ea2c76d2928c2219cf972953d7535c449e99",
+   "stamped_utc": "2026-11-11T09:52:38Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/geomet_wms_getcapabilities_2026-11-07.xml": {
+   "bitcoin_block": null,
+   "sha256": "e48083d87d0c2f970f3f713b42bdf9047d7c1a224de8d6d7600f8981752ade52",
+   "stamped_utc": "2026-11-11T09:52:40Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/swob-partner-stations_bbox_calgary.json": {
+   "bitcoin_block": null,
+   "sha256": "b765b50d3c1d6f5b3c5e0e0a20239108212a45caa0f57a7fc885fef92144a60c",
+   "stamped_utc": "2026-11-11T09:52:42Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/eccc_stations/swob-stations_bbox_calgary.json": {
+   "bitcoin_block": null,
+   "sha256": "5e790e24b4fecb509f987caafc06a9d3fa597f51e393b64c7a60c45077e2bae7",
+   "stamped_utc": "2026-11-11T09:52:44Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "1778c510cfe26436a4740c5e312dbb2f1b649f8ba8c68e04ae7e0a69378ab03e",
+   "stamped_utc": "2026-11-11T09:52:46Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_24h.csv": {
+   "bitcoin_block": null,
+   "sha256": "f10359b7b0befcf2c637a4e7f51c821e93d7a1abd71844b744d334172c389a58",
+   "stamped_utc": "2026-11-11T09:52:48Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_48h.csv": {
+   "bitcoin_block": null,
+   "sha256": "1d0169a1c20d15b36ff848525efcac2abed2d8bb06209807a9e9276df661cfac",
+   "stamped_utc": "2026-11-11T09:52:50Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_7d.csv": {
+   "bitcoin_block": null,
+   "sha256": "486f80c8b86c7c7f153457812f086b9633d1b01af34bf8e8354cec7bc995b287",
+   "stamped_utc": "2026-11-11T09:52:52Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_24h.csv": {
+   "bitcoin_block": null,
+   "sha256": "e2f637d7ab9771f1b5c033d77f2a8e43427cfac7e889e224c6488cce62d64314",
+   "stamped_utc": "2026-11-11T09:52:57Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_48h.csv": {
+   "bitcoin_block": null,
+   "sha256": "39ba8c299b886a5e08d5efb69eb3ee397778ea42468247db7bdfd24d6a365d15",
+   "stamped_utc": "2026-11-11T09:52:59Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_7d.csv": {
+   "bitcoin_block": null,
+   "sha256": "bec5c5165ea8c13d7c91043f7ed20e51da076cdd3a3e6c80b310befaf1abe8a2",
+   "stamped_utc": "2026-11-11T09:53:00Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_24h.csv": {
+   "bitcoin_block": null,
+   "sha256": "87f96b2bed8c1250b5b7b8e4269a3783ea6a513ef10eb4195fbbeccfd52dca90",
+   "stamped_utc": "2026-11-11T09:53:02Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_48h.csv": {
+   "bitcoin_block": null,
+   "sha256": "5db99dcaec3d98984f05a0bd545046758e898e065bbc33d7e03a02667deac427",
+   "stamped_utc": "2026-11-11T09:53:03Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_7d.csv": {
+   "bitcoin_block": null,
+   "sha256": "f21a9c8b93e59561962064ad8adfe055457d77040278fcf6f5f2e4455c8afd1f",
+   "stamped_utc": "2026-11-11T09:53:05Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_24h.csv": {
+   "bitcoin_block": null,
+   "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
+   "stamped_utc": "2026-11-11T09:53:06Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_48h.csv": {
+   "bitcoin_block": null,
+   "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
+   "stamped_utc": "2026-11-11T09:53:08Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_7d.csv": {
+   "bitcoin_block": null,
+   "sha256": "995873cf6d70309eca507eaeffd88d6caf989144dd73dc721c62687b8068b695",
+   "stamped_utc": "2026-11-11T09:53:14Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/fire/firms_public_snapshot/_fetch_log.tsv": {
+   "bitcoin_block": null,
+   "sha256": "bde28d3e84172c6dfccc61d957c4dfdb96f2605b63432afd6fd79dbf51dc9b2f",
+   "stamped_utc": "2026-11-11T09:53:17Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "67d72cd8479ac67713be50c1efa6390343e035b29e90465d52aeb02ba9aaab75",
+   "stamped_utc": "2026-11-11T09:53:19Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/_fetch_log.tsv": {
+   "bitcoin_block": null,
+   "sha256": "1f8fa9031bbd293ef77bca0098ba6b118f509546fe5bbf9ffa76bcd3013d4a0b",
+   "stamped_utc": "2026-11-11T09:53:21Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH004_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "90e5b9fa2be44ae8c93aeaa7f70a4302cafb58eeef005084826e4873ad96ac0f",
+   "stamped_utc": "2026-11-11T09:53:23Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH004_hourly_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "36452f2302e23ccb6101c26329bf2ade05dbeafc455365ffacdb4b3b5be1f0a5",
+   "stamped_utc": "2026-11-11T09:53:27Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH005_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "67f01c303e0827cd96dc6b105fa19849824e8ef9a32e7d9ca1c355742dbd6fd7",
+   "stamped_utc": "2026-11-11T09:53:31Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH015_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "f66c5bc4ff1e23adbbfab464fba73244df29ee30a38e368ba2b9fb1b4d6525a0",
+   "stamped_utc": "2026-11-11T09:53:34Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH015_hourly_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "94a8f185f52868ba695e9ba4e55ef84cc355c7626fda17cd7de66ccfa556e1b2",
+   "stamped_utc": "2026-11-11T09:53:36Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH016_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "fc2195c3fd3790a9b685a257dba2c9e42199966bbf29b1bad864993b47f132dc",
+   "stamped_utc": "2026-11-11T09:53:38Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ001_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "fbf2072e7f17ef940983fd0b366cc066bccaa252505fb9b65c3423bd8c86be52",
+   "stamped_utc": "2026-11-11T09:53:39Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ001_hourly_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "f13b547db6bcf965d80f1784bc41ea82fcc810855cf6d04cb7299e954fc0f93b",
+   "stamped_utc": "2026-11-11T09:53:41Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ004_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "cb1a5e186e5444b0fb2fcd0dd292ccbcfb51fd6dc360e5fef4f4e5d3e2640a5a",
+   "stamped_utc": "2026-11-11T09:53:43Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ004_hourly_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "1cef2270aaeacd518a270b6cb7dc12a5b27fc430d3b41822c66e8366347bbad1",
+   "stamped_utc": "2026-11-11T09:53:45Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ010_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "d96929f25ccb78122df121fc9a15dd06d4b0d646dcf1c8b1de886aeddb8f6462",
+   "stamped_utc": "2026-11-11T09:53:47Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ010_hourly_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "e936315be0201a5ac41ae359e703c5f5be5c8d1ccefa87ebed2d1ec2a79888fe",
+   "stamped_utc": "2026-11-11T09:53:49Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BM015_daily_hydrometric.csv": {
+   "bitcoin_block": null,
+   "sha256": "6c5d20da770f376be2ea5dbeaeb574f02b83e1934a5ce0781468e331b7a85c7a",
+   "stamped_utc": "2026-11-11T09:53:51Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH004_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "e9bc91d8d29cdfd8ea61266833eddf84ace1c11d1c23d9c110fa779dfcd7b62f",
+   "stamped_utc": "2026-11-11T09:53:53Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH005_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "92fb7f9db1f88d67eb7f196dae1fcb3e95bc4e20d9675a3aeb38c39a535e7d2c",
+   "stamped_utc": "2026-11-11T09:53:55Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH008_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "408a2133c728b20bd83eda61cf379ac6a6757e2dec2e7a417d07610e46e8e9ac",
+   "stamped_utc": "2026-11-11T09:53:57Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ001_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "27e17e38db3d99d0581830de51678fb138318429e9bec8dec069781ec61d479f",
+   "stamped_utc": "2026-11-11T09:53:59Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ008_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "33296a8feb960b867ab0ad85552bfa52e336b267880419e2ae77c84f5ba5557a",
+   "stamped_utc": "2026-11-11T09:54:01Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ010_2015-2026_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "fb0d6575c90a1fa68486473eea352e0d6ef1c9f5e738c7d16e31beab3afa82d8",
+   "stamped_utc": "2026-11-11T09:54:03Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH004_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "6ee78adbed08faa22e8a61dfcfe24fc7cccb2641c21452517ba1fb14558e5a01",
+   "stamped_utc": "2026-11-11T09:54:05Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH005_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "479edb147f098d2c0b49fd682e594ce541d2455641dee69892a12eb417a2d0f0",
+   "stamped_utc": "2026-11-11T09:54:07Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH015_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "54ccea8d5a51a3de59ec3c611ea131005a2f4b4a388267c5fa1ce8ce3191b998",
+   "stamped_utc": "2026-11-11T09:54:09Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH016_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "bd761398fbe4115645f46f76dea69ccff80ba6278857508f9ee2fce5ef78d32c",
+   "stamped_utc": "2026-11-11T09:54:11Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ001_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "380311b818fba08e5d8fa8857f3ce8b7101149f7e1c6ed9224a544141359c2e7",
+   "stamped_utc": "2026-11-11T09:54:13Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ004_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "ff8a956cd214ea1bf64b4f5466b3279ce72cb5570a69885a28158e20d945ddcf",
+   "stamped_utc": "2026-11-11T09:54:15Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ010_2026-realtime_off0.json": {
+   "bitcoin_block": null,
+   "sha256": "1c251b41fa8272411ffe7cf940a3f3f22a68178f1e1a365380fa452f47e65327",
+   "stamped_utc": "2026-11-11T09:54:17Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/hydrometric/hydrometric-stations_bbox_calgary.json": {
+   "bitcoin_block": null,
+   "sha256": "3113237fd6ebb54f21e39c2b36feb2b354597c489c11a9c6eb3e87c967ff3bcb",
+   "stamped_utc": "2026-11-11T09:54:19Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/opendata/public_water_main_w6h9-w33i_2026-11-07.csv": {
+   "bitcoin_block": null,
+   "sha256": "2c18250aba89a7da8ae34f51598543e65a9f412bee6c527c0b0a5230519d9e00",
+   "stamped_utc": "2026-11-11T09:54:21Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/opendata/water_main_breaks_dpcu-jr23_2026-11-07.csv": {
+   "bitcoin_block": null,
+   "sha256": "58a44b7714fdf750b43cfb9d39ec7be2a75c806a516bd169257c969a8f6e9367",
+   "stamped_utc": "2026-11-11T09:54:23Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/reanalysis/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "8d00909c89bb73af6f52d40cbdcddf41ced59776bc45ce7018d238f28de86054",
+   "stamped_utc": "2026-11-11T09:54:25Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/seismic/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "1f4f1ee8e459d293e27a3f9183a4c517c8451fdaafbcf5058eba4171950ace22",
+   "stamped_utc": "2026-11-11T09:54:27Z",
+   "status": "pending"
+  },
   "site/project.yaml": {
    "bitcoin_block": 975030,
    "confirmed_seen_utc": "2026-11-08T13:21:45Z",
@@ -535,6 +1057,14 @@
    "sha256": "42193b150e7d1134f96809386442f2cc24009e8b93ef1742196d5e634bb5696a",
    "stamped_utc": "2026-11-08T05:44:56Z",
    "status": "confirmed"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.f42d0bda0a65.ots",
+   "sha256": "f42d0bda0a65328e17c451fb97cf57ed2f8021b2b39ca3fcd0d10acb76dd4b38",
+   "stamped_utc": "2026-11-11T09:46:20Z",
+   "status": "pending"
   }
  ]
 }

@@ -23,8 +23,8 @@
   },
   "SHA256SUMS": {
    "bitcoin_block": null,
-   "sha256": "5c64e8dac50e4e023eb4d092be2e8ef09e0407c0f8696701670ebcc5f5b90f97",
-   "stamped_utc": "2026-11-11T10:04:46Z",
+   "sha256": "39724fdf4a0d9952a1c502cb01bba7ea888b11e6c9ced513959e7458f1eb0872",
+   "stamped_utc": "2026-11-11T10:16:43Z",
    "status": "pending"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
@@ -348,8 +348,8 @@
   },
   "raw/workspace-2026-11-07/README.md": {
    "bitcoin_block": null,
-   "sha256": "8a63fdf99440729cb81d58120e1db6545e2b2d8df16f7659051523c041546031",
-   "stamped_utc": "2026-11-11T09:51:24Z",
+   "sha256": "aeab9c21223fb16d24008565bcea6d341363d6946e4dd7ca93402bc71fad6f7c",
+   "stamped_utc": "2026-11-11T10:16:36Z",
    "status": "pending"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-2026-replacement-stageA-stageB-maps_screenshot.png": {
@@ -670,6 +670,18 @@
    "stamped_utc": "2026-11-11T09:53:17Z",
    "status": "pending"
   },
+  "raw/workspace-2026-11-07/goes_lst/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "daf801163c89f2b2221f10f3145d1d0db4ae9294fc630d34884bbda7655e2a87",
+   "stamped_utc": "2026-11-11T10:16:37Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/goes_lst/_fetch_log.tsv": {
+   "bitcoin_block": null,
+   "sha256": "b7dc334f2e894282af85ddefca11516ff12046c6f160d59bdfdce19a1d1d3339",
+   "stamped_utc": "2026-11-11T10:16:38Z",
+   "status": "pending"
+  },
   "raw/workspace-2026-11-07/hydrometric/MANIFEST.json": {
    "bitcoin_block": null,
    "sha256": "67d72cd8479ac67713be50c1efa6390343e035b29e90465d52aeb02ba9aaab75",
@@ -844,6 +856,12 @@
    "stamped_utc": "2026-11-11T09:54:19Z",
    "status": "pending"
   },
+  "raw/workspace-2026-11-07/landsat/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "cd17b3d5cd4d06b1ae38855c5b93d5ba7d18346c7401700421cc1bae5641068d",
+   "stamped_utc": "2026-11-11T10:16:39Z",
+   "status": "pending"
+  },
   "raw/workspace-2026-11-07/opendata/public_water_main_w6h9-w33i_2026-11-07.csv": {
    "bitcoin_block": null,
    "sha256": "2c18250aba89a7da8ae34f51598543e65a9f412bee6c527c0b0a5230519d9e00",
@@ -860,6 +878,18 @@
    "bitcoin_block": null,
    "sha256": "8d00909c89bb73af6f52d40cbdcddf41ced59776bc45ce7018d238f28de86054",
    "stamped_utc": "2026-11-11T09:54:25Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/s1/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "6c7bdeda022874a58d7e26a00913513df35b5aa97341ef6efe65d5adfe52d276",
+   "stamped_utc": "2026-11-11T10:16:40Z",
+   "status": "pending"
+  },
+  "raw/workspace-2026-11-07/s2/MANIFEST.json": {
+   "bitcoin_block": null,
+   "sha256": "af6c1a8d6bde305b2e168251db459eeddfe8ceb948dc9fd4cb5704a6c0257152",
+   "stamped_utc": "2026-11-11T10:16:41Z",
    "status": "pending"
   },
   "raw/workspace-2026-11-07/seismic/MANIFEST.json": {
@@ -2284,6 +2314,22 @@
    "proof": "proofs/SHA256SUMS.d6372110ba8b.ots",
    "sha256": "d6372110ba8ba4dff1a6bfc5c0aee705084020cf8cb326164a865ef0076059b8",
    "stamped_utc": "2026-11-11T09:54:29Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "raw/workspace-2026-11-07/README.md",
+   "proof": "proofs/raw/workspace-2026-11-07/README.md.8a63fdf99440.ots",
+   "sha256": "8a63fdf99440729cb81d58120e1db6545e2b2d8df16f7659051523c041546031",
+   "stamped_utc": "2026-11-11T09:51:24Z",
+   "status": "pending"
+  },
+  {
+   "bitcoin_block": null,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.5c64e8dac50e.ots",
+   "sha256": "5c64e8dac50e4e023eb4d092be2e8ef09e0407c0f8696701670ebcc5f5b90f97",
+   "stamped_utc": "2026-11-11T10:04:46Z",
    "status": "pending"
   }
  ]

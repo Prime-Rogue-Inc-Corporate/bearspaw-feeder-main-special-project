@@ -22,11 +22,40 @@
    "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": 975030,
-   "confirmed_seen_utc": "2026-11-08T13:21:34Z",
-   "sha256": "42193b150e7d1134f96809386442f2cc24009e8b93ef1742196d5e634bb5696a",
-   "stamped_utc": "2026-11-08T05:44:56Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "f42d0bda0a65328e17c451fb97cf57ed2f8021b2b39ca3fcd0d10acb76dd4b38",
+   "stamped_utc": "2026-11-11T09:46:20Z",
+   "status": "pending"
+  },
+  "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
+   "bitcoin_block": null,
+   "sha256": "e64e93e06295582728981a33ee8f0787f7834e4d69288d5bf6958f6df6562538",
+   "stamped_utc": "2026-11-11T09:45:33Z",
+   "status": "pending"
+  },
+  "raw/aeso/eea-events/2026-11-11T0917Z-data-request-page.html": {
+   "bitcoin_block": null,
+   "sha256": "207b0ca28728918b5a97bf7464f6f3b908e3296e3f17f82b46a2995f27f8da35",
+   "stamped_utc": "2026-11-11T09:45:35Z",
+   "status": "pending"
+  },
+  "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-7.jpg": {
+   "bitcoin_block": null,
+   "sha256": "cb9dad2a494360901ef562bf2eff910205119b07ac02cbb9fd3fac5934dc1870",
+   "stamped_utc": "2026-11-11T09:45:36Z",
+   "status": "pending"
+  },
+  "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-8.jpg": {
+   "bitcoin_block": null,
+   "sha256": "79a093c5335b5c87dcc046f1b5daea5908cd0015e0d6264e707d4815503bc768",
+   "stamped_utc": "2026-11-11T09:45:37Z",
+   "status": "pending"
+  },
+  "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-9.jpg": {
+   "bitcoin_block": null,
+   "sha256": "c35984fc1f0822cd7037a380974b6055d477816c52fcd911e59068425fb14798",
+   "stamped_utc": "2026-11-11T09:45:40Z",
+   "status": "pending"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
@@ -112,12 +141,107 @@
    "stamped_utc": "2026-11-08T05:43:30Z",
    "status": "confirmed"
   },
+  "raw/city/pages/stage4-status/2026-11-11T0923Z.html": {
+   "bitcoin_block": null,
+   "sha256": "51cd4d065363dcc801762aade3b99771c5beb79de203573bddff4c80ba3a4e63",
+   "stamped_utc": "2026-11-11T09:45:42Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2013.csv": {
+   "bitcoin_block": null,
+   "sha256": "138850e589aae04d4f3b93abcc4a6a030573d323472a2009f43ec32367a4ab6e",
+   "stamped_utc": "2026-11-11T09:45:44Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2014.csv": {
+   "bitcoin_block": null,
+   "sha256": "0702360c78a6565228230516ec7c9ad5c4a06842754a0a1b3a9fd22821ebf58b",
+   "stamped_utc": "2026-11-11T09:45:46Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2015.csv": {
+   "bitcoin_block": null,
+   "sha256": "be48cce67751a16ca41e248d524d0f1d4257cf7f89f620e91c027825579c0d23",
+   "stamped_utc": "2026-11-11T09:45:48Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2016.csv": {
+   "bitcoin_block": null,
+   "sha256": "5ff19e52ccdbcc1e4afaac1af49cb169c2eed23fce3ae61a691a1fba6ebdc093",
+   "stamped_utc": "2026-11-11T09:45:50Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2017.csv": {
+   "bitcoin_block": null,
+   "sha256": "ca8b34236cd32fe88d9187816fd753ee76d28e3c92879daa5bc8e2c8573bb6a7",
+   "stamped_utc": "2026-11-11T09:45:52Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2018.csv": {
+   "bitcoin_block": null,
+   "sha256": "c66b7087c522f1734d357c84ed4db87b8076d4a5851914d56298264fc5b245a8",
+   "stamped_utc": "2026-11-11T09:45:55Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2019.csv": {
+   "bitcoin_block": null,
+   "sha256": "dc9dc71ec6614b9b7f535196076cb5be2d0c5ec5aec33171a0aa7dac03bbd235",
+   "stamped_utc": "2026-11-11T09:45:58Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2020.csv": {
+   "bitcoin_block": null,
+   "sha256": "bb4b77781603529f8ee1050671b56fefd54aa6f191d5cea03ca7e9d58979df92",
+   "stamped_utc": "2026-11-11T09:46:00Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2021.csv": {
+   "bitcoin_block": null,
+   "sha256": "da8325cc7fb957b0147c8031cbd59ac50ae825135ffcd6cb22720f6cf62003b2",
+   "stamped_utc": "2026-11-11T09:46:02Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2022.csv": {
+   "bitcoin_block": null,
+   "sha256": "7b5857c67b1f662ee1abadd07f65b8927e38b802e9f09783bf87e98a035ab9ef",
+   "stamped_utc": "2026-11-11T09:46:04Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2023.csv": {
+   "bitcoin_block": null,
+   "sha256": "46467cdf6f00f238a8518740619478f3e0a2f3632b2e6b1e2ccbb8498b5878b1",
+   "stamped_utc": "2026-11-11T09:46:06Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2024.csv": {
+   "bitcoin_block": null,
+   "sha256": "0b759e5942465a247af88b622e1acb1788c235db84d49b4618bbd28f06964171",
+   "stamped_utc": "2026-11-11T09:46:08Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2025.csv": {
+   "bitcoin_block": null,
+   "sha256": "c5941270360b131ee6cb0b9890bb980ef29ff8f09ad2599e209e66a9cf0a2e31",
+   "stamped_utc": "2026-11-11T09:46:10Z",
+   "status": "pending"
+  },
+  "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2026.csv": {
+   "bitcoin_block": null,
+   "sha256": "db3ab522978d4783ac7aa186e760c4d18c20c7e1eaa323cb65d0cff98704664e",
+   "stamped_utc": "2026-11-11T09:46:12Z",
+   "status": "pending"
+  },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": 975030,
-   "confirmed_seen_utc": "2026-11-08T13:21:40Z",
-   "sha256": "5c376521f146cd19be8256d93085dfaaabb1bc90c3831a746913ddbc8d5f44cb",
-   "stamped_utc": "2026-11-08T05:43:32Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "70c8ec28020e35046c1c3ea0756d7a91b0ded53d13b90ae9779a8a85d2d282dc",
+   "stamped_utc": "2026-11-11T09:46:13Z",
+   "status": "pending"
+  },
+  "raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf": {
+   "bitcoin_block": null,
+   "sha256": "25f96d5bd98af9ee84b152cb2c15bb14afcc31d4da24224921e754fb218bb927",
+   "stamped_utc": "2026-11-11T09:46:15Z",
+   "status": "pending"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
    "bitcoin_block": 974935,
@@ -182,6 +306,12 @@
    "stamped_utc": "2026-11-07T11:50:17Z",
    "status": "confirmed"
   },
+  "raw/opendata/dpcu-jr23/2026-11-09T0648Z-water-main-breaks.csv": {
+   "bitcoin_block": null,
+   "sha256": "66b2bb02821a5a88ecaf19fa4483845612fc5b2fcb3c084cc97bb843c7448ee9",
+   "stamped_utc": "2026-11-11T09:46:17Z",
+   "status": "pending"
+  },
   "raw/opendata/w6h9-w33i/2026-11-07T1149Z-metadata.json": {
    "bitcoin_block": 974935,
    "confirmed_seen_utc": "2026-11-07T17:45:40Z",
@@ -209,6 +339,12 @@
    "sha256": "025d03fa8de56894614bd1e16eef0a2d1bed5224c68af187925fb7e0de59de9c",
    "stamped_utc": "2026-11-07T11:53:53Z",
    "status": "confirmed"
+  },
+  "raw/phmsa/2026-11-11T0936Z-PHMSA_Pipeline_Safety_Flagged_Incidents.zip": {
+   "bitcoin_block": null,
+   "sha256": "a4a9cb2157caf74f63a8c570657fc48779ccb11580cc2b4ece13cbc6d6f63826",
+   "stamped_utc": "2026-11-11T09:46:18Z",
+   "status": "pending"
   },
   "site/project.yaml": {
    "bitcoin_block": 975030,
@@ -383,6 +519,22 @@
    "sha256": "69b1fb122258b150c911b2fb3fe64e8c8b5beb3c7a54e3d0b1461589a8d72ee6",
    "stamped_utc": "2026-11-08T05:43:35Z",
    "status": "pending"
+  },
+  {
+   "bitcoin_block": 975030,
+   "path": "raw/fetch-log.jsonl",
+   "proof": "proofs/raw/fetch-log.jsonl.5c376521f146.ots",
+   "sha256": "5c376521f146cd19be8256d93085dfaaabb1bc90c3831a746913ddbc8d5f44cb",
+   "stamped_utc": "2026-11-08T05:43:32Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": 975030,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.42193b150e7d.ots",
+   "sha256": "42193b150e7d1134f96809386442f2cc24009e8b93ef1742196d5e634bb5696a",
+   "stamped_utc": "2026-11-08T05:44:56Z",
+   "status": "confirmed"
   }
  ]
 }

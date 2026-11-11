@@ -1,0 +1,4516 @@
+{
+ "folder": "raw/s1",
+ "generated_utc": "2026-11-07T10:34:02.450462Z",
+ "paths_relative_to": "/home/claude/bsfm",
+ "description": "Sentinel-1 IW dual-pol (VV/VH) clips, CONTEXT box (lon -114.245..-114.060, lat 50.975..51.112), EPSG:32611 10 m grid x 692820-706410, y 5650650-5666400. One folder per acquisition date (all ascending; relative orbits 20 and 122; S1C/S1D; nothing before 2025-04-01 over this AOI). grd_vv/grd_vh = GRD amplitude DN (uint16, not calibrated, not terrain-corrected); rtc_vv/rtc_vh = Planetary Computer RTC gamma0 linear power (float32). Clipped server-side by Planetary Computer data API. 4 dates (2026-04-21, -04-26, -05-03, -05-08) have STAC only (Earth Search lists them; bytes requester-pays and unreachable). 2026-02-19 has RTC only.",
+ "access_record": "catalog/access_tests_2026-11-07_s1_landsat_dem.json",
+ "n_files": 901,
+ "total_bytes": 1952159670,
+ "files": [
+  {
+   "path": "raw/s1/2025-04-01/grd_vh.tif",
+   "bytes": 2053042,
+   "sha256": "e3367c19ee237964ae985c0851253aee0da78ee26bf134554c6d8da098fde8dc"
+  },
+  {
+   "path": "raw/s1/2025-04-01/grd_vv.tif",
+   "bytes": 2329690,
+   "sha256": "756e36dbd84c55e2a2ca33f3959dcf17b6bfd32a4e38a4b0fc7d129c7067e34e"
+  },
+  {
+   "path": "raw/s1/2025-04-01/meta.json",
+   "bytes": 8768,
+   "sha256": "bc69681864861bc9314d94696cedbf5b7783eda5ba91b9bd2e01293b47eadf9a"
+  },
+  {
+   "path": "raw/s1/2025-04-01/quicklook.png",
+   "bytes": 1732918,
+   "sha256": "19299b4fa7cdc14ba202448f47794886950c260f487214c9c086ba9d02cdbbe7"
+  },
+  {
+   "path": "raw/s1/2025-04-01/rtc_vh.tif",
+   "bytes": 7026465,
+   "sha256": "be7e97b5bbc474f57aa8dd5e7ef105502295edafe56e77fdb8738fb58d7bd817"
+  },
+  {
+   "path": "raw/s1/2025-04-01/rtc_vv.tif",
+   "bytes": 7040824,
+   "sha256": "7bbcc5d940d49f43767bfc06ed228c772bf3a6754a61ff64940d62a8f09b46fd"
+  },
+  {
+   "path": "raw/s1/2025-04-01/stac_earthsearch_grd.json",
+   "bytes": 8794,
+   "sha256": "b9b6c33cf0ec828c327cb049586c02a6636ddd0f3dbc29d641231d3f26d4f20d"
+  },
+  {
+   "path": "raw/s1/2025-04-01/stac_pc_grd.json",
+   "bytes": 9484,
+   "sha256": "ecbbdd578c2fb61f9d40f4aae7442e4e6bbadbc4bdee88fff5f1559fa174941b"
+  },
+  {
+   "path": "raw/s1/2025-04-01/stac_pc_grd_dup1.json",
+   "bytes": 9449,
+   "sha256": "7e34bcf09282a1f3fe7dd1445423b6235764f0a3c5a82adfb07fe6008b7f6377"
+  },
+  {
+   "path": "raw/s1/2025-04-01/stac_pc_rtc.json",
+   "bytes": 6806,
+   "sha256": "9c2f1502d600e328f5875396d57021a3647f9ec3555b6a24d5069c28f0719d27"
+  },
+  {
+   "path": "raw/s1/2025-04-06/grd_vh.tif",
+   "bytes": 2025346,
+   "sha256": "76e0daed1e5293ca596974e5bc716a57fa1b0aa7b04f942fbdf6f4e2980e5b09"
+  },
+  {
+   "path": "raw/s1/2025-04-06/grd_vv.tif",
+   "bytes": 2286613,
+   "sha256": "1055e2caf91847f4013bffdcdfedeeecebac392fc7d98a1fa2b939da5a00a83c"
+  },
+  {
+   "path": "raw/s1/2025-04-06/meta.json",
+   "bytes": 8767,
+   "sha256": "282a4e0157f709a627a2f5b241f455f6016b9c2c6be848eee6939b69c15ed7c8"
+  },
+  {
+   "path": "raw/s1/2025-04-06/quicklook.png",
+   "bytes": 1680610,
+   "sha256": "1bac1d34757cc11b20b879d0df58f3840a8b0a92c08febc3e29a3a52ff753fcc"
+  },
+  {
+   "path": "raw/s1/2025-04-06/rtc_vh.tif",
+   "bytes": 7037898,
+   "sha256": "76fd013b56f584dfbf05d6a320e2ae9d3dcfc28362d9eeba300931eec76c4828"
+  },
+  {
+   "path": "raw/s1/2025-04-06/rtc_vv.tif",
+   "bytes": 7041147,
+   "sha256": "816bcf1a3d014c591c6984a71c0e0139daf7a234c653131c9dc4c54502c76b39"
+  },
+  {
+   "path": "raw/s1/2025-04-06/stac_earthsearch_grd.json",
+   "bytes": 8795,
+   "sha256": "a42476565b5105c5c7fe9a7b8ec8202f306f39d0740e7f2c9f4a8f8b7e225222"
+  },
+  {
+   "path": "raw/s1/2025-04-06/stac_pc_grd.json",
+   "bytes": 9488,
+   "sha256": "b3653969dde1b1fda76009fff9d4bc33a4c9ae1dd54b08f4a64596ae1b5db78f"
+  },
+  {
+   "path": "raw/s1/2025-04-06/stac_pc_grd_dup1.json",
+   "bytes": 9453,
+   "sha256": "7be20dd06204c9f6288be3d0ac6634b358d97c5ad46fa5d316e003676282593c"
+  },
+  {
+   "path": "raw/s1/2025-04-06/stac_pc_rtc.json",
+   "bytes": 7240,
+   "sha256": "a9d24078f7327dacf35b65f1765e5d1c291bd224191ae5f96f19a50239c6c82f"
+  },
+  {
+   "path": "raw/s1/2025-04-13/grd_vh.tif",
+   "bytes": 2060863,
+   "sha256": "ec830f00a70f4d46c44e4b4f9325d9f99c00b67f185753b176570526b89990bf"
+  },
+  {
+   "path": "raw/s1/2025-04-13/grd_vv.tif",
+   "bytes": 2340179,
+   "sha256": "7112c5026e661cc1b171f55ce06315e0be10476e461133225e2771223730edab"
+  },
+  {
+   "path": "raw/s1/2025-04-13/meta.json",
+   "bytes": 8790,
+   "sha256": "2449f2dfc163bb4d42843c00147f86d594491ef64a8a3a6ba9f38861cf81b8e6"
+  },
+  {
+   "path": "raw/s1/2025-04-13/quicklook.png",
+   "bytes": 1731101,
+   "sha256": "c29e0f1ecbd4c33452d4ee3c81a8f2073df2e0d9145926a8dbc20fe836572318"
+  },
+  {
+   "path": "raw/s1/2025-04-13/rtc_vh.tif",
+   "bytes": 7032500,
+   "sha256": "9a69698c398c1a6ca7b59c5c2897d4c251e0bc0aa56a562d2701393d45305eca"
+  },
+  {
+   "path": "raw/s1/2025-04-13/rtc_vv.tif",
+   "bytes": 7047685,
+   "sha256": "ecbb5d443e77a64ab3b484f30cdc309c094456a20f420e68efda9f0dd04a433c"
+  },
+  {
+   "path": "raw/s1/2025-04-13/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "d1ac9951e176d75bca75f8096c567f84bee127478f9d4e7138286e46201dec93"
+  },
+  {
+   "path": "raw/s1/2025-04-13/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "a034e38347622ca7c1e4f54e8a07d9293152b5f9187339e1ac64a3ffa6f686e6"
+  },
+  {
+   "path": "raw/s1/2025-04-13/stac_pc_grd_dup1.json",
+   "bytes": 9462,
+   "sha256": "66e6496fdfa3af5c7415286c4c3eb49973f987b6e29786e21d88601068da42ad"
+  },
+  {
+   "path": "raw/s1/2025-04-13/stac_pc_rtc.json",
+   "bytes": 6800,
+   "sha256": "1776e59d578752742878f206e84198c0f1347f3f1d8b9a3abc9df835bc149feb"
+  },
+  {
+   "path": "raw/s1/2025-04-18/grd_vh.tif",
+   "bytes": 2004551,
+   "sha256": "940347585c44f7ecdeb40616b3ed82044b2ed08351b7690bc522dfd40572abac"
+  },
+  {
+   "path": "raw/s1/2025-04-18/grd_vv.tif",
+   "bytes": 2270059,
+   "sha256": "8062d48e2d640639d75114a0365fd715ae5bb3f420e113338a0a693ac140434e"
+  },
+  {
+   "path": "raw/s1/2025-04-18/meta.json",
+   "bytes": 8789,
+   "sha256": "81033b9a7ccbcf44b40b4cf5d2bcdb3189765c9ca6679f6099d10e26c00ba2fb"
+  },
+  {
+   "path": "raw/s1/2025-04-18/quicklook.png",
+   "bytes": 1690521,
+   "sha256": "7fa6b28159dcf7defef1080cda7c60a2790fbf486cd69e4753b1d2937d91f1a9"
+  },
+  {
+   "path": "raw/s1/2025-04-18/rtc_vh.tif",
+   "bytes": 7045609,
+   "sha256": "e8ecb727bdfd484edb22a20663a641d9bf7049e21aad489fafbe279cafd781eb"
+  },
+  {
+   "path": "raw/s1/2025-04-18/rtc_vv.tif",
+   "bytes": 7054830,
+   "sha256": "6e8d68b60cffd087da98c5396c731d8884eed4e1ab373d9c804c97545f6e3543"
+  },
+  {
+   "path": "raw/s1/2025-04-18/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "e89a02323520651d478a1cf0f3faa1b7c145739ee1805d2c250f3e505286ff98"
+  },
+  {
+   "path": "raw/s1/2025-04-18/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "9970b3a516140b0c63f2995f48c606982d81347e7afdd7bae26f91438e7d90c5"
+  },
+  {
+   "path": "raw/s1/2025-04-18/stac_pc_grd_dup1.json",
+   "bytes": 9463,
+   "sha256": "8211701c1c2e14a855e254987f255bfb6e8f6a714020133fc7c0b3d3553d46d2"
+  },
+  {
+   "path": "raw/s1/2025-04-18/stac_pc_rtc.json",
+   "bytes": 7240,
+   "sha256": "77c4db1be62d6bf550ba46a924e5cd17857654c4b378c47109e61d61d69d359d"
+  },
+  {
+   "path": "raw/s1/2025-04-25/grd_vh.tif",
+   "bytes": 2069671,
+   "sha256": "9f1c5b25b40d770d233b2b1f34f1a0e94b262e5facdcf66985d1114569d8371e"
+  },
+  {
+   "path": "raw/s1/2025-04-25/grd_vv.tif",
+   "bytes": 2334868,
+   "sha256": "9756affd6df30019a8c46cf38bf2377ebe48e4688b54a097cc5fc5bf4dfd0e32"
+  },
+  {
+   "path": "raw/s1/2025-04-25/meta.json",
+   "bytes": 8790,
+   "sha256": "3225fe57388021ed073a29f539394a9459f36030bc5c966f24ef0aa959e6953a"
+  },
+  {
+   "path": "raw/s1/2025-04-25/quicklook.png",
+   "bytes": 1729396,
+   "sha256": "9469075786d8d4b65df6d5e5328b51668feef4ee05939f82c0aa087d85a2ecbc"
+  },
+  {
+   "path": "raw/s1/2025-04-25/rtc_vh.tif",
+   "bytes": 7044449,
+   "sha256": "658eddce7874853b66704d1edfd729c6faeed21afaa869419840570b89e58e62"
+  },
+  {
+   "path": "raw/s1/2025-04-25/rtc_vv.tif",
+   "bytes": 7055419,
+   "sha256": "fe0ab1deed7925125a3baae7e6037855ef9f49fb8d5f9a56ac8069fd0cd5dbe8"
+  },
+  {
+   "path": "raw/s1/2025-04-25/stac_earthsearch_grd.json",
+   "bytes": 8802,
+   "sha256": "a0b90503b3b8e11d105adce07760c24af8010d9734831d1ad33f109b1773c621"
+  },
+  {
+   "path": "raw/s1/2025-04-25/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "4e57d3568691cd759db48f38381a1ee9cd2a26e972569a276f82a5c248c5010c"
+  },
+  {
+   "path": "raw/s1/2025-04-25/stac_pc_grd_dup1.json",
+   "bytes": 9464,
+   "sha256": "1054e2c140259a2d562bd2208a5a73a8a8b6db512b12a7698302b3fad62b939c"
+  },
+  {
+   "path": "raw/s1/2025-04-25/stac_pc_rtc.json",
+   "bytes": 6804,
+   "sha256": "df7934e3c9b83af0239a86fd9aa02af0da09a5ecd0a38ca782e6b6db70384c4b"
+  },
+  {
+   "path": "raw/s1/2025-04-30/grd_vh.tif",
+   "bytes": 2002610,
+   "sha256": "c059b7fd51fac9fab39e635db3fb42eed9a5c813fc1a5c6b54e8a988ae745fcc"
+  },
+  {
+   "path": "raw/s1/2025-04-30/grd_vv.tif",
+   "bytes": 2268059,
+   "sha256": "0aac5d621a08e9b32dfde650cb79193440d3162580fe24c7bfd3e4ba54c14330"
+  },
+  {
+   "path": "raw/s1/2025-04-30/meta.json",
+   "bytes": 8789,
+   "sha256": "a28a0ee64b1c327256f3f025065d3dcc7ab13eb9bfaf55cf1e7f84748f5e2e1d"
+  },
+  {
+   "path": "raw/s1/2025-04-30/quicklook.png",
+   "bytes": 1681340,
+   "sha256": "5b5db6681ad7aec3772a85c3e2791aa8e9be1767d2219aa86d5d2f37a8d7c012"
+  },
+  {
+   "path": "raw/s1/2025-04-30/rtc_vh.tif",
+   "bytes": 7044678,
+   "sha256": "2a2c2e975831d3f22891fe315c58fc2c4357f7a34d6158daa104a431ee52df98"
+  },
+  {
+   "path": "raw/s1/2025-04-30/rtc_vv.tif",
+   "bytes": 7054786,
+   "sha256": "206e49a3458327d403df1fd8fe19655235fcb10a7763205cfe680c5d360ddf8e"
+  },
+  {
+   "path": "raw/s1/2025-04-30/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "e23bd7183f1a6ccfc86b64849c7f064acab75e2bf3a8a97add7e360d62b80d72"
+  },
+  {
+   "path": "raw/s1/2025-04-30/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "3bb3c009f7711024fe27f4af16264a5313cdaabdea2977e589dc99ffe784fe50"
+  },
+  {
+   "path": "raw/s1/2025-04-30/stac_pc_grd_dup1.json",
+   "bytes": 9462,
+   "sha256": "8ba5d3ca521b5036053ed027a6bfd5ba44306196c0d9688dc9b8bed42e34b2fe"
+  },
+  {
+   "path": "raw/s1/2025-04-30/stac_pc_rtc.json",
+   "bytes": 7483,
+   "sha256": "600097a3797aafc6fc40fb5bb65d96a7c9cb1fcc866dca103713dd67c25025dd"
+  },
+  {
+   "path": "raw/s1/2025-05-07/grd_vh.tif",
+   "bytes": 2070628,
+   "sha256": "b5d51eb586d81af954556ffd248b5ab883ca19fdb840cc7ac23736e5e0eaa414"
+  },
+  {
+   "path": "raw/s1/2025-05-07/grd_vv.tif",
+   "bytes": 2329879,
+   "sha256": "73092fc81e80c2c3f40c6ebcea7f7299d2d088189bc03532091c9a836028824d"
+  },
+  {
+   "path": "raw/s1/2025-05-07/meta.json",
+   "bytes": 8768,
+   "sha256": "9403f4fc227f176ecbad76c658185da1e0d2b444ef69412337867f3049920197"
+  },
+  {
+   "path": "raw/s1/2025-05-07/quicklook.png",
+   "bytes": 1722020,
+   "sha256": "63e7854ffc4bd6f718f42b5f687dac41c33381d61b423405d322ac877419d8e0"
+  },
+  {
+   "path": "raw/s1/2025-05-07/rtc_vh.tif",
+   "bytes": 7045004,
+   "sha256": "cf98dad58be21cfec11050da2be553238b0e19f199bf9e8dc2ab39d0c7aa88cd"
+  },
+  {
+   "path": "raw/s1/2025-05-07/rtc_vv.tif",
+   "bytes": 7063533,
+   "sha256": "bf7e1fd99aedb7dcaa7cc39eb2df9a4fa7541d6daac1aa871e9b980c35c1a216"
+  },
+  {
+   "path": "raw/s1/2025-05-07/stac_earthsearch_grd.json",
+   "bytes": 8796,
+   "sha256": "310a496ab2909a3cc8c270e2b3dd4d8eaa1afb382c6b337ef78d4e93fd9b80a8"
+  },
+  {
+   "path": "raw/s1/2025-05-07/stac_pc_grd.json",
+   "bytes": 9487,
+   "sha256": "b658445210839d808c2a9a29bbb469e929fade9cce7cca62b1983ab36077a53d"
+  },
+  {
+   "path": "raw/s1/2025-05-07/stac_pc_grd_dup1.json",
+   "bytes": 9452,
+   "sha256": "4fd203d468c3222a80562e8c428d3a918af2fe63f539e6f7eb236551b10e39ac"
+  },
+  {
+   "path": "raw/s1/2025-05-07/stac_pc_rtc.json",
+   "bytes": 6805,
+   "sha256": "124c6b330468d0cb675ac55a85375f185c1fc279c58350f4afb1be4a690ad50d"
+  },
+  {
+   "path": "raw/s1/2025-05-12/grd_vh.tif",
+   "bytes": 2007743,
+   "sha256": "e638ce7577ef08ac3a3046511389552e9d6204eac90557d6d6d12ffe127dc5b9"
+  },
+  {
+   "path": "raw/s1/2025-05-12/grd_vv.tif",
+   "bytes": 2269366,
+   "sha256": "74c14a655b63e7b6734edf4e0aaee806886216622a5bfc619d3d18a472ab6cd3"
+  },
+  {
+   "path": "raw/s1/2025-05-12/meta.json",
+   "bytes": 8789,
+   "sha256": "573a6d7c732fc459321562b24f03ca726472239542833d206baa86e357f73025"
+  },
+  {
+   "path": "raw/s1/2025-05-12/quicklook.png",
+   "bytes": 1665599,
+   "sha256": "8b74f199ca969c7bde12e356048861996b51a7aca3fa923d44ef90a996ebcf13"
+  },
+  {
+   "path": "raw/s1/2025-05-12/rtc_vh.tif",
+   "bytes": 7049086,
+   "sha256": "27fdf5151ee3fe61539e65cf1641648c15e3de627c84f8a60c829bfccc21b04d"
+  },
+  {
+   "path": "raw/s1/2025-05-12/rtc_vv.tif",
+   "bytes": 7057857,
+   "sha256": "9fed910c53cbf1609292a10e06f67305be71cd21b537f98cc8439891f38e2f55"
+  },
+  {
+   "path": "raw/s1/2025-05-12/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "38c0088550ad9fd3a70305ea5db07208bd3a7806ceb3fbb78ba677e19c178117"
+  },
+  {
+   "path": "raw/s1/2025-05-12/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "92c72f8e260ae8bda8b8ca0cccf842a9154f490299b1f3965752abd1c7ddf960"
+  },
+  {
+   "path": "raw/s1/2025-05-12/stac_pc_grd_dup1.json",
+   "bytes": 9463,
+   "sha256": "21244b567f532613072af1d40c1b4f3b00312926f6725f243738ded778cdff48"
+  },
+  {
+   "path": "raw/s1/2025-05-12/stac_pc_rtc.json",
+   "bytes": 7485,
+   "sha256": "42d2517d1b5737b18e23ca918268effc4f9707050c3524a7f7370756877e44d7"
+  },
+  {
+   "path": "raw/s1/2025-05-19/grd_vh.tif",
+   "bytes": 2110031,
+   "sha256": "60b3caf4ad4f34461c6079de62016d617c7e55d21c9e3ba062f756fc75f6a12e"
+  },
+  {
+   "path": "raw/s1/2025-05-19/grd_vv.tif",
+   "bytes": 2372239,
+   "sha256": "cefb3eab058c891823d578cbfa16e18d01443ef80ad039d762133a87a66afd64"
+  },
+  {
+   "path": "raw/s1/2025-05-19/meta.json",
+   "bytes": 8790,
+   "sha256": "6278354433ae860d441f485ab54e7f41e4385fd0c31236f2355f050cf122c3f9"
+  },
+  {
+   "path": "raw/s1/2025-05-19/quicklook.png",
+   "bytes": 1712651,
+   "sha256": "65a3ab069e145243d6053dc88c3baabb232f01dcd39f62328f2058880edcdde6"
+  },
+  {
+   "path": "raw/s1/2025-05-19/rtc_vh.tif",
+   "bytes": 7039346,
+   "sha256": "8f9cddd3b6cd23412c02663718e5e56158e1fcff4a7170de6691e800860b026c"
+  },
+  {
+   "path": "raw/s1/2025-05-19/rtc_vv.tif",
+   "bytes": 7058913,
+   "sha256": "a48aedb7fcecb4809fa603c927399aecee6819759f4433fe57835b4dfc79ae05"
+  },
+  {
+   "path": "raw/s1/2025-05-19/stac_earthsearch_grd.json",
+   "bytes": 8799,
+   "sha256": "8a7d6bfd2d4092379a2914230b13ffdba9b14324886ceeffac8a3fee75115e0a"
+  },
+  {
+   "path": "raw/s1/2025-05-19/stac_pc_grd.json",
+   "bytes": 9494,
+   "sha256": "ca2e1254093d09685f375b205ff60682e8e0213aacff5bcd3d4fb609819b64ba"
+  },
+  {
+   "path": "raw/s1/2025-05-19/stac_pc_grd_dup1.json",
+   "bytes": 9459,
+   "sha256": "36d92e637d3aa91c7e0eb0f9f6a88c080ad55b2e4cb031c80d88692573eacc2f"
+  },
+  {
+   "path": "raw/s1/2025-05-19/stac_pc_rtc.json",
+   "bytes": 6805,
+   "sha256": "0422eff49a45138da8316eb73c17e831f1e04f8922b098b56a446820779eb318"
+  },
+  {
+   "path": "raw/s1/2025-05-24/grd_vh.tif",
+   "bytes": 2012355,
+   "sha256": "af030b5923b581a06414a85a052cedc8c0418c069bd2bbf7fb441c30d0669f92"
+  },
+  {
+   "path": "raw/s1/2025-05-24/grd_vv.tif",
+   "bytes": 2279671,
+   "sha256": "5f53eadc7929834d9c3a387cf2abcdb36fe5571d8eaf50f2ae39c924389490c2"
+  },
+  {
+   "path": "raw/s1/2025-05-24/meta.json",
+   "bytes": 8789,
+   "sha256": "c344cae19e08efdfe935cadc66d10bbab9877a43a5c1ac9db6126582b391f6d8"
+  },
+  {
+   "path": "raw/s1/2025-05-24/quicklook.png",
+   "bytes": 1677721,
+   "sha256": "f14fb36fe765f38b4eeb7d10ad51eaff87d6b74b4b93d53a60a92a19f1ca7a0f"
+  },
+  {
+   "path": "raw/s1/2025-05-24/rtc_vh.tif",
+   "bytes": 7035256,
+   "sha256": "ab0f44569b859f40add86af8390829180bc76e023595f774900761b14b64e420"
+  },
+  {
+   "path": "raw/s1/2025-05-24/rtc_vv.tif",
+   "bytes": 7050954,
+   "sha256": "271c0b218152b93b5416fe7bf171c5ee3e2c5558cbc67c6edcffd87ddeb6f496"
+  },
+  {
+   "path": "raw/s1/2025-05-24/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "10141e38e887390ed2cc91a14d0b143107dd8c0349e9f928f7cd2365171a404a"
+  },
+  {
+   "path": "raw/s1/2025-05-24/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "21ab30b43fc7ebe5251cfa6aa82b6da65571f76bcdb66eb6fbfd87f7caca61ec"
+  },
+  {
+   "path": "raw/s1/2025-05-24/stac_pc_grd_dup1.json",
+   "bytes": 9462,
+   "sha256": "2d11c788514a5cf176ba2c0fe56d48d33229b32aee0cf9a8813ff5737b9d9cb5"
+  },
+  {
+   "path": "raw/s1/2025-05-24/stac_pc_rtc.json",
+   "bytes": 7175,
+   "sha256": "c5d10b35dfa184f7f0203d17e0c3e2589e7c42edbf38932861cae71157d22218"
+  },
+  {
+   "path": "raw/s1/2025-05-31/grd_vh.tif",
+   "bytes": 2066163,
+   "sha256": "3fd73c4996eaf748d4223078ad7c6a5b9ed721f48e1a3f1f6347fb4c2b09a2e9"
+  },
+  {
+   "path": "raw/s1/2025-05-31/grd_vv.tif",
+   "bytes": 2329946,
+   "sha256": "53a9f5b743e4e6fd2fe32cf4cd5ce9d05bbd07f3cd75eb33479045d7fe80fd88"
+  },
+  {
+   "path": "raw/s1/2025-05-31/meta.json",
+   "bytes": 8790,
+   "sha256": "2e5d3f0fc755b1c4dd9037fcfbef54a329e0a3e3b4787b9803bed7275e98e9cc"
+  },
+  {
+   "path": "raw/s1/2025-05-31/quicklook.png",
+   "bytes": 1696746,
+   "sha256": "94b583c2b996b438ce46bc43e2b3d917e0d59c64c859c996a742698ae74ea029"
+  },
+  {
+   "path": "raw/s1/2025-05-31/rtc_vh.tif",
+   "bytes": 7041443,
+   "sha256": "5a508b2643e2b51b1c671bc5c585e1f5aeb6bf29d6f0d7b02e4dbea24822d161"
+  },
+  {
+   "path": "raw/s1/2025-05-31/rtc_vv.tif",
+   "bytes": 7062493,
+   "sha256": "bd2d346906c41d590b9c1e0f932ba3fb21cc3bf03f78789c830c078e5b950197"
+  },
+  {
+   "path": "raw/s1/2025-05-31/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "89bd881a496fe44e9a79a1f908e64b9a6e5917bed374a871054bfa277055eda2"
+  },
+  {
+   "path": "raw/s1/2025-05-31/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "9bb5af721cd8fd2788a9b7b4b19ac92f95a6ce2a8b25faaf797d4c24d044a2fd"
+  },
+  {
+   "path": "raw/s1/2025-05-31/stac_pc_grd_dup1.json",
+   "bytes": 9463,
+   "sha256": "61bad49229580147f8e5daa3c7eeb6d74e25c60ba21df44cdbcc741d26978b21"
+  },
+  {
+   "path": "raw/s1/2025-05-31/stac_pc_rtc.json",
+   "bytes": 6800,
+   "sha256": "dbf76f8d68e016cec7ad34ee1d14441bdeef5640ccaf73845a09db365ed2e3c0"
+  },
+  {
+   "path": "raw/s1/2025-06-05/grd_vh.tif",
+   "bytes": 2001852,
+   "sha256": "4f5a4db57dea77e6fe85aa9ee2f4590e44fad77d6f15ca645cecc5e2263e5a2c"
+  },
+  {
+   "path": "raw/s1/2025-06-05/grd_vv.tif",
+   "bytes": 2268679,
+   "sha256": "38f8a1fc4bcbd9cc9fa12688baa3686c76d5fb60e7268bc9d532de1778d708fd"
+  },
+  {
+   "path": "raw/s1/2025-06-05/meta.json",
+   "bytes": 8767,
+   "sha256": "b60458d46456cba7aff759fd628883e8fd9306a8aadf9cf565cb7803aaa305f2"
+  },
+  {
+   "path": "raw/s1/2025-06-05/quicklook.png",
+   "bytes": 1661098,
+   "sha256": "06a27f2268760df151a22ff6544d160259e2577a1714aed6da86e689a4763491"
+  },
+  {
+   "path": "raw/s1/2025-06-05/rtc_vh.tif",
+   "bytes": 7046506,
+   "sha256": "20bb67ea943420c6ed130af1163d54c941562cb9d84070f44129c26cbb8b4da7"
+  },
+  {
+   "path": "raw/s1/2025-06-05/rtc_vv.tif",
+   "bytes": 7057526,
+   "sha256": "607934952532c20fc15cc89c046d33f1a2afcb0c93d3448050128ac55a0c1c06"
+  },
+  {
+   "path": "raw/s1/2025-06-05/stac_earthsearch_grd.json",
+   "bytes": 8793,
+   "sha256": "9fa1d6f12c6ae8e0562d91751e1bfa4fbea24208c82c72079eb880a15a670d1d"
+  },
+  {
+   "path": "raw/s1/2025-06-05/stac_pc_grd.json",
+   "bytes": 9486,
+   "sha256": "3f76f64669d9d51ebd2197ed4ec4d740abd4ae4029349a35ce475ac8c5f97c6b"
+  },
+  {
+   "path": "raw/s1/2025-06-05/stac_pc_grd_dup1.json",
+   "bytes": 9451,
+   "sha256": "58044e47441e0cd28609c75b4c388d0b0f05af8db08f5cf292fd286ae8d79001"
+  },
+  {
+   "path": "raw/s1/2025-06-05/stac_pc_rtc.json",
+   "bytes": 7160,
+   "sha256": "b9573e45769fe40cdcf970dbf5f5d42632cd897d39ffe8d857b5172ffead0298"
+  },
+  {
+   "path": "raw/s1/2025-06-12/grd_vh.tif",
+   "bytes": 2063528,
+   "sha256": "b4018a82d3335828abb316fc18463730283785c84d9b3d0c258edc2cedfd9751"
+  },
+  {
+   "path": "raw/s1/2025-06-12/grd_vv.tif",
+   "bytes": 2327830,
+   "sha256": "e7e1e343866c9ad6ffdd174d79afaf3bace92732b6e4853f1cde738eaeb42d44"
+  },
+  {
+   "path": "raw/s1/2025-06-12/meta.json",
+   "bytes": 8790,
+   "sha256": "08dc4d6d596b07895f27fb171effc79a0e48f7773740c0cb0a4925aa91594e4b"
+  },
+  {
+   "path": "raw/s1/2025-06-12/quicklook.png",
+   "bytes": 1684679,
+   "sha256": "5b69a563c49f33b164424f51a0a93f99aa9c2845c5c5f4a290e54e5042f4ff87"
+  },
+  {
+   "path": "raw/s1/2025-06-12/rtc_vh.tif",
+   "bytes": 7045390,
+   "sha256": "e9fe548dc7f1fd3cec8ea3b11c9b2ffd096d271a32ac8ff01c2236fe20b919c1"
+  },
+  {
+   "path": "raw/s1/2025-06-12/rtc_vv.tif",
+   "bytes": 7066331,
+   "sha256": "de520590a43a3947d07a12f887fe039fc421f8bb56324fee1bc83d4ea98f121a"
+  },
+  {
+   "path": "raw/s1/2025-06-12/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "e60663e93c720253ea25a21a4afb0bedf08e23b33338df1f3bb60e3db9ae41f6"
+  },
+  {
+   "path": "raw/s1/2025-06-12/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "3ab8f608b1cea87173eb98577650930369a32e67b3e8603df6309adc056e6779"
+  },
+  {
+   "path": "raw/s1/2025-06-12/stac_pc_grd_dup1.json",
+   "bytes": 9462,
+   "sha256": "eb9201cef59c713f139181e712426951f576032428a8fc2e3b979e4b1d9e4204"
+  },
+  {
+   "path": "raw/s1/2025-06-12/stac_pc_rtc.json",
+   "bytes": 6801,
+   "sha256": "314b14060ba4a66297f8a89661558507f34d3cf67babfaa7f13bcbcecf2c150d"
+  },
+  {
+   "path": "raw/s1/2025-06-17/grd_vh.tif",
+   "bytes": 2009581,
+   "sha256": "2328e93f9a20d8bc1e737978b238970c05ddfdae1c52b3e666a0e8af1657b88e"
+  },
+  {
+   "path": "raw/s1/2025-06-17/grd_vv.tif",
+   "bytes": 2273353,
+   "sha256": "c4a601036c808f2639ae053256d230428d2b37bf338c2ccf188c15631ae7b920"
+  },
+  {
+   "path": "raw/s1/2025-06-17/meta.json",
+   "bytes": 8789,
+   "sha256": "8dbb02141f6cd110ffc040b6f669000b0b90b238bc64aed7ddcabcfc5ff57c5c"
+  },
+  {
+   "path": "raw/s1/2025-06-17/quicklook.png",
+   "bytes": 1665636,
+   "sha256": "02ba1211017d4ee49bbb7fd2b1d84104b52fe6ca66e75dc9efb81d2d682c3cd2"
+  },
+  {
+   "path": "raw/s1/2025-06-17/rtc_vh.tif",
+   "bytes": 7042068,
+   "sha256": "56aaa9315b142cd2faaafb96bcdd27587787421c2ecc6e42b079d64b4092bd04"
+  },
+  {
+   "path": "raw/s1/2025-06-17/rtc_vv.tif",
+   "bytes": 7054715,
+   "sha256": "001e177a30e9791054b8cad38df0d403c6b7e7466e6564130bc897e351dfd77f"
+  },
+  {
+   "path": "raw/s1/2025-06-17/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "bad52b1368960baf7e6dfc1c61227fe811dc2b8dd5155c3a73c5e5f36f56944c"
+  },
+  {
+   "path": "raw/s1/2025-06-17/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "c520e33a401b3204b75daa2f652b7db979baee3c286cb90111c1d51b48e13494"
+  },
+  {
+   "path": "raw/s1/2025-06-17/stac_pc_grd_dup1.json",
+   "bytes": 9461,
+   "sha256": "7d509f839469b50e07e1d507ff03f7aad49b70eca62a40ecae214a45be94036d"
+  },
+  {
+   "path": "raw/s1/2025-06-17/stac_pc_rtc.json",
+   "bytes": 7173,
+   "sha256": "75cf5876ce66635deb25a8e61a441a3c534b5db982668be6b8e1a075f0800ca5"
+  },
+  {
+   "path": "raw/s1/2025-06-24/grd_vh.tif",
+   "bytes": 2077672,
+   "sha256": "f73015b10d0473c594ba95db7148959c7b5b418391383f26338a13cc1a12a199"
+  },
+  {
+   "path": "raw/s1/2025-06-24/grd_vv.tif",
+   "bytes": 2343355,
+   "sha256": "48428d1ad9429cf96f568ffde23eefcd9950d241b40dbd69cbd3e5d10e0bc4e0"
+  },
+  {
+   "path": "raw/s1/2025-06-24/meta.json",
+   "bytes": 8790,
+   "sha256": "a66b12425df39c61dcccc045c54a229db954a7afce6376fc0e98faeb12a0ffbf"
+  },
+  {
+   "path": "raw/s1/2025-06-24/quicklook.png",
+   "bytes": 1696488,
+   "sha256": "742eefb388d6f085147636fa23b31f34d14993f4d3dfaa7186cb9d74810a5982"
+  },
+  {
+   "path": "raw/s1/2025-06-24/rtc_vh.tif",
+   "bytes": 7029849,
+   "sha256": "6d2813da7d6dcfc4a69a6f66c414754bf341be04b8ba31700a07536e3da28cb6"
+  },
+  {
+   "path": "raw/s1/2025-06-24/rtc_vv.tif",
+   "bytes": 7052971,
+   "sha256": "a0f82b229ff4dae760035ccb60942f5fa2bd602d3912cd437ddc985cb7344149"
+  },
+  {
+   "path": "raw/s1/2025-06-24/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "07bcd855fd9ad4013e0571432d762c174a3324f39187effbc4b5f82d661f3b5c"
+  },
+  {
+   "path": "raw/s1/2025-06-24/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "cabebdbb9e341f5703269635cf1433ded706556b4e445646dd8e7038fcf1910a"
+  },
+  {
+   "path": "raw/s1/2025-06-24/stac_pc_grd_dup1.json",
+   "bytes": 9464,
+   "sha256": "87892b01ff2d01b8664bc5b824cccbe8a3b4782cec2f1f4509561494c086f283"
+  },
+  {
+   "path": "raw/s1/2025-06-24/stac_pc_rtc.json",
+   "bytes": 6807,
+   "sha256": "90d72c3860a221106e7dfcfea56624b3ad6738bfdf14ef0fb6531505aec0914f"
+  },
+  {
+   "path": "raw/s1/2025-06-29/grd_vh.tif",
+   "bytes": 2010643,
+   "sha256": "62c4af63a0fef37e6f7d877f403d4ada9f79d914a69f94bcc1144072716301cc"
+  },
+  {
+   "path": "raw/s1/2025-06-29/grd_vv.tif",
+   "bytes": 2278024,
+   "sha256": "8aaec2944d0f168ab96225e1ac7fb40af4a7f0380ea58472a2f541a84c182539"
+  },
+  {
+   "path": "raw/s1/2025-06-29/meta.json",
+   "bytes": 8789,
+   "sha256": "53c79035a2d4225fcfbee4af5aee6319d7eea1f30d5857d9b2ace5ae2880d9d9"
+  },
+  {
+   "path": "raw/s1/2025-06-29/quicklook.png",
+   "bytes": 1660236,
+   "sha256": "9e1fa0d960aca0cdf9c39c16899b5195e9bd1b05d70897e40003d23fe0a944b2"
+  },
+  {
+   "path": "raw/s1/2025-06-29/rtc_vh.tif",
+   "bytes": 7035649,
+   "sha256": "83d26adbe4de27c0642a9402c62e6c646010d7e5813c7d8f0972feafb2b046bf"
+  },
+  {
+   "path": "raw/s1/2025-06-29/rtc_vv.tif",
+   "bytes": 7050393,
+   "sha256": "dfaa63af4f4ae24eca6910b3f6bb35fd104e3565736ef02b1c38330c8668c20c"
+  },
+  {
+   "path": "raw/s1/2025-06-29/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "c802d4a703383a864a2708cc86646026eca2136bb3e5ddae0cab7d47f226e0ce"
+  },
+  {
+   "path": "raw/s1/2025-06-29/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "c501a41397c1ee09ae44f336d75a7308370d32e36b7cce76d9d4044263013d01"
+  },
+  {
+   "path": "raw/s1/2025-06-29/stac_pc_grd_dup1.json",
+   "bytes": 9458,
+   "sha256": "92aa573dd2b87408502e7983d8ffd6192071881bbb151cb4854b55cdc11bb2c6"
+  },
+  {
+   "path": "raw/s1/2025-06-29/stac_pc_rtc.json",
+   "bytes": 7178,
+   "sha256": "a869cef17fffb8406203602e3efab13439cc954fa633afedf042160f1aaf6ad0"
+  },
+  {
+   "path": "raw/s1/2025-07-06/grd_vh.tif",
+   "bytes": 2063325,
+   "sha256": "9b6c56927821f5749e018df6d249b4045e8eebe3ca446672257e3c8eb2742c4d"
+  },
+  {
+   "path": "raw/s1/2025-07-06/grd_vv.tif",
+   "bytes": 2328009,
+   "sha256": "b009560eb8f659fe1b719a895e31f3274b3522d5395161ed9713379fb1035ce9"
+  },
+  {
+   "path": "raw/s1/2025-07-06/meta.json",
+   "bytes": 8768,
+   "sha256": "d51e3876d23602cf5e779d394630582ecd935a0ef6cc80616dfa1d4882757770"
+  },
+  {
+   "path": "raw/s1/2025-07-06/quicklook.png",
+   "bytes": 1724840,
+   "sha256": "7409044fdd15db5d11251cbd07dacec2ac2a0cc56969f39fc7791fdff3bc3ef8"
+  },
+  {
+   "path": "raw/s1/2025-07-06/rtc_vh.tif",
+   "bytes": 7037254,
+   "sha256": "db6872010da08f38464ff3f539aab2a8f4e6988f1b28c514475f9eb201a27a7d"
+  },
+  {
+   "path": "raw/s1/2025-07-06/rtc_vv.tif",
+   "bytes": 7060189,
+   "sha256": "5e55690dd063d3762ed90e167bb4e796e71527d85622118e7b0236c094a4cd0c"
+  },
+  {
+   "path": "raw/s1/2025-07-06/stac_earthsearch_grd.json",
+   "bytes": 8790,
+   "sha256": "ce1bc4a7820df133dd77c5e360e6908202e42276568613595b78aba59007f939"
+  },
+  {
+   "path": "raw/s1/2025-07-06/stac_pc_grd.json",
+   "bytes": 9485,
+   "sha256": "ef3855015856190da6ac9895d3e9ffae3143b70fe4f0f0e62ac3678f8e2fc08e"
+  },
+  {
+   "path": "raw/s1/2025-07-06/stac_pc_grd_dup1.json",
+   "bytes": 9450,
+   "sha256": "22f696e93ab559350105e15f06b5af586d0f6ee9c70fbb41d75e3741b2d3a73b"
+  },
+  {
+   "path": "raw/s1/2025-07-06/stac_pc_rtc.json",
+   "bytes": 6801,
+   "sha256": "e6596cfb3096fd981c5b1f36652a367825760728c02aa028630b1f811f18d5ca"
+  },
+  {
+   "path": "raw/s1/2025-07-11/grd_vh.tif",
+   "bytes": 2011403,
+   "sha256": "13f10dc8635fa13b1e44f32a36c02ff5fe603cac95582cf4b1403d560a4daebb"
+  },
+  {
+   "path": "raw/s1/2025-07-11/grd_vv.tif",
+   "bytes": 2279351,
+   "sha256": "3bad5b2063647025836c31f8c52d2246c820c366ebeaf49d15434bff96dde92f"
+  },
+  {
+   "path": "raw/s1/2025-07-11/meta.json",
+   "bytes": 8789,
+   "sha256": "d69a94f01c4770ae41c772443d5a51f7fea8291665313501a10d08457039595e"
+  },
+  {
+   "path": "raw/s1/2025-07-11/quicklook.png",
+   "bytes": 1662333,
+   "sha256": "9baefbb31eee43217de4e453450c3710cbe29b4b6d247470794bb4fe07216954"
+  },
+  {
+   "path": "raw/s1/2025-07-11/rtc_vh.tif",
+   "bytes": 7030259,
+   "sha256": "328b8c9096e4b8b22e4948d7ea9bed1e19b3c89a08624b66332733e86a206b24"
+  },
+  {
+   "path": "raw/s1/2025-07-11/rtc_vv.tif",
+   "bytes": 7049013,
+   "sha256": "e68659ef5c9cbbd9e707e8026309a47b4cfeccac3b32327e117443a45bba4d79"
+  },
+  {
+   "path": "raw/s1/2025-07-11/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "f6186707fc4046aedc4952bc607e5d6f82afc0f1711bb5ac7ab3a12205b2cc15"
+  },
+  {
+   "path": "raw/s1/2025-07-11/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "7964677f1ad7a8cd5879e22984c2d0c4049382e204b55616b8767f2555a23d66"
+  },
+  {
+   "path": "raw/s1/2025-07-11/stac_pc_grd_dup1.json",
+   "bytes": 9461,
+   "sha256": "f2b01a21ae4b6e67cfe5c91313fee298d979082e40a860d1574a819ef11122f6"
+  },
+  {
+   "path": "raw/s1/2025-07-11/stac_pc_rtc.json",
+   "bytes": 7171,
+   "sha256": "0097b5dcdcbf97d3d9e64f4de37e7eb4956f9d9b9a1dcd379765c303b083f0db"
+  },
+  {
+   "path": "raw/s1/2025-07-18/grd_vh.tif",
+   "bytes": 2084449,
+   "sha256": "0fe1d347be70b18c73f7111f6d85b89894e27fa6dc70a7e0ad99998a97f2a53b"
+  },
+  {
+   "path": "raw/s1/2025-07-18/grd_vv.tif",
+   "bytes": 2348120,
+   "sha256": "59a4a660767efaf1f5f6e14819afbc1dc611364ae981b11f7eb77975e9d8b6b4"
+  },
+  {
+   "path": "raw/s1/2025-07-18/meta.json",
+   "bytes": 8790,
+   "sha256": "0e96812623268e48bb3953a9a56161213c922176075f10f81ae3bc558173f1d5"
+  },
+  {
+   "path": "raw/s1/2025-07-18/quicklook.png",
+   "bytes": 1702873,
+   "sha256": "383cebe54b9249492ec1c0bde23acf6729a2b8a70bb3845d058a2d537c41f53c"
+  },
+  {
+   "path": "raw/s1/2025-07-18/rtc_vh.tif",
+   "bytes": 7028727,
+   "sha256": "9095667ac33900ff3ebd4ce3dbddb1bfb900e5bf39c9fe7c62421ab34c05c54e"
+  },
+  {
+   "path": "raw/s1/2025-07-18/rtc_vv.tif",
+   "bytes": 7050002,
+   "sha256": "3dd4cbc8dc3a7eff877283c626ff7526b9c2de27c2d3924a6c6ab703fe46c5f5"
+  },
+  {
+   "path": "raw/s1/2025-07-18/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "f3594397f695fc8a59c032cf700fa8683eac78174565cd2ed8d385a51dc4beb8"
+  },
+  {
+   "path": "raw/s1/2025-07-18/stac_pc_grd.json",
+   "bytes": 9494,
+   "sha256": "9fc397190aa8937fb214e29c7256d773a73f4afff652d12d6209c3a527018057"
+  },
+  {
+   "path": "raw/s1/2025-07-18/stac_pc_grd_dup1.json",
+   "bytes": 9459,
+   "sha256": "5e4c4e26cfe4e02443f90ebea3bcc1a2505eb1511a18648f1cb8fd8cc10a3a60"
+  },
+  {
+   "path": "raw/s1/2025-07-18/stac_pc_rtc.json",
+   "bytes": 6800,
+   "sha256": "1d29ddce234149a3298db2445e7df446c6b797a059871ed2f88a756cc7cb2273"
+  },
+  {
+   "path": "raw/s1/2025-07-23/grd_vh.tif",
+   "bytes": 2028765,
+   "sha256": "0f845d5d0140f6d4b1fba89114dc2628c59acf47a1d03dc74a79b6a8924b8b27"
+  },
+  {
+   "path": "raw/s1/2025-07-23/grd_vv.tif",
+   "bytes": 2293926,
+   "sha256": "b44850dd5419163776d3ea34db3c40e29883e696156c95750eda2b4b944c4b15"
+  },
+  {
+   "path": "raw/s1/2025-07-23/meta.json",
+   "bytes": 8789,
+   "sha256": "24372072011098221b18e15995089be93c18f86c08b2a4b5885d8e460ba870a8"
+  },
+  {
+   "path": "raw/s1/2025-07-23/quicklook.png",
+   "bytes": 1649576,
+   "sha256": "8b53d252d9ee9c579db9cdcc65131873ffd37268210afb2e2733934ad2ea1c96"
+  },
+  {
+   "path": "raw/s1/2025-07-23/rtc_vh.tif",
+   "bytes": 7033649,
+   "sha256": "eae6cdb99d9ac84e953a21faf48e8f3be5e5e90683cd8ad807af3da3f74582a8"
+  },
+  {
+   "path": "raw/s1/2025-07-23/rtc_vv.tif",
+   "bytes": 7045536,
+   "sha256": "b84462dbc146296122b36876b807e2c61674474ef1be6b6d330a0c38a3f16cae"
+  },
+  {
+   "path": "raw/s1/2025-07-23/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "43e6ec5f87ea7d92f34dd30677c67b4b866d081295b1d208ab1488a0af2a0547"
+  },
+  {
+   "path": "raw/s1/2025-07-23/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "fd4b5873181ae3dcbec99a84a7fc967fee94c1982aca6a53a0f69189e781ff0f"
+  },
+  {
+   "path": "raw/s1/2025-07-23/stac_pc_grd_dup1.json",
+   "bytes": 9462,
+   "sha256": "71496d06c90b2a714164a74b5034134ac7593be94d45fc8c797ef2b11d5b7db3"
+  },
+  {
+   "path": "raw/s1/2025-07-23/stac_pc_rtc.json",
+   "bytes": 7176,
+   "sha256": "1c0ea14cbaf566a2828612cb8173ae77076aa42036b9225f27919555acceed69"
+  },
+  {
+   "path": "raw/s1/2025-07-30/grd_vh.tif",
+   "bytes": 2085077,
+   "sha256": "15711360b3662f3bcce7f1fc082c6e1a3e0c47d002d99653831c5b22b2c0b3d7"
+  },
+  {
+   "path": "raw/s1/2025-07-30/grd_vv.tif",
+   "bytes": 2346174,
+   "sha256": "b44c932868982c53517657287f7fa46b3c5b53ddaa1c3f281ccf6f73e019ae4b"
+  },
+  {
+   "path": "raw/s1/2025-07-30/meta.json",
+   "bytes": 8790,
+   "sha256": "0b39c21ac717236459971f1c32946f1a22c2651f2c2f9f02ab4c188253c73884"
+  },
+  {
+   "path": "raw/s1/2025-07-30/quicklook.png",
+   "bytes": 1719006,
+   "sha256": "d3641a702a50b5e04b29da5ed5c88832b09de2dea611727457263900cfab6f79"
+  },
+  {
+   "path": "raw/s1/2025-07-30/rtc_vh.tif",
+   "bytes": 7025824,
+   "sha256": "d3a6ddee49101f5c6ba6704bb203c1877ed6a61ee710eda2b8f5e47057cb2606"
+  },
+  {
+   "path": "raw/s1/2025-07-30/rtc_vv.tif",
+   "bytes": 7046294,
+   "sha256": "fd4590381ec0c770d298953d1a6206adfc190fc8bb3c672df6d442aeefe9bffd"
+  },
+  {
+   "path": "raw/s1/2025-07-30/stac_earthsearch_grd.json",
+   "bytes": 8801,
+   "sha256": "75f381b769591f4f53f29718ab590e0d3f3ee963ecd252f4fe887735e60718fc"
+  },
+  {
+   "path": "raw/s1/2025-07-30/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "4dda749677252b733924bc6f6f3a8890286068bd1bb558fc536147215ca440c8"
+  },
+  {
+   "path": "raw/s1/2025-07-30/stac_pc_grd_dup1.json",
+   "bytes": 9461,
+   "sha256": "aa6ca451f0a5264b1e1d3d5c208713bf1e1df66d7c6f20846fa081713f46e4ff"
+  },
+  {
+   "path": "raw/s1/2025-07-30/stac_pc_rtc.json",
+   "bytes": 6807,
+   "sha256": "e7173d9bab3d997d1ac17ad354271fe0da9b3656452cdedcae9f0ee37ef43175"
+  },
+  {
+   "path": "raw/s1/2025-08-04/grd_vh.tif",
+   "bytes": 2024209,
+   "sha256": "5d677644f775dd1f108124abd4a7b075e0d32a1df0c5f24db40293814bdc44d4"
+  },
+  {
+   "path": "raw/s1/2025-08-04/grd_vv.tif",
+   "bytes": 2288373,
+   "sha256": "137ac8e096735cc1114baa6d87fcbc9aed4605cefde6f91c9e2f508b5c8e1f78"
+  },
+  {
+   "path": "raw/s1/2025-08-04/meta.json",
+   "bytes": 8767,
+   "sha256": "03fea06941ae8d711c0c30f7fb70e0f2f40bbd0a5715d6cbd8e08e5a1f37e6b9"
+  },
+  {
+   "path": "raw/s1/2025-08-04/quicklook.png",
+   "bytes": 1663437,
+   "sha256": "12bb87e5ec59e41d564551b25dc88fa60c7d64a28a2f0186124abb8e8a217458"
+  },
+  {
+   "path": "raw/s1/2025-08-04/rtc_vh.tif",
+   "bytes": 7030397,
+   "sha256": "e2aaf98c9a23f7942729a8fa405122f0bc8e818c53df9ebab45b7eb0791c18e7"
+  },
+  {
+   "path": "raw/s1/2025-08-04/rtc_vv.tif",
+   "bytes": 7043939,
+   "sha256": "606c1dc7d0bfacee0806ca8d326fe8c21724b79e2319305cf58adad6c530ae61"
+  },
+  {
+   "path": "raw/s1/2025-08-04/stac_earthsearch_grd.json",
+   "bytes": 8796,
+   "sha256": "6811773774fa95cdd0836d735acac15d02223bb7c0d28e7f7305ede8ca52ea12"
+  },
+  {
+   "path": "raw/s1/2025-08-04/stac_pc_grd.json",
+   "bytes": 9488,
+   "sha256": "b46ec3501956f79ac5593def510c673b5eed4c53f1ce43136991173291c01df4"
+  },
+  {
+   "path": "raw/s1/2025-08-04/stac_pc_grd_dup1.json",
+   "bytes": 9453,
+   "sha256": "e5d12b3829ed8fbb2d1e327e1ed2ec55faade785049868f917d5f08b324b7b3d"
+  },
+  {
+   "path": "raw/s1/2025-08-04/stac_pc_rtc.json",
+   "bytes": 7173,
+   "sha256": "0460eb1088f43a701f9967cec01efa43c5dc92ae8a6d01f0d1f3999e13ca6a22"
+  },
+  {
+   "path": "raw/s1/2025-08-11/grd_vh.tif",
+   "bytes": 2080684,
+   "sha256": "6c9baba238d34142286763671621630d2741d125eefbcae1c683ca9cb0eb546b"
+  },
+  {
+   "path": "raw/s1/2025-08-11/grd_vv.tif",
+   "bytes": 2343804,
+   "sha256": "cca390b5fb0a9e1f20e4af171ceded4fbdf1a1f517b4b514f1aedb1c973b795d"
+  },
+  {
+   "path": "raw/s1/2025-08-11/meta.json",
+   "bytes": 8790,
+   "sha256": "eb37fd18782cadea9ede996aa8a8c2a90a5bf4049333f23d2ce667af72c6c1e9"
+  },
+  {
+   "path": "raw/s1/2025-08-11/quicklook.png",
+   "bytes": 1747189,
+   "sha256": "58276f915f8747be068286acf3f936f0400daa79d5df0c16e72de77b412fa8bd"
+  },
+  {
+   "path": "raw/s1/2025-08-11/rtc_vh.tif",
+   "bytes": 7023458,
+   "sha256": "56d7bfd23930538d4ebd26f679cbe60aabce065cf0e0a6004546bd5e18995e9b"
+  },
+  {
+   "path": "raw/s1/2025-08-11/rtc_vv.tif",
+   "bytes": 7044914,
+   "sha256": "77dbde15c3777916f87f125002877f404587142666dc9632a512701a04b60aa1"
+  },
+  {
+   "path": "raw/s1/2025-08-11/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "8432c355fb7b30bc921f4fa6756a312f4a0a1203b3c3327db62659198ba07308"
+  },
+  {
+   "path": "raw/s1/2025-08-11/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "eb1712f11df745df73b6cb22faba6a12d160ef78197624d543ec2d9ef4185c9b"
+  },
+  {
+   "path": "raw/s1/2025-08-11/stac_pc_grd_dup1.json",
+   "bytes": 9464,
+   "sha256": "75ec4af12ba9f520e355ffa26834d461da17f58c42c4d791c2baa716d34b4127"
+  },
+  {
+   "path": "raw/s1/2025-08-11/stac_pc_rtc.json",
+   "bytes": 6807,
+   "sha256": "3c3a2f294f1121dbf657bfd27e8883cbaa84e91cd27868b85c0045b7459b2848"
+  },
+  {
+   "path": "raw/s1/2025-08-16/grd_vh.tif",
+   "bytes": 2012065,
+   "sha256": "8aa783e3d8a0e20ff657963c91cec14ee49f2edac0e8d9fd7a8a111ce47c9edc"
+  },
+  {
+   "path": "raw/s1/2025-08-16/grd_vv.tif",
+   "bytes": 2277303,
+   "sha256": "f7d9e999e73014a587d5a27e1b4b9ebe15428f5350cce62bb2d3e6b52c396988"
+  },
+  {
+   "path": "raw/s1/2025-08-16/meta.json",
+   "bytes": 8824,
+   "sha256": "353b02ff9bc52d353ad8e75362ef36d767484cc881464a85eef8bdd4f513fb56"
+  },
+  {
+   "path": "raw/s1/2025-08-16/quicklook.png",
+   "bytes": 1661017,
+   "sha256": "8496bacfe451863de1245271adc47294aa231454ab0edab1fbb5a66b60d9bef5"
+  },
+  {
+   "path": "raw/s1/2025-08-16/rtc_vh.tif",
+   "bytes": 7031302,
+   "sha256": "642fe18a80dd250ae05889016d27f351a2808bc3cad200f96cd602b54eb389f4"
+  },
+  {
+   "path": "raw/s1/2025-08-16/rtc_vv.tif",
+   "bytes": 7045384,
+   "sha256": "48b82de8a7bbdc2b551f7aab7aa786e6f2cc802fec2efe500980747ee2259c94"
+  },
+  {
+   "path": "raw/s1/2025-08-16/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "e2d1d1c0e432c2370cb5ce6bd2a3cec3570c1720bc5a27d63a7c83baddbe34fc"
+  },
+  {
+   "path": "raw/s1/2025-08-16/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "509881bf980e387394ed415adcd880336deccbd2b38d79b560aee38c0b9b4c46"
+  },
+  {
+   "path": "raw/s1/2025-08-16/stac_pc_rtc.json",
+   "bytes": 7217,
+   "sha256": "149c9cd4e72c74fd2f8668c24fd0e948692493dbc89e0c0debf15e2cc5b50934"
+  },
+  {
+   "path": "raw/s1/2025-08-23/grd_vh.tif",
+   "bytes": 2067793,
+   "sha256": "3681a09b6b4b48276619155338336efe4b0a7736043765fc9afed2b00078bb1c"
+  },
+  {
+   "path": "raw/s1/2025-08-23/grd_vv.tif",
+   "bytes": 2335450,
+   "sha256": "43e172952ebee86b434f36440a80416c440beaba68994894e4b301bacc90ec91"
+  },
+  {
+   "path": "raw/s1/2025-08-23/meta.json",
+   "bytes": 8825,
+   "sha256": "7e601b04ee9a3c4bb60c77c2e6665ca13b58dc7988e2252e76d56033fc15e75f"
+  },
+  {
+   "path": "raw/s1/2025-08-23/quicklook.png",
+   "bytes": 1722151,
+   "sha256": "bb3ef4a3e4d75a8013e8986ede65556bd4269188da6379749e4f625b233a70ef"
+  },
+  {
+   "path": "raw/s1/2025-08-23/rtc_vh.tif",
+   "bytes": 7029163,
+   "sha256": "5b858ba90577af90b0428f3f97a98e4026d82ccf693af6500ee98c04015d59b9"
+  },
+  {
+   "path": "raw/s1/2025-08-23/rtc_vv.tif",
+   "bytes": 7052060,
+   "sha256": "c934b49e372d51dfbb001a43afc5f16e9f37e3c88639f578ce74d3554a1ed932"
+  },
+  {
+   "path": "raw/s1/2025-08-23/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "d7a9afbd24341c48763ef21cffca03a42d33d9da469715cc9e40cff7d8abe7a1"
+  },
+  {
+   "path": "raw/s1/2025-08-23/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "8ba398cddabaad3933fe58979b2dd071820e5a706942b5deefd2124238d31bf9"
+  },
+  {
+   "path": "raw/s1/2025-08-23/stac_pc_rtc.json",
+   "bytes": 6844,
+   "sha256": "e8781fcedfa23dbdcc081a77b7ede43cfae594f703cb97b0e59c3c6c9ffb0454"
+  },
+  {
+   "path": "raw/s1/2025-08-28/grd_vh.tif",
+   "bytes": 2012037,
+   "sha256": "b70ec2fa6b7974e96258872057030765b7fa6372575da67fba3d00c3d8ce7be4"
+  },
+  {
+   "path": "raw/s1/2025-08-28/grd_vv.tif",
+   "bytes": 2275180,
+   "sha256": "82081c254603510d4824e9e7b50fbe3e8d8bf9f516433289e948708ee7a87241"
+  },
+  {
+   "path": "raw/s1/2025-08-28/meta.json",
+   "bytes": 8824,
+   "sha256": "88f05115b9b764f836f38c11dad35870fffa42023a957b6e704854ab251553d4"
+  },
+  {
+   "path": "raw/s1/2025-08-28/quicklook.png",
+   "bytes": 1658313,
+   "sha256": "671f9d2914e5354b07a3667c4f2bc76319d4e057ab51d3e3d19f6c67debe3d63"
+  },
+  {
+   "path": "raw/s1/2025-08-28/rtc_vh.tif",
+   "bytes": 7035460,
+   "sha256": "e0aae4e75fe6bf2f49c2d9b779d3fc03eb9fe0e4da23ff3cfff46c6d978b3154"
+  },
+  {
+   "path": "raw/s1/2025-08-28/rtc_vv.tif",
+   "bytes": 7048978,
+   "sha256": "ce123240203b8f9053530d97ec1e66186c092fd16eedf1cb0edac61439b5f917"
+  },
+  {
+   "path": "raw/s1/2025-08-28/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "1fe440e329c864a90af8c855a2e736f211b7f9207c9184ed341bc55f4b492190"
+  },
+  {
+   "path": "raw/s1/2025-08-28/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "adc9446ca033bc2f25a47172ae1f3d44768b4983406c15106fd75097a874c57c"
+  },
+  {
+   "path": "raw/s1/2025-08-28/stac_pc_rtc.json",
+   "bytes": 7215,
+   "sha256": "c951e9138e1483164fe65b372900c4b8325acdcf5d24b1d51de1b49f8c613c4f"
+  },
+  {
+   "path": "raw/s1/2025-09-04/grd_vh.tif",
+   "bytes": 2063718,
+   "sha256": "3f2d4aeb58fc80b73c1e9dad402d20a8d22d89d0266aae0f492b20950c10c0b9"
+  },
+  {
+   "path": "raw/s1/2025-09-04/grd_vv.tif",
+   "bytes": 2327498,
+   "sha256": "baf0723f0f5186d827c5e86646d969a4ca08853b534fd27f64adcfa0b4c9c8fd"
+  },
+  {
+   "path": "raw/s1/2025-09-04/meta.json",
+   "bytes": 8803,
+   "sha256": "dc22bc073c8a0b94b37e39547f52520c94072df3560ea8a0971e424f58c14f8a"
+  },
+  {
+   "path": "raw/s1/2025-09-04/quicklook.png",
+   "bytes": 1700946,
+   "sha256": "a14696a42d53e4d0fee07a131fcfb79aa677bd392ff6eb8114f7efb468445956"
+  },
+  {
+   "path": "raw/s1/2025-09-04/rtc_vh.tif",
+   "bytes": 7034531,
+   "sha256": "f135ecc114e9b0d01069ab7b1b4ebf3320e122ac723379362d07b3a77d3c4c2e"
+  },
+  {
+   "path": "raw/s1/2025-09-04/rtc_vv.tif",
+   "bytes": 7058452,
+   "sha256": "69dd4d55d5a6a7a78a78faad216b0c7976f0fd230ec4213cf14401045b0d6794"
+  },
+  {
+   "path": "raw/s1/2025-09-04/stac_earthsearch_grd.json",
+   "bytes": 8797,
+   "sha256": "1828acd0f4c64f43fde67e97cb54cba2ad99289925c7f4a1541c4ebf3e91633c"
+  },
+  {
+   "path": "raw/s1/2025-09-04/stac_pc_grd.json",
+   "bytes": 9485,
+   "sha256": "72d170c879f5facc9091e3dec0e26161dbf8289e56726064ec63648a5a777505"
+  },
+  {
+   "path": "raw/s1/2025-09-04/stac_pc_rtc.json",
+   "bytes": 6842,
+   "sha256": "9b5ad0e4a5ea9661c7eec3e46e43ebb77c7abf5ebf1b60edf3336cc69e1f64a5"
+  },
+  {
+   "path": "raw/s1/2025-09-16/grd_vh.tif",
+   "bytes": 2060500,
+   "sha256": "c8767fcba75dd88fe3c8ded83636c8455079c18fb6f01542d3357dea105a20ba"
+  },
+  {
+   "path": "raw/s1/2025-09-16/grd_vv.tif",
+   "bytes": 2324876,
+   "sha256": "6bc1e783ece69035b826738f71201fda9e0105e8038876eadf23365beaaeeefd"
+  },
+  {
+   "path": "raw/s1/2025-09-16/meta.json",
+   "bytes": 8825,
+   "sha256": "f0c3290fd927810c9ad7c9d18e4073c1703e1b7b39cd4916b42ea00549dfbd3b"
+  },
+  {
+   "path": "raw/s1/2025-09-16/quicklook.png",
+   "bytes": 1688756,
+   "sha256": "75e184f756587dccf4035507a84b2c7e8447b039f724d434223f3ed531267f74"
+  },
+  {
+   "path": "raw/s1/2025-09-16/rtc_vh.tif",
+   "bytes": 7037853,
+   "sha256": "fd7a3752902acaadc5ddad01788911c43add3cd54b575bbca4eaa8485bdb754e"
+  },
+  {
+   "path": "raw/s1/2025-09-16/rtc_vv.tif",
+   "bytes": 7060029,
+   "sha256": "fb9a4b1cfb108ce7e04974834706d7c78346e84aef1c80c0d8f29278eaffcecd"
+  },
+  {
+   "path": "raw/s1/2025-09-16/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "dd75240d1808e7ef3d95e45ffb3bec25e2b27e030a5916c5ecdfc0245b5f531a"
+  },
+  {
+   "path": "raw/s1/2025-09-16/stac_pc_grd.json",
+   "bytes": 9495,
+   "sha256": "12eb7e031b0091618fcd72a866a0e0b86ee6cabb67771783a34b73d6bfc4e438"
+  },
+  {
+   "path": "raw/s1/2025-09-16/stac_pc_rtc.json",
+   "bytes": 6842,
+   "sha256": "ae8e322c2786b0b24dc68441ac08225af81e04336eb2b68d7edf1b7ed51f05fa"
+  },
+  {
+   "path": "raw/s1/2025-09-21/grd_vh.tif",
+   "bytes": 2000174,
+   "sha256": "28a29794d943f0eb1b88b22362b5769d2ee66a94bc7a6de2f8030aa0b8eb7a2d"
+  },
+  {
+   "path": "raw/s1/2025-09-21/grd_vv.tif",
+   "bytes": 2264201,
+   "sha256": "7f0a45516ac200a14160ba2a957b1395b092ff306fcba492a2121e708de981fb"
+  },
+  {
+   "path": "raw/s1/2025-09-21/meta.json",
+   "bytes": 8824,
+   "sha256": "2aac0de6a1e862fbfffe072c1e013ccbed30bda2c2c8615839866e4c81948ecd"
+  },
+  {
+   "path": "raw/s1/2025-09-21/quicklook.png",
+   "bytes": 1645935,
+   "sha256": "9fd33a3e8a0b9ccc6f926e99e5ceb192edc4d5aebd1c2ec30713c55511f04c98"
+  },
+  {
+   "path": "raw/s1/2025-09-21/rtc_vh.tif",
+   "bytes": 7045011,
+   "sha256": "fae0d14df73f645e410c87e66d57ace65e15041b6b7b7d86b4e721f7afa0fd77"
+  },
+  {
+   "path": "raw/s1/2025-09-21/rtc_vv.tif",
+   "bytes": 7051865,
+   "sha256": "100640c486652c1d80e5b4d42a02251729e27ad6e1f491f4d4a7c5182970c3a7"
+  },
+  {
+   "path": "raw/s1/2025-09-21/stac_earthsearch_grd.json",
+   "bytes": 8853,
+   "sha256": "87ad4d302affe099c7268db7cf99061291b1a207151a39c87e16ce70ad35b472"
+  },
+  {
+   "path": "raw/s1/2025-09-21/stac_pc_grd.json",
+   "bytes": 9489,
+   "sha256": "ee68f446897b8fefd9b7fa90836728880f050a4eff4148f9b517c90b74493ddd"
+  },
+  {
+   "path": "raw/s1/2025-09-21/stac_pc_rtc.json",
+   "bytes": 7212,
+   "sha256": "9258521b4ea3dd55ed615b6cc485889214ab2a22665076b19286279baf284a0a"
+  },
+  {
+   "path": "raw/s1/2025-09-28/grd_vh.tif",
+   "bytes": 2064418,
+   "sha256": "d9b7c684a38fff6cccaa5b7d4ccbaa3de32f0863fd413ba3aee5e4017f586da1"
+  },
+  {
+   "path": "raw/s1/2025-09-28/grd_vv.tif",
+   "bytes": 2326435,
+   "sha256": "338c00f2c844f7cfd508c40a1cfb347e1591c0de10e837069d87554e70863690"
+  },
+  {
+   "path": "raw/s1/2025-09-28/meta.json",
+   "bytes": 8825,
+   "sha256": "e21f84c7a677b5aef9c91ebdc2d9a476819c8fed2be5beaf3c75ad050b083d4c"
+  },
+  {
+   "path": "raw/s1/2025-09-28/quicklook.png",
+   "bytes": 1679810,
+   "sha256": "44b8242cbd055f638ab80c065ff426a739fed760153b499a7f0d9a77a340db79"
+  },
+  {
+   "path": "raw/s1/2025-09-28/rtc_vh.tif",
+   "bytes": 7040489,
+   "sha256": "c657615400e0ed41c33433b8a55e872322ec187d0488c02166e4a5121ca8a077"
+  },
+  {
+   "path": "raw/s1/2025-09-28/rtc_vv.tif",
+   "bytes": 7060142,
+   "sha256": "2449688786e55ca6353ae6800e0fdbe787faec255b40417322fdd501ebc25746"
+  },
+  {
+   "path": "raw/s1/2025-09-28/stac_earthsearch_grd.json",
+   "bytes": 8805,
+   "sha256": "ab426d0c268de54e45765a9a9c875fbee5655a1c3a1d83f1001621993a0f81a3"
+  },
+  {
+   "path": "raw/s1/2025-09-28/stac_pc_grd.json",
+   "bytes": 9490,
+   "sha256": "fdc69f34c48ed6a469a15b69a5984b984927c93bf9d00b986baba5081a096674"
+  },
+  {
+   "path": "raw/s1/2025-09-28/stac_pc_rtc.json",
+   "bytes": 6846,
+   "sha256": "f4c00d064c4f877178eee4639a5025f0adb4f80cad9fb74f4083a5de4f5b3f72"
+  },
+  {
+   "path": "raw/s1/2025-10-03/grd_vh.tif",
+   "bytes": 2001515,
+   "sha256": "dc4bbcc23a3284044dd644cca3180258b252ffd0b820c06cdc68c7c6173aba70"
+  },
+  {
+   "path": "raw/s1/2025-10-03/grd_vv.tif",
+   "bytes": 2264522,
+   "sha256": "7f0acb2499edd4b6f1052bdfea24099e1279cf1e51d188af3021c64be0d3fb7a"
+  },
+  {
+   "path": "raw/s1/2025-10-03/meta.json",
+   "bytes": 8824,
+   "sha256": "fbc6a0141daaf6f015f2f3a12474bd9d101630ecd5430210c14d65cd073f3aeb"
+  },
+  {
+   "path": "raw/s1/2025-10-03/quicklook.png",
+   "bytes": 1645214,
+   "sha256": "870039add91b579cdb641676e7fd57c192d4988dbbf012cf06110a9a1784813f"
+  },
+  {
+   "path": "raw/s1/2025-10-03/rtc_vh.tif",
+   "bytes": 7047201,
+   "sha256": "60f658e458fbe263aa074d06e02dfcce695fbba01f8de92dcaa18d97d8f699f7"
+  },
+  {
+   "path": "raw/s1/2025-10-03/rtc_vv.tif",
+   "bytes": 7055915,
+   "sha256": "6ae83571fa0078eb0fe3ff3c0f937b022fb4acc02d1954143e50bfbb653670c5"
+  },
+  {
+   "path": "raw/s1/2025-10-03/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "6134af2883046aa188861d36f58e4f24d5f7d9b07a127d8a36a92fa952c9a0b1"
+  },
+  {
+   "path": "raw/s1/2025-10-03/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "2bc827cb954c5201240045a80f206833991075e3221705243bf87eab5c51a9c8"
+  },
+  {
+   "path": "raw/s1/2025-10-03/stac_pc_rtc.json",
+   "bytes": 7217,
+   "sha256": "3be5a506d8ba02260ef9157226ac339ffa0b4d969be7fdf8fd8ed310afe3cc28"
+  },
+  {
+   "path": "raw/s1/2025-10-10/grd_vh.tif",
+   "bytes": 2060153,
+   "sha256": "40801bf81ce3ba7ec0d1f813957170bfb445236b1d02d7f18f2eec67350a87ea"
+  },
+  {
+   "path": "raw/s1/2025-10-10/grd_vv.tif",
+   "bytes": 2324526,
+   "sha256": "e8177723703b241aa7754d52bbb08eee6bd4ccb4f08b37a5a095b67661a44bc9"
+  },
+  {
+   "path": "raw/s1/2025-10-10/meta.json",
+   "bytes": 8847,
+   "sha256": "09a35141e584b289405d975751dded7c2a7496ac7a4e030bfe02243ec319473a"
+  },
+  {
+   "path": "raw/s1/2025-10-10/quicklook.png",
+   "bytes": 1676191,
+   "sha256": "9aecc8d1e9b78adb2c9d1863eadaeeca72897dd0285807794868c374deb93286"
+  },
+  {
+   "path": "raw/s1/2025-10-10/rtc_vh.tif",
+   "bytes": 7043500,
+   "sha256": "7f099d55455bbde6a8f5ae06a9d5506ff5d2ddb8bacd3315136bef83d50c030b"
+  },
+  {
+   "path": "raw/s1/2025-10-10/rtc_vv.tif",
+   "bytes": 7063170,
+   "sha256": "80c5695a0bea390923099f55651e0475bb6b37f907174f3b01c6204d3e56fa96"
+  },
+  {
+   "path": "raw/s1/2025-10-10/stac_earthsearch_grd.json",
+   "bytes": 8818,
+   "sha256": "0968bcc7f16a350e2b7d7773601cac1a25928c074744b3d0e9219d625ed9eabe"
+  },
+  {
+   "path": "raw/s1/2025-10-10/stac_pc_grd.json",
+   "bytes": 9508,
+   "sha256": "c7b55a0be2b54e85299848dce6818928ddd585dff84487316c4cc21392c50bfe"
+  },
+  {
+   "path": "raw/s1/2025-10-10/stac_pc_rtc.json",
+   "bytes": 6846,
+   "sha256": "0cb4955d9745c246cb813ad7a0fef46ffb35204d5f8fe404695796dc1aa7769a"
+  },
+  {
+   "path": "raw/s1/2025-10-15/grd_vh.tif",
+   "bytes": 1995747,
+   "sha256": "150a285b40fcfbf41e8e5d1122e2f39227cf5cf762cc35ac8003c568c24d0ac8"
+  },
+  {
+   "path": "raw/s1/2025-10-15/grd_vv.tif",
+   "bytes": 2261189,
+   "sha256": "879de0001e77117e03f451bd2e7895b5ec65e4baccbec90897bfa413af1ea97e"
+  },
+  {
+   "path": "raw/s1/2025-10-15/meta.json",
+   "bytes": 8846,
+   "sha256": "af2b70273238ddcd6baee45829f44ae3eddbeaf3a4b24af415f899ce9c337c79"
+  },
+  {
+   "path": "raw/s1/2025-10-15/quicklook.png",
+   "bytes": 1648690,
+   "sha256": "9c0eb6721baa58922c13b8557b67e369a7249085de857fcddfee2b1f89efc0a2"
+  },
+  {
+   "path": "raw/s1/2025-10-15/rtc_vh.tif",
+   "bytes": 7050366,
+   "sha256": "20471df2397abfa5d1d486cc8d78e031deef29edea6ba93b8785f2b4a40bdbfb"
+  },
+  {
+   "path": "raw/s1/2025-10-15/rtc_vv.tif",
+   "bytes": 7060232,
+   "sha256": "74c154daae0a4f0d866220bc3a439c6871d11d7fda7a4ac25a917e9bf413d21b"
+  },
+  {
+   "path": "raw/s1/2025-10-15/stac_earthsearch_grd.json",
+   "bytes": 8817,
+   "sha256": "f2d48eb783102c8dba3b70932ee862adc9707a756d9b01c13e876a31c39cc024"
+  },
+  {
+   "path": "raw/s1/2025-10-15/stac_pc_grd.json",
+   "bytes": 9504,
+   "sha256": "ce09d18ba33d31b0be8e1cb4fb5e930f16f087a24118a2b9090ab3a8aba9079f"
+  },
+  {
+   "path": "raw/s1/2025-10-15/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "a09e5ae19005720b64cd6e1ef0ef9aaeb991eb0ae3efec704a4036271a06b453"
+  },
+  {
+   "path": "raw/s1/2025-10-22/grd_vh.tif",
+   "bytes": 2062276,
+   "sha256": "33ee84686e0567963f42aef7ab6676b2682ab9b4e60d624f91d6e52c75a398b9"
+  },
+  {
+   "path": "raw/s1/2025-10-22/grd_vv.tif",
+   "bytes": 2324429,
+   "sha256": "f4be7b250a32088eabf864df945e4f2d1f8b23386a29b288a38227aa49a1918a"
+  },
+  {
+   "path": "raw/s1/2025-10-22/meta.json",
+   "bytes": 8847,
+   "sha256": "fff26128d4427f70af374c6d80c31d123f24b40928a6994142cfc731dfa24469"
+  },
+  {
+   "path": "raw/s1/2025-10-22/quicklook.png",
+   "bytes": 1706188,
+   "sha256": "94433e4aa8c3f98a20075cf14b2ec85ef4d1d255b7eae1cb2d64df45aabf0730"
+  },
+  {
+   "path": "raw/s1/2025-10-22/rtc_vh.tif",
+   "bytes": 7047096,
+   "sha256": "40bad656b6a473415fcf4255cc6a9481673166e5dab5735b08bd99ef83566612"
+  },
+  {
+   "path": "raw/s1/2025-10-22/rtc_vv.tif",
+   "bytes": 7065799,
+   "sha256": "84dbda4441f949cc27de6ca3c414360c6f28d55269688ca9cb02f63a7a219cd2"
+  },
+  {
+   "path": "raw/s1/2025-10-22/stac_earthsearch_grd.json",
+   "bytes": 8818,
+   "sha256": "0fbf734056d298b4b4c0b9f72d70f08be72d712beeb07583ec9a5c04265e28c1"
+  },
+  {
+   "path": "raw/s1/2025-10-22/stac_pc_grd.json",
+   "bytes": 9509,
+   "sha256": "0a95546dae7029b1b424a4c9e0648c8fdf9a0bcea3ee21010de8c3b0dd8bd515"
+  },
+  {
+   "path": "raw/s1/2025-10-22/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "5e620d9225efa65a7178bb041bf6f9a6396427fe3f38ccbb1e9523a72f2110eb"
+  },
+  {
+   "path": "raw/s1/2025-10-27/grd_vh.tif",
+   "bytes": 2000741,
+   "sha256": "6b144e09244c4edb983462b2ad2b11570114de72b4d0971fb3fce95a37511d96"
+  },
+  {
+   "path": "raw/s1/2025-10-27/grd_vv.tif",
+   "bytes": 2260489,
+   "sha256": "722c0587472ec273b2fe969d8dc5140be080dc8c2e6df58d557f1793daded239"
+  },
+  {
+   "path": "raw/s1/2025-10-27/meta.json",
+   "bytes": 8846,
+   "sha256": "06a30a75151293db80c289b0ce31041990a289eb856a43e79e57eb2c135c3dd0"
+  },
+  {
+   "path": "raw/s1/2025-10-27/quicklook.png",
+   "bytes": 1662363,
+   "sha256": "46e7f0aa7d0ea7e9af57b12380e380a71c9e666573a9d6e868f674425314230f"
+  },
+  {
+   "path": "raw/s1/2025-10-27/rtc_vh.tif",
+   "bytes": 7048325,
+   "sha256": "e09f1548754496b3280e65d292a1c1dab6aaabfea84e184bb835811dd8bb322b"
+  },
+  {
+   "path": "raw/s1/2025-10-27/rtc_vv.tif",
+   "bytes": 7059352,
+   "sha256": "13f0e59c9eb0397cea57a451214aeb39230beeb7bf2a9c81fb49ce97ed0a1431"
+  },
+  {
+   "path": "raw/s1/2025-10-27/stac_earthsearch_grd.json",
+   "bytes": 8815,
+   "sha256": "062987f3e7b570b40d5167643caebc50013b9f418d18e47823c18c9d2945bf9e"
+  },
+  {
+   "path": "raw/s1/2025-10-27/stac_pc_grd.json",
+   "bytes": 9504,
+   "sha256": "aace03ada663b31659ab31e46c64476d63894288d9560302b2cbab2c4834f68b"
+  },
+  {
+   "path": "raw/s1/2025-10-27/stac_pc_rtc.json",
+   "bytes": 7220,
+   "sha256": "468bf53832e4f28970a649cc88cc9183956fd2b0a74a7b21b2ce726c34481cc8"
+  },
+  {
+   "path": "raw/s1/2025-11-03/grd_vh.tif",
+   "bytes": 2056753,
+   "sha256": "ef2e2c663a45d920e699151ada8e3402c30226dd95e0b4ffb1ed39ff31644da0"
+  },
+  {
+   "path": "raw/s1/2025-11-03/grd_vv.tif",
+   "bytes": 2320094,
+   "sha256": "59f135987e134a0739cb1278d9e8be77726262f11f5b95a4e3fe2abc78dc45a8"
+  },
+  {
+   "path": "raw/s1/2025-11-03/meta.json",
+   "bytes": 8825,
+   "sha256": "4cdc9b4a0e5c4343281ead500682e892d522b92d8acb5c301f34be8ede62bd81"
+  },
+  {
+   "path": "raw/s1/2025-11-03/quicklook.png",
+   "bytes": 1687032,
+   "sha256": "8d6a673a287076d8fbb8bb5e78b2cd5f2308719084c62fb9a0a79f57490699e2"
+  },
+  {
+   "path": "raw/s1/2025-11-03/rtc_vh.tif",
+   "bytes": 7046232,
+   "sha256": "311b61b19585e9a085e7f48ac76b6a60239db05411af3ca8de0d888068124dba"
+  },
+  {
+   "path": "raw/s1/2025-11-03/rtc_vv.tif",
+   "bytes": 7066826,
+   "sha256": "8f2cb940d2d411f9be3ba2ca449cb3410fe472b6c7489af2ba113fcfabbf07f1"
+  },
+  {
+   "path": "raw/s1/2025-11-03/stac_earthsearch_grd.json",
+   "bytes": 8805,
+   "sha256": "d1f18727fbab8cad086c1211ff73ca8d1b7cf9fac3bb7a0e264991516570a979"
+  },
+  {
+   "path": "raw/s1/2025-11-03/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "0d13e1fce903949ad3ab2b509e8587d2db351582d34bfa776f8015188023bffe"
+  },
+  {
+   "path": "raw/s1/2025-11-03/stac_pc_rtc.json",
+   "bytes": 6845,
+   "sha256": "784a5efa02b072d916bedc74a230c85268ed540af3fc8756c0022c367ea12f56"
+  },
+  {
+   "path": "raw/s1/2025-11-08/grd_vh.tif",
+   "bytes": 1999952,
+   "sha256": "169d3fb161cc2df1b3ddcb2d45be328436b248f2f5b5ff4f82b8724c2f48e275"
+  },
+  {
+   "path": "raw/s1/2025-11-08/grd_vv.tif",
+   "bytes": 2263068,
+   "sha256": "53d7f60fec2131bf6833bf032eda44bc1457558568d75233b899275a0c7a3671"
+  },
+  {
+   "path": "raw/s1/2025-11-08/meta.json",
+   "bytes": 8824,
+   "sha256": "cbc35656af4cb3045adaddc265c0a4f3a1f3c5aeec33bf67624d9e18f8425823"
+  },
+  {
+   "path": "raw/s1/2025-11-08/quicklook.png",
+   "bytes": 1637840,
+   "sha256": "526c8216c69834103cc7253f531a28649cf8c2647edc8c24b04e9e78eeeb205d"
+  },
+  {
+   "path": "raw/s1/2025-11-08/rtc_vh.tif",
+   "bytes": 7046470,
+   "sha256": "b7eebae21ff3e5aebb8feb9b6d765c3a9edccbbc269c58d3d4d152b850833e87"
+  },
+  {
+   "path": "raw/s1/2025-11-08/rtc_vv.tif",
+   "bytes": 7056715,
+   "sha256": "5284f30d12ceb09a7c6fcd279b4c4078bfe242385a445d3dc02a249866a84e65"
+  },
+  {
+   "path": "raw/s1/2025-11-08/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "917f5d3fba18ec3697c93c32c063157735babc19d799b4e8e5bf1fb8a8c2d6f6"
+  },
+  {
+   "path": "raw/s1/2025-11-08/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "bd51c8e8ad014af25212e940db7f1fe29a883b754e7e0056b4efc3730c31b5f4"
+  },
+  {
+   "path": "raw/s1/2025-11-08/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "1852958a8a3bd1eff65bf6e29b9258531a8e7387e88ab2cbd2d87bea6c2db4ad"
+  },
+  {
+   "path": "raw/s1/2025-11-15/grd_vh.tif",
+   "bytes": 2048160,
+   "sha256": "e60a5147499bf8dbd901c64da5ed25aa802b374bb3e355743eeaf4c315b7ae4f"
+  },
+  {
+   "path": "raw/s1/2025-11-15/grd_vv.tif",
+   "bytes": 2318587,
+   "sha256": "c069adf49a2690b7c45f1032c65d32514bea1e44460ce8c65c6006294a7dc85e"
+  },
+  {
+   "path": "raw/s1/2025-11-15/meta.json",
+   "bytes": 8847,
+   "sha256": "7e782fe2d8bf152bdbf57f386d1a99ae7e7b1cee9dffce5589171bea16b03879"
+  },
+  {
+   "path": "raw/s1/2025-11-15/quicklook.png",
+   "bytes": 1701920,
+   "sha256": "930c7e4efe0803f65662b98261c55f133233683da1d623905cbe4c84c383d9b6"
+  },
+  {
+   "path": "raw/s1/2025-11-15/rtc_vh.tif",
+   "bytes": 7044782,
+   "sha256": "d8e66a66a6675986ad1e266db412d37a48042bc8ac1e031c7748aad19ec2d3d8"
+  },
+  {
+   "path": "raw/s1/2025-11-15/rtc_vv.tif",
+   "bytes": 7064095,
+   "sha256": "b9973557cc5043336eef07be026207951fad29173e9432cd5e022e4698f2e0c3"
+  },
+  {
+   "path": "raw/s1/2025-11-15/stac_earthsearch_grd.json",
+   "bytes": 8818,
+   "sha256": "a8be48374b0e343a83fcb1cc597e419b4eaab285ec01b07c74ef0733d2de4053"
+  },
+  {
+   "path": "raw/s1/2025-11-15/stac_pc_grd.json",
+   "bytes": 9505,
+   "sha256": "34c6d5a6d2890ee14cd0c54d2e7490ee3786ee370a60cf54ec8a06a861d65217"
+  },
+  {
+   "path": "raw/s1/2025-11-15/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "ef59dccf85c02a04d623bc57e182a7d7b4511b9d78ba86da6f1127c8f32b85f6"
+  },
+  {
+   "path": "raw/s1/2025-11-20/grd_vh.tif",
+   "bytes": 1994555,
+   "sha256": "fada42477689c58ab382738a7a07e45b0668a5ab4f8a936e40fef18ce3b950d6"
+  },
+  {
+   "path": "raw/s1/2025-11-20/grd_vv.tif",
+   "bytes": 2265575,
+   "sha256": "b577920161541f70234db848a0f68a6e6119602bd21a7d1b8b27230f504d7a93"
+  },
+  {
+   "path": "raw/s1/2025-11-20/meta.json",
+   "bytes": 8846,
+   "sha256": "5ce98a41dc01046674017cfec0d7527cc82b6296da3f2f2cd341aeb1d909e166"
+  },
+  {
+   "path": "raw/s1/2025-11-20/quicklook.png",
+   "bytes": 1641858,
+   "sha256": "e32d6265d823d877fdd523be91c61918f1c618f9990a0f2d6e908360d5b483ad"
+  },
+  {
+   "path": "raw/s1/2025-11-20/rtc_vh.tif",
+   "bytes": 7050125,
+   "sha256": "a02f7f9fb2a0856d88c81b15bd06917f0953328035341064e162d30718d67abe"
+  },
+  {
+   "path": "raw/s1/2025-11-20/rtc_vv.tif",
+   "bytes": 7057422,
+   "sha256": "679b1c332531bdbd2be197fdfa95d76c1fefc38530369d7dd0e2d85bab9f38d8"
+  },
+  {
+   "path": "raw/s1/2025-11-20/stac_earthsearch_grd.json",
+   "bytes": 8813,
+   "sha256": "dfa0150d6a626a5e21df3360ac20d1e1a56e63fa73fb44b61bf8c1db81cf6406"
+  },
+  {
+   "path": "raw/s1/2025-11-20/stac_pc_grd.json",
+   "bytes": 9500,
+   "sha256": "4e0aab125cbf3915a90a3588272b9e8d8ade22d8efe313c1364854732deb3520"
+  },
+  {
+   "path": "raw/s1/2025-11-20/stac_pc_rtc.json",
+   "bytes": 7221,
+   "sha256": "71eebb411f2959842dd29d1cfd3c85aa253046bc8823d54347c01ce69f137202"
+  },
+  {
+   "path": "raw/s1/2025-12-02/grd_vh.tif",
+   "bytes": 1975100,
+   "sha256": "3e01beef841660276a30ab8f97b0fd237a98f43efc7d666d597eb6e60d022747"
+  },
+  {
+   "path": "raw/s1/2025-12-02/grd_vv.tif",
+   "bytes": 2245106,
+   "sha256": "464c2255fd9a074379e682b283024758fb2b18d6f483a824e5b177bf7e551454"
+  },
+  {
+   "path": "raw/s1/2025-12-02/meta.json",
+   "bytes": 8698,
+   "sha256": "c4a50b51c36aafa19322b85b5955ba57f3644f232c4360c3bc985ecd9ca5ae78"
+  },
+  {
+   "path": "raw/s1/2025-12-02/quicklook.png",
+   "bytes": 1672988,
+   "sha256": "90e06a6f52a7e0b695e698e4405e3da16b663821aa7299c44be08c146cb8c0e5"
+  },
+  {
+   "path": "raw/s1/2025-12-02/rtc_vh.tif",
+   "bytes": 7042199,
+   "sha256": "6423c2749db8a54b3c9d719dec55883730d37f0526b1ba3abe55e136c0f302b2"
+  },
+  {
+   "path": "raw/s1/2025-12-02/rtc_vv.tif",
+   "bytes": 7048357,
+   "sha256": "d24788fe95cdd87e4494cc41b7492e65e4aff43d3a3ca99384d175b52d781a14"
+  },
+  {
+   "path": "raw/s1/2025-12-02/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "83de3c90157a7f86d587ce04a325f08627d03623d34b99fd0ff93ca2d048b77a"
+  },
+  {
+   "path": "raw/s1/2025-12-02/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "80343520b7ed8d35dd1f122a6f2db1a7d9d8808db5deed42f964307526385fd8"
+  },
+  {
+   "path": "raw/s1/2025-12-02/stac_pc_rtc.json",
+   "bytes": 7218,
+   "sha256": "c4296436ba5557f3885a0aa7c8a023dcf877e4f655d800aae6fdcebdc9f7cbb5"
+  },
+  {
+   "path": "raw/s1/2025-12-09/grd_vh.tif",
+   "bytes": 2038469,
+   "sha256": "d9a47b5e8141cd37f1e3df9e1dbeaa50634e501abb3c01bb2ec64c86b890a830"
+  },
+  {
+   "path": "raw/s1/2025-12-09/grd_vv.tif",
+   "bytes": 2307820,
+   "sha256": "0e8f577a0837743346e54cb6c49a3dc148522b204eb703efc476928d00b8f04a"
+  },
+  {
+   "path": "raw/s1/2025-12-09/meta.json",
+   "bytes": 8699,
+   "sha256": "76761100ac62df76a86037f8fe686217ce2bed41aecff3e2d24f0271845095a7"
+  },
+  {
+   "path": "raw/s1/2025-12-09/quicklook.png",
+   "bytes": 1718800,
+   "sha256": "f92065649c12f28737fe52d64339f093da3f9365cb325c1f111e41862181f6c6"
+  },
+  {
+   "path": "raw/s1/2025-12-09/rtc_vh.tif",
+   "bytes": 7033724,
+   "sha256": "b2d5b6ac0904d21cef7d10036835cbe34107f6eddf30014d51165a9f03518c67"
+  },
+  {
+   "path": "raw/s1/2025-12-09/rtc_vv.tif",
+   "bytes": 7046141,
+   "sha256": "411cb991f03ccfd92712abcbf85118675dc079a6fe8804ac312f96efb658f0be"
+  },
+  {
+   "path": "raw/s1/2025-12-09/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "55ce3fc134efb016893ff317e439304b706b11e1a32d30918605bae25b3677b6"
+  },
+  {
+   "path": "raw/s1/2025-12-09/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "fba0c2658f85ede8b91cd50fe91fea98ca1ccf639439352f15e098d9066852c0"
+  },
+  {
+   "path": "raw/s1/2025-12-09/stac_pc_rtc.json",
+   "bytes": 6845,
+   "sha256": "68842e268c03edbe81d46432bfdb7414ff93a8091657579c19f00f297e05778c"
+  },
+  {
+   "path": "raw/s1/2025-12-14/grd_vh.tif",
+   "bytes": 1952048,
+   "sha256": "676ec2cd9f2c1d83d63f077d36ba7003338626601f4fd8bee233c98ba9d902a1"
+  },
+  {
+   "path": "raw/s1/2025-12-14/grd_vv.tif",
+   "bytes": 2244067,
+   "sha256": "33bec5f6780bb88574401f19d833521ab806089a70a656d9bcde409d7da67e4d"
+  },
+  {
+   "path": "raw/s1/2025-12-14/meta.json",
+   "bytes": 8720,
+   "sha256": "c253cc5471e7a3eaa552fb9d771f2d86902c8b9e7ac4e9151d78b0299c0b52b8"
+  },
+  {
+   "path": "raw/s1/2025-12-14/quicklook.png",
+   "bytes": 1674569,
+   "sha256": "36b521618cadb7a39bb92ef5dfba6a67a1b00d13715b5d6b6dacdf8ff0821a58"
+  },
+  {
+   "path": "raw/s1/2025-12-14/rtc_vh.tif",
+   "bytes": 7036209,
+   "sha256": "96e9b1a3358e8996645dcddf741fbff82e3269bf09a8b256eb79559d98318dc7"
+  },
+  {
+   "path": "raw/s1/2025-12-14/rtc_vv.tif",
+   "bytes": 7044127,
+   "sha256": "217427328aee5d216d7b31eef53ca1d70f517827932cec919f580018dc632bb8"
+  },
+  {
+   "path": "raw/s1/2025-12-14/stac_earthsearch_grd.json",
+   "bytes": 8818,
+   "sha256": "7385242713a38663b0783cf6387f98fc935fbe4f7dbef6a27231ba49d10c54e7"
+  },
+  {
+   "path": "raw/s1/2025-12-14/stac_pc_grd.json",
+   "bytes": 9505,
+   "sha256": "194ba15c1387252a32bb1decd40e16ced9dedb0b301a0e9a027ac00a463adc32"
+  },
+  {
+   "path": "raw/s1/2025-12-14/stac_pc_rtc.json",
+   "bytes": 7222,
+   "sha256": "dda809cf9809e98e587d88622542736b21e2905c4e2971c6be866115e148c13a"
+  },
+  {
+   "path": "raw/s1/2025-12-21/grd_vh.tif",
+   "bytes": 2021877,
+   "sha256": "48a93e748a8c6ba752399f899c1446dd6a91c20035595bb55a2d771df32a7d2f"
+  },
+  {
+   "path": "raw/s1/2025-12-21/grd_vv.tif",
+   "bytes": 2316506,
+   "sha256": "0f1ab349e0b346cd30da6011943916e94da3c93df3c7623c26c2da18ffaf4efc"
+  },
+  {
+   "path": "raw/s1/2025-12-21/meta.json",
+   "bytes": 8847,
+   "sha256": "1deeda5e4cb2c09e8be343c828d36f8f75d8ae13decfb66b2bc3cf7dcea3e713"
+  },
+  {
+   "path": "raw/s1/2025-12-21/quicklook.png",
+   "bytes": 1719813,
+   "sha256": "7d1d36ec0686c84b8fe311476ee584878d1d97ccf999f309b86bde5c3946e000"
+  },
+  {
+   "path": "raw/s1/2025-12-21/rtc_vh.tif",
+   "bytes": 7035484,
+   "sha256": "63cd73459996e714a2dd3fbc71590603331e7543e46153cc7c781daaf45ff3e3"
+  },
+  {
+   "path": "raw/s1/2025-12-21/rtc_vv.tif",
+   "bytes": 7034743,
+   "sha256": "06097634a209709c7206dcd0fcb45c335885b8584648bddc6ab900a021e34ace"
+  },
+  {
+   "path": "raw/s1/2025-12-21/stac_earthsearch_grd.json",
+   "bytes": 8817,
+   "sha256": "d1d0506acac61ebd2f0aaae000d90c435b4fdcf4dd46e7e7c2b180578b18e99a"
+  },
+  {
+   "path": "raw/s1/2025-12-21/stac_pc_grd.json",
+   "bytes": 9508,
+   "sha256": "943b78a5531a962d2c4653ce843104bdd119dc8ed72f3c9e95a5c83c01d1135d"
+  },
+  {
+   "path": "raw/s1/2025-12-21/stac_pc_rtc.json",
+   "bytes": 6850,
+   "sha256": "d3c865704d1208506b64dec88f450c85242a402348c063988ec929e7ae88c9a2"
+  },
+  {
+   "path": "raw/s1/2025-12-26/grd_vh.tif",
+   "bytes": 1949770,
+   "sha256": "aba93bc54b6b4e075b1ce7a61c96f03f82cbfc8eb504abe4daea243ccba04724"
+  },
+  {
+   "path": "raw/s1/2025-12-26/grd_vv.tif",
+   "bytes": 2245086,
+   "sha256": "0122f452a2c3a3e05c0b064e6064dd4fc060156ab4f9c672d748719e453ef9a4"
+  },
+  {
+   "path": "raw/s1/2025-12-26/meta.json",
+   "bytes": 8846,
+   "sha256": "a6e9e8c9c0e9af40673ca495399da6779eaee8d52a31808ea7e2b20803502861"
+  },
+  {
+   "path": "raw/s1/2025-12-26/quicklook.png",
+   "bytes": 1668956,
+   "sha256": "c13ad27449da2bdd743edebab6d0f685de9299ec4338bdc7bdc31ee7d3c7bae6"
+  },
+  {
+   "path": "raw/s1/2025-12-26/rtc_vh.tif",
+   "bytes": 7034167,
+   "sha256": "1dbc9e0911b6f03a5fd61786ffe117bf4760a7ada1a6179ebebe97b3e7f17448"
+  },
+  {
+   "path": "raw/s1/2025-12-26/rtc_vv.tif",
+   "bytes": 7036910,
+   "sha256": "69e8fcc1bd3022563a1c6d81308d002ae57d36033b245d9dda060751644e0772"
+  },
+  {
+   "path": "raw/s1/2025-12-26/stac_earthsearch_grd.json",
+   "bytes": 8813,
+   "sha256": "5c654762814677bba8d512e6cb01f5c426aa0aa52ca183e0df0b1933f65663c0"
+  },
+  {
+   "path": "raw/s1/2025-12-26/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "5fa69ae3d4dcb6808bdfa7e74eaee02f55c97980b9a35598babe008ccdb545e8"
+  },
+  {
+   "path": "raw/s1/2025-12-26/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "3ec357a249d3a35c879f8614a026530297a7d775ac6306073edccbceff2e13b5"
+  },
+  {
+   "path": "raw/s1/2026-01-02/grd_vh.tif",
+   "bytes": 2018434,
+   "sha256": "7bd144f1d32a74152f65a5d7c48c17e58edcc4d14fa3d8a829b02703ab520185"
+  },
+  {
+   "path": "raw/s1/2026-01-02/grd_vv.tif",
+   "bytes": 2313258,
+   "sha256": "d0680671e8dd3c624f96ad5bafad5b64023cc864cb74d562f6780433d35a4768"
+  },
+  {
+   "path": "raw/s1/2026-01-02/meta.json",
+   "bytes": 8803,
+   "sha256": "fce763d3f3ad51453d9fcc33fc11ddbacd67394cbcf8d64b8cdd643e9539e96c"
+  },
+  {
+   "path": "raw/s1/2026-01-02/quicklook.png",
+   "bytes": 1714373,
+   "sha256": "604cb6c9d86cd6c2e95e24ce8399fbbe9f5ccd22f201436f102139e89f7565d7"
+  },
+  {
+   "path": "raw/s1/2026-01-02/rtc_vh.tif",
+   "bytes": 7037402,
+   "sha256": "036d934c0c1876e8bb8c4f44b4fd844361be8e2b59f27674d748c63a6d4f8972"
+  },
+  {
+   "path": "raw/s1/2026-01-02/rtc_vv.tif",
+   "bytes": 7035955,
+   "sha256": "05fe9ae4cab1dc31e433353f246a04abec7bb18d7bc0af194e18b645998b83a2"
+  },
+  {
+   "path": "raw/s1/2026-01-02/stac_earthsearch_grd.json",
+   "bytes": 8797,
+   "sha256": "6a4973ae15cce85d39c434d431dc9d90dd0ded55695998698f7ebc12930c71f5"
+  },
+  {
+   "path": "raw/s1/2026-01-02/stac_pc_grd.json",
+   "bytes": 9486,
+   "sha256": "f1822ee90470bbb7a06d8305f3d1ab8c2c2cf2636d659bd2e064ffefef6d0ee2"
+  },
+  {
+   "path": "raw/s1/2026-01-02/stac_pc_rtc.json",
+   "bytes": 6838,
+   "sha256": "0b90856c97c5becf64e9e2991a01d0c5da27180f9e5129b1729a72ad1861612c"
+  },
+  {
+   "path": "raw/s1/2026-01-07/grd_vh.tif",
+   "bytes": 1974478,
+   "sha256": "4a8788d83b26fc39d93a6dd8bc1bfc27ad2891465e4e043873fd896da2299ae6"
+  },
+  {
+   "path": "raw/s1/2026-01-07/grd_vv.tif",
+   "bytes": 2254469,
+   "sha256": "af1516e005ed09e26eb17947718ff46086bc999a2f7db118c5a5c120d36dadf5"
+  },
+  {
+   "path": "raw/s1/2026-01-07/meta.json",
+   "bytes": 8802,
+   "sha256": "08f4f9056da345515acf3b22ffebf43b94b10ff17c0d85e729ea0e89b295f35d"
+  },
+  {
+   "path": "raw/s1/2026-01-07/quicklook.png",
+   "bytes": 1677858,
+   "sha256": "c0f5530492f561bf5b309ca78eeac06d9e4a00b34036abbd12daa5a56b6a80aa"
+  },
+  {
+   "path": "raw/s1/2026-01-07/rtc_vh.tif",
+   "bytes": 7043746,
+   "sha256": "338c72cb3e741e2b287af156937059f8e001d9b2fa2d89d6bba441474edea1c6"
+  },
+  {
+   "path": "raw/s1/2026-01-07/rtc_vv.tif",
+   "bytes": 7040188,
+   "sha256": "a89a0ee205e7e087c8c132114c9945aae41bda9df1208aaf757c59a4d9f85fcd"
+  },
+  {
+   "path": "raw/s1/2026-01-07/stac_earthsearch_grd.json",
+   "bytes": 8797,
+   "sha256": "6ac4a3213e79c45bc2c91c8e1f0076f7039d2e24970728d63689c57efa9d61f8"
+  },
+  {
+   "path": "raw/s1/2026-01-07/stac_pc_grd.json",
+   "bytes": 9488,
+   "sha256": "ed5129de37fdea372d384213268c4517b676bb7522a19685ee71b87982d670c2"
+  },
+  {
+   "path": "raw/s1/2026-01-07/stac_pc_rtc.json",
+   "bytes": 7211,
+   "sha256": "d0fed1e3c7182718407803a7260722a880a128d3a9e5029404d7caf4bcb67526"
+  },
+  {
+   "path": "raw/s1/2026-01-14/grd_vh.tif",
+   "bytes": 2072200,
+   "sha256": "3613f3223250d2f9431bc66bc77163b33a0b1542e0a69a9ee7b0b28e3f5ca6da"
+  },
+  {
+   "path": "raw/s1/2026-01-14/grd_vv.tif",
+   "bytes": 2336241,
+   "sha256": "6f32bcf539dcbd04da7c9cb2690e313d33a3d614f7a1256ede8c2aa6315d3027"
+  },
+  {
+   "path": "raw/s1/2026-01-14/meta.json",
+   "bytes": 8825,
+   "sha256": "fcba4c93dffdfc16ae12f66f5ecde7fd1a5e83afe47dfb06b4d0b6755e46f72d"
+  },
+  {
+   "path": "raw/s1/2026-01-14/quicklook.png",
+   "bytes": 1734098,
+   "sha256": "828deff12f3a34c2a39c9867f2ad6ce563376ecd3409d23f660ce9d35c23cc64"
+  },
+  {
+   "path": "raw/s1/2026-01-14/rtc_vh.tif",
+   "bytes": 7028521,
+   "sha256": "31f54e910a0fe91f0efff0fd2a0d33e0548a828b536de04c496f563aa7f96279"
+  },
+  {
+   "path": "raw/s1/2026-01-14/rtc_vv.tif",
+   "bytes": 7044600,
+   "sha256": "7dfa99681fb82b3b907d3c5387a819f61a4b50eaae08b0ab3ca46f2d2323e073"
+  },
+  {
+   "path": "raw/s1/2026-01-14/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "38bfc7d0ad7a834b0779bcf159dd669b9c1e5a18d96bb23da877068c6be1f26e"
+  },
+  {
+   "path": "raw/s1/2026-01-14/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "a6b055d3e60a869cbc3bb096018f14ab5f0b896913f70ca5ea332a05ab3fa22e"
+  },
+  {
+   "path": "raw/s1/2026-01-14/stac_pc_rtc.json",
+   "bytes": 6847,
+   "sha256": "e5d233d1ab7a04c434362bdcd8ce262d054ae85e260dee4b716b9840028f5645"
+  },
+  {
+   "path": "raw/s1/2026-01-26/grd_vh.tif",
+   "bytes": 2031078,
+   "sha256": "994f75289cb18fac8de15310c88f80390169cdb1c87c4823aef7c9b1daa33f90"
+  },
+  {
+   "path": "raw/s1/2026-01-26/grd_vv.tif",
+   "bytes": 2309473,
+   "sha256": "0f3711601178b9be1be6ad81e22d027406c23897d02e8623ba741ed48eb3f417"
+  },
+  {
+   "path": "raw/s1/2026-01-26/meta.json",
+   "bytes": 8825,
+   "sha256": "2e46c5207e86e8779259abaff3ffaa43de664fe4b326a89f014bcf65610d684d"
+  },
+  {
+   "path": "raw/s1/2026-01-26/quicklook.png",
+   "bytes": 1712732,
+   "sha256": "c2b46bab8308c9a830d28634829c86642084bc567e2002b3b48eb76d6f2903d6"
+  },
+  {
+   "path": "raw/s1/2026-01-26/rtc_vh.tif",
+   "bytes": 7040416,
+   "sha256": "82dcde01bb24ef7567e9144f642d9d11bb4591ac0f0bf62332c629add9e74a6f"
+  },
+  {
+   "path": "raw/s1/2026-01-26/rtc_vv.tif",
+   "bytes": 7053983,
+   "sha256": "969fff453893ddc0bb0ea1d3e065b2545260c7bd616e68ea231d3ca6f320a759"
+  },
+  {
+   "path": "raw/s1/2026-01-26/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "b95759ba9f3d28a4469d39dce4fe0f4f35a1d4b9c15395a311161a367b845fa9"
+  },
+  {
+   "path": "raw/s1/2026-01-26/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "47d9c8b2bd2f5e064e8f7a2debae3fa3fa885dba8169d8f6ef6397de796db1f0"
+  },
+  {
+   "path": "raw/s1/2026-01-26/stac_pc_rtc.json",
+   "bytes": 6848,
+   "sha256": "4a36a2dc9682f5ea3ab6b8ec61b61876bf9fe548bf1e4a1de3dde35e28f10ca9"
+  },
+  {
+   "path": "raw/s1/2026-01-31/grd_vh.tif",
+   "bytes": 2021271,
+   "sha256": "909949c2301f7e04c5913b119ce3ae9d8932c6b2ed603e6bd4ce0876c65ae8b9"
+  },
+  {
+   "path": "raw/s1/2026-01-31/grd_vv.tif",
+   "bytes": 2280500,
+   "sha256": "15fbf34c1cf2499625ef621ac59070ce8c626cb5d0e93fcbb3faf7366d3204fa"
+  },
+  {
+   "path": "raw/s1/2026-01-31/meta.json",
+   "bytes": 8824,
+   "sha256": "a55217a291b543cf1745acdea674d7c81c1c7c2690fcd58086633343d942b5c6"
+  },
+  {
+   "path": "raw/s1/2026-01-31/quicklook.png",
+   "bytes": 1689030,
+   "sha256": "4a861975cc71370099e1a45cf8877d2a684fe4787050b4c277e9e96096e87a62"
+  },
+  {
+   "path": "raw/s1/2026-01-31/rtc_vh.tif",
+   "bytes": 7033353,
+   "sha256": "ea31610d00c1deaf003050dbf38381a24e4884548f6efb5b594da2bd28e28121"
+  },
+  {
+   "path": "raw/s1/2026-01-31/rtc_vv.tif",
+   "bytes": 7040101,
+   "sha256": "4e61c930d850c7104c5e521f9420011d15c11139d40d6f6c4625350676aee168"
+  },
+  {
+   "path": "raw/s1/2026-01-31/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "fcedb9d4356c16c551ba5ec1bddbf0fd8f63dfcb30cb54254767f3eec741304e"
+  },
+  {
+   "path": "raw/s1/2026-01-31/stac_pc_grd.json",
+   "bytes": 9495,
+   "sha256": "53705c72cfb46bc7fc96c5d6c0bfdd782d91c060ab2cbe4e476dbaad9148b8e9"
+  },
+  {
+   "path": "raw/s1/2026-01-31/stac_pc_rtc.json",
+   "bytes": 7217,
+   "sha256": "ae2d53dfc408523e5d3a466e91bb6f1482c266d2f80c2f9be681e9cc52f7cb10"
+  },
+  {
+   "path": "raw/s1/2026-02-07/grd_vh.tif",
+   "bytes": 2095372,
+   "sha256": "398826f02918cc42c7c30e26221b9ff4a2778724e1c81a8ad1cac54ea0d8fd4f"
+  },
+  {
+   "path": "raw/s1/2026-02-07/grd_vv.tif",
+   "bytes": 2351537,
+   "sha256": "a8d37d914f60769f202b3a1a702e42bfbf94901f93ce0c03443a9817e68c0bc2"
+  },
+  {
+   "path": "raw/s1/2026-02-07/meta.json",
+   "bytes": 8803,
+   "sha256": "eaa4c599ce2fe0296757b6d8c9865dac2e0c91369b52b36d1b3030379c7e79ce"
+  },
+  {
+   "path": "raw/s1/2026-02-07/quicklook.png",
+   "bytes": 1735781,
+   "sha256": "2b797a638cb3c5d998292506a9242b61cfc694019b1816ad00f7c951bf4df823"
+  },
+  {
+   "path": "raw/s1/2026-02-07/rtc_vh.tif",
+   "bytes": 7032274,
+   "sha256": "0fd15b2ae6242806c4563c6c000f32406a308bbd0e0ff8b3a38e667572363588"
+  },
+  {
+   "path": "raw/s1/2026-02-07/rtc_vv.tif",
+   "bytes": 7047985,
+   "sha256": "799fbdc1400f696769f72249d1cb01af1ddda4225368ce734ce90de13d82bda9"
+  },
+  {
+   "path": "raw/s1/2026-02-07/stac_earthsearch_grd.json",
+   "bytes": 8795,
+   "sha256": "80a5e61d47282a326e10096c9b051d0179d27978c41c687d4853d8054e8c636f"
+  },
+  {
+   "path": "raw/s1/2026-02-07/stac_pc_grd.json",
+   "bytes": 9485,
+   "sha256": "0b0b1c966303e62c48486a3df4d7f3603bdfb908b22512f7a605e964dac9271a"
+  },
+  {
+   "path": "raw/s1/2026-02-07/stac_pc_rtc.json",
+   "bytes": 6847,
+   "sha256": "123c08be4365d53f23080aebdaa3c50499065e431e1cc0af339614cd5be2bc4f"
+  },
+  {
+   "path": "raw/s1/2026-02-12/grd_vh.tif",
+   "bytes": 2001684,
+   "sha256": "1f4d105732affe72ddd4f7487de05d64a61f2a5fbcb87e022519a4e343d772f9"
+  },
+  {
+   "path": "raw/s1/2026-02-12/grd_vv.tif",
+   "bytes": 2266994,
+   "sha256": "36dc85e4c88fbd8efb9044d348928182e870f1ec92e90940f76b3c532bc9475d"
+  },
+  {
+   "path": "raw/s1/2026-02-12/meta.json",
+   "bytes": 8824,
+   "sha256": "2eee4182ea7360db97880d11af4eba366609da8044b5266a6817fa861722ddd5"
+  },
+  {
+   "path": "raw/s1/2026-02-12/quicklook.png",
+   "bytes": 1674487,
+   "sha256": "aa15025568263d7fa6dc9fe6b53f8fbd84c08b4f4b1b50b5add8c48aedfd659e"
+  },
+  {
+   "path": "raw/s1/2026-02-12/rtc_vh.tif",
+   "bytes": 7047049,
+   "sha256": "52a8980598dd8b1a93151e5d48988268989710c88b715c0d609c9531027a0012"
+  },
+  {
+   "path": "raw/s1/2026-02-12/rtc_vv.tif",
+   "bytes": 7059754,
+   "sha256": "7f63bf66575a15bd45f9c9648e2316542cc52c8c608f29807ca2d863d69811c7"
+  },
+  {
+   "path": "raw/s1/2026-02-12/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "2fb5f8ee33c21527256cfa94db0042a93a94caa857f8a2027dbbf7a150c80f3d"
+  },
+  {
+   "path": "raw/s1/2026-02-12/stac_pc_grd.json",
+   "bytes": 9494,
+   "sha256": "1a6850008622defa8413a93d5fcc6e25979054f2c91ff41a7edbaf0bacab6ea3"
+  },
+  {
+   "path": "raw/s1/2026-02-12/stac_pc_rtc.json",
+   "bytes": 7214,
+   "sha256": "f04c79bb72c1a9dee8885515b1ed970b36830af74bad89e65f210ee23d0f881a"
+  },
+  {
+   "path": "raw/s1/2026-02-19/meta.json",
+   "bytes": 5624,
+   "sha256": "16d8bca3f341de93dbea05f7998f9933bb2d057953c9c83ecace4ef36b9b6581"
+  },
+  {
+   "path": "raw/s1/2026-02-19/quicklook.png",
+   "bytes": 1716429,
+   "sha256": "190a731e80b48b3ea20914c2c9c8afc37daf06691bb56050df6311d6854fe5cf"
+  },
+  {
+   "path": "raw/s1/2026-02-19/rtc_vh.tif",
+   "bytes": 7033696,
+   "sha256": "908885fb2716d95244d17bf330fcf27f9ca60d718f668077662be23ead040bad"
+  },
+  {
+   "path": "raw/s1/2026-02-19/rtc_vv.tif",
+   "bytes": 7060446,
+   "sha256": "a719ad3b610d78d554ed761b7fe9a1064eb857fe586395f447ead55a9103031e"
+  },
+  {
+   "path": "raw/s1/2026-02-19/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "ecc372fd2296c7543a52653374b05f712e718b63d1711c95492b0fe65a2ccf65"
+  },
+  {
+   "path": "raw/s1/2026-02-19/stac_pc_rtc.json",
+   "bytes": 6847,
+   "sha256": "feb7affc367d74288ae6bb2eb2d91fcb25dab74cc4b9ffa826c33eb731fdd219"
+  },
+  {
+   "path": "raw/s1/2026-02-24/grd_vh.tif",
+   "bytes": 1948782,
+   "sha256": "e6b6576234994738109c22737c3f0f613208eba1e98570bf73a15a5316d1f94b"
+  },
+  {
+   "path": "raw/s1/2026-02-24/grd_vv.tif",
+   "bytes": 2239479,
+   "sha256": "256e48cb52d35ea11e49def4b1960dab6b9abfa46ce3f57bba6e49391c13e872"
+  },
+  {
+   "path": "raw/s1/2026-02-24/meta.json",
+   "bytes": 8824,
+   "sha256": "6fc3d566bcfeea550b214099920b5ae8fab9d14f090d285e6db242d756231530"
+  },
+  {
+   "path": "raw/s1/2026-02-24/quicklook.png",
+   "bytes": 1679372,
+   "sha256": "6993f824b85c6924be9004e69a1fdc1d30137567c46e292d5a6a0971a3fba2c1"
+  },
+  {
+   "path": "raw/s1/2026-02-24/rtc_vh.tif",
+   "bytes": 7036336,
+   "sha256": "78604d4f187a5e886870044286721ab93f38ac1d9cc554dfeb871fd574d62d9e"
+  },
+  {
+   "path": "raw/s1/2026-02-24/rtc_vv.tif",
+   "bytes": 7047351,
+   "sha256": "7ad3ce34da6540dba094f4ac5918c0808b3f54fd97b228b03fe6e415a6211114"
+  },
+  {
+   "path": "raw/s1/2026-02-24/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "9efcfb241071aaa925cca3348cd63b77d24f7ad612b3658d05ef98cddab301eb"
+  },
+  {
+   "path": "raw/s1/2026-02-24/stac_pc_grd.json",
+   "bytes": 9492,
+   "sha256": "ff1e71fa7852c6c51946d6c7ea13328465641209789129faae50d06e0a55a98a"
+  },
+  {
+   "path": "raw/s1/2026-02-24/stac_pc_rtc.json",
+   "bytes": 7218,
+   "sha256": "9cd35997979057929cf1a982ad83d521e39505811e7823422ad12d4b5bdda5f2"
+  },
+  {
+   "path": "raw/s1/2026-03-03/grd_vh.tif",
+   "bytes": 2081843,
+   "sha256": "d25a4553a6b1fd6ec39616fe2cca1db66d3c312c0b14665933dfdaf9facfd554"
+  },
+  {
+   "path": "raw/s1/2026-03-03/grd_vv.tif",
+   "bytes": 2345175,
+   "sha256": "6376d35489ab259a6e3fc372f315b8d248db96de37274ff52c17ccb3e81ad1bd"
+  },
+  {
+   "path": "raw/s1/2026-03-03/meta.json",
+   "bytes": 8803,
+   "sha256": "9e7b327512046ec473bb9acd566f280cbaf4d029c920cd8bb0ae54374a67c2df"
+  },
+  {
+   "path": "raw/s1/2026-03-03/quicklook.png",
+   "bytes": 1736516,
+   "sha256": "0594aa0a54b456d642c633a003a93de29c703a456595a9dc8990af71db9ff187"
+  },
+  {
+   "path": "raw/s1/2026-03-03/rtc_vh.tif",
+   "bytes": 7027814,
+   "sha256": "d7ee544fab241d8787a646747cb2f2d193513091c01277eb19bbbf1fa3fd087a"
+  },
+  {
+   "path": "raw/s1/2026-03-03/rtc_vv.tif",
+   "bytes": 7045778,
+   "sha256": "230469d5e5c0375c05f3f05e4c1309da380d83c96fb71fce2cc8672ec441968f"
+  },
+  {
+   "path": "raw/s1/2026-03-03/stac_earthsearch_grd.json",
+   "bytes": 8798,
+   "sha256": "9f0f9b49a697ae8d69753ec2a5be5e9c641945fbcbd123f9b0244ea7ca359452"
+  },
+  {
+   "path": "raw/s1/2026-03-03/stac_pc_grd.json",
+   "bytes": 9486,
+   "sha256": "b578b3a7005547b2a42ced4b5c499a2423c9b8efbb80a8abf7552967737b94e2"
+  },
+  {
+   "path": "raw/s1/2026-03-03/stac_pc_rtc.json",
+   "bytes": 6846,
+   "sha256": "453e9d675f2bf8a9bb4f01dbeaceb66194756e7242f68d9bdad8529323d11292"
+  },
+  {
+   "path": "raw/s1/2026-03-08/grd_vh.tif",
+   "bytes": 2032394,
+   "sha256": "62df11d900481ad9b5c03ce04cc3fdb0b35d0500eefcf272d0644b14209170c1"
+  },
+  {
+   "path": "raw/s1/2026-03-08/grd_vv.tif",
+   "bytes": 2291924,
+   "sha256": "5bbec5e5ee1e36c6cdec610d9697c1796608213c7a4e390b662a684662bed2f2"
+  },
+  {
+   "path": "raw/s1/2026-03-08/meta.json",
+   "bytes": 8802,
+   "sha256": "22287584db901f470cb0f20627cac5644dd393751c7edec0db68e6126123bc29"
+  },
+  {
+   "path": "raw/s1/2026-03-08/quicklook.png",
+   "bytes": 1654486,
+   "sha256": "82b9df63cab14c51883683c24fdf9866959deaff55243ba1a07d6ca61257d31c"
+  },
+  {
+   "path": "raw/s1/2026-03-08/rtc_vh.tif",
+   "bytes": 7031633,
+   "sha256": "f107e1f3281f8f8d527e32809e82e54ca00e6f4c4b353f3ddd480c8db24f80b8"
+  },
+  {
+   "path": "raw/s1/2026-03-08/rtc_vv.tif",
+   "bytes": 7040769,
+   "sha256": "36006246fe286ac0800f84b176d6f919209d2caff1b60d85c7e6836e6abed14e"
+  },
+  {
+   "path": "raw/s1/2026-03-08/stac_earthsearch_grd.json",
+   "bytes": 8791,
+   "sha256": "732f8f2c2ba8bd4a8885d9efc872be97fc6bc1130a4411b55f0e320c20046b93"
+  },
+  {
+   "path": "raw/s1/2026-03-08/stac_pc_grd.json",
+   "bytes": 9483,
+   "sha256": "c92d38609279b83d406ef9def18da173fb8f31b231207f8ff0adc20b0ac41e3d"
+  },
+  {
+   "path": "raw/s1/2026-03-08/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "4b96506ee37e78dae3f6028dcd3694f6d84e2d40c913c6b309ac9301bfaa3d4b"
+  },
+  {
+   "path": "raw/s1/2026-03-15/grd_vh.tif",
+   "bytes": 2029744,
+   "sha256": "b0df37d1f0e347a36f2976278fdf2fac0681f314bbb64f23e7db856eec3d9bd0"
+  },
+  {
+   "path": "raw/s1/2026-03-15/grd_vv.tif",
+   "bytes": 2319710,
+   "sha256": "579882773952896395d3696a76594d3cc13c216ee3cac6705146a6a9027a6807"
+  },
+  {
+   "path": "raw/s1/2026-03-15/meta.json",
+   "bytes": 8825,
+   "sha256": "8f3a434c6ff0eb73a4ad5fd648c2bc027ab2f11ed52747b92eab09528b3bc295"
+  },
+  {
+   "path": "raw/s1/2026-03-15/quicklook.png",
+   "bytes": 1726781,
+   "sha256": "31badda6a50caf9222957cb1ff59e1bc2d487313b5635c493ded965e6bbd5275"
+  },
+  {
+   "path": "raw/s1/2026-03-15/rtc_vh.tif",
+   "bytes": 7039281,
+   "sha256": "92ac413b3ef49dfe8e13875838bca08f7b0304ea0fc156a3da0667fb7b58cb8c"
+  },
+  {
+   "path": "raw/s1/2026-03-15/rtc_vv.tif",
+   "bytes": 7046565,
+   "sha256": "9dae1babe21ebd6c24c4ff1d44af732e161dc812b9044f5545cbeeff32f74a76"
+  },
+  {
+   "path": "raw/s1/2026-03-15/stac_earthsearch_grd.json",
+   "bytes": 8810,
+   "sha256": "56c4fbf284714ba8e8087b0aa1294d6f3b9daa65e528fe287073ec5f44130e96"
+  },
+  {
+   "path": "raw/s1/2026-03-15/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "3fd8dcae2138059d79b2927043179b36f4b28d4ed060b0944035481189f9d3c0"
+  },
+  {
+   "path": "raw/s1/2026-03-15/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "65b44df49f73266df36cbffdadd4ef2b40e536b2534bd8ddfd0bfb38c69f20d9"
+  },
+  {
+   "path": "raw/s1/2026-03-20/grd_vh.tif",
+   "bytes": 2033458,
+   "sha256": "b1844bedc3884788b401c34a3eb76b2cba1078210311a4dafe14e2557b243624"
+  },
+  {
+   "path": "raw/s1/2026-03-20/grd_vv.tif",
+   "bytes": 2291515,
+   "sha256": "c1e4f53fa26162fedc3b9804fe7acc19b6f971e4b82219075ae8b0212e9de8e9"
+  },
+  {
+   "path": "raw/s1/2026-03-20/meta.json",
+   "bytes": 8824,
+   "sha256": "5af4b1300e0a782658a22a9fb92aa8ca899abdae34378741f0976e0eabf67778"
+  },
+  {
+   "path": "raw/s1/2026-03-20/quicklook.png",
+   "bytes": 1691838,
+   "sha256": "780c43c9b4520ab45d2d3e5a8a8a8c8ec3be4bf381460cf47e3b2f8c085b47db"
+  },
+  {
+   "path": "raw/s1/2026-03-20/rtc_vh.tif",
+   "bytes": 7036653,
+   "sha256": "a181f4d2782f71a2c3b95714e1886815cb6cbd799b4cfc163b6e93c4eedfe0a1"
+  },
+  {
+   "path": "raw/s1/2026-03-20/rtc_vv.tif",
+   "bytes": 7041701,
+   "sha256": "ee089fd69420a91c2fa529329c4a3e4e9760437e93a3ed695f064a28672cfc6f"
+  },
+  {
+   "path": "raw/s1/2026-03-20/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "8a2a7262ba9fc07669958cbb91362ae142be969eaee89c2791502119276a1ab2"
+  },
+  {
+   "path": "raw/s1/2026-03-20/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "7656cc296a6ee70b4ad91a4c170ec22ec2dcc58df42639889314e36b283622da"
+  },
+  {
+   "path": "raw/s1/2026-03-20/stac_pc_rtc.json",
+   "bytes": 7218,
+   "sha256": "824b5fae93c4dedf167a3a3867b7c3960446a7a6991d2fffeae129325e6478e7"
+  },
+  {
+   "path": "raw/s1/2026-03-27/grd_vh.tif",
+   "bytes": 2049189,
+   "sha256": "264c5976d87fa960956da2e2ebe17a10a1e4c7141be4f7b552eae678eee2b6f7"
+  },
+  {
+   "path": "raw/s1/2026-03-27/grd_vv.tif",
+   "bytes": 2326394,
+   "sha256": "bbae5806cc0a7ce36b8a98475ffb3c92968b1bed5eb7e9bb9925188f21ca8018"
+  },
+  {
+   "path": "raw/s1/2026-03-27/meta.json",
+   "bytes": 8825,
+   "sha256": "1e6fbec0b18d84465162961aadadfd5d1eef221484faa9a3b3f0038c835d70ad"
+  },
+  {
+   "path": "raw/s1/2026-03-27/quicklook.png",
+   "bytes": 1744968,
+   "sha256": "5303a127804872b667efe23d43f6b2345a804b65344285b69dbb5db2371ef6a1"
+  },
+  {
+   "path": "raw/s1/2026-03-27/rtc_vh.tif",
+   "bytes": 7029470,
+   "sha256": "f78a3ad91aa515cc03524cf419c8c450eb0bddfc0e4b35cf2b0d740f3645b225"
+  },
+  {
+   "path": "raw/s1/2026-03-27/rtc_vv.tif",
+   "bytes": 7041679,
+   "sha256": "43461c72ce2a00f9b630cfaa46a7e2f0a43dc24b7fa13bf298fa7ffc1701efb2"
+  },
+  {
+   "path": "raw/s1/2026-03-27/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "7ee8664b762cb009a80aeeb9d14329a032b55dd3cef4c2328d31d901a5b02db5"
+  },
+  {
+   "path": "raw/s1/2026-03-27/stac_pc_grd.json",
+   "bytes": 9494,
+   "sha256": "91fc38d249f4cefe07d2ed5b4f3065c0f7667cde8c66411c465e6a16d96ad3bb"
+  },
+  {
+   "path": "raw/s1/2026-03-27/stac_pc_rtc.json",
+   "bytes": 6847,
+   "sha256": "2b38f095a21898ee553d7b1f8d606d97e70b0358b43a80ab26a428f3a7f1801a"
+  },
+  {
+   "path": "raw/s1/2026-04-01/grd_vh.tif",
+   "bytes": 1999075,
+   "sha256": "1884b9f0144f005baf2231e715a8d1a30048e3485036aea24b5bb4247cff7ab2"
+  },
+  {
+   "path": "raw/s1/2026-04-01/grd_vv.tif",
+   "bytes": 2266851,
+   "sha256": "a19e193b3e43b9929ea6fa2a645c339eddb629a9691ec4147067f16f123ca7aa"
+  },
+  {
+   "path": "raw/s1/2026-04-01/meta.json",
+   "bytes": 8802,
+   "sha256": "0ea1b4b637744d5172e9418fab0dbb41032cb92c5a0722d820d1de7703448f26"
+  },
+  {
+   "path": "raw/s1/2026-04-01/quicklook.png",
+   "bytes": 1700828,
+   "sha256": "909ebf07357059a091f3301fdd0cffc8c3590674cfe03bb0e6b67fc144dc3e75"
+  },
+  {
+   "path": "raw/s1/2026-04-01/rtc_vh.tif",
+   "bytes": 7036930,
+   "sha256": "ea7ab2a8a5124b1ea5d753b3965d7815b0cf297cac656ab91888a3ce6c480693"
+  },
+  {
+   "path": "raw/s1/2026-04-01/rtc_vv.tif",
+   "bytes": 7040963,
+   "sha256": "23fa8a73f41ad3ca582bd65e0f326389a564ede3a304ac4ced25d34a551529e7"
+  },
+  {
+   "path": "raw/s1/2026-04-01/stac_earthsearch_grd.json",
+   "bytes": 8797,
+   "sha256": "a161d4287c04d637359f4979c97134d9a0b099350a5823e32737b62aed2146c5"
+  },
+  {
+   "path": "raw/s1/2026-04-01/stac_pc_grd.json",
+   "bytes": 9487,
+   "sha256": "198179ec69d104728a5cec6babc479a1567a44b891543361bef65b406133b7eb"
+  },
+  {
+   "path": "raw/s1/2026-04-01/stac_pc_rtc.json",
+   "bytes": 7213,
+   "sha256": "8a01d35129954a99ecbd85bc57f7fdd7a840e42a4fc1752566952d6fdd32b459"
+  },
+  {
+   "path": "raw/s1/2026-04-08/grd_vh.tif",
+   "bytes": 2086303,
+   "sha256": "19c458b2e2f18a60c0036f03f32cdb875fa20ad192d32a9e094036a800701bf6"
+  },
+  {
+   "path": "raw/s1/2026-04-08/grd_vv.tif",
+   "bytes": 2346425,
+   "sha256": "be4e64e00781f8dce98635922207f2d78bc6e29033bc18301ca2e4ee614848bc"
+  },
+  {
+   "path": "raw/s1/2026-04-08/meta.json",
+   "bytes": 8803,
+   "sha256": "2496773e203aa917a225a72bae4274013cd5f411091e1c9347cc9f40603cf7bc"
+  },
+  {
+   "path": "raw/s1/2026-04-08/quicklook.png",
+   "bytes": 1739975,
+   "sha256": "7df5621542494a4a289a803f9004ae8d0e14ce73c1f6f5a8a5c8cde5231c216a"
+  },
+  {
+   "path": "raw/s1/2026-04-08/rtc_vh.tif",
+   "bytes": 7033432,
+   "sha256": "9975f330d146d0484ae218dce9e2ea264f395eb40a3a4e3726de6b7218ec2d06"
+  },
+  {
+   "path": "raw/s1/2026-04-08/rtc_vv.tif",
+   "bytes": 7051167,
+   "sha256": "3e89517c292879d1198aa6198c626cc41362e59ec121c15fc55ba6b43e7fc800"
+  },
+  {
+   "path": "raw/s1/2026-04-08/stac_earthsearch_grd.json",
+   "bytes": 8794,
+   "sha256": "f838d4683814fa4428cd4e918b03e6b78069daa65a89b57de0ec4fe107362407"
+  },
+  {
+   "path": "raw/s1/2026-04-08/stac_pc_grd.json",
+   "bytes": 9481,
+   "sha256": "85d995b1da031408feae50b1dbb647d7fe20f5d12f802beba79217559fc8c5d5"
+  },
+  {
+   "path": "raw/s1/2026-04-08/stac_pc_rtc.json",
+   "bytes": 6845,
+   "sha256": "54ee42f80103dd05d13698f358487db3b5731aac8776be6ffc46388eddb4428c"
+  },
+  {
+   "path": "raw/s1/2026-04-13/grd_vh.tif",
+   "bytes": 2019985,
+   "sha256": "35c3a5df846d5f5fc34fdff8fa5031bd3ee195371b5b9277ae49be8830592a38"
+  },
+  {
+   "path": "raw/s1/2026-04-13/grd_vv.tif",
+   "bytes": 2282746,
+   "sha256": "cb94fca1577471d964f459036c842e5f159d10b1779fbd8bbbe201d4786882e3"
+  },
+  {
+   "path": "raw/s1/2026-04-13/meta.json",
+   "bytes": 8824,
+   "sha256": "5e2fad345b7dbc823d55880e5df4c0a2790c5153533d254b008933d19671613f"
+  },
+  {
+   "path": "raw/s1/2026-04-13/quicklook.png",
+   "bytes": 1676523,
+   "sha256": "edb554eb3a7d77f5ad963917ccd5110d8680033ad3b8731af7e2f6a8fec9c83b"
+  },
+  {
+   "path": "raw/s1/2026-04-13/rtc_vh.tif",
+   "bytes": 7035414,
+   "sha256": "f022abeb17bf7277b4528743310a0a07064b60cf559b4f3e32f902f260ca8391"
+  },
+  {
+   "path": "raw/s1/2026-04-13/rtc_vv.tif",
+   "bytes": 7045294,
+   "sha256": "78e751dc85c706e5da07ad3dd1f55241c9f302d9e99ff02438f702b333419fb0"
+  },
+  {
+   "path": "raw/s1/2026-04-13/stac_earthsearch_grd.json",
+   "bytes": 8805,
+   "sha256": "88363c97fdb8d9dc24cecaf0a9b65cbbf14a848e90db6474d2fe8a0cc82cfa33"
+  },
+  {
+   "path": "raw/s1/2026-04-13/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "8758b50fd348ea59b50e1b74a4bd265163abd8f9808c32e1f6ff560bbe467a3b"
+  },
+  {
+   "path": "raw/s1/2026-04-13/stac_pc_rtc.json",
+   "bytes": 7223,
+   "sha256": "68ed106d4a90144c01714e2f0a51b3e7b33d38f13e95c0ed5b9b6bb189c442f9"
+  },
+  {
+   "path": "raw/s1/2026-04-20/grd_vh.tif",
+   "bytes": 2098787,
+   "sha256": "1ec524e5f8e054296f7b5ec1f135348e4d5179613e8d395acf90e4058b577305"
+  },
+  {
+   "path": "raw/s1/2026-04-20/grd_vv.tif",
+   "bytes": 2355623,
+   "sha256": "364b0ddd0d809bc9ac590873ecba99cca07780029f10fec14133fc024e26eca4"
+  },
+  {
+   "path": "raw/s1/2026-04-20/meta.json",
+   "bytes": 8825,
+   "sha256": "ddf9818106cd283e02a71ff13f530ab735a70660f752380e583fc851bf3936f8"
+  },
+  {
+   "path": "raw/s1/2026-04-20/quicklook.png",
+   "bytes": 1732389,
+   "sha256": "8808d9db73677d356dd2b6c2ba055e57edc465b909cfaad4927d36f72777f746"
+  },
+  {
+   "path": "raw/s1/2026-04-20/rtc_vh.tif",
+   "bytes": 7028374,
+   "sha256": "644e9bc64684563e4ac114e514719348fb127c8bb12dc23b5134f00ec9c5ca45"
+  },
+  {
+   "path": "raw/s1/2026-04-20/rtc_vv.tif",
+   "bytes": 7045418,
+   "sha256": "63b528de6973408fe7d8a51225615e9b80473c9030f3d75b3ef337a257fa189e"
+  },
+  {
+   "path": "raw/s1/2026-04-20/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "addcc70e362e450d83d0d0a9293e146d284218b4d2d3b6a0f2eaa4c832b45f5f"
+  },
+  {
+   "path": "raw/s1/2026-04-20/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "e79e09bd516ed2977ba16529e46a503e7310e05aa9569e37c30509a817fe68a5"
+  },
+  {
+   "path": "raw/s1/2026-04-20/stac_pc_rtc.json",
+   "bytes": 6849,
+   "sha256": "87ba1d31fff1ac543b768d16041d711d935ee3a85f3da22788ec41301f7c1b34"
+  },
+  {
+   "path": "raw/s1/2026-04-21/meta.json",
+   "bytes": 3302,
+   "sha256": "9ecb0bdda3d499df604e7ee76e509f77855bce571c7285ff9350566fca22a48b"
+  },
+  {
+   "path": "raw/s1/2026-04-21/stac_earthsearch_grd.json",
+   "bytes": 9039,
+   "sha256": "2222a400ff882c62db00dbb41e1e52e70d5ec68221363e837dca54dcdcd5c6c5"
+  },
+  {
+   "path": "raw/s1/2026-04-25/grd_vh.tif",
+   "bytes": 2012554,
+   "sha256": "0f0237fdb3606d004aa825cd4096300a8d4e118ea5b7ac67bb70e51b89a25670"
+  },
+  {
+   "path": "raw/s1/2026-04-25/grd_vv.tif",
+   "bytes": 2279046,
+   "sha256": "870ff1495512d43c51df5a4fb4fc67c10b2f062da0ba54e9c3f2aa4ad9491e5f"
+  },
+  {
+   "path": "raw/s1/2026-04-25/meta.json",
+   "bytes": 8824,
+   "sha256": "4becb0180843de26cb07057607bf1ae871bf996a48b50fea3e9b2a3fa294adc8"
+  },
+  {
+   "path": "raw/s1/2026-04-25/quicklook.png",
+   "bytes": 1694902,
+   "sha256": "5c94f223e9f2d110b378408a35007da62702debee8cb5556352c81e7c80c6a1b"
+  },
+  {
+   "path": "raw/s1/2026-04-25/rtc_vh.tif",
+   "bytes": 7047614,
+   "sha256": "b333387aaaaba902bbea4b23ca4b0d64080f51259528822bca6cadb857d0a08f"
+  },
+  {
+   "path": "raw/s1/2026-04-25/rtc_vv.tif",
+   "bytes": 7049738,
+   "sha256": "7c21ef58999da95c028f7b34ba080a5faecb8ed7f836370b0a747502d79207c8"
+  },
+  {
+   "path": "raw/s1/2026-04-25/stac_earthsearch_grd.json",
+   "bytes": 8805,
+   "sha256": "49b45e2c4f353a7c6a147a00a344ba0dc366a01a0d72704d783f27e8dc95e622"
+  },
+  {
+   "path": "raw/s1/2026-04-25/stac_pc_grd.json",
+   "bytes": 9495,
+   "sha256": "ba26610b8d3cca5d92be28dd316d1a77387a8fecd703bc238f9f0931153b28bf"
+  },
+  {
+   "path": "raw/s1/2026-04-25/stac_pc_rtc.json",
+   "bytes": 7208,
+   "sha256": "f6a311c1d07d4b2d42b2ae7765e0776feba7f5dc9a95518ad9655850de267270"
+  },
+  {
+   "path": "raw/s1/2026-04-26/meta.json",
+   "bytes": 3301,
+   "sha256": "aa53a85d476cf3ef272caad09d1411bc538c5f249e79dd5e30fa0a29c903ae6d"
+  },
+  {
+   "path": "raw/s1/2026-04-26/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "a445a3d9d2e2a6e8779a407a90845e65af3303d2d2db8dd735d72b285b2ae449"
+  },
+  {
+   "path": "raw/s1/2026-05-02/grd_vh.tif",
+   "bytes": 2100203,
+   "sha256": "ffe7f4c0c05e0af1a62b221e77da788971ef9b6b40aba94c79ccba8ccb6dab1f"
+  },
+  {
+   "path": "raw/s1/2026-05-02/grd_vv.tif",
+   "bytes": 2352614,
+   "sha256": "027f69d15f2adb1a428bedaaae1b3f43dfdf90310e9c3d10451a12bc486e3043"
+  },
+  {
+   "path": "raw/s1/2026-05-02/meta.json",
+   "bytes": 8803,
+   "sha256": "1d8842ba5cb66c81c61148ab6ae07c501c123591867190a3209d7116ef50e53a"
+  },
+  {
+   "path": "raw/s1/2026-05-02/quicklook.png",
+   "bytes": 1715220,
+   "sha256": "18dfeac3691aa77105b0f7044ca98a026be2be51ff4a25fff64883f2361f1a33"
+  },
+  {
+   "path": "raw/s1/2026-05-02/rtc_vh.tif",
+   "bytes": 7035443,
+   "sha256": "b5f0026fe6947dc3999934ba0d21168ce287a935eca2cf0f4f8ee92bd1b2c2b9"
+  },
+  {
+   "path": "raw/s1/2026-05-02/rtc_vv.tif",
+   "bytes": 7053298,
+   "sha256": "c5aafc1781476ce7ada4df057fc150dfc327f12f614d57b7617f968fd02d4b95"
+  },
+  {
+   "path": "raw/s1/2026-05-02/stac_earthsearch_grd.json",
+   "bytes": 8843,
+   "sha256": "bf7d80750dc59524912b6d6cbc879979a9025ce931908822c9614333f36c71b0"
+  },
+  {
+   "path": "raw/s1/2026-05-02/stac_pc_grd.json",
+   "bytes": 9489,
+   "sha256": "0619ec1bf2ae831e3e11347216400e77a208327a60a7c5f4f40ee40202e746fd"
+  },
+  {
+   "path": "raw/s1/2026-05-02/stac_pc_rtc.json",
+   "bytes": 6846,
+   "sha256": "d65182beddbd57c0d0d389e2a5da566e3a768e9df56d92bdfa6568647ec9c01e"
+  },
+  {
+   "path": "raw/s1/2026-05-03/meta.json",
+   "bytes": 3292,
+   "sha256": "6162609994d50c38b1c1ea9f9a470a27be5cbfa482d5ca8f77770c75256f3ae8"
+  },
+  {
+   "path": "raw/s1/2026-05-03/stac_earthsearch_grd.json",
+   "bytes": 8799,
+   "sha256": "cafb8eaf08e343fd60af93a9e4ec93d04ed5bc930826e63cc1b82d85eb4b625f"
+  },
+  {
+   "path": "raw/s1/2026-05-07/grd_vh.tif",
+   "bytes": 2025453,
+   "sha256": "4b6126a8c9b727e8bd6e2f26834c28d2b8fe803149b97b196a610e1a4418abbc"
+  },
+  {
+   "path": "raw/s1/2026-05-07/grd_vv.tif",
+   "bytes": 2276872,
+   "sha256": "45c2270e3467d13544e469f2d90a2ecc19cb504a6fb5b134d06923bffe457fe2"
+  },
+  {
+   "path": "raw/s1/2026-05-07/meta.json",
+   "bytes": 8802,
+   "sha256": "9d33f3640213ea640fdc48b071bd487c3956603e1771d7bf0cc87c091f01da00"
+  },
+  {
+   "path": "raw/s1/2026-05-07/quicklook.png",
+   "bytes": 1665450,
+   "sha256": "4498c65693d0861f2b7cb9ce537a0d63b7092518f01b235b6008161846346821"
+  },
+  {
+   "path": "raw/s1/2026-05-07/rtc_vh.tif",
+   "bytes": 7041956,
+   "sha256": "e783ec91a32c3490c529c1415f1c5dfd0608723292cfe3070332ce0342224cc9"
+  },
+  {
+   "path": "raw/s1/2026-05-07/rtc_vv.tif",
+   "bytes": 7055462,
+   "sha256": "8c8ffec45760d0cbfac63d3b630cc68d6be94f4b02a35865b763e01d726db336"
+  },
+  {
+   "path": "raw/s1/2026-05-07/stac_earthsearch_grd.json",
+   "bytes": 8795,
+   "sha256": "bab4d21912b1470d1bebc29651e8b74367c083f0d1ecac48063aa2e2af01f885"
+  },
+  {
+   "path": "raw/s1/2026-05-07/stac_pc_grd.json",
+   "bytes": 9484,
+   "sha256": "292cb552a9845604fac02406a9093a6937a3bb3731c11818579b2c4e87555ddf"
+  },
+  {
+   "path": "raw/s1/2026-05-07/stac_pc_rtc.json",
+   "bytes": 7213,
+   "sha256": "7516ad1820b2a8050671a6bc29f54e131ce5f3a5c7cebf5b0a4e2b1a43ef20db"
+  },
+  {
+   "path": "raw/s1/2026-05-08/meta.json",
+   "bytes": 3291,
+   "sha256": "76b014ebed91e4389066072285f38372d25f6cd377f4f7e01eaadfd663be3178"
+  },
+  {
+   "path": "raw/s1/2026-05-08/stac_earthsearch_grd.json",
+   "bytes": 8793,
+   "sha256": "690d180194e2c0ebb21a6f0d4918a8ba03ab05d56b602fd6db23d80628fb1a2e"
+  },
+  {
+   "path": "raw/s1/2026-05-14/grd_vh.tif",
+   "bytes": 2095786,
+   "sha256": "2ebdb6f57c7886ebd9c73920e6c7a446d42c6313f7a5d446934a4bc80ca9d929"
+  },
+  {
+   "path": "raw/s1/2026-05-14/grd_vv.tif",
+   "bytes": 2345491,
+   "sha256": "284a49c364a689cd65f59ad929eb8ca0ecae0a8d31bcb901cc973c3280db5ae0"
+  },
+  {
+   "path": "raw/s1/2026-05-14/meta.json",
+   "bytes": 8825,
+   "sha256": "2cfa3f3485a0f38d06771d0ba3da5ee229881ec67cb62c3e6ca847f66112c1c0"
+  },
+  {
+   "path": "raw/s1/2026-05-14/quicklook.png",
+   "bytes": 1720305,
+   "sha256": "ced95a509759c605c3616fa5f13ff82d2710435078ec83be99c9024e3a0487d5"
+  },
+  {
+   "path": "raw/s1/2026-05-14/rtc_vh.tif",
+   "bytes": 7036653,
+   "sha256": "850dbb6676579e4b2f40f3d2fdddc4810b9c51ceeafa77d7e8fe4639047318c6"
+  },
+  {
+   "path": "raw/s1/2026-05-14/rtc_vv.tif",
+   "bytes": 7059958,
+   "sha256": "a4f6731a0c757e7241ee528eab860834e8ead7ed324ba870ab2e7194621f2ea4"
+  },
+  {
+   "path": "raw/s1/2026-05-14/stac_earthsearch_grd.json",
+   "bytes": 8853,
+   "sha256": "f0395cbe24c84c316a085407e495db72dc0584cc84b6528a55ee818ff96373a1"
+  },
+  {
+   "path": "raw/s1/2026-05-14/stac_pc_grd.json",
+   "bytes": 9490,
+   "sha256": "92b698a537087aa4d51dc0006ce17879b54aac80d584d39274094ac41ba662e2"
+  },
+  {
+   "path": "raw/s1/2026-05-14/stac_pc_rtc.json",
+   "bytes": 6842,
+   "sha256": "088f2043ffd3434dca7b297f9e3691334413bc8e19deffdf0106a8fd59491ceb"
+  },
+  {
+   "path": "raw/s1/2026-05-15/grd_vh.tif",
+   "bytes": 2128325,
+   "sha256": "8ea3a4a451a3550ac29c6c197a17d6bae785d927084cd71a2d5a292417c2b069"
+  },
+  {
+   "path": "raw/s1/2026-05-15/grd_vv.tif",
+   "bytes": 2369802,
+   "sha256": "b93c20d50c9bd36e099346fd9a358ecd9f7647f94f9516734cf371765743c00a"
+  },
+  {
+   "path": "raw/s1/2026-05-15/meta.json",
+   "bytes": 8825,
+   "sha256": "a08f06dab61657100d2688da64115a49ac68f65accbadaea5add0343201e9f3e"
+  },
+  {
+   "path": "raw/s1/2026-05-15/quicklook.png",
+   "bytes": 1722487,
+   "sha256": "90e7b965dce67c98173befd6df2a8af13eb4960b09ff94713fedfec8651bf6ff"
+  },
+  {
+   "path": "raw/s1/2026-05-15/rtc_vh.tif",
+   "bytes": 7035038,
+   "sha256": "fb88c236829edba421525bfe533c2780930361d3a8bcedf005b83fc60fd83c03"
+  },
+  {
+   "path": "raw/s1/2026-05-15/rtc_vv.tif",
+   "bytes": 7060266,
+   "sha256": "d680b999cf33306b25cee302e4b0976be4c621924eeef4fb33972562a9fb6ad5"
+  },
+  {
+   "path": "raw/s1/2026-05-15/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "6a7a3ed795220287095279c50e7d2d2d9a41409d09991c0f35600c6d0f5b3e2a"
+  },
+  {
+   "path": "raw/s1/2026-05-15/stac_pc_grd.json",
+   "bytes": 9495,
+   "sha256": "10d02fbce12e5e98b1018c05d113a8bd646eea13ff45df81e038b42e18055d5f"
+  },
+  {
+   "path": "raw/s1/2026-05-15/stac_pc_rtc.json",
+   "bytes": 6847,
+   "sha256": "3b1e82a797d2e81061d595da736fcb0b6d12b6dfda2b682a82e7fc310043f203"
+  },
+  {
+   "path": "raw/s1/2026-05-19/grd_vh.tif",
+   "bytes": 2016113,
+   "sha256": "fe0850d77bf0e3575bc88706258645004be120ee1e5207780ac4d4a9f867ed80"
+  },
+  {
+   "path": "raw/s1/2026-05-19/grd_vv.tif",
+   "bytes": 2275728,
+   "sha256": "10ac08d8e3ef63ef598f5f65ca4198e98ca771e8578793ca30b1aa8d3475e23b"
+  },
+  {
+   "path": "raw/s1/2026-05-19/meta.json",
+   "bytes": 8824,
+   "sha256": "457b4e64326f3e530ffd61468fd28d7fd384cc4f9c31e2492077c603c9d96752"
+  },
+  {
+   "path": "raw/s1/2026-05-19/quicklook.png",
+   "bytes": 1671798,
+   "sha256": "dce8fdf6432af398e5d4ffd8278377f9ff2f2fd4ae9c9be731b4ef90ae078d5d"
+  },
+  {
+   "path": "raw/s1/2026-05-19/rtc_vh.tif",
+   "bytes": 7043841,
+   "sha256": "73d7f1a092b714a6fd15a6cc0c723bae7039ed81e11c0558a872bfd6ab89ee42"
+  },
+  {
+   "path": "raw/s1/2026-05-19/rtc_vv.tif",
+   "bytes": 7054592,
+   "sha256": "f08907cda308fd6aa5eea94e0999888d11df43fa2261ba8ac036ec935c8f2c56"
+  },
+  {
+   "path": "raw/s1/2026-05-19/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "52d323158d3a59eabf4a0792f243822abc0c9feec89aea675901a1686fcf9112"
+  },
+  {
+   "path": "raw/s1/2026-05-19/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "335ad991951c606582c594b0989c77f79fb91a0adabbd950f5328a3cf5a59063"
+  },
+  {
+   "path": "raw/s1/2026-05-19/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "5bbb9adb6f5095aa7c600258cc36294b735192adb889b00b6b6a71288893d9ba"
+  },
+  {
+   "path": "raw/s1/2026-05-20/grd_vh.tif",
+   "bytes": 2065862,
+   "sha256": "e61241f2a8c509d261ea0ae414781d889a2989744bb698c09130d9758fbac56f"
+  },
+  {
+   "path": "raw/s1/2026-05-20/grd_vv.tif",
+   "bytes": 2317558,
+   "sha256": "40aa11ac0330074d192af0f8c338d0b51bc3e55ec0f30108ea3eea771bbe269e"
+  },
+  {
+   "path": "raw/s1/2026-05-20/meta.json",
+   "bytes": 8824,
+   "sha256": "a1709ee1acb5eb2a2535ae7e8a97c9a3a2ac9d6abeef1d49deb56e13ba32650c"
+  },
+  {
+   "path": "raw/s1/2026-05-20/quicklook.png",
+   "bytes": 1688221,
+   "sha256": "0bc5222f267c0deb2583ae0a7b91f08ec0db4e0ab609ac7edb0ca41386d2fa03"
+  },
+  {
+   "path": "raw/s1/2026-05-20/rtc_vh.tif",
+   "bytes": 7038375,
+   "sha256": "d2a1cba4f1dc0ebefea3b77bda575422caff11e401f8f6a31d5b3446d7945f8b"
+  },
+  {
+   "path": "raw/s1/2026-05-20/rtc_vv.tif",
+   "bytes": 7051027,
+   "sha256": "e350836989ba569564ba428a3db5f84e8e8484c2cb4189b96d88357993aceb05"
+  },
+  {
+   "path": "raw/s1/2026-05-20/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "04d3a34120d2fdf7d82312602cbda422dfff5eb6c7eceadc8bcb0f28faf73c7f"
+  },
+  {
+   "path": "raw/s1/2026-05-20/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "c485d198da19549671d616fed8adc39a46ef2521a784da7a825a525c64e463d0"
+  },
+  {
+   "path": "raw/s1/2026-05-20/stac_pc_rtc.json",
+   "bytes": 7218,
+   "sha256": "b4db5afda1234f6d390158c16be5a93f865317971e9c6821091a10c01016ac64"
+  },
+  {
+   "path": "raw/s1/2026-05-26/grd_vh.tif",
+   "bytes": 2091744,
+   "sha256": "b172428a8696efb9cc9bfd7a5a360593a3aba7235532596b0c535f206b283d2a"
+  },
+  {
+   "path": "raw/s1/2026-05-26/grd_vv.tif",
+   "bytes": 2345845,
+   "sha256": "8dcc6454f90a67a3c0a4b24037096d24f9182492bc4b711580248c9e8c70ae28"
+  },
+  {
+   "path": "raw/s1/2026-05-26/meta.json",
+   "bytes": 8825,
+   "sha256": "1e9e798d5e714fb20f96987bee8b7405c3e7cbb036171decfeb2e8aa18b61000"
+  },
+  {
+   "path": "raw/s1/2026-05-26/quicklook.png",
+   "bytes": 1699415,
+   "sha256": "4cf8d0aa63c3810755e13c00599cea96fe7fd1918ea0550c7b1a2c0e15d462bd"
+  },
+  {
+   "path": "raw/s1/2026-05-26/rtc_vh.tif",
+   "bytes": 7039089,
+   "sha256": "ea1fc428b0269dcbb9dc172f8321206ecb56cc8ee8c2bea9bdf0da8c4008c6b8"
+  },
+  {
+   "path": "raw/s1/2026-05-26/rtc_vv.tif",
+   "bytes": 7061751,
+   "sha256": "b325246d36984a9d082a883f1d9961c4653b4607c044f5093e5234fba5257620"
+  },
+  {
+   "path": "raw/s1/2026-05-26/stac_earthsearch_grd.json",
+   "bytes": 8897,
+   "sha256": "ea218877a943293f91052bea88fa99c49b56837497a89ee01d95666551b52ae1"
+  },
+  {
+   "path": "raw/s1/2026-05-26/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "65c5c7bb28a943d8377157c23a01e3b75c82b6d9a33fed41b07eef7e6c9365d8"
+  },
+  {
+   "path": "raw/s1/2026-05-26/stac_pc_rtc.json",
+   "bytes": 6842,
+   "sha256": "73c7a240bfb04958d597041126ef58d0f27436c84c15dc113274b633ffeaa399"
+  },
+  {
+   "path": "raw/s1/2026-05-31/grd_vh.tif",
+   "bytes": 2002561,
+   "sha256": "61ab2fcfc0df56247401b9953ee97594e7e14616e7bea7dbb4110420b2c2e9b7"
+  },
+  {
+   "path": "raw/s1/2026-05-31/grd_vv.tif",
+   "bytes": 2267915,
+   "sha256": "2bd54f41e6591a4e15b01f209b9361b822e031ba4f7bffc91ee692f67b189726"
+  },
+  {
+   "path": "raw/s1/2026-05-31/meta.json",
+   "bytes": 8824,
+   "sha256": "e63053f0b97452f2739451e1b4050d5f078df7ec4680b3af4f4771e239e82b7a"
+  },
+  {
+   "path": "raw/s1/2026-05-31/quicklook.png",
+   "bytes": 1672294,
+   "sha256": "f10505fe5504152acb482c454580f8cb2e65bd0625caa9d7d423c79bd27c0988"
+  },
+  {
+   "path": "raw/s1/2026-05-31/rtc_vh.tif",
+   "bytes": 7048552,
+   "sha256": "29622aeaa9655811a9ce71b1b06b2cdceafd853f457016418c3e13cc09b01001"
+  },
+  {
+   "path": "raw/s1/2026-05-31/rtc_vv.tif",
+   "bytes": 7058585,
+   "sha256": "1977487762d6a446f310aed957e3c1ef31118631bd39f93fdc154fe8f6449416"
+  },
+  {
+   "path": "raw/s1/2026-05-31/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "d6c41720ce0e2cfe52371e9260bcbc3baea62ba2b40f0eae97ae7e22f2e20ba4"
+  },
+  {
+   "path": "raw/s1/2026-05-31/stac_pc_grd.json",
+   "bytes": 9492,
+   "sha256": "64413ad127e5bbed10b978c34dfc2cc9b9697702497af07e917c50f2e6742d66"
+  },
+  {
+   "path": "raw/s1/2026-05-31/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "3a36a79df575522fc36d22861f4870efad557e769c571d025e375d425a30effc"
+  },
+  {
+   "path": "raw/s1/2026-06-01/grd_vh.tif",
+   "bytes": 2101697,
+   "sha256": "71e579724adb95842ec666e8430a1965eeea37dab12dd437ec67a5241542b5b6"
+  },
+  {
+   "path": "raw/s1/2026-06-01/grd_vv.tif",
+   "bytes": 2365338,
+   "sha256": "973ef85d2437d495b73c1b3c7b97c74f3a078116824e80dc3a45ebd762677d09"
+  },
+  {
+   "path": "raw/s1/2026-06-01/meta.json",
+   "bytes": 8802,
+   "sha256": "e7ad86b952a2381a7f815cdac7d6b25451dfe7bef9d0bf3c18954cee1f6afb4e"
+  },
+  {
+   "path": "raw/s1/2026-06-01/quicklook.png",
+   "bytes": 1682753,
+   "sha256": "e9dbb6302db8825630dd8cbe8d31ca927009702f3914e00e9ea1bf3b4c53f3c2"
+  },
+  {
+   "path": "raw/s1/2026-06-01/rtc_vh.tif",
+   "bytes": 7036319,
+   "sha256": "5c4f4529eeab6834a861f1d71d16150dfe64fa7ccb042c2673ccd6f2e70b925c"
+  },
+  {
+   "path": "raw/s1/2026-06-01/rtc_vv.tif",
+   "bytes": 7054182,
+   "sha256": "f64d40a9401326d2a192e9aac3884beb243261307f6f3db4db5599f61f483c6f"
+  },
+  {
+   "path": "raw/s1/2026-06-01/stac_earthsearch_grd.json",
+   "bytes": 8795,
+   "sha256": "7fefc6e9cc229f4c1c122b4916ba3631df7049f6ab35a82e068d84ea73d122d2"
+  },
+  {
+   "path": "raw/s1/2026-06-01/stac_pc_grd.json",
+   "bytes": 9487,
+   "sha256": "6c6cf71cda7b533992fe3e6a047369169f139eea81074380a969ae4066e30a59"
+  },
+  {
+   "path": "raw/s1/2026-06-01/stac_pc_rtc.json",
+   "bytes": 7214,
+   "sha256": "428a94fc1abb827998a80f7fd71c37575e00bf6a42cfea4f7854a263de875dae"
+  },
+  {
+   "path": "raw/s1/2026-06-07/grd_vh.tif",
+   "bytes": 2090525,
+   "sha256": "7aa92c9dcc14765088f48e2185bcab87a59cb15287b3b2ba15c53c5bc91cad0a"
+  },
+  {
+   "path": "raw/s1/2026-06-07/grd_vv.tif",
+   "bytes": 2350927,
+   "sha256": "125346d8b41c580d1e395b40491c8fc25938d0467ddeddfbc42707e63986b239"
+  },
+  {
+   "path": "raw/s1/2026-06-07/meta.json",
+   "bytes": 8803,
+   "sha256": "b973789f4a02c7a9d4cf91c8376fb01815863fb249f1e4718cc2a5f617f745b1"
+  },
+  {
+   "path": "raw/s1/2026-06-07/quicklook.png",
+   "bytes": 1720616,
+   "sha256": "cfaf3b1fca71582471cc41da17d7c78f0962fe38718ba3bfed835f40b544a75f"
+  },
+  {
+   "path": "raw/s1/2026-06-07/rtc_vh.tif",
+   "bytes": 7029524,
+   "sha256": "5363d404ce430111868ce3537c9e68c6147dfe8a2539db68271d814dd70e25ef"
+  },
+  {
+   "path": "raw/s1/2026-06-07/rtc_vv.tif",
+   "bytes": 7051641,
+   "sha256": "ad0dda2c3f07a52681b3260737c034907931900beb82f30421d0bbf58d06b82c"
+  },
+  {
+   "path": "raw/s1/2026-06-07/stac_earthsearch_grd.json",
+   "bytes": 8846,
+   "sha256": "c99f95c411141459b8226ca114183f46e98f5975f17b181d29f0acb931cb7670"
+  },
+  {
+   "path": "raw/s1/2026-06-07/stac_pc_grd.json",
+   "bytes": 9487,
+   "sha256": "e527a6654499137eaffd542e0f735d6d766279db0f7d5fc49317a816b036fa6a"
+  },
+  {
+   "path": "raw/s1/2026-06-07/stac_pc_rtc.json",
+   "bytes": 6844,
+   "sha256": "a2fc3f702aa2dcdc8832a90d1fb4309f633c48aaf5f8508a40fed90aa5cb262d"
+  },
+  {
+   "path": "raw/s1/2026-06-08/grd_vh.tif",
+   "bytes": 2121565,
+   "sha256": "27eba931df3dbfaacf87d61258089cb9e0deda9cb3484b43051deefd910e94f4"
+  },
+  {
+   "path": "raw/s1/2026-06-08/grd_vv.tif",
+   "bytes": 2374061,
+   "sha256": "71838e007547c1dbf7eb55a9e2f8e0f763e73f8b63546989a37bcb5ae74e1bee"
+  },
+  {
+   "path": "raw/s1/2026-06-08/meta.json",
+   "bytes": 8803,
+   "sha256": "f7c1ce6db470e2454698e4d9ad63c1369f5b871ef38c9fb4d6e47960fa760871"
+  },
+  {
+   "path": "raw/s1/2026-06-08/quicklook.png",
+   "bytes": 1713376,
+   "sha256": "94222f815ec2ff0bdf481f607903546b350ae54b726ded743cc82d28c0f046de"
+  },
+  {
+   "path": "raw/s1/2026-06-08/rtc_vh.tif",
+   "bytes": 7027143,
+   "sha256": "0da15ce8364135fb29eaace83708f23f643435daed7867f65efb2ee8a3728f70"
+  },
+  {
+   "path": "raw/s1/2026-06-08/rtc_vv.tif",
+   "bytes": 7057366,
+   "sha256": "82ac23b1745cf2716b626a5b14d2e7b976997471253f0a2a8fa817f7576cfc38"
+  },
+  {
+   "path": "raw/s1/2026-06-08/stac_earthsearch_grd.json",
+   "bytes": 8796,
+   "sha256": "b35f6fec5b22292e3f01ca92e101feab233fee85384741ae705e50c1a6c52e2d"
+  },
+  {
+   "path": "raw/s1/2026-06-08/stac_pc_grd.json",
+   "bytes": 9488,
+   "sha256": "59418572b3fcb5b552748952207965e1b6c6fae5902090a09960e2f2cccb9bb1"
+  },
+  {
+   "path": "raw/s1/2026-06-08/stac_pc_rtc.json",
+   "bytes": 6836,
+   "sha256": "9b7d92015c8b3ff122804fb0c923b3eb23dcd71b6ce2fd501119844198b8ba6f"
+  },
+  {
+   "path": "raw/s1/2026-06-13/grd_vh.tif",
+   "bytes": 2057140,
+   "sha256": "1e71fbb0968a6c468c42698c388a3d902455d1d7fecf223a00a168b16bf7a1ed"
+  },
+  {
+   "path": "raw/s1/2026-06-13/grd_vv.tif",
+   "bytes": 2315735,
+   "sha256": "2e8807860a73cca29d81eaf540497117f0581cba8965b24096f2c5b8fc1061ea"
+  },
+  {
+   "path": "raw/s1/2026-06-13/meta.json",
+   "bytes": 8824,
+   "sha256": "279d7107bf57016ac24828c095884a002dee3572e2c4b60bbef04f3cabd6ce56"
+  },
+  {
+   "path": "raw/s1/2026-06-13/quicklook.png",
+   "bytes": 1685727,
+   "sha256": "562b9623441558846e62733e69203925a07eef12d5f2f36e0d2fccd19e19c748"
+  },
+  {
+   "path": "raw/s1/2026-06-13/rtc_vh.tif",
+   "bytes": 7032039,
+   "sha256": "56c3abf91e112713801c35d94e435767016b0012f682b206f3a3b69a57312573"
+  },
+  {
+   "path": "raw/s1/2026-06-13/rtc_vv.tif",
+   "bytes": 7049340,
+   "sha256": "60cb4cd36625a990303ee9896b2a797cd0d24ae491b6aac297cb419a5a4bd121"
+  },
+  {
+   "path": "raw/s1/2026-06-13/stac_earthsearch_grd.json",
+   "bytes": 8807,
+   "sha256": "46597e1fe9d4c77181a7e6ae784be21c40b1e2d372520bf8365f4017425a7cb5"
+  },
+  {
+   "path": "raw/s1/2026-06-13/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "e355bae7bbe429072cfa5c469f92515b37e3f5ca75daa6c1c2aee56cc6d47ad4"
+  },
+  {
+   "path": "raw/s1/2026-06-13/stac_pc_rtc.json",
+   "bytes": 7213,
+   "sha256": "6a1b3563a016d7dbb8ad5fa7a06fe946875b6572d53cb307975a0411af68778c"
+  },
+  {
+   "path": "raw/s1/2026-06-20/grd_vh.tif",
+   "bytes": 2123268,
+   "sha256": "93c6f022d036d1d08fdb734214f31c13fde5e1fad3e5fddf52ee3b2c209cf059"
+  },
+  {
+   "path": "raw/s1/2026-06-20/grd_vv.tif",
+   "bytes": 2374545,
+   "sha256": "1ea57a223e351c0d54bb812c4574afca812727013c683575007d950708a2dddc"
+  },
+  {
+   "path": "raw/s1/2026-06-20/meta.json",
+   "bytes": 8825,
+   "sha256": "98da4eb678379df33a71abba7b0270f242a5618554553ef1e6faede6422ffcfb"
+  },
+  {
+   "path": "raw/s1/2026-06-20/quicklook.png",
+   "bytes": 1729098,
+   "sha256": "7c048407102a86b4f6b77363841b5c623dea11c61a979f816d993ce8530b1909"
+  },
+  {
+   "path": "raw/s1/2026-06-20/rtc_vh.tif",
+   "bytes": 7027258,
+   "sha256": "56a7e4096cbea4caaf272b5c01ece3995b70ad4138af064ffeb0dfc40ea10be8"
+  },
+  {
+   "path": "raw/s1/2026-06-20/rtc_vv.tif",
+   "bytes": 7052377,
+   "sha256": "ac9c8659cb75efc497c5921c918da9d491dffb07afbd90f31cc169b8979df12b"
+  },
+  {
+   "path": "raw/s1/2026-06-20/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "9459693d12342fa5f4729e239c32d8eb1a09b67e2205ec3c5a2c2cce58f186ba"
+  },
+  {
+   "path": "raw/s1/2026-06-20/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "5ce2db7c5230cbf6dc93540d46e89aa1c31183fcd757b1d181220c34cbdfa40a"
+  },
+  {
+   "path": "raw/s1/2026-06-20/stac_pc_rtc.json",
+   "bytes": 6852,
+   "sha256": "6b9e7056ad561e7489696d4bdcd5e2369d7896f60ae4e1f2b6033ad08bc61e7d"
+  },
+  {
+   "path": "raw/s1/2026-06-26/grd_vh.tif",
+   "bytes": 2092776,
+   "sha256": "b446d44d6dd6fec9e0ab5d5b14d58018bbbd77d21d950dca04f5530b19168787"
+  },
+  {
+   "path": "raw/s1/2026-06-26/grd_vv.tif",
+   "bytes": 2349696,
+   "sha256": "558b07a1d34c7ce84066eec2007cfbc4788cce3f45a929ec91ee5bcfce8fd61d"
+  },
+  {
+   "path": "raw/s1/2026-06-26/meta.json",
+   "bytes": 8825,
+   "sha256": "4dd84ac9f0e78323dc936c40c2078334b402dcc74fe6c1b6aa79b03c78732b39"
+  },
+  {
+   "path": "raw/s1/2026-06-26/quicklook.png",
+   "bytes": 1718067,
+   "sha256": "cbf8935f92685e2413f4d5b08b810c9fcce977bb4e8a588f6fcb203068f4cbf7"
+  },
+  {
+   "path": "raw/s1/2026-06-26/rtc_vh.tif",
+   "bytes": 7031515,
+   "sha256": "b180937f5ed8fd589aa30551c7babc170e9e99d2b3a47dd35ade9708938caf5a"
+  },
+  {
+   "path": "raw/s1/2026-06-26/rtc_vv.tif",
+   "bytes": 7056844,
+   "sha256": "77e4b1e6154877b566b19453a023cf8f06af56d7a356bbea8fa3b951252f0113"
+  },
+  {
+   "path": "raw/s1/2026-06-26/stac_earthsearch_grd.json",
+   "bytes": 8903,
+   "sha256": "0a6ea84a493c0c379eca2b5452a875801cbb420f162d0c0c7d0ff2427a8c0c93"
+  },
+  {
+   "path": "raw/s1/2026-06-26/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "667a8a0f12eb483a693da821371807291eef9ae5d599cf0775f16eeee060a745"
+  },
+  {
+   "path": "raw/s1/2026-06-26/stac_pc_rtc.json",
+   "bytes": 6839,
+   "sha256": "67b4c54d6ee7a8da15c541e75f8e1d30d11687d5fbfe7bc6a2dc42132409993d"
+  },
+  {
+   "path": "raw/s1/2026-07-01/grd_vh.tif",
+   "bytes": 2024919,
+   "sha256": "3028324738b34045eb4adf107d4bf383712e0b678d9427a3ec8497e398d5236e"
+  },
+  {
+   "path": "raw/s1/2026-07-01/grd_vv.tif",
+   "bytes": 2288320,
+   "sha256": "561d22593b264313d652232a0fbd971f53c2e3ea588a21c043a414901b570d5f"
+  },
+  {
+   "path": "raw/s1/2026-07-01/meta.json",
+   "bytes": 8802,
+   "sha256": "1b8dbcca1d02d79e711d51d944955b4315872d9a8a08f64c8c1d5521e3a58392"
+  },
+  {
+   "path": "raw/s1/2026-07-01/quicklook.png",
+   "bytes": 1672093,
+   "sha256": "07686566a8e7310eac1ffb6790d8690ab1a51deb618f124ca34e151260cc087f"
+  },
+  {
+   "path": "raw/s1/2026-07-01/rtc_vh.tif",
+   "bytes": 7030938,
+   "sha256": "7f271d1c1b085389112fa4ebee965cef7ceaa9eec0aeef96ce750ea6097dba8e"
+  },
+  {
+   "path": "raw/s1/2026-07-01/rtc_vv.tif",
+   "bytes": 7047498,
+   "sha256": "409c666649338fd1a5ffc829021ef98374727c4d0e96612e4e39d2661a35b49b"
+  },
+  {
+   "path": "raw/s1/2026-07-01/stac_earthsearch_grd.json",
+   "bytes": 8794,
+   "sha256": "5091459439381a46c69b71788d630e2f5b0d855485caeddb54915143a53b0790"
+  },
+  {
+   "path": "raw/s1/2026-07-01/stac_pc_grd.json",
+   "bytes": 9487,
+   "sha256": "660707cff18ac241667904c0b2121cb55c19ea08cba22c080c7ec35d00790e80"
+  },
+  {
+   "path": "raw/s1/2026-07-01/stac_pc_rtc.json",
+   "bytes": 7213,
+   "sha256": "129734a7cffbe711a31fb6e77b42320b9bf2d00028369e518ad5d93bdb2f7fcd"
+  },
+  {
+   "path": "raw/s1/2026-07-08/grd_vh.tif",
+   "bytes": 2094362,
+   "sha256": "2f288b886fd2e720e62203eca2ba2720130c73a50df5062909a3f4c5a956981e"
+  },
+  {
+   "path": "raw/s1/2026-07-08/grd_vv.tif",
+   "bytes": 2352901,
+   "sha256": "7040912b055c3262e0cb16c786e1aeeb64291407a8a2ba2e3181a726405c336f"
+  },
+  {
+   "path": "raw/s1/2026-07-08/meta.json",
+   "bytes": 8803,
+   "sha256": "4b04d74ddf7234622efc61a5ecfab2cbd3656c710c886bee77e275e7178550ee"
+  },
+  {
+   "path": "raw/s1/2026-07-08/quicklook.png",
+   "bytes": 1725155,
+   "sha256": "8a13d67495b3df726fd270b53ef287d606f9ac8af07d01b5ef92d955b6afe504"
+  },
+  {
+   "path": "raw/s1/2026-07-08/rtc_vh.tif",
+   "bytes": 7023848,
+   "sha256": "538f2da7664a9bb1ead6a1f23fe5df29f554eafc02493b2026bdecdfcf57833f"
+  },
+  {
+   "path": "raw/s1/2026-07-08/rtc_vv.tif",
+   "bytes": 7048274,
+   "sha256": "f79cd83c26dad8dc44ef458f38fdcd98f579557a7205c17237cae7efccf37dbe"
+  },
+  {
+   "path": "raw/s1/2026-07-08/stac_earthsearch_grd.json",
+   "bytes": 8846,
+   "sha256": "f277f5e0dc9a894351d5c0cf54333c175d2178b786e6302dd24f41fa8b0a8a30"
+  },
+  {
+   "path": "raw/s1/2026-07-08/stac_pc_grd.json",
+   "bytes": 9489,
+   "sha256": "6272b7fad9b35ee3c6429f931ae12ecd53c92c8e6ebfa5558a1667f472f0d101"
+  },
+  {
+   "path": "raw/s1/2026-07-08/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "134956d68481f50229343301d9fdac38211d42db37005bd0489e3781a4b4a94c"
+  },
+  {
+   "path": "raw/s1/2026-07-13/grd_vh.tif",
+   "bytes": 2020090,
+   "sha256": "016682aaa97693bfefcb512581bc7ffebf6a33cfd8f951192b6b7993226e59ab"
+  },
+  {
+   "path": "raw/s1/2026-07-13/grd_vv.tif",
+   "bytes": 2280666,
+   "sha256": "731dca85cd1f38f45dd31f506e24c823c98531ed1603855b1246ef867b63913a"
+  },
+  {
+   "path": "raw/s1/2026-07-13/meta.json",
+   "bytes": 8824,
+   "sha256": "356bde4694625beda6035ba7062aebf5cdfbf9f7badd816b3f1d95167620af29"
+  },
+  {
+   "path": "raw/s1/2026-07-13/quicklook.png",
+   "bytes": 1669955,
+   "sha256": "b92d5bb91f43217223529c42820de4a81123e38ac082db402d5f974482160dac"
+  },
+  {
+   "path": "raw/s1/2026-07-13/rtc_vh.tif",
+   "bytes": 7033796,
+   "sha256": "e39a97290588232e1149c1694d4f112f3482f49af901d89ac71fa8c3538da70e"
+  },
+  {
+   "path": "raw/s1/2026-07-13/rtc_vv.tif",
+   "bytes": 7047988,
+   "sha256": "8ac7585a7c52979f5277a8a82de18fb2b4a7d58a5851c4c30e21944b27062d16"
+  },
+  {
+   "path": "raw/s1/2026-07-13/stac_earthsearch_grd.json",
+   "bytes": 8808,
+   "sha256": "47457d2cddebac44f0c292b27f45ebc0030e8eb3e5ab5386b08c39361c56e7b6"
+  },
+  {
+   "path": "raw/s1/2026-07-13/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "67f376709916fa0b4d914ebd2bcec3ca705d7f5a092fad5c3438529851e285c3"
+  },
+  {
+   "path": "raw/s1/2026-07-13/stac_pc_rtc.json",
+   "bytes": 7215,
+   "sha256": "69808c7a8e6fc83a48c7592f6a0f7c423fb57b9dea7bca75502f3454f771981b"
+  },
+  {
+   "path": "raw/s1/2026-07-20/grd_vh.tif",
+   "bytes": 2083606,
+   "sha256": "dac5603b39c9113686469267688b41b8e37639a695ab0dc2228a7ff68e0fba56"
+  },
+  {
+   "path": "raw/s1/2026-07-20/grd_vv.tif",
+   "bytes": 2344890,
+   "sha256": "bd60b9635d736a61817b9827cfef66f5424e9f63b7001b96ccffc3c7be22430e"
+  },
+  {
+   "path": "raw/s1/2026-07-20/meta.json",
+   "bytes": 8825,
+   "sha256": "73aaf33d3616e864c18a2d976e1ecbf036c175c614a9ad3db9077cd9353e4487"
+  },
+  {
+   "path": "raw/s1/2026-07-20/quicklook.png",
+   "bytes": 1723376,
+   "sha256": "e29c46fc650212df6d82a18715082558801bc33a3594e2d2a94394a862a65770"
+  },
+  {
+   "path": "raw/s1/2026-07-20/rtc_vh.tif",
+   "bytes": 7030508,
+   "sha256": "5441d6133639228c8520fb0ae514c975468a068301b481d11da69208f6f8fd47"
+  },
+  {
+   "path": "raw/s1/2026-07-20/rtc_vv.tif",
+   "bytes": 7055833,
+   "sha256": "89cd96a9f903e47ee4a5a608b377b1c36400bf33e569fcdf58d75ad7388b23b5"
+  },
+  {
+   "path": "raw/s1/2026-07-20/stac_earthsearch_grd.json",
+   "bytes": 8854,
+   "sha256": "4fafd9875ab3f61f07b0c82e2eea9340636c6d98ff35182e56db19c9215c05e5"
+  },
+  {
+   "path": "raw/s1/2026-07-20/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "d09833efa4751c518f9ba5811f1efdf3fc293b1edb735e7fe2403436262a3803"
+  },
+  {
+   "path": "raw/s1/2026-07-20/stac_pc_rtc.json",
+   "bytes": 6844,
+   "sha256": "f12112edf8272ae846fd35ecb4514e8c609d9d7fff3ba30198debc230dc64424"
+  },
+  {
+   "path": "raw/s1/2026-08-01/grd_vh.tif",
+   "bytes": 2089977,
+   "sha256": "02269b5f70f7d24fde07a657462803a478020f26f14185bef88a67931e16df57"
+  },
+  {
+   "path": "raw/s1/2026-08-01/grd_vv.tif",
+   "bytes": 2349449,
+   "sha256": "72ee3b04e28154fc8865e98f1e35324c12da74d8b5f095892715b6d3e781d2c4"
+  },
+  {
+   "path": "raw/s1/2026-08-01/meta.json",
+   "bytes": 8803,
+   "sha256": "ba0fcad328203ae84d383b746aac420b2d81acdaaa4bccd1cece91c3fffaa5a8"
+  },
+  {
+   "path": "raw/s1/2026-08-01/quicklook.png",
+   "bytes": 1711864,
+   "sha256": "41ebc02fa2e04b8327c1d6c4ae6f7e1fd72afe090dae46efcf70622d25347037"
+  },
+  {
+   "path": "raw/s1/2026-08-01/rtc_vh.tif",
+   "bytes": 7031572,
+   "sha256": "b1ea80c09d814a35bdd7c0322323af831c90dd08dc79476a362bcd848d7dac47"
+  },
+  {
+   "path": "raw/s1/2026-08-01/rtc_vv.tif",
+   "bytes": 7054985,
+   "sha256": "4be6fbe9f44294119cd6dd365669e282b39566ccc074ee6975d791afb80012ce"
+  },
+  {
+   "path": "raw/s1/2026-08-01/stac_earthsearch_grd.json",
+   "bytes": 8839,
+   "sha256": "26161dfd2242c8af679611774507dbd508035250b642c37bf4614a64bc76e236"
+  },
+  {
+   "path": "raw/s1/2026-08-01/stac_pc_grd.json",
+   "bytes": 9483,
+   "sha256": "838eee254654ede209608f74dd2219d17d0fad34dd1e4fc813bc87b3bb7815a2"
+  },
+  {
+   "path": "raw/s1/2026-08-01/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "955b6ddde5e4b37a7d6d889befed0ab546a3a2edc72831bb50ad348974c43d6e"
+  },
+  {
+   "path": "raw/s1/2026-08-06/grd_vh.tif",
+   "bytes": 2016198,
+   "sha256": "aed76d17791ffe59002bae4473069740644e34ce27b9ddc2cf2ed6812b9c40ed"
+  },
+  {
+   "path": "raw/s1/2026-08-06/grd_vv.tif",
+   "bytes": 2281727,
+   "sha256": "c4915da615a1a2c917cd8bd688c6dbbac8e5e63fffd364b7b420af7a81d7f2e3"
+  },
+  {
+   "path": "raw/s1/2026-08-06/meta.json",
+   "bytes": 8802,
+   "sha256": "fcc81a8cf6fd8a97ace97bc06b165afd3ddebb23fdbbe7b7c7c96aed4212b307"
+  },
+  {
+   "path": "raw/s1/2026-08-06/quicklook.png",
+   "bytes": 1668144,
+   "sha256": "da80baa62203a69ede258d51cc54a73abb36830e348430ce08e83e459abc3211"
+  },
+  {
+   "path": "raw/s1/2026-08-06/rtc_vh.tif",
+   "bytes": 7040032,
+   "sha256": "1dfbd96e45f45f770707c51ec79906872e83f312a03f3681aa2c9be7ea1e590b"
+  },
+  {
+   "path": "raw/s1/2026-08-06/rtc_vv.tif",
+   "bytes": 7052640,
+   "sha256": "ec13ab0d13f503310e59e3271b4d0283faf64ab106fd8a50931cff2808f55896"
+  },
+  {
+   "path": "raw/s1/2026-08-06/stac_earthsearch_grd.json",
+   "bytes": 8789,
+   "sha256": "8cf951846ab7acfb8b7e7689998a9a6ac6e90c3b4e46a5d07732e26e3806f3f4"
+  },
+  {
+   "path": "raw/s1/2026-08-06/stac_pc_grd.json",
+   "bytes": 9476,
+   "sha256": "3e713ffa4ca343080bb9e26e105d9ff8077b3866a8bf851da1e5f38a16785837"
+  },
+  {
+   "path": "raw/s1/2026-08-06/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "4a19e8d84e187960507368405cff20e8032fc7ec1ccb46137996b28f90564bb9"
+  },
+  {
+   "path": "raw/s1/2026-08-13/grd_vh.tif",
+   "bytes": 2115966,
+   "sha256": "74541898cc36317cca8bcfadc6ce8f73a13a5b0dd35eb7963438b5b934ba22c2"
+  },
+  {
+   "path": "raw/s1/2026-08-13/grd_vv.tif",
+   "bytes": 2368642,
+   "sha256": "d57939cf2eeec570c79496b4ec39565e635aaa7369b2f93edd59f5a3bc124dbf"
+  },
+  {
+   "path": "raw/s1/2026-08-13/meta.json",
+   "bytes": 8825,
+   "sha256": "9da02a97ebb441cd1ee5595fdfcf6a7f3f91b86e13b5b1fbb4d707adc03958ad"
+  },
+  {
+   "path": "raw/s1/2026-08-13/quicklook.png",
+   "bytes": 1680788,
+   "sha256": "7bb1db0eec2a5bcc1d95758ff157c55c399125c4237a319c136e21ac9d6f0452"
+  },
+  {
+   "path": "raw/s1/2026-08-13/rtc_vh.tif",
+   "bytes": 7030530,
+   "sha256": "ca56a713dfaae875e9105e37638b8b8ed11ef1c4b595a56a29eaa569c1084d91"
+  },
+  {
+   "path": "raw/s1/2026-08-13/rtc_vv.tif",
+   "bytes": 7050184,
+   "sha256": "1306865d012d338a611100c7ddee3e0d5d21fbf7976b83649ca35c42e919458b"
+  },
+  {
+   "path": "raw/s1/2026-08-13/stac_earthsearch_grd.json",
+   "bytes": 8858,
+   "sha256": "4dce0ad8445a96fb1cb6199b0c21e94db1df8639068324f770f4b50077ea2fbd"
+  },
+  {
+   "path": "raw/s1/2026-08-13/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "3d9b71abc1d521eef3f31e1541a4be9132c3ef52d8621124bcb67ec03801b557"
+  },
+  {
+   "path": "raw/s1/2026-08-13/stac_pc_rtc.json",
+   "bytes": 6842,
+   "sha256": "3af1d660e0d54834c95251e8e08fdded2bb58f78126744f54722ec9a92242090"
+  },
+  {
+   "path": "raw/s1/2026-08-18/grd_vh.tif",
+   "bytes": 2026391,
+   "sha256": "6391c423368e68d75f38b40cd7b5a0b449c32d6c54b607cada8bbb6638bd8165"
+  },
+  {
+   "path": "raw/s1/2026-08-18/grd_vv.tif",
+   "bytes": 2293032,
+   "sha256": "0409ac6d00f71f2931fd815c4a8bc9b3970a6070bf345d15b0ff9b71f1becab5"
+  },
+  {
+   "path": "raw/s1/2026-08-18/meta.json",
+   "bytes": 8824,
+   "sha256": "bef35d6abceac1ae5e75f1ad88f310d39b13f4c16c362b0fadcd326d9196cf3f"
+  },
+  {
+   "path": "raw/s1/2026-08-18/quicklook.png",
+   "bytes": 1661250,
+   "sha256": "a54511b9838bc7e118e7b61170f8beb8c7970cebdf57ab9cf5e17fd60f87da83"
+  },
+  {
+   "path": "raw/s1/2026-08-18/rtc_vh.tif",
+   "bytes": 7034266,
+   "sha256": "0708ed6c7f18427c878be591fc50a97f021810f97aab45720f9ee8635e29b0da"
+  },
+  {
+   "path": "raw/s1/2026-08-18/rtc_vv.tif",
+   "bytes": 7043651,
+   "sha256": "19e321a62cfe629faf42060e236dada1ac0366e72602d79eeb1b1dae4ef85430"
+  },
+  {
+   "path": "raw/s1/2026-08-18/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "2349dde0d717e81367b292f42eab9bc61b9618cd8b54b41a6120f24a1064a616"
+  },
+  {
+   "path": "raw/s1/2026-08-18/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "8cfc860df2148113bd4a58b0fcd665fa9761fa8b613be6fbdec80e27905ccf50"
+  },
+  {
+   "path": "raw/s1/2026-08-18/stac_pc_rtc.json",
+   "bytes": 7215,
+   "sha256": "e0ed2127aa16ff5b35a25a656cf7914a93855f8923c29c0302ff7382fe0c09e8"
+  },
+  {
+   "path": "raw/s1/2026-08-25/grd_vh.tif",
+   "bytes": 2087018,
+   "sha256": "fcf492faabe6e10f0896c98627a1de4d66f61dc5bd2ac3b5fd8b4ea6e1487937"
+  },
+  {
+   "path": "raw/s1/2026-08-25/grd_vv.tif",
+   "bytes": 2347967,
+   "sha256": "9ed08aced10c189d69400f5ec46644780b1eda9b42507b9b3089938853b5503a"
+  },
+  {
+   "path": "raw/s1/2026-08-25/meta.json",
+   "bytes": 8825,
+   "sha256": "d4bf95d029fd794a1fae64127175c128f05473be66ca3a7c605b38c0aa18ca19"
+  },
+  {
+   "path": "raw/s1/2026-08-25/quicklook.png",
+   "bytes": 1706379,
+   "sha256": "42ad56bcad0cf50cabd2104c51c73d7c94a28823c047682eaeb7f09b2e086c8e"
+  },
+  {
+   "path": "raw/s1/2026-08-25/rtc_vh.tif",
+   "bytes": 7029703,
+   "sha256": "e2584ba48d9fd1c41e8965f8ce0de835205e9f1c80dac8d9c887376d21e25b51"
+  },
+  {
+   "path": "raw/s1/2026-08-25/rtc_vv.tif",
+   "bytes": 7053886,
+   "sha256": "6765e8eb511deacad2daf159390aa4ebc6d936a15142441fe8f375e7a26faef3"
+  },
+  {
+   "path": "raw/s1/2026-08-25/stac_earthsearch_grd.json",
+   "bytes": 8856,
+   "sha256": "ba7c2b14a23f049f09df7e431edae0f0f2a1db65ee3c2d8a9c5872c7ff20eb2c"
+  },
+  {
+   "path": "raw/s1/2026-08-25/stac_pc_grd.json",
+   "bytes": 9499,
+   "sha256": "87d3a32f343ce02bc66d49520c6a09a4e3d10001276cd04866dd4535e978135b"
+  },
+  {
+   "path": "raw/s1/2026-08-25/stac_pc_rtc.json",
+   "bytes": 6844,
+   "sha256": "451341e4a3969c6c453688e2519317efd78a1e90adbaa8b690f858ef82c770c1"
+  },
+  {
+   "path": "raw/s1/2026-08-30/grd_vh.tif",
+   "bytes": 2007447,
+   "sha256": "ecc34662cfebbc8237edc82af7a6d538a1a50e396ebcdc0a5b134735f9a8c9ae"
+  },
+  {
+   "path": "raw/s1/2026-08-30/grd_vv.tif",
+   "bytes": 2276239,
+   "sha256": "5eadfbdfa387c5bfb725a5b7a50e431987b65e5a92d889fcb2cffd6a88b5e2d8"
+  },
+  {
+   "path": "raw/s1/2026-08-30/meta.json",
+   "bytes": 8824,
+   "sha256": "08c1d70f1d23b37a58816ae5675c49674e8408c0059af1bab0acc8026eefba0a"
+  },
+  {
+   "path": "raw/s1/2026-08-30/quicklook.png",
+   "bytes": 1666394,
+   "sha256": "fbf932989688f4a3b4d334c276b60c88b49fb41474fc778d5c9baf5efbf9ac93"
+  },
+  {
+   "path": "raw/s1/2026-08-30/rtc_vh.tif",
+   "bytes": 7040235,
+   "sha256": "399743b46c13e93f831742d38fad57e023c556e4564793b21e683de2453b305b"
+  },
+  {
+   "path": "raw/s1/2026-08-30/rtc_vv.tif",
+   "bytes": 7051331,
+   "sha256": "2b875bb0d9490c893f13a473f2c3f75385f0827bc7a5e47c8c93339208891589"
+  },
+  {
+   "path": "raw/s1/2026-08-30/stac_earthsearch_grd.json",
+   "bytes": 8809,
+   "sha256": "f6f559f3d43b07b2510233bea1844a0de74225dc02d80325b3bc7de3ce690fc0"
+  },
+  {
+   "path": "raw/s1/2026-08-30/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "b76359c581b82e7f3f8e0f3b7839566f2175d46b8ad5fea9b16467016d26aa5f"
+  },
+  {
+   "path": "raw/s1/2026-08-30/stac_pc_rtc.json",
+   "bytes": 7220,
+   "sha256": "db61338ca9f8216ca998b84ccff04f9bfd7f3aaebaaf6a232aeef4dd0ed834d1"
+  },
+  {
+   "path": "raw/s1/2026-09-06/grd_vh.tif",
+   "bytes": 2115618,
+   "sha256": "001746dd0ba5dcf270afe8e9847d11c9d6f74cba89930a56cd0e7e18eb848818"
+  },
+  {
+   "path": "raw/s1/2026-09-06/grd_vv.tif",
+   "bytes": 2370570,
+   "sha256": "526b8b6e55c641d6095b4f9c445f3ccd72b04ec2500b591cd4413dbed6cb33a7"
+  },
+  {
+   "path": "raw/s1/2026-09-06/meta.json",
+   "bytes": 8803,
+   "sha256": "ef807db849562e588695f00846c2ec85d127e13c0ed779c087d14617fedca479"
+  },
+  {
+   "path": "raw/s1/2026-09-06/quicklook.png",
+   "bytes": 1675718,
+   "sha256": "ba02c32bf6219e8c60af4a6ec761e347e5746877d7bdee6e5842e917ed6a2c89"
+  },
+  {
+   "path": "raw/s1/2026-09-06/rtc_vh.tif",
+   "bytes": 7029914,
+   "sha256": "363eb86932e0bb414c8e0f09a5e457a21dffacb6e47e367fef512473b0bfe516"
+  },
+  {
+   "path": "raw/s1/2026-09-06/rtc_vv.tif",
+   "bytes": 7050452,
+   "sha256": "a42486361b2a74e73cb7c0dc768356c6b511e58b4dde0f1a1cffc3f77a1663f3"
+  },
+  {
+   "path": "raw/s1/2026-09-06/stac_earthsearch_grd.json",
+   "bytes": 8847,
+   "sha256": "d5eb11039a8644bd07db1254d891c25b6e12a001a8c11eedb545349aff3f7e9b"
+  },
+  {
+   "path": "raw/s1/2026-09-06/stac_pc_grd.json",
+   "bytes": 9489,
+   "sha256": "529919317fcbb2cd45abf8de06613f8954566005f9494d19e191f036870d72c8"
+  },
+  {
+   "path": "raw/s1/2026-09-06/stac_pc_rtc.json",
+   "bytes": 6843,
+   "sha256": "a083fbcc47722a029c74c3d301c549b9e5e1d0c9ab08c5f3f3818e238c45edd0"
+  },
+  {
+   "path": "raw/s1/2026-09-11/grd_vh.tif",
+   "bytes": 2012520,
+   "sha256": "406a6cec60ec3aefe5a262da858827580915e6e937c7a78894e9fed413ea3107"
+  },
+  {
+   "path": "raw/s1/2026-09-11/grd_vv.tif",
+   "bytes": 2284164,
+   "sha256": "49a1368d29928e636ce69ed02557f57a5318704f94388038a998566859bf9860"
+  },
+  {
+   "path": "raw/s1/2026-09-11/meta.json",
+   "bytes": 8824,
+   "sha256": "fe4fd62b250ffdfc0b7ffdc22345489d4bdab7add22d29df759a1e1eb9bbdd07"
+  },
+  {
+   "path": "raw/s1/2026-09-11/quicklook.png",
+   "bytes": 1653120,
+   "sha256": "49749ec2be1c4edec2793a691520c8190ff4cbed0fb58faa1b57db81275a10d9"
+  },
+  {
+   "path": "raw/s1/2026-09-11/rtc_vh.tif",
+   "bytes": 7032691,
+   "sha256": "5d0e6f3a05893bd57ba0860b8ccc8ecb214e30397d29dcaf099d1bfe1fd18f8d"
+  },
+  {
+   "path": "raw/s1/2026-09-11/rtc_vv.tif",
+   "bytes": 7048491,
+   "sha256": "d9188af5bd5b5ed43125df0537021516e1a56ba4b593b388e7e433f81a1e09c8"
+  },
+  {
+   "path": "raw/s1/2026-09-11/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "84ba28819e688d2c677cf0b436ef7c6a65d8ff51d6c7edbea75dd94abf8f2049"
+  },
+  {
+   "path": "raw/s1/2026-09-11/stac_pc_grd.json",
+   "bytes": 9496,
+   "sha256": "8ea1cf762b7c7918cc6275f14cc8a27a5e3c70db032cd69368f3ec64d5e7e8f5"
+  },
+  {
+   "path": "raw/s1/2026-09-11/stac_pc_rtc.json",
+   "bytes": 7218,
+   "sha256": "0afe2189be07edb9910224ea4890d0f79c6856eb306cf3c4719f8b092b3f7f05"
+  },
+  {
+   "path": "raw/s1/2026-09-23/grd_vh.tif",
+   "bytes": 2006190,
+   "sha256": "33ac9e5f084f723541aeeb5b8cbb5822b21b2c6a701ca460581dd112eacec61c"
+  },
+  {
+   "path": "raw/s1/2026-09-23/grd_vv.tif",
+   "bytes": 2276348,
+   "sha256": "e50519bd63b6528836483be87a634a66190db3f979146b806691c84b7cbde321"
+  },
+  {
+   "path": "raw/s1/2026-09-23/meta.json",
+   "bytes": 8824,
+   "sha256": "4782a28f5c0aa9d6f95fe3f852252012dd86502f1940ce93bc0f957f61208697"
+  },
+  {
+   "path": "raw/s1/2026-09-23/quicklook.png",
+   "bytes": 1651773,
+   "sha256": "68b748bd1da069a8c585a42402ee4bfc2fa0eaabeec704ad6524a1786aedc0ab"
+  },
+  {
+   "path": "raw/s1/2026-09-23/rtc_vh.tif",
+   "bytes": 7040907,
+   "sha256": "007cf030603198ba50749aac755d3944c7e29b118be6142441c50b48b2697376"
+  },
+  {
+   "path": "raw/s1/2026-09-23/rtc_vv.tif",
+   "bytes": 7052703,
+   "sha256": "a66c010a68a3e7bfa1af2b51402cc90260eec61cc261ee3f962f8cd9e554f88b"
+  },
+  {
+   "path": "raw/s1/2026-09-23/stac_earthsearch_grd.json",
+   "bytes": 8804,
+   "sha256": "05c1db0b2b682d8320924dc79501cfdc358d78887c28e1adae957d099b603d5e"
+  },
+  {
+   "path": "raw/s1/2026-09-23/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "3168fbbd45994b089a90c69a3f880f65e140cbeea794485302d2b2625137845f"
+  },
+  {
+   "path": "raw/s1/2026-09-23/stac_pc_rtc.json",
+   "bytes": 7214,
+   "sha256": "57aa77de9ddc563defca6140a4d4370fb476f88057dc04e8071fc8624836590e"
+  },
+  {
+   "path": "raw/s1/2026-09-30/grd_vh.tif",
+   "bytes": 2080234,
+   "sha256": "e8878bcd3bac26fbdc723a92d37eac0eaaf8afb1ef25535e18deeb6ca8a25904"
+  },
+  {
+   "path": "raw/s1/2026-09-30/grd_vv.tif",
+   "bytes": 2338726,
+   "sha256": "113a91521d4cb8c2c0e3465aafa8c13fbd7a3e05290d608d33727fe7b8a19c8a"
+  },
+  {
+   "path": "raw/s1/2026-09-30/meta.json",
+   "bytes": 8825,
+   "sha256": "de3e21c3ee4542ce3176d181f32d51d4a95fa48897ee28903824f2509d58c6c5"
+  },
+  {
+   "path": "raw/s1/2026-09-30/quicklook.png",
+   "bytes": 1677843,
+   "sha256": "0894e5cf73ca45f37aaae5f79337cd27d29b8908217ea145fdcf3c9915722fb3"
+  },
+  {
+   "path": "raw/s1/2026-09-30/rtc_vh.tif",
+   "bytes": 7036608,
+   "sha256": "00dcddd74b0decbbc18c79ead6d00af69c5bd350928deff0ccbee3c7234eeae0"
+  },
+  {
+   "path": "raw/s1/2026-09-30/rtc_vv.tif",
+   "bytes": 7058427,
+   "sha256": "16bf1856514fd48e9f70531fb52a52d64493b2f4a5e8a756d6c68130a731d621"
+  },
+  {
+   "path": "raw/s1/2026-09-30/stac_earthsearch_grd.json",
+   "bytes": 8902,
+   "sha256": "dea4cea999f2ac4b169febcaf057fbdeac112fcef5867de38432c7296e923ab7"
+  },
+  {
+   "path": "raw/s1/2026-09-30/stac_pc_grd.json",
+   "bytes": 9498,
+   "sha256": "cf0e17568bf2c61499daa39bf50b8e098c089753b80a8ebb7ad70e9362a56eb4"
+  },
+  {
+   "path": "raw/s1/2026-09-30/stac_pc_rtc.json",
+   "bytes": 6846,
+   "sha256": "3e799ceb0c085169417cf80fe42fd6bef62edaeff30b549f4b6aaeb54c7e4d5f"
+  },
+  {
+   "path": "raw/s1/2026-10-05/grd_vh.tif",
+   "bytes": 2005334,
+   "sha256": "32112f5fe8f60cabf4e2ba457ed42c71b24fecbaed653f5640ca008cdaa6eefc"
+  },
+  {
+   "path": "raw/s1/2026-10-05/grd_vv.tif",
+   "bytes": 2270759,
+   "sha256": "d0562820c4ad16dab29a8e547ee7f45ed5667bbfef05935373429fca9c200a08"
+  },
+  {
+   "path": "raw/s1/2026-10-05/meta.json",
+   "bytes": 8824,
+   "sha256": "b3aae626fd10a83dd46f578ef7849b06e27c3c6067dff1cde026d2b5a228546a"
+  },
+  {
+   "path": "raw/s1/2026-10-05/quicklook.png",
+   "bytes": 1643407,
+   "sha256": "79e1aeb8626dbf4d67951398f6669c9637aee8bac27a92ab93dabb5376c939c5"
+  },
+  {
+   "path": "raw/s1/2026-10-05/rtc_vh.tif",
+   "bytes": 7047270,
+   "sha256": "d253bb6aa008831155e3f457ae758fb68a5847adb9fb5c79d2a16995823387dc"
+  },
+  {
+   "path": "raw/s1/2026-10-05/rtc_vv.tif",
+   "bytes": 7056651,
+   "sha256": "d5e2d754cac750b2b24eed0ef8c012b21e271e59c5f1d87a553ac0eaeccf566e"
+  },
+  {
+   "path": "raw/s1/2026-10-05/stac_earthsearch_grd.json",
+   "bytes": 8806,
+   "sha256": "08b191c52e071e8de703e365ed5cf6dfe0ac14c12f7e58c6fb9253718376c697"
+  },
+  {
+   "path": "raw/s1/2026-10-05/stac_pc_grd.json",
+   "bytes": 9497,
+   "sha256": "d3105ff5081d34d794c84d62cddf59fbbc6b85c9d46094ae939ae317a0ddb883"
+  },
+  {
+   "path": "raw/s1/2026-10-05/stac_pc_rtc.json",
+   "bytes": 7216,
+   "sha256": "4d1687da4c48d13027429853670a375987b7d3b455b109934770c2e958d53500"
+  },
+  {
+   "path": "raw/s1/2026-10-12/grd_vh.tif",
+   "bytes": 2086451,
+   "sha256": "300c897a1062512b75406db55a34522afa91506fb212018c4e70a9bc69c49b70"
+  },
+  {
+   "path": "raw/s1/2026-10-12/grd_vv.tif",
+   "bytes": 2351226,
+   "sha256": "f54590e2db59bab2b9cef95b82c3a289956765aae5877c0c275e239b3b5785ea"
+  },
+  {
+   "path": "raw/s1/2026-10-12/meta.json",
+   "bytes": 8847,
+   "sha256": "070752646da8717e51cf1e36e209c5cb5a01730d41b638711ddebc2398670714"
+  },
+  {
+   "path": "raw/s1/2026-10-12/quicklook.png",
+   "bytes": 1709694,
+   "sha256": "d987b2554bdf7e8a1aa7d5c8450d3592594359308f7e470c061751818554cb3b"
+  },
+  {
+   "path": "raw/s1/2026-10-12/rtc_vh.tif",
+   "bytes": 7026045,
+   "sha256": "d42a5a6ca3a76f9acd250d90b4355a1424f9738d7d6dbe9ff7622d66381c5af1"
+  },
+  {
+   "path": "raw/s1/2026-10-12/rtc_vv.tif",
+   "bytes": 7048081,
+   "sha256": "341056f09f13785074c433d9fbeb34de81ccaf6f7eeba166aa924601ffb1ac6e"
+  },
+  {
+   "path": "raw/s1/2026-10-12/stac_earthsearch_grd.json",
+   "bytes": 8910,
+   "sha256": "32c6f4bc0353b8d08f6d5136311c8122d64ec73da8e3685489a8f1bd57eaa520"
+  },
+  {
+   "path": "raw/s1/2026-10-12/stac_pc_grd.json",
+   "bytes": 9504,
+   "sha256": "0ae4a994a05c3e29b5ab4c908eb3881411af0897b41b5f8b1337dc1c1dd139bb"
+  },
+  {
+   "path": "raw/s1/2026-10-12/stac_pc_rtc.json",
+   "bytes": 6844,
+   "sha256": "cf3527396c4aef5064ee816cd3752c5980afc440a3f1abb3e804e66825d2870e"
+  },
+  {
+   "path": "raw/s1/2026-10-17/grd_vh.tif",
+   "bytes": 2018578,
+   "sha256": "fd2836b16ba6bde921ff423bbf46cecedf06d397a036e88f8aac5db55dff3a81"
+  },
+  {
+   "path": "raw/s1/2026-10-17/grd_vv.tif",
+   "bytes": 2275176,
+   "sha256": "a3db084dee54a36f747a0c8f1e31854f49c48ef2ecd654911a3f11e6bcac4b17"
+  },
+  {
+   "path": "raw/s1/2026-10-17/meta.json",
+   "bytes": 8846,
+   "sha256": "38a261718e8a3010230fbc03a096ef8d276a19ec3866387716d977da94f19784"
+  },
+  {
+   "path": "raw/s1/2026-10-17/quicklook.png",
+   "bytes": 1640421,
+   "sha256": "95323a0daf372499c2ccef694c0bfc9557a28c53c79b5d116792d4bcb7647051"
+  },
+  {
+   "path": "raw/s1/2026-10-17/rtc_vh.tif",
+   "bytes": 7045893,
+   "sha256": "e88f970995ae80f24ccad3d5913c007e128059b5a415959673831090478f8478"
+  },
+  {
+   "path": "raw/s1/2026-10-17/rtc_vv.tif",
+   "bytes": 7057135,
+   "sha256": "0be42cc5cf0266268bb3a848d12b64bf10b779528e8ad04522afc7618ab57632"
+  },
+  {
+   "path": "raw/s1/2026-10-17/stac_earthsearch_grd.json",
+   "bytes": 8817,
+   "sha256": "85ce1a49dffe33f4a9a16dea391b12c853fbd9f5c648f4175b9ba4892441eeed"
+  },
+  {
+   "path": "raw/s1/2026-10-17/stac_pc_grd.json",
+   "bytes": 9506,
+   "sha256": "bbc1484c2c8c4e0844f714ef766b596f8d1f45da6e651d9ab9fccd9d7081b07a"
+  },
+  {
+   "path": "raw/s1/2026-10-17/stac_pc_rtc.json",
+   "bytes": 7219,
+   "sha256": "6d478cc13e8f16525ea441d5bc31580ea5366d6bb6aea146865a58000c1fbbc4"
+  },
+  {
+   "path": "raw/s1/2026-10-24/grd_vh.tif",
+   "bytes": 2101266,
+   "sha256": "d6cc6681a08d0b8995ca8bbb40931d3f2c97d39c416fab0aff9a58e1975f229b"
+  },
+  {
+   "path": "raw/s1/2026-10-24/grd_vv.tif",
+   "bytes": 2360437,
+   "sha256": "f20932255b750a8c246ab7a79fdd10c2c6efe5698a20a589171040d22566b68e"
+  },
+  {
+   "path": "raw/s1/2026-10-24/meta.json",
+   "bytes": 8848,
+   "sha256": "68f41afd3e04e6634a1aadd22aeb72042948f8cb31aacd11e158126ac3fdc511"
+  },
+  {
+   "path": "raw/s1/2026-10-24/quicklook.png",
+   "bytes": 1729587,
+   "sha256": "e4a441eaa37d4420156598744d6fff234bb3d82d650d93323b19a22409cf1c6f"
+  },
+  {
+   "path": "raw/s1/2026-10-24/rtc_vh.tif",
+   "bytes": 7026620,
+   "sha256": "2d964e9138b9d366d7ec4fb5b94d67a591eb313a8087eddcf33b150d09c7465d"
+  },
+  {
+   "path": "raw/s1/2026-10-24/rtc_vv.tif",
+   "bytes": 7051523,
+   "sha256": "94fedc81b931aef5f8d19a780405d460a3e420f1a713ca86bbf86b9201d7915e"
+  },
+  {
+   "path": "raw/s1/2026-10-24/stac_earthsearch_grd.json",
+   "bytes": 8867,
+   "sha256": "55b5dcf952ef587b87fce41b7338d76a9750f0ed1583ab820dd6b8fc8a14ed14"
+  },
+  {
+   "path": "raw/s1/2026-10-24/stac_pc_grd.json",
+   "bytes": 9509,
+   "sha256": "11e39c73fcc08c38cc5641e4d39b3079a3dc085be40bdd3c7324cd8fbecabbb3"
+  },
+  {
+   "path": "raw/s1/2026-10-24/stac_pc_rtc.json",
+   "bytes": 6851,
+   "sha256": "cce58a75eba19137379dba67a6953c4f400e62da79cf0a35ca6c09b30453fc8b"
+  },
+  {
+   "path": "raw/s1/2026-10-29/grd_vh.tif",
+   "bytes": 2003381,
+   "sha256": "9cf4d5195ba9bfd33d831ade7b7a7b9e5391e548ff81a4f49df5ab82de6b10ea"
+  },
+  {
+   "path": "raw/s1/2026-10-29/grd_vv.tif",
+   "bytes": 2275348,
+   "sha256": "03aaa09af881c1fe94fc4b6bea4b3d5d0733ed7c09ea430db728b77198cf7764"
+  },
+  {
+   "path": "raw/s1/2026-10-29/meta.json",
+   "bytes": 8847,
+   "sha256": "96ca1dd26aade16d6a9851d97d9385a1b4e4f7c19fca8b92819feb27755113de"
+  },
+  {
+   "path": "raw/s1/2026-10-29/quicklook.png",
+   "bytes": 1660472,
+   "sha256": "2803fe68d1373c145ed381f158aed293f85712d52117c6136cd95941bc9e5e4e"
+  },
+  {
+   "path": "raw/s1/2026-10-29/rtc_vh.tif",
+   "bytes": 7041008,
+   "sha256": "fed33d21fa8520b3a0ff79024aaa8b73551f6f249bfa2ad3eea79c1d62099466"
+  },
+  {
+   "path": "raw/s1/2026-10-29/rtc_vv.tif",
+   "bytes": 7052593,
+   "sha256": "667e1f5082025be9969922839ae960e7f1080da40d1692127543678072aeefec"
+  },
+  {
+   "path": "raw/s1/2026-10-29/stac_earthsearch_grd.json",
+   "bytes": 8820,
+   "sha256": "9bb0266971f54a4d9e508480aec725d4ffc3fb8c754619dd3ff80db5b4ad4a07"
+  },
+  {
+   "path": "raw/s1/2026-10-29/stac_pc_grd.json",
+   "bytes": 9506,
+   "sha256": "3b64203498b820ae00a8ea1294c78409ebbe4454fc402967ece03117d13548a6"
+  },
+  {
+   "path": "raw/s1/2026-10-29/stac_pc_rtc.json",
+   "bytes": 7215,
+   "sha256": "397a32881739be68063f0b53c59ea884092b57f0c0fa7f9e4f7a380a8f001fff"
+  },
+  {
+   "path": "raw/s1/2026-11-05/grd_vh.tif",
+   "bytes": 2088918,
+   "sha256": "31dbcef4738567a267fe11f9457bcc5b5aceb5c67c0672d68557cf86670b55d0"
+  },
+  {
+   "path": "raw/s1/2026-11-05/grd_vv.tif",
+   "bytes": 2342048,
+   "sha256": "c60029d7482979b6b6554c28e17023df61d1f02abc18711adc742808029c31fb"
+  },
+  {
+   "path": "raw/s1/2026-11-05/meta.json",
+   "bytes": 8826,
+   "sha256": "1c96b3aab80b9a0f64142a077ee28b89699babfca50e85885585b4dc54fa9792"
+  },
+  {
+   "path": "raw/s1/2026-11-05/quicklook.png",
+   "bytes": 1670925,
+   "sha256": "d927a61ceada7801bac2ff493b30ab45e8b730ffccec6a7f774c5ba64e27853e"
+  },
+  {
+   "path": "raw/s1/2026-11-05/rtc_vh.tif",
+   "bytes": 7037057,
+   "sha256": "6258e442fc14971b93d3718a6d50fa20ea4b55317b1797e71e99bc5c8e7a60d0"
+  },
+  {
+   "path": "raw/s1/2026-11-05/rtc_vv.tif",
+   "bytes": 7057244,
+   "sha256": "795fd3bb57ede8cc77ded2c0f94fd7baa702a8c9b4acd5b9eb59a528b4f7e25a"
+  },
+  {
+   "path": "raw/s1/2026-11-05/stac_earthsearch_grd.json",
+   "bytes": 8854,
+   "sha256": "15f246dcc31de6facb3313011fdbc0c9214fc75d9d4bb5b0579cfc50ffb6e735"
+  },
+  {
+   "path": "raw/s1/2026-11-05/stac_pc_grd.json",
+   "bytes": 9493,
+   "sha256": "7f89d36b69d56ddaef4738a6a309ead0c4df75ece135fce836a112cf61445e24"
+  },
+  {
+   "path": "raw/s1/2026-11-05/stac_pc_rtc.json",
+   "bytes": 6839,
+   "sha256": "3b9ce86529257256b40e50ded8589e525110c45ab7ee04a96eb8cc6f4d91d829"
+  }
+ ]
+}

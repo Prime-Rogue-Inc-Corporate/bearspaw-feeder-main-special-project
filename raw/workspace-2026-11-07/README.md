@@ -21,4 +21,5 @@ elsewhere in `raw/`.
 These are too large for git. Their checksums are in the folder's `SHA256SUMS` and `MANIFEST.json`, so a fresh download can be checked.
 - `dem/`: the 1 m HRDEM lidar tiles (about 2.2 GB).
 - `fire/cwfis_hotspots/` (about 400 MB) and `fire/firms_country_yearly/` (about 150 MB).
-- Satellite imagery: Sentinel-2 (4.0 GB), GOES land-surface temperature (3.2 GB), Sentinel-1 (1.9 GB), Landsat (1.1 GB).
+- Satellite imagery: Sentinel-2 (4.0 GB, `s2/`), GOES land-surface temperature (3.2 GB, `goes_lst/`), Sentinel-1 (1.9 GB, `s1/`),
+  Landsat (1.1 GB, `landsat/`). Each of those folders here holds only its `MANIFEST.json` and `SHA256SUMS`.

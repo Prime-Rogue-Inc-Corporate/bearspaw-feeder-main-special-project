@@ -1,0 +1,33 @@
+2026-11-07T10:01:56Z	200	1818420	4018 4018	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH004&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BH004_2015-2026_off0.json
+2026-11-07T10:01:57Z	200	1224505	2772 2772	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH005&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BH005_2015-2026_off0.json
+2026-11-07T10:01:58Z	200	1133218	2557 2557	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH008&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BH008_2015-2026_off0.json
+2026-11-07T10:01:58Z	200	1682382	3653 3653	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ001&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BJ001_2015-2026_off0.json
+2026-11-07T10:01:59Z	200	1769526	4018 4018	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ008&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BJ008_2015-2026_off0.json
+2026-11-07T10:02:00Z	200	1702113	3653 3653	https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ010&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json	hydrometric-daily-mean_05BJ010_2015-2026_off0.json
+2026-11-07T10:02:11Z	200	4142275	8666 8666	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH004&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BH004_2026-realtime_off0.json
+2026-11-07T10:02:12Z	200	3233515	6708 6708	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH005&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BH005_2026-realtime_off0.json
+2026-11-07T10:02:13Z	200	4220400	8666 8666	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ001&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BJ001_2026-realtime_off0.json
+2026-11-07T10:02:14Z	200	4204784	8671 8671	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ010&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BJ010_2026-realtime_off0.json
+2026-11-07T10:02:15Z	200	4338273	8664 8664	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH015&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BH015_2026-realtime_off0.json
+2026-11-07T10:02:16Z	200	3249597	6703 6703	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH016&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BH016_2026-realtime_off0.json
+2026-11-07T10:02:17Z	200	4195292	8670 8670	https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ004&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json	hydrometric-realtime_05BJ004_2026-realtime_off0.json
+2026-11-07T10:02:25Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH004_daily_hydrometric.csv
+2026-11-07T10:02:25Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH005_daily_hydrometric.csv
+2026-11-07T10:02:26Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH008_daily_hydrometric.csv
+2026-11-07T10:02:26Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH015_daily_hydrometric.csv
+2026-11-07T10:02:26Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH016_daily_hydrometric.csv
+2026-11-07T10:02:27Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ001_daily_hydrometric.csv
+2026-11-07T10:02:27Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ004_daily_hydrometric.csv
+2026-11-07T10:02:27Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ008_daily_hydrometric.csv
+2026-11-07T10:02:27Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ010_daily_hydrometric.csv
+2026-11-07T10:02:28Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BM015_daily_hydrometric.csv
+2026-11-07T10:02:28Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH004_hourly_hydrometric.csv
+2026-11-07T10:02:28Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH005_hourly_hydrometric.csv
+2026-11-07T10:02:28Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH008_hourly_hydrometric.csv
+2026-11-07T10:02:29Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH015_hourly_hydrometric.csv
+2026-11-07T10:02:29Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH016_hourly_hydrometric.csv
+2026-11-07T10:02:29Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ001_hourly_hydrometric.csv
+2026-11-07T10:02:29Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ004_hourly_hydrometric.csv
+2026-11-07T10:02:30Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ008_hourly_hydrometric.csv
+2026-11-07T10:02:30Z	200	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ010_hourly_hydrometric.csv
+2026-11-07T10:02:30Z	404	https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BM015_hourly_hydrometric.csv

@@ -1,0 +1,98 @@
+{
+ "dataset": "ECCC station inventories and service capability documents",
+ "contents": {
+  "climate-stations_bbox_calgary_25km.*": "api.weather.gc.ca climate-stations collection, bbox -114.50,50.82,-113.70,51.32 (33 stations, all eras). Used instead of 'Station Inventory EN.csv' because collaboration.cmc.ec.gc.ca and drive.google.com are blocked (CONNECT 403).",
+  "swob-*-stations_bbox_calgary.json": "SWOB realtime station lists (MSC and partner). Partner AB-MAI stations Keoma AGCM and Nier AGDM are in range; SWOB is realtime only (no historical soil temperature reachable).",
+  "geomet_wms_getcapabilities_2026-11-07.xml": "GeoMet WMS capabilities. Soil/CaLDAS/HRDLPS layers are current-run only (no archive). RDPA 24F/6F precipitation analysis archive exists back to 2012-10 (not pulled)."
+ },
+ "nearby_active_climate_stations_le_27km": [
+  [
+   "9010",
+   "COP UPPER",
+   "3.7 km"
+  ],
+  [
+   "27211",
+   "CALGARY INT'L CS",
+   "12.3 km"
+  ],
+  [
+   "50430",
+   "CALGARY INTL A",
+   "11.9 km"
+  ],
+  [
+   "52200",
+   "CALGARY SPRINGBANK A",
+   "14.3 km"
+  ]
+ ],
+ "distance_reference": "51.08N 114.17W",
+ "folder": "raw/eccc_stations",
+ "generated_utc": "2026-11-07T10:20:10Z",
+ "n_files": 6,
+ "total_bytes": 39733826,
+ "files": [
+  {
+   "path": "raw/eccc_stations/_fetch_log.tsv",
+   "bytes": 838,
+   "sha256": "aa01c3e16cc7de6b9686912e4c7fab3b2d39938f66e89c88257f3fdd91044648",
+   "mtime_utc": "2026-11-07T10:19:09Z"
+  },
+  {
+   "path": "raw/eccc_stations/climate-stations_bbox_calgary_25km.csv",
+   "bytes": 9978,
+   "sha256": "a1e2a40b7be1fdfad69a1517827bbfabe5c29219079b6af2c0e1ded3069a5451",
+   "mtime_utc": "2026-11-07T09:57:45Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T09:58:00Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/climate-stations/items?bbox=-114.50,50.82,-113.70,51.32&limit=500&f=csv"
+   }
+  },
+  {
+   "path": "raw/eccc_stations/climate-stations_bbox_calgary_25km.json",
+   "bytes": 33468,
+   "sha256": "554ffd6b7f49fd93ff1434b9bd39ea2c76d2928c2219cf972953d7535c449e99",
+   "mtime_utc": "2026-11-07T09:57:44Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T09:58:00Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/climate-stations/items?bbox=-114.50,50.82,-113.70,51.32&limit=500&f=json"
+   }
+  },
+  {
+   "path": "raw/eccc_stations/geomet_wms_getcapabilities_2026-11-07.xml",
+   "bytes": 39684918,
+   "sha256": "e48083d87d0c2f970f3f713b42bdf9047d7c1a224de8d6d7600f8981752ade52",
+   "mtime_utc": "2026-11-07T10:19:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:00:00Z",
+    "http": "200",
+    "url": "https://geo.weather.gc.ca/geomet?service=WMS&request=GetCapabilities&version=1.3.0"
+   }
+  },
+  {
+   "path": "raw/eccc_stations/swob-partner-stations_bbox_calgary.json",
+   "bytes": 2596,
+   "sha256": "b765b50d3c1d6f5b3c5e0e0a20239108212a45caa0f57a7fc885fef92144a60c",
+   "mtime_utc": "2026-11-07T10:19:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:19:09Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/swob-partner-stations/items?bbox=-114.6,50.8,-113.6,51.4&f=json&limit=200"
+   }
+  },
+  {
+   "path": "raw/eccc_stations/swob-stations_bbox_calgary.json",
+   "bytes": 2028,
+   "sha256": "5e790e24b4fecb509f987caafc06a9d3fa597f51e393b64c7a60c45077e2bae7",
+   "mtime_utc": "2026-11-07T10:19:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:19:09Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/swob-stations/items?bbox=-114.6,50.8,-113.6,51.4&f=json&limit=200"
+   }
+  }
+ ]
+}

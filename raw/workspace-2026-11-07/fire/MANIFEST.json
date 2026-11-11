@@ -1,0 +1,3169 @@
+{
+ "dataset": "Active-fire / thermal-anomaly detections (negative control) for box W -114.245 S 50.975 E -114.060 N 51.112",
+ "sources": {
+  "cwfis_hotspots/archive": "CWFIS (NRCan) Fire M3 hotspots annual archives 2024, 2025 + perimeters",
+  "cwfis_hotspots/daily_2026": "CWFIS daily hotspot CSVs 2026-01-13..2026-11-06 (only days published in the listing; listing has gaps e.g. 2026-01-01..12, 01-22..27, 01-30..02-23, 03-25..30 - no files exist for those days)",
+  "firms_country_yearly": "NASA FIRMS no-key country yearly CSVs: MODIS and VIIRS S-NPP Canada 2024, 2025 (viirs-noaa20/noaa21 yearly not published; 2026 yearly not yet published)",
+  "firms_public_snapshot": "FIRMS public 24h/48h/7d Canada CSVs (MODIS, VIIRS SNPP, NOAA-20, NOAA-21) as of 2026-11-07"
+ },
+ "derived": {
+  "cwfis_hotspots/derived_cwfis_hotspots_in_bsfm_box_2024-2026.csv": "0 detections in box (6,333,769 rows scanned)",
+  "firms_country_yearly/derived_firms_in_bsfm_box.csv": "0 detections in box"
+ },
+ "data_quality_flags": [
+  "FIRMS no-key coverage gap: 2026-01-01..2026-10-30 (and NOAA-20/21 for 2024-2025) - must be pulled in the pipeline workflow with MAP_KEY via the area API.",
+  "FIRMS area API (firms.modaps.eosdis.nasa.gov/api/area) requires MAP_KEY - not used."
+ ],
+ "licence": "CWFIS licence text saved as cwfis_hotspots/licence.txt",
+ "folder": "raw/fire",
+ "generated_utc": "2026-11-07T10:20:11Z",
+ "n_files": 290,
+ "total_bytes": 580141469,
+ "files": [
+  {
+   "path": "raw/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_24h.csv",
+   "bytes": 27266,
+   "sha256": "f10359b7b0befcf2c637a4e7f51c821e93d7a1abd71844b744d334172c389a58",
+   "mtime_utc": "2026-11-07T10:05:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:20Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Canada_24h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_48h.csv",
+   "bytes": 85213,
+   "sha256": "1d0169a1c20d15b36ff848525efcac2abed2d8bb06209807a9e9276df661cfac",
+   "mtime_utc": "2026-11-07T10:05:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:20Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Canada_48h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_7d.csv",
+   "bytes": 338677,
+   "sha256": "486f80c8b86c7c7f153457812f086b9633d1b01af34bf8e8354cec7bc995b287",
+   "mtime_utc": "2026-11-07T10:05:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:20Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Canada_7d.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_24h.csv",
+   "bytes": 32647,
+   "sha256": "e2f637d7ab9771f1b5c033d77f2a8e43427cfac7e889e224c6488cce62d64314",
+   "mtime_utc": "2026-11-07T10:05:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:21Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-21-viirs-c2/csv/J2_VIIRS_C2_Canada_24h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_48h.csv",
+   "bytes": 54440,
+   "sha256": "39ba8c299b886a5e08d5efb69eb3ee397778ea42468247db7bdfd24d6a365d15",
+   "mtime_utc": "2026-11-07T10:05:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:21Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-21-viirs-c2/csv/J2_VIIRS_C2_Canada_48h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_7d.csv",
+   "bytes": 294724,
+   "sha256": "bec5c5165ea8c13d7c91043f7ed20e51da076cdd3a3e6c80b310befaf1abe8a2",
+   "mtime_utc": "2026-11-07T10:05:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:21Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-21-viirs-c2/csv/J2_VIIRS_C2_Canada_7d.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/MODIS_C6_1_Canada_24h.csv",
+   "bytes": 3588,
+   "sha256": "87f96b2bed8c1250b5b7b8e4269a3783ea6a513ef10eb4195fbbeccfd52dca90",
+   "mtime_utc": "2026-11-07T10:05:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:17Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Canada_24h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/MODIS_C6_1_Canada_48h.csv",
+   "bytes": 15088,
+   "sha256": "5db99dcaec3d98984f05a0bd545046758e898e065bbc33d7e03a02667deac427",
+   "mtime_utc": "2026-11-07T10:05:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:18Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Canada_48h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/MODIS_C6_1_Canada_7d.csv",
+   "bytes": 58592,
+   "sha256": "f21a9c8b93e59561962064ad8adfe055457d77040278fcf6f5f2e4455c8afd1f",
+   "mtime_utc": "2026-11-07T10:05:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:18Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Canada_7d.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_24h.csv",
+   "bytes": 112,
+   "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
+   "mtime_utc": "2026-11-07T10:05:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:19Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Canada_24h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_48h.csv",
+   "bytes": 112,
+   "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
+   "mtime_utc": "2026-11-07T10:05:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:19Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Canada_48h.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_7d.csv",
+   "bytes": 81008,
+   "sha256": "995873cf6d70309eca507eaeffd88d6caf989144dd73dc721c62687b8068b695",
+   "mtime_utc": "2026-11-07T10:05:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:19Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Canada_7d.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_public_snapshot/_fetch_log.tsv",
+   "bytes": 1583,
+   "sha256": "bde28d3e84172c6dfccc61d957c4dfdb96f2605b63432afd6fd79dbf51dc9b2f",
+   "mtime_utc": "2026-11-07T10:05:21Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/README_Fire_M3_Hotspots_Dataset.txt",
+   "bytes": 2976,
+   "sha256": "60e987d8da6a1d4d1f6ca19d65670836dd76d40be0d9ebc42101e68cfac00c4d",
+   "mtime_utc": "2026-11-07T10:04:39Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/README_Hotspots_Last_24_Hours_Dataset.txt",
+   "bytes": 3000,
+   "sha256": "b94df1c0d0a97f468248dc662d64233974c24bda85256550c9babcd88f2b157d",
+   "mtime_utc": "2026-11-07T10:04:40Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/_fetch_log.tsv",
+   "bytes": 24935,
+   "sha256": "5f20fc359f941cdde759ab581dfc512de7ff7fd3490de785706f5f361fccb207",
+   "mtime_utc": "2026-11-07T10:04:35Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/derived_cwfis_hotspots_in_bsfm_box_2024-2026.csv",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "mtime_utc": "2026-11-07T10:04:47Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/licence.txt",
+   "bytes": 971,
+   "sha256": "0ae11b6d2ba01275b78a5bbd7da6c1c2550d819e1b7ff24f8db9ba513e735a0d",
+   "mtime_utc": "2026-11-07T10:02:55Z"
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260113.csv",
+   "bytes": 16329,
+   "sha256": "6535b2164ebedf2cd63cb065638d2e4177f3835a00bdd9390e57ad47b8a2de3b",
+   "mtime_utc": "2026-11-07T10:03:00Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:00Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260113.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260114.csv",
+   "bytes": 92273,
+   "sha256": "453f73c328c413afbda1825d5aaaee37e12b9ab981c814bf7a50ec9ac7185688",
+   "mtime_utc": "2026-11-07T10:03:01Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:01Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260114.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260115.csv",
+   "bytes": 205757,
+   "sha256": "bd36a9e15e966abf9757c18503e9bc6fcf2b133873f3bed3907ab679ad4d3f8b",
+   "mtime_utc": "2026-11-07T10:03:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260115.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260116.csv",
+   "bytes": 186939,
+   "sha256": "f2dcbf11440018072c816957dd338bff34cf23a647fc5f7491cbbcc4faf2d396",
+   "mtime_utc": "2026-11-07T10:03:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260116.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260117.csv",
+   "bytes": 89979,
+   "sha256": "bfe6a675b87e962ba8039b1b18cdbeacc376541acbd3a70c7ae7460a54756a92",
+   "mtime_utc": "2026-11-07T10:03:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260117.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260118.csv",
+   "bytes": 60365,
+   "sha256": "4ade6fda8c751b9d9270543c1f0669ee836640ea73e33a5e8e3d2e4a9c4d5b71",
+   "mtime_utc": "2026-11-07T10:03:03Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:03Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260118.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260119.csv",
+   "bytes": 105576,
+   "sha256": "717e034904beefa2b84eb1e9bf454db7f68b8b19026e7622c279b736aacffbab",
+   "mtime_utc": "2026-11-07T10:03:03Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:03Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260119.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260120.csv",
+   "bytes": 193357,
+   "sha256": "58058dbc2ca24d837caf666cd1dabe7fa1b0e79913da92fa147c236a4fa96dcf",
+   "mtime_utc": "2026-11-07T10:03:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260120.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260121.csv",
+   "bytes": 17459,
+   "sha256": "eca351cb83ddfc260d70df5830948969fb64b95ea3dffa73f1d1c19413a24361",
+   "mtime_utc": "2026-11-07T10:03:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260121.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260128.csv",
+   "bytes": 10886,
+   "sha256": "c2c59b31d83779cc7fb22f1b52702366206bc2be68a6ba87098ae07e0cde565e",
+   "mtime_utc": "2026-11-07T10:03:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260128.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260129.csv",
+   "bytes": 9233,
+   "sha256": "0268d78ba18d78f4e46a1b767091dc5fa98b5336f59754736a87e85c5283a2a2",
+   "mtime_utc": "2026-11-07T10:03:05Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:05Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260129.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260224.csv",
+   "bytes": 235900,
+   "sha256": "de56d214bcf9b971d1dd6eef86e695c818a18c84a1490f04f31b76eb47e05f67",
+   "mtime_utc": "2026-11-07T10:03:05Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:05Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260224.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260225.csv",
+   "bytes": 38558,
+   "sha256": "5314f00701ce5b5f020e5e3a440730260f6ee5e930e036d08b60ddb47cc0ea65",
+   "mtime_utc": "2026-11-07T10:03:05Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:05Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260225.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260226.csv",
+   "bytes": 178546,
+   "sha256": "e9c7e9ce06ec98289d897564c9fd25474986c7b22376c16eb8344fe2f942a0be",
+   "mtime_utc": "2026-11-07T10:03:06Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:06Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260226.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260227.csv",
+   "bytes": 303981,
+   "sha256": "60e0b6cbac1e8067c9d41dedae391d3086e4444a8b44eb52a80a3ee9b8c42f42",
+   "mtime_utc": "2026-11-07T10:03:06Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:06Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260227.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260228.csv",
+   "bytes": 310194,
+   "sha256": "86b923b6c9e17fea0ef4c51d4541c0e521c884deb6361e1e659b4e827021bdfb",
+   "mtime_utc": "2026-11-07T10:03:07Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:07Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260228.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260301.csv",
+   "bytes": 183142,
+   "sha256": "12ce1f533cf688780e26930a7b30df04d5a6daaee6bd34d9040072b28c6a9db2",
+   "mtime_utc": "2026-11-07T10:03:07Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:07Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260301.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260302.csv",
+   "bytes": 254603,
+   "sha256": "8463dbb977d58063aa0fc6f3c4dc1288945cc1ee7bb7672959f57842fe2246dd",
+   "mtime_utc": "2026-11-07T10:03:08Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:08Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260302.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260303.csv",
+   "bytes": 132509,
+   "sha256": "34dbb362546df739fe9a08f0966083f2288c3e80cbb62202f8ed0345ef3933e7",
+   "mtime_utc": "2026-11-07T10:03:08Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:08Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260303.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260304.csv",
+   "bytes": 191302,
+   "sha256": "fcc5bf6e56518f91fa14aa863a3543f79a1ee0862f8662d76f0b8f944d750d11",
+   "mtime_utc": "2026-11-07T10:03:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260304.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260305.csv",
+   "bytes": 181907,
+   "sha256": "0496e5617449ee06edca3feba54a78680577e9cccddaef3336a4a93eb4188f21",
+   "mtime_utc": "2026-11-07T10:03:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260305.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260306.csv",
+   "bytes": 117440,
+   "sha256": "833af0a3005f45f98e967d77cf783bcebf8c88f05879d9f8d52dc5216e1f3fae",
+   "mtime_utc": "2026-11-07T10:03:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260306.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260307.csv",
+   "bytes": 35200,
+   "sha256": "39cd199b3895ea9d0cd5d853161838ec71c9532a0650ad7e2a5e16b914fbbdf9",
+   "mtime_utc": "2026-11-07T10:03:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260307.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260308.csv",
+   "bytes": 61896,
+   "sha256": "c01f6a5465a6f171b9a9f28629ecee75c9a41fc4ead698049879ae25260c9c9b",
+   "mtime_utc": "2026-11-07T10:03:10Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:10Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260308.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260309.csv",
+   "bytes": 179455,
+   "sha256": "78997aec7d91a63c81300a1ef6ab1069a6bb52e722eb768eb724833fbc289496",
+   "mtime_utc": "2026-11-07T10:03:10Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:10Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260309.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260310.csv",
+   "bytes": 209702,
+   "sha256": "67905c0f4a295e2a7dcaea903209c075b8c1477299e6893c29641b05afa60c0f",
+   "mtime_utc": "2026-11-07T10:03:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260310.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260311.csv",
+   "bytes": 169313,
+   "sha256": "f4105d09728257608703adf1b4c2b8eadeff2eb4688bd2f0bf6440d69343949b",
+   "mtime_utc": "2026-11-07T10:03:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260311.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260312.csv",
+   "bytes": 119998,
+   "sha256": "196d48206d4cbc112c352b7dc02bc97dc25e06a910a7b9edb4bb8472fdf87620",
+   "mtime_utc": "2026-11-07T10:03:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260312.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260313.csv",
+   "bytes": 573609,
+   "sha256": "5847740596ee5aceb250c739414805d185d49dc378881ea240a12a0c866c5ad4",
+   "mtime_utc": "2026-11-07T10:03:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:12Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260313.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260314.csv",
+   "bytes": 459733,
+   "sha256": "45050bc043163964a40865b71d5e399dc5ea6f0dbd471c2d54d4ae74646d03b9",
+   "mtime_utc": "2026-11-07T10:03:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:12Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260314.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260315.csv",
+   "bytes": 58453,
+   "sha256": "366fac12d7be90e9ae27229ccd8ebf142b4417196626e969840f9e36e5925b84",
+   "mtime_utc": "2026-11-07T10:03:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260315.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260316.csv",
+   "bytes": 19733,
+   "sha256": "604aec1c83dc8804bc0ef3745202c94e8bb20e222937c96c7caea53059bf2e13",
+   "mtime_utc": "2026-11-07T10:03:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260316.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260317.csv",
+   "bytes": 141124,
+   "sha256": "8d33b8a946406ad29b332aea20a6fc3616653294b1d8999eb13413af3e4e79d0",
+   "mtime_utc": "2026-11-07T10:03:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260317.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260318.csv",
+   "bytes": 372591,
+   "sha256": "68f61c72a8a3dc40e54fb385e3f4e3b69299f074a60af7b53078d35e698ba12c",
+   "mtime_utc": "2026-11-07T10:03:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:14Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260318.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260319.csv",
+   "bytes": 867288,
+   "sha256": "af8e685ac02a89607183c696f7815f929268b1c5e877dd1a00665a0444a1acd6",
+   "mtime_utc": "2026-11-07T10:03:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:14Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260319.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260320.csv",
+   "bytes": 709858,
+   "sha256": "1304b01a66703cf0b31593cfa4e4d17a8718631a01aeebc14e9403c39e0af021",
+   "mtime_utc": "2026-11-07T10:03:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260320.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260321.csv",
+   "bytes": 641958,
+   "sha256": "3e476bf50743e9df7bfe27d355008e8c4b8f323aa506935dd4eb5d9384c0786d",
+   "mtime_utc": "2026-11-07T10:03:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260321.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260322.csv",
+   "bytes": 313152,
+   "sha256": "2f27124b66e2f48c7e265316c21a26aea4062937f33bebed4c511c488577f6e7",
+   "mtime_utc": "2026-11-07T10:03:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260322.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260323.csv",
+   "bytes": 392811,
+   "sha256": "a03dd36e659b7f3d1729c87238064b4f9e73cbebd80386a7c056f567529e6cb7",
+   "mtime_utc": "2026-11-07T10:03:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:16Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260323.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260324.csv",
+   "bytes": 63664,
+   "sha256": "5be87202ba07cfeb3f24588e676ccb9ceae969c6604aeaecc8560a671ca51a33",
+   "mtime_utc": "2026-11-07T10:03:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:16Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260324.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260331.csv",
+   "bytes": 72638,
+   "sha256": "dc2705b443d2b3a969c830ce71887ed039c96c4bfb43b40e29c91cfca61993e4",
+   "mtime_utc": "2026-11-07T10:03:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:17Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260331.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260401.csv",
+   "bytes": 58218,
+   "sha256": "d6d69e3acc7a1f9c0851e3793a9a48c6ec0d56cf186b5892ac147ce9bd416758",
+   "mtime_utc": "2026-11-07T10:03:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:17Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260401.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260402.csv",
+   "bytes": 69348,
+   "sha256": "8cc1b463a80d4ff73406dd26f7ee248f7f6352646a3ff6bff60c6aaf9ac402a5",
+   "mtime_utc": "2026-11-07T10:03:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:17Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260402.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260403.csv",
+   "bytes": 45625,
+   "sha256": "b34af31955e6e679380df9efb23215772f8df5fdbf963ebb0d017e0a12e93517",
+   "mtime_utc": "2026-11-07T10:03:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260403.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260404.csv",
+   "bytes": 121635,
+   "sha256": "f1e313b0f51f0a825feab9aa2fb1bc6b5dd25cbf5e6f88ba178741b4e38ad10f",
+   "mtime_utc": "2026-11-07T10:03:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260404.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260405.csv",
+   "bytes": 159058,
+   "sha256": "de7e91af3bd1a67c44b3f3488bd6ea7faa3d013a601ca3d1c4817a4e03b72974",
+   "mtime_utc": "2026-11-07T10:03:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260405.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260406.csv",
+   "bytes": 614625,
+   "sha256": "ff085b564b6b5f0542a6ffe121cfdf3631adc1ae3f6bf72ad34a715ccf82dcdd",
+   "mtime_utc": "2026-11-07T10:03:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:19Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260406.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260407.csv",
+   "bytes": 575502,
+   "sha256": "90092c493c4bbdb81a7ee68b592e0dfdf75cd5ae54d9ed310275d4793adf90f1",
+   "mtime_utc": "2026-11-07T10:03:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:19Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260407.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260408.csv",
+   "bytes": 346149,
+   "sha256": "f3abd3834c23e500e9d47eeca8f366cd53510ed957a78b1b08753236aa04b739",
+   "mtime_utc": "2026-11-07T10:03:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260408.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260409.csv",
+   "bytes": 285686,
+   "sha256": "33441426bd62d0de3030eaa51edd10058d6ee5b4927882570525c4b68d8159f4",
+   "mtime_utc": "2026-11-07T10:03:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260409.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260410.csv",
+   "bytes": 166001,
+   "sha256": "418fdddb8e628dcc8c95814eefe16ebfa86b30ab58b8fdb1c514a706115b9506",
+   "mtime_utc": "2026-11-07T10:03:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260410.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260411.csv",
+   "bytes": 102313,
+   "sha256": "42d63e68f91cc1da90c9f67988fb1b89f2098bf33afff690f418e494378deafe",
+   "mtime_utc": "2026-11-07T10:03:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260411.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260412.csv",
+   "bytes": 55530,
+   "sha256": "6e078f21de2327b6cfaf372036815f10312b4bd02c9a543f942d8ede57f4a8ea",
+   "mtime_utc": "2026-11-07T10:03:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260412.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260413.csv",
+   "bytes": 58998,
+   "sha256": "1bb9ab1cc3ddac436c7416e740d51aaf6990b031fd8c5b72c963a719837b947f",
+   "mtime_utc": "2026-11-07T10:03:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260413.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260414.csv",
+   "bytes": 106446,
+   "sha256": "1d0d0581dc86751b976888412c90b9af89d03f44755bcb9cd3c1748bf33594d6",
+   "mtime_utc": "2026-11-07T10:03:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260414.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260415.csv",
+   "bytes": 154702,
+   "sha256": "bb32fc3d586b919be6529df94c9e00014311b6ad5ba903cf58c38750ab58c676",
+   "mtime_utc": "2026-11-07T10:03:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260415.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260416.csv",
+   "bytes": 263826,
+   "sha256": "e08936c764791d6655891f137528eaac32e526a1c079ae8f84c7d270948fd8da",
+   "mtime_utc": "2026-11-07T10:03:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260416.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260417.csv",
+   "bytes": 68013,
+   "sha256": "dca65164f08261201d5c948503ea1f062c8e363361c8210ec2048e5973a44d39",
+   "mtime_utc": "2026-11-07T10:03:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260417.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260418.csv",
+   "bytes": 102506,
+   "sha256": "9605eeea2d79dfb8109753b647f4550e63e189e2b350622ffc844c9c6c4d0d6c",
+   "mtime_utc": "2026-11-07T10:03:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260418.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260419.csv",
+   "bytes": 137497,
+   "sha256": "b6fbcb4a4fe3882387445c73d5d2dc0561a35ca42c89623e74934aab2a6a3e33",
+   "mtime_utc": "2026-11-07T10:03:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260419.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260420.csv",
+   "bytes": 185625,
+   "sha256": "44c7ca22cb4ce02f51991b3b1d7c1b5535d97374c899822ff4c76ebfd6e311d0",
+   "mtime_utc": "2026-11-07T10:03:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260420.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260421.csv",
+   "bytes": 265348,
+   "sha256": "38560c12bbc6b2fc3d3942e01445507d34c24f81392b1d50189573f3044f28fe",
+   "mtime_utc": "2026-11-07T10:03:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260421.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260422.csv",
+   "bytes": 128897,
+   "sha256": "ff7b5e725fa23212535ee2d6bb871876556dce3d2a0ebfcda2d2efd4b54dcd7c",
+   "mtime_utc": "2026-11-07T10:03:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260422.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260423.csv",
+   "bytes": 81281,
+   "sha256": "3978679de88d90f729aa62208c24d938eb85fb3109c6401f2cfbfc9241427a1b",
+   "mtime_utc": "2026-11-07T10:03:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260423.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260424.csv",
+   "bytes": 101762,
+   "sha256": "1b0bc920a294d81c040d5c844d198bfb6773e9e4a13e648521d1365639d96acf",
+   "mtime_utc": "2026-11-07T10:03:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260424.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260425.csv",
+   "bytes": 82595,
+   "sha256": "2a96a5f08e4af6a251e11aef7f5371c200e822fced6968816e848a9c53c862ac",
+   "mtime_utc": "2026-11-07T10:03:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260425.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260426.csv",
+   "bytes": 84127,
+   "sha256": "85dd3efc36ca4eaa948468817c1154c06265aefe034900fe1bae31a19bd4edd9",
+   "mtime_utc": "2026-11-07T10:03:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260426.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260427.csv",
+   "bytes": 58053,
+   "sha256": "871b1feb77bb27ad3efbfbd6a147143c50efc513589420b52223b24fdbca411c",
+   "mtime_utc": "2026-11-07T10:03:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260427.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260428.csv",
+   "bytes": 72809,
+   "sha256": "122ff87e8d7a1f56cc129ecdafe7c027ae95ae7831dc3574909b3a9fc4460850",
+   "mtime_utc": "2026-11-07T10:03:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260428.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260429.csv",
+   "bytes": 72734,
+   "sha256": "2840a90ddb9968760a4027e114a8e553b9b2c7ad58f842f06505c2e5931def7e",
+   "mtime_utc": "2026-11-07T10:03:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260429.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260430.csv",
+   "bytes": 69030,
+   "sha256": "d09290ce280afeac065436bf1338a202be8a315e7351140846625073e2d8ac00",
+   "mtime_utc": "2026-11-07T10:03:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:27Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260430.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260501.csv",
+   "bytes": 89756,
+   "sha256": "ba3b0d7bfa990b1f388bfaf84f52413858d9a1e0a7ec54169004686ae42cd84e",
+   "mtime_utc": "2026-11-07T10:03:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:27Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260501.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260502.csv",
+   "bytes": 100349,
+   "sha256": "db7290a096c48277853009d31f3f60ff9a7c51cf06d6bfa96b34a623fb0a4eac",
+   "mtime_utc": "2026-11-07T10:03:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260502.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260503.csv",
+   "bytes": 97727,
+   "sha256": "746787908e51f0ceb7288772270359db4b3e03a34a1a9c1a50064d63741c6db4",
+   "mtime_utc": "2026-11-07T10:03:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260503.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260504.csv",
+   "bytes": 99021,
+   "sha256": "2b3036ce3542b0733928a9251b85d7786bedc086b42df8d5e87b3c9bbf5d62fc",
+   "mtime_utc": "2026-11-07T10:03:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260504.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260505.csv",
+   "bytes": 52789,
+   "sha256": "216a89ee389393c5acf032df32310fa63a95591c593d68b5a6f6717079a5e2b2",
+   "mtime_utc": "2026-11-07T10:03:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260505.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260506.csv",
+   "bytes": 65522,
+   "sha256": "3b68c7a80bfc2176cc0c41f1ae040f20e9bc17685fbbb54c8d0bd4f1bbb6bcb0",
+   "mtime_utc": "2026-11-07T10:03:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260506.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260507.csv",
+   "bytes": 117245,
+   "sha256": "ac17e4cae8804d6cb5ce80ee953e632e124d743fb5db1f137c5698321c51e0ad",
+   "mtime_utc": "2026-11-07T10:03:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260507.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260508.csv",
+   "bytes": 75192,
+   "sha256": "435f8a638c2ccce274ede1bfcbe235c27ed31c35be5975b427ac8e88c39f6d25",
+   "mtime_utc": "2026-11-07T10:03:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260508.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260509.csv",
+   "bytes": 49963,
+   "sha256": "26aa8008cf1063d0e34e637ffc61614a12c18ff3b827598a1c6aabc1b53cb514",
+   "mtime_utc": "2026-11-07T10:03:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260509.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260510.csv",
+   "bytes": 56384,
+   "sha256": "8dfd7e521c0512c8aabb2136663b6313d45a90df4fd70bf8f1829e381a205249",
+   "mtime_utc": "2026-11-07T10:03:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260510.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260511.csv",
+   "bytes": 101609,
+   "sha256": "22a33873d7ce537f9c7460f2ae605223d40466c1ddc75e664d42299a57f78376",
+   "mtime_utc": "2026-11-07T10:03:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260511.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260512.csv",
+   "bytes": 100976,
+   "sha256": "78306f814e840a0a31e4ac294d4ac4bbdb72923f960ca0a72752861b5b97335b",
+   "mtime_utc": "2026-11-07T10:03:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260512.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260513.csv",
+   "bytes": 164542,
+   "sha256": "0e363062c676ab14183b3ca3444c559e02c278721db5d8805471a280ee72137a",
+   "mtime_utc": "2026-11-07T10:03:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260513.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260514.csv",
+   "bytes": 177298,
+   "sha256": "ff907ae1d75c6d82746a7ca467d20159d71f141e4455eb1772fcb3ce3405973c",
+   "mtime_utc": "2026-11-07T10:03:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260514.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260515.csv",
+   "bytes": 239899,
+   "sha256": "bafc37ea4fed845842377193f3b818c26a50ac7a52cf3ad913fb392dc1a44325",
+   "mtime_utc": "2026-11-07T10:03:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260515.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260516.csv",
+   "bytes": 82032,
+   "sha256": "98b8261b392a4ad9467b0991f60c3180440969d9820ebc570c49eab2c5959428",
+   "mtime_utc": "2026-11-07T10:03:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260516.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260517.csv",
+   "bytes": 98946,
+   "sha256": "bf33285c436bedd787ae42785368e46ea48b2da78f792ce50c7dd3de3b751d6e",
+   "mtime_utc": "2026-11-07T10:03:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260517.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260518.csv",
+   "bytes": 65607,
+   "sha256": "1074bfa0f197b82741901affb6f9bac66ff7a4b9e21ac0613515495dab4e3d14",
+   "mtime_utc": "2026-11-07T10:03:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260518.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260519.csv",
+   "bytes": 82592,
+   "sha256": "6a57d43e29575d9738c673f673c90a6259843a7bd883a1c88530b18d8b239b48",
+   "mtime_utc": "2026-11-07T10:03:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260519.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260520.csv",
+   "bytes": 44030,
+   "sha256": "f987dae85fa4ac89d58268614dcd08e490721bbd27106cb5b0d9d78d3adad121",
+   "mtime_utc": "2026-11-07T10:03:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260520.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260521.csv",
+   "bytes": 58729,
+   "sha256": "ea57d4c325fd774d7fb40385d9bd49193c4a0157d9b079fbcec4911ed79f0b76",
+   "mtime_utc": "2026-11-07T10:03:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260521.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260522.csv",
+   "bytes": 126082,
+   "sha256": "5997fda98ff765f4721ac292bfe666be7b3739b9abdfdbbea3882e0b65854de7",
+   "mtime_utc": "2026-11-07T10:03:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260522.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260523.csv",
+   "bytes": 135084,
+   "sha256": "b7f9081595eb7511c34f490efc45a909cab47a8fdcbc9467a5b4eefa4b98f8fa",
+   "mtime_utc": "2026-11-07T10:03:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260523.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260524.csv",
+   "bytes": 67390,
+   "sha256": "9542266e0446273497a1634f11916ba846fcdd6d25f759c00fa42661ade5627d",
+   "mtime_utc": "2026-11-07T10:03:35Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:35Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260524.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260525.csv",
+   "bytes": 76299,
+   "sha256": "878900126d8f3c212b6d8770a49248675dd0cbc20df25e83a22e306f16459aee",
+   "mtime_utc": "2026-11-07T10:03:35Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:35Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260525.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260526.csv",
+   "bytes": 66197,
+   "sha256": "953adea5200bde194a64f731972a8ddd80d8961c2704649a97636721da023e2a",
+   "mtime_utc": "2026-11-07T10:03:35Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:35Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260526.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260527.csv",
+   "bytes": 103279,
+   "sha256": "07e92e207f952cd5ef28e8ab7bde71d55bc3f943c5e2f0855635c9f17ef09bb2",
+   "mtime_utc": "2026-11-07T10:03:35Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:35Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260527.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260528.csv",
+   "bytes": 182264,
+   "sha256": "19accf4d9405ca5a1a33549cf424082c955dfe49379405263a559525a0718cac",
+   "mtime_utc": "2026-11-07T10:03:36Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:36Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260528.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260529.csv",
+   "bytes": 334852,
+   "sha256": "7c01b96777c6b74bea27feb280058def57df7db7a09737ef22120ce505a6717f",
+   "mtime_utc": "2026-11-07T10:03:36Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:36Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260529.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260530.csv",
+   "bytes": 99676,
+   "sha256": "acdf8da0a020bf1f39fe2db03b2ed23eeb6290ba72acbeed4b976491cab8c486",
+   "mtime_utc": "2026-11-07T10:03:36Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:36Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260530.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260531.csv",
+   "bytes": 66857,
+   "sha256": "14e58ad0bb45f5085427bc85eaeecfd60b750a8660a12f805948777a17824ab8",
+   "mtime_utc": "2026-11-07T10:03:37Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:37Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260531.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260601.csv",
+   "bytes": 144598,
+   "sha256": "b7929fd7766bd8977fe698442a22da3684de167eb0697246ec31c392bddcd72b",
+   "mtime_utc": "2026-11-07T10:03:37Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:37Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260601.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260602.csv",
+   "bytes": 256383,
+   "sha256": "0bac9fb2f0227e6839738cee7e43a37fec5799e1edb8631b3d0879311ab87652",
+   "mtime_utc": "2026-11-07T10:03:37Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:37Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260602.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260603.csv",
+   "bytes": 219820,
+   "sha256": "6e8d1f3cd0157e3cc31c32e69f75dba69d766833621b203cf929dd1990eeb06e",
+   "mtime_utc": "2026-11-07T10:03:38Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:38Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260603.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260604.csv",
+   "bytes": 131095,
+   "sha256": "5f07604e48a35a547b12badc4412238ddeb27bac19e99b5d90d12d0d91d4bd3b",
+   "mtime_utc": "2026-11-07T10:03:38Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:38Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260604.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260605.csv",
+   "bytes": 131632,
+   "sha256": "d87da256d48be31731a4cabdd12c6a9a8b2509356eb5c3732a36a9f9839ad1f4",
+   "mtime_utc": "2026-11-07T10:03:38Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:38Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260605.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260606.csv",
+   "bytes": 86261,
+   "sha256": "fa9ea6c626da5ec023ad58dffca2d7796f1ff57373319ddee97c3be23c244a11",
+   "mtime_utc": "2026-11-07T10:03:39Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:39Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260606.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260607.csv",
+   "bytes": 55483,
+   "sha256": "9078873fec94a76427e598b41c4999669785495390ab279e44f233b74a933c41",
+   "mtime_utc": "2026-11-07T10:03:39Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:39Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260607.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260608.csv",
+   "bytes": 69429,
+   "sha256": "211edd577546fc119abc8fc40c01ab9d1aa96f324ea2ada703843f0dfe90018f",
+   "mtime_utc": "2026-11-07T10:03:39Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:39Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260608.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260609.csv",
+   "bytes": 97636,
+   "sha256": "6631ec5ee8a3bda937707cd4873c988e5b54fe7124c9907fc97f09b0cc6b3193",
+   "mtime_utc": "2026-11-07T10:03:40Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:40Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260609.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260610.csv",
+   "bytes": 94675,
+   "sha256": "a7895e9970bf3d6c56bb982bbfd49fa365fec0ea84f055b9dfc7e5714e927e40",
+   "mtime_utc": "2026-11-07T10:03:40Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:40Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260610.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260611.csv",
+   "bytes": 102460,
+   "sha256": "0bf596ea7c1934c99d5add928defea43889bfae5e61bb3f3cb82521a910a3f3d",
+   "mtime_utc": "2026-11-07T10:03:40Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:40Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260611.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260612.csv",
+   "bytes": 111034,
+   "sha256": "925d2338155648e6919601b90e0e0d2b711524bcf7026115208273ed9ed4b095",
+   "mtime_utc": "2026-11-07T10:03:40Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:40Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260612.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260613.csv",
+   "bytes": 83442,
+   "sha256": "8b1f26f004f629f4c88ef4ad56e063032cb44b402a1407883a14ba9482cab97a",
+   "mtime_utc": "2026-11-07T10:03:41Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:41Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260613.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260614.csv",
+   "bytes": 102777,
+   "sha256": "36d4e814c62103a3884fccc9f48f2651e1087feb7c1af985980f23c2e036320b",
+   "mtime_utc": "2026-11-07T10:03:41Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:41Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260614.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260615.csv",
+   "bytes": 118484,
+   "sha256": "49f47941e8ed874446c24bb7d1c2601d11740a0bd6a41547dfd1490fb16109f7",
+   "mtime_utc": "2026-11-07T10:03:41Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:41Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260615.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260616.csv",
+   "bytes": 126768,
+   "sha256": "7c4959ba0f2e14a182ec2891ecb8f3d95b054ef56680ea4b196ea46d84e187cf",
+   "mtime_utc": "2026-11-07T10:03:42Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:42Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260616.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260617.csv",
+   "bytes": 223181,
+   "sha256": "410bf2a752836887506251ae81afefbe353ecf007444db22f5c1ba9fe20f7a21",
+   "mtime_utc": "2026-11-07T10:03:42Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:42Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260617.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260618.csv",
+   "bytes": 84671,
+   "sha256": "875f2679e26009c5e30c76f57485b662434f85f80fcf7f98ee47b5c81893b38a",
+   "mtime_utc": "2026-11-07T10:03:42Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:42Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260618.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260619.csv",
+   "bytes": 108026,
+   "sha256": "4586360df2e84dde5d7af17c4c3cfb9734f3d720af96597c7a5bae8d804de4c0",
+   "mtime_utc": "2026-11-07T10:03:43Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:43Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260619.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260620.csv",
+   "bytes": 212249,
+   "sha256": "9cb207d70d0012796925913985a25bc3cadc86da44bb5e63b4da315f6f35c0f1",
+   "mtime_utc": "2026-11-07T10:03:43Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:43Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260620.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260621.csv",
+   "bytes": 229674,
+   "sha256": "e51999b8b0d3eca8b566ab1b95cb9dc58ca662072979ef47fc95a0554e0aa1e4",
+   "mtime_utc": "2026-11-07T10:03:43Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:43Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260621.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260622.csv",
+   "bytes": 243385,
+   "sha256": "0e0c4d2ccb63251a77c4ef7e2f68ad69e7a49012e005160fe534c3b948829605",
+   "mtime_utc": "2026-11-07T10:03:44Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:44Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260622.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260623.csv",
+   "bytes": 463840,
+   "sha256": "a74e5062c83c5092e523be782cafe3ca2feccad0f780f130c9aa5e0d192d0a0e",
+   "mtime_utc": "2026-11-07T10:03:44Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:44Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260623.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260624.csv",
+   "bytes": 348557,
+   "sha256": "6019dac7c547f9de518e0c322282d1701a7dd373fb10d3d21b27abf84e14768f",
+   "mtime_utc": "2026-11-07T10:03:44Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:44Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260624.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260625.csv",
+   "bytes": 402645,
+   "sha256": "82ea1336ad4f1ba5abfef8d48531e13da1ab9f825432f67ecca6b23ea4d4c972",
+   "mtime_utc": "2026-11-07T10:03:45Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:45Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260625.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260626.csv",
+   "bytes": 447210,
+   "sha256": "1ed6b88185fb985f665457c7d2ee94572c0f21937c020c8c35f6109995d12877",
+   "mtime_utc": "2026-11-07T10:03:45Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:45Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260626.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260627.csv",
+   "bytes": 1249513,
+   "sha256": "446cc1b71cc3d1d3e5754fab6dce85526fd3d7cac166809592a38452d6d8eede",
+   "mtime_utc": "2026-11-07T10:03:45Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:45Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260627.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260628.csv",
+   "bytes": 1062655,
+   "sha256": "132cd9e638a516d4c8034a6e9b4a90d35726748e679afc8d0837e1144459f9e0",
+   "mtime_utc": "2026-11-07T10:03:46Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:46Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260628.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260629.csv",
+   "bytes": 653227,
+   "sha256": "abb5e3d73091dce9954e9c8b54210d18d16676a4c45c1110117bea27edf66535",
+   "mtime_utc": "2026-11-07T10:03:46Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:46Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260629.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260630.csv",
+   "bytes": 608065,
+   "sha256": "e8d47f4f5ca49ff4e2a19ea8aed3028cfb8908ac0851bb466140a8ec1f6030f9",
+   "mtime_utc": "2026-11-07T10:03:47Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:47Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260630.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260701.csv",
+   "bytes": 700660,
+   "sha256": "9eba16ca98524809c6d1f5e3533d5fc8af868e90fb0dd285061163930b90c50d",
+   "mtime_utc": "2026-11-07T10:03:47Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:47Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260701.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260702.csv",
+   "bytes": 597820,
+   "sha256": "ea0d5479f2e7b8251a4757056c74b3f3f4c52e41259e6e5a99c2f2e5b3fd2db5",
+   "mtime_utc": "2026-11-07T10:03:47Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:47Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260702.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260703.csv",
+   "bytes": 2463035,
+   "sha256": "5e982b334ac2a293152099a9114fb2084a67c1f2fd5dc51c9805324eb7a7bbf7",
+   "mtime_utc": "2026-11-07T10:03:48Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:48Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260703.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260704.csv",
+   "bytes": 1297994,
+   "sha256": "af280500c3eba686b7c9f7b38b7a836e8b94014eaf5fd897a924553dbccc23cb",
+   "mtime_utc": "2026-11-07T10:03:48Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:48Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260704.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260705.csv",
+   "bytes": 711552,
+   "sha256": "e67b94b91442e93360267f98aff0dc5f95536788fb0823ee395b39986dbca94d",
+   "mtime_utc": "2026-11-07T10:03:49Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:49Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260705.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260706.csv",
+   "bytes": 1370671,
+   "sha256": "48bec7c928b1d24f104ec6b230b224cecb6689cc58cd6f6a14a0bb696d1e6503",
+   "mtime_utc": "2026-11-07T10:03:49Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:49Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260706.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260707.csv",
+   "bytes": 1825151,
+   "sha256": "c8ba0dfd0e7a11cacd72f1bd7a9539125b5b897f0374d69b779f8ba84330113a",
+   "mtime_utc": "2026-11-07T10:03:49Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:49Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260707.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260708.csv",
+   "bytes": 2369459,
+   "sha256": "5913c2ded069928a4ede76e84950c3764bd9b96acc60b8c297e999fe3760f1c7",
+   "mtime_utc": "2026-11-07T10:03:50Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:50Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260708.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260709.csv",
+   "bytes": 1674934,
+   "sha256": "41608c23279a758d4cf04577559757f57db1ea864896f81ac2306e881ef94f08",
+   "mtime_utc": "2026-11-07T10:03:50Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:50Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260709.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260710.csv",
+   "bytes": 589232,
+   "sha256": "c396e7c7f5d7164575b68f4977156569e5e21c240d5ee7ed71e62db19b168a35",
+   "mtime_utc": "2026-11-07T10:03:51Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:51Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260710.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260711.csv",
+   "bytes": 925407,
+   "sha256": "c79678245eb7c1eede5262f228831ea121e0afbda46f22be515a703f5188207a",
+   "mtime_utc": "2026-11-07T10:03:51Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:51Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260711.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260712.csv",
+   "bytes": 846910,
+   "sha256": "d17b26ed5b832b0819077c3368d2a9eb87b794a0d053ae544ee86657a39613ae",
+   "mtime_utc": "2026-11-07T10:03:51Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:51Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260712.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260713.csv",
+   "bytes": 1553685,
+   "sha256": "429193236c9234c26878f250048fc6b7683e049064497291fcad4eb815705921",
+   "mtime_utc": "2026-11-07T10:03:52Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:52Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260713.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260714.csv",
+   "bytes": 4435583,
+   "sha256": "b1aa103115f078f58ec6ae29595ce8b9796f735303cd4101a688b857d255b55b",
+   "mtime_utc": "2026-11-07T10:03:52Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:52Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260714.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260715.csv",
+   "bytes": 7297619,
+   "sha256": "56c7b2dcbc0019dafcf91c122cacc18c7cb9d8df50bdf8ff9944446f5a47e084",
+   "mtime_utc": "2026-11-07T10:03:53Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:53Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260715.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260716.csv",
+   "bytes": 5030142,
+   "sha256": "88f21032d70eb8ea99bd131cdcd931cbfdf06b49fd62ac46d7cab6949f5559b7",
+   "mtime_utc": "2026-11-07T10:03:53Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:53Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260716.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260717.csv",
+   "bytes": 2317694,
+   "sha256": "dcc351e138885f8d7a1685c7c4e70349daca9c70bcc4be309b1129c1dcd56966",
+   "mtime_utc": "2026-11-07T10:03:54Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:54Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260717.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260718.csv",
+   "bytes": 2756188,
+   "sha256": "a4ea44b30a4d65bbbea4101156222652bc1b7ec230e824f8e575e812106525da",
+   "mtime_utc": "2026-11-07T10:03:54Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:54Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260718.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260719.csv",
+   "bytes": 2229751,
+   "sha256": "fc80e55a86a7e8f4d89f234ea42eba3f9b2f2535c4534f88237304f1f4aecaf0",
+   "mtime_utc": "2026-11-07T10:03:54Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:54Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260719.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260720.csv",
+   "bytes": 1811034,
+   "sha256": "ab0a712afe986f4e9dfe8b12b74d072f63089413a2297dd95dd0b8bf601b9ed5",
+   "mtime_utc": "2026-11-07T10:03:55Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:55Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260720.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260721.csv",
+   "bytes": 2947007,
+   "sha256": "a08cebcd241bf97059cf100467557016351c09f87b3fcf37d73bb2b0f9cde667",
+   "mtime_utc": "2026-11-07T10:03:55Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:55Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260721.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260722.csv",
+   "bytes": 3050596,
+   "sha256": "1c918234b56a61b376cedc6fb18bf0c4cbd2c04d3777e2d3024375c1ccad2b3c",
+   "mtime_utc": "2026-11-07T10:03:56Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:56Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260722.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260723.csv",
+   "bytes": 3406581,
+   "sha256": "1f736cce2eb86f2fff149b99708ad00a3c53fb8e27f608f5a5a4d643a7857d08",
+   "mtime_utc": "2026-11-07T10:03:56Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:56Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260723.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260724.csv",
+   "bytes": 2994364,
+   "sha256": "8f3c0c956edc158327cc11e0b06155c45f9d8b2c74e79ac0194f19abe8806e7c",
+   "mtime_utc": "2026-11-07T10:03:57Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:57Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260724.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260725.csv",
+   "bytes": 2085466,
+   "sha256": "748494367578cb146dd3a6709a6a63fe6b6a82d71506a78013389757e61058f8",
+   "mtime_utc": "2026-11-07T10:03:57Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:57Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260725.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260726.csv",
+   "bytes": 1929249,
+   "sha256": "2d3be494516253ee13d45920f719c0f204a172772c68d6cd7742a9c3f982be5b",
+   "mtime_utc": "2026-11-07T10:03:58Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:58Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260726.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260727.csv",
+   "bytes": 1286959,
+   "sha256": "913016a100d24e76800241d426961fb2da4a2bc69b52e771f230effbd1f63053",
+   "mtime_utc": "2026-11-07T10:03:58Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:58Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260727.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260728.csv",
+   "bytes": 1182704,
+   "sha256": "fab9e42473a24c51a85804b3d5764f46ce69a9b46691e6ac486c85394f2f3d80",
+   "mtime_utc": "2026-11-07T10:03:59Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:59Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260728.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260729.csv",
+   "bytes": 1190473,
+   "sha256": "6b214032ab2a5c0f613054e842a77ea9487688e8e9f0b482971696b0c7238aef",
+   "mtime_utc": "2026-11-07T10:03:59Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:59Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260729.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260730.csv",
+   "bytes": 1128647,
+   "sha256": "82afb91beb055fd110de1fff8a7e7f6a9bb00b9540a7a7976c073d587d30de9d",
+   "mtime_utc": "2026-11-07T10:03:59Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:03:59Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260730.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260731.csv",
+   "bytes": 1601662,
+   "sha256": "005757733e17c9a2cb20cb15de04cddaa966371ad719180aa726386ac1b29c86",
+   "mtime_utc": "2026-11-07T10:04:00Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:00Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260731.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260801.csv",
+   "bytes": 1943865,
+   "sha256": "b443b7994c6620982a9fcf078f6d394f552c892e47d93c87a23db2939370bef0",
+   "mtime_utc": "2026-11-07T10:04:00Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:00Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260801.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260802.csv",
+   "bytes": 2125838,
+   "sha256": "8dcb60a570deb317fac89da705b4ac51f45baebed4d5812dba45dd947fd3afc1",
+   "mtime_utc": "2026-11-07T10:04:01Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:01Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260802.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260803.csv",
+   "bytes": 1409545,
+   "sha256": "882d2bed0fa3be608b35961b8e5209a4f6b0fc53fd059203d0f38ee2a3f48ed5",
+   "mtime_utc": "2026-11-07T10:04:01Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:01Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260803.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260804.csv",
+   "bytes": 1245871,
+   "sha256": "bf6304a1551138c1b4cd10ce83870ced8b05b584bca125c02cf7214d6e26ec4b",
+   "mtime_utc": "2026-11-07T10:04:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260804.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260805.csv",
+   "bytes": 1629349,
+   "sha256": "e74fbe6ab2937a07c28998c5dcb5001d82aea2b731c3458ee0f4700065d8252a",
+   "mtime_utc": "2026-11-07T10:04:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260805.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260806.csv",
+   "bytes": 2047888,
+   "sha256": "08f1e12f6889f2c8bf4ae1c5f76415b45d022a659cd45ab8fa002aa20533f3e4",
+   "mtime_utc": "2026-11-07T10:04:02Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:02Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260806.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260807.csv",
+   "bytes": 2163688,
+   "sha256": "09063053992533dd19465403e596c3635597caa5106d99e9aa9996fdba84b5bc",
+   "mtime_utc": "2026-11-07T10:04:03Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:03Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260807.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260808.csv",
+   "bytes": 2537024,
+   "sha256": "93c8d2de20413a571b2395e3c6fa021201262d632d954c50590d3efc342d82e5",
+   "mtime_utc": "2026-11-07T10:04:03Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:03Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260808.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260809.csv",
+   "bytes": 1967847,
+   "sha256": "e6e412de8ab0b4879346e1a203c45dc360fd9e336d8f6143fb904326f6869b47",
+   "mtime_utc": "2026-11-07T10:04:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260809.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260810.csv",
+   "bytes": 1348404,
+   "sha256": "9256f516cb5644c253fe8456994de80f92d5991e064bb7272e33746eb5002989",
+   "mtime_utc": "2026-11-07T10:04:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260810.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260811.csv",
+   "bytes": 1043768,
+   "sha256": "4e06722bf5df8c82fd44afaece0f2dc9029d922024ebc30a338e01eae089e26b",
+   "mtime_utc": "2026-11-07T10:04:04Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:04Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260811.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260812.csv",
+   "bytes": 727843,
+   "sha256": "cbc9d962fe59d778ca16ab6f1e62155a0a2cc7e1d786ff7267e8aedfacd8ed75",
+   "mtime_utc": "2026-11-07T10:04:05Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:05Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260812.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260813.csv",
+   "bytes": 518889,
+   "sha256": "a5e239f053ce9e484a69faa8b692a2775709aa84580d263c8f589a238b8d535f",
+   "mtime_utc": "2026-11-07T10:04:05Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:05Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260813.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260814.csv",
+   "bytes": 569692,
+   "sha256": "ed31ee41891e3106c3ca77ba409b0dd00ca7e6d7a287b69099d6d3188cf10051",
+   "mtime_utc": "2026-11-07T10:04:06Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:06Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260814.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260815.csv",
+   "bytes": 436819,
+   "sha256": "cb833a9d3821d885cc62fabcd5296a2025e3085c0ca0559cf85d4b600e70bfd3",
+   "mtime_utc": "2026-11-07T10:04:06Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:06Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260815.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260816.csv",
+   "bytes": 445301,
+   "sha256": "445781beaa4a7437ddbe431abed6fada7dff925c5ca47192f4fc68614c6a01c5",
+   "mtime_utc": "2026-11-07T10:04:06Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:06Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260816.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260817.csv",
+   "bytes": 824766,
+   "sha256": "afa4ef60a38a2f384382f7727f6b3f619e64e7785a17ebfba2f37aadf6525c53",
+   "mtime_utc": "2026-11-07T10:04:07Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:07Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260817.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260818.csv",
+   "bytes": 640466,
+   "sha256": "4250cf8826a720eb5bb56bf79d8f77be7bcd53dd306498097fa0c648dd6222fc",
+   "mtime_utc": "2026-11-07T10:04:07Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:07Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260818.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260819.csv",
+   "bytes": 963913,
+   "sha256": "adc7901cf2503b1fb8d3dac1c567f3a024dcfece684e913216db34d800b02742",
+   "mtime_utc": "2026-11-07T10:04:07Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:07Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260819.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260820.csv",
+   "bytes": 1063955,
+   "sha256": "fc12817b9688d1e584eb4a615eebb9e15526b23ea5fcd0ffa324d0bbec6340fa",
+   "mtime_utc": "2026-11-07T10:04:08Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:08Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260820.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260821.csv",
+   "bytes": 1024667,
+   "sha256": "fefb437136f3b8f86c97acdabd4e9e3017b5fb3ac1f58ce26e6d74a5eaeb2389",
+   "mtime_utc": "2026-11-07T10:04:08Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:08Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260821.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260822.csv",
+   "bytes": 817283,
+   "sha256": "29af4df1b75bd06dca3fc9305ff1916864cbf7a69b41fd769d9442de4bf21229",
+   "mtime_utc": "2026-11-07T10:04:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260822.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260823.csv",
+   "bytes": 690974,
+   "sha256": "31e89bad7dbf19d8cf86d25e3e06b2b95b626814e8671c867b65eff11c0dc235",
+   "mtime_utc": "2026-11-07T10:04:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260823.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260824.csv",
+   "bytes": 659121,
+   "sha256": "9ea502451a0eeae5881b53b9aa504982b4ab2d49d02741126c8d8b782981dbea",
+   "mtime_utc": "2026-11-07T10:04:09Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:09Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260824.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260825.csv",
+   "bytes": 1401869,
+   "sha256": "90a41bbca83e09e4bc5109ba255e2705862ce665d60712629fef2e6bb77e1162",
+   "mtime_utc": "2026-11-07T10:04:10Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:10Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260825.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260826.csv",
+   "bytes": 1721729,
+   "sha256": "d0d650500d1568c927ddab302a28b7c828249ba73e05032a05231089a3ce567a",
+   "mtime_utc": "2026-11-07T10:04:10Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:10Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260826.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260827.csv",
+   "bytes": 2053320,
+   "sha256": "66552c57f8fb7fc3523ddf063403571665889726343f3ba46cd80000647ea616",
+   "mtime_utc": "2026-11-07T10:04:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260827.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260828.csv",
+   "bytes": 248896,
+   "sha256": "c62096a16ab201271caad925cd3caba48bfa57285f7dcf4c395bd43817d4858f",
+   "mtime_utc": "2026-11-07T10:04:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260828.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260829.csv",
+   "bytes": 206637,
+   "sha256": "74ecc679ebc734eb1a80738e4f62f85bb4bb04240dd256d9e3421a1d2e1b6a40",
+   "mtime_utc": "2026-11-07T10:04:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:11Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260829.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260830.csv",
+   "bytes": 182803,
+   "sha256": "e518417364d29c871ba615e1d90df13abef2f4a8c6846b408bbde3ad64ab4abc",
+   "mtime_utc": "2026-11-07T10:04:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:12Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260830.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260831.csv",
+   "bytes": 288091,
+   "sha256": "750a6bbed9e3cf516aa8b61a49aa6b97242be6b25c95a48e2d5a95e88a6d9358",
+   "mtime_utc": "2026-11-07T10:04:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:12Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260831.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260901.csv",
+   "bytes": 190378,
+   "sha256": "2a117a47c0ada9e408534d2b4ac068d6cd5e11121308aeba72f5a03936eff38f",
+   "mtime_utc": "2026-11-07T10:04:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:12Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260901.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260902.csv",
+   "bytes": 97266,
+   "sha256": "c9def8d83afa6e7d1b08887f9c5ffcae6067aa82492252a342628148d019c34c",
+   "mtime_utc": "2026-11-07T10:04:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260902.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260903.csv",
+   "bytes": 77090,
+   "sha256": "ec15b38bc1c277632a57871c98a7b2d4a36c9e18bba4cc594bb6d63ef34b147b",
+   "mtime_utc": "2026-11-07T10:04:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260903.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260904.csv",
+   "bytes": 94741,
+   "sha256": "eba99e12acc8406af72be15a8c2044c8b5bd1649d30d3230ac61e18a155d35e8",
+   "mtime_utc": "2026-11-07T10:04:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:13Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260904.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260905.csv",
+   "bytes": 60868,
+   "sha256": "8ab305e59adefbe4a363d9a55774e458b8f6a1a11c9d7931b7eb624c66e94d6a",
+   "mtime_utc": "2026-11-07T10:04:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:14Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260905.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260906.csv",
+   "bytes": 40016,
+   "sha256": "774d6a4141248fdd7368581b9cfef9b673c2410451674636e1488978ce97b81f",
+   "mtime_utc": "2026-11-07T10:04:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:14Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260906.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260907.csv",
+   "bytes": 88310,
+   "sha256": "59673b49a236a4b93b091ebf0e58020c063c39336bd62b5b61606b36fe89bc70",
+   "mtime_utc": "2026-11-07T10:04:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:14Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260907.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260908.csv",
+   "bytes": 159406,
+   "sha256": "e6d84fd67035ec604572f5bea1313063dffcbea30c26c861a1777a307fbe7e05",
+   "mtime_utc": "2026-11-07T10:04:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260908.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260909.csv",
+   "bytes": 129367,
+   "sha256": "143d62d4751b0b51aefe4c54fb2ca5315dc2304b6b1d5d5a7f4e3a2b2d89b240",
+   "mtime_utc": "2026-11-07T10:04:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260909.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260910.csv",
+   "bytes": 96871,
+   "sha256": "e20184266373028253720d77a47d082954cf4befe313eb69b5f5c40f0caf6a73",
+   "mtime_utc": "2026-11-07T10:04:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:15Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260910.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260911.csv",
+   "bytes": 113159,
+   "sha256": "c6ce523f8ee10be074046cd463b046bbd0e27274362d74cfb4c8f064357b4aa6",
+   "mtime_utc": "2026-11-07T10:04:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:16Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260911.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260912.csv",
+   "bytes": 73234,
+   "sha256": "af38ba5eeb2297e36aca979cfddc0eefae392569d47036163fafe2e9c388fcc3",
+   "mtime_utc": "2026-11-07T10:04:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:16Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260912.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260913.csv",
+   "bytes": 51411,
+   "sha256": "f7e41b8a504b7161c9cf2e0bd6902fcbac542f73a5245361a47f4f10a6f791e7",
+   "mtime_utc": "2026-11-07T10:04:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:16Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260913.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260914.csv",
+   "bytes": 96356,
+   "sha256": "b3f34b7673fd1812325e652cfc026eefc98861fd5717b8c4869a60576c344886",
+   "mtime_utc": "2026-11-07T10:04:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:17Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260914.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260915.csv",
+   "bytes": 143742,
+   "sha256": "61feca7418ad5fc12d133b6bca47b7819f87647bcae8d2cee8adc1ad37805fba",
+   "mtime_utc": "2026-11-07T10:04:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:17Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260915.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260916.csv",
+   "bytes": 143645,
+   "sha256": "57c177b9836fd4534e106f0b72ce9cccd67aa315aca7bdc1dbd0f0b41e4169bb",
+   "mtime_utc": "2026-11-07T10:04:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260916.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260917.csv",
+   "bytes": 124149,
+   "sha256": "ca39376bc3eb57443f8d1896e81a94c5f581353e96166508c6333a478197c4a5",
+   "mtime_utc": "2026-11-07T10:04:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260917.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260918.csv",
+   "bytes": 111906,
+   "sha256": "e7ef46c9e8d4a49fd2f04026455598822b789052e88528cb35abe413588ac5ff",
+   "mtime_utc": "2026-11-07T10:04:18Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:18Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260918.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260919.csv",
+   "bytes": 96663,
+   "sha256": "922142a84c23c72b9ba8076cc85655eda4730ea0f556187b11e2a090dcdfa099",
+   "mtime_utc": "2026-11-07T10:04:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:19Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260919.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260920.csv",
+   "bytes": 68659,
+   "sha256": "814ec6463afe978569397334bed8fa98a81209a8cc14c0ab1eae6c9b241a8c6e",
+   "mtime_utc": "2026-11-07T10:04:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:19Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260920.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260921.csv",
+   "bytes": 135383,
+   "sha256": "a9cd079bb38eab7e0a540b5c907e2964c1b8910551f9f8730b97d59fa98c92bb",
+   "mtime_utc": "2026-11-07T10:04:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:19Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260921.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260922.csv",
+   "bytes": 173461,
+   "sha256": "27899b3bafc8ca6c17dc502ef910fee2edc51bbe46391e9f7910be39da0ec627",
+   "mtime_utc": "2026-11-07T10:04:19Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260922.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260923.csv",
+   "bytes": 113383,
+   "sha256": "027af7a921d78328a37f9bc36f0f8658045c7ffb3445c21e9ccdba232d371109",
+   "mtime_utc": "2026-11-07T10:04:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260923.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260924.csv",
+   "bytes": 107379,
+   "sha256": "4ec6607ba6979b8bde5c704be181a3fa8d6400983a9581fbdba83bae1248a286",
+   "mtime_utc": "2026-11-07T10:04:20Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:20Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260924.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260925.csv",
+   "bytes": 136065,
+   "sha256": "c0816dc0a3b6d73e024586f76859789d9c819193139baefba02522a80eae8d60",
+   "mtime_utc": "2026-11-07T10:04:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260925.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260926.csv",
+   "bytes": 76349,
+   "sha256": "116529d3b6d58021237ffaeca614f4885a4098f576b2fc70f23cf12f3a2d3412",
+   "mtime_utc": "2026-11-07T10:04:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260926.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260927.csv",
+   "bytes": 70724,
+   "sha256": "a5796b974a03b06f8bf471ddc228581997da00b774aed05277112b6915397b32",
+   "mtime_utc": "2026-11-07T10:04:21Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:21Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260927.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260928.csv",
+   "bytes": 203798,
+   "sha256": "00e0dc644a2b8d4dcd2465bfbffa8c43479171fdf467e72056f76cde6811918f",
+   "mtime_utc": "2026-11-07T10:04:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260928.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260929.csv",
+   "bytes": 193397,
+   "sha256": "9679187bae278d51268c3b93b5505bbdb85b59152dc51444b7151f455e7a8315",
+   "mtime_utc": "2026-11-07T10:04:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260929.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20260930.csv",
+   "bytes": 198210,
+   "sha256": "5787433f395199b55e34ac1c6d9caeafcded02c02c72d0f037a29828cef15796",
+   "mtime_utc": "2026-11-07T10:04:22Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:22Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20260930.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261001.csv",
+   "bytes": 151231,
+   "sha256": "1ab3074946c2043d8db85d27d7f870944a7988e66411094463af815f1b9e7f4c",
+   "mtime_utc": "2026-11-07T10:04:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261001.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261002.csv",
+   "bytes": 99629,
+   "sha256": "ed36cf0e7fd99504d2834d4de318dc4895dd9213be1730789b9d00b19290f050",
+   "mtime_utc": "2026-11-07T10:04:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261002.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261003.csv",
+   "bytes": 71627,
+   "sha256": "9d7c3df48739f324684630c8164f88a81b2cbeab2d0c01de4e4baf6e40193dc1",
+   "mtime_utc": "2026-11-07T10:04:23Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:23Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261003.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261004.csv",
+   "bytes": 50333,
+   "sha256": "9a224b86a7ca8bc04aa5e2d2c648b040da0e4745326c4afc361572f5d982fe83",
+   "mtime_utc": "2026-11-07T10:04:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261004.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261005.csv",
+   "bytes": 108990,
+   "sha256": "19ec162af9dad78e3e9967851b6c13d687e50ae77c74a28a9ffebd712d71a584",
+   "mtime_utc": "2026-11-07T10:04:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261005.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261006.csv",
+   "bytes": 182631,
+   "sha256": "b67cff5085518094e5703010c4d9c8beeadd0bfdb4d131ddb657a97541511247",
+   "mtime_utc": "2026-11-07T10:04:24Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:24Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261006.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261007.csv",
+   "bytes": 213243,
+   "sha256": "9e344ee3e17d7bd144543a8f1ae9a8ae05be87f146160f82f67216187e4cc344",
+   "mtime_utc": "2026-11-07T10:04:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261007.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261008.csv",
+   "bytes": 213666,
+   "sha256": "1fd9eefa80e61e8c825c105ebaa7149fe4fe7e8b0b5a98a4a4435a964e8481cd",
+   "mtime_utc": "2026-11-07T10:04:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261008.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261009.csv",
+   "bytes": 167987,
+   "sha256": "591a425b54334e86ed90e5830d09662152dfd9db0a1298e972a53227eabb8352",
+   "mtime_utc": "2026-11-07T10:04:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:25Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261009.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261010.csv",
+   "bytes": 98040,
+   "sha256": "4563d0109f866cfb10db36659a6c93c20ae6d7fbc7db4c426a482d71c2a531bd",
+   "mtime_utc": "2026-11-07T10:04:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261010.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261011.csv",
+   "bytes": 87598,
+   "sha256": "3a9ea067e9be611d934a7b4ffbbf4369db26c8ab345e4692767f5a6ffe176b29",
+   "mtime_utc": "2026-11-07T10:04:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261011.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261012.csv",
+   "bytes": 97224,
+   "sha256": "1633552d33b5dd81f062e14adee5ef5fde3c50f81e2d4b8db08b770e2659aa07",
+   "mtime_utc": "2026-11-07T10:04:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:26Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261012.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261013.csv",
+   "bytes": 92158,
+   "sha256": "efff3f6fb78f3476d5ee22f53620fbb26eceb3b3a3e8f67ea047d2aa4dd2cfd5",
+   "mtime_utc": "2026-11-07T10:04:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:27Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261013.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261014.csv",
+   "bytes": 146882,
+   "sha256": "89ca8ed19d19a8c7286367da0a33c8b26de8aa85293bc8061dd3225cf4ac8266",
+   "mtime_utc": "2026-11-07T10:04:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:27Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261014.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261015.csv",
+   "bytes": 189570,
+   "sha256": "05a7ab2e02355aa7811e21052c3ebca74d9bb2185c87e320c4e0f9e640b4696b",
+   "mtime_utc": "2026-11-07T10:04:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:27Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261015.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261016.csv",
+   "bytes": 128818,
+   "sha256": "bb87d8cbb087f58ccea95c475d64b65ce148007ed866046c747cde5a488a5f47",
+   "mtime_utc": "2026-11-07T10:04:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261016.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261017.csv",
+   "bytes": 110858,
+   "sha256": "e48e446b96ff5d0e9ab7610120d8f8a48b51abc4cbaf838b8d6049fe833d15ee",
+   "mtime_utc": "2026-11-07T10:04:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261017.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261018.csv",
+   "bytes": 117828,
+   "sha256": "7df4421f934b3ea619ba439093fa4d0be9ed5e677a899cbaad11504e72965d15",
+   "mtime_utc": "2026-11-07T10:04:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:28Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261018.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261019.csv",
+   "bytes": 196680,
+   "sha256": "fed5cc3409285b75b5208fbb86fca3ee786ee9eb86fe1c4d4c0f7e02cc902c14",
+   "mtime_utc": "2026-11-07T10:04:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261019.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261020.csv",
+   "bytes": 279575,
+   "sha256": "8c4259752c87cf61d063b5e89b60841c3fd042d4a44368443a811203b5d698ea",
+   "mtime_utc": "2026-11-07T10:04:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261020.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261021.csv",
+   "bytes": 278260,
+   "sha256": "253a08e7c6ba0f6d999649f107e72d0efe859e23a9d2d2189785990e6c207121",
+   "mtime_utc": "2026-11-07T10:04:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:29Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261021.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261022.csv",
+   "bytes": 263577,
+   "sha256": "62ca88e39ad8c49c8aa773e9fd8dde03adbf6a8d9eef64df37c33196cf3465ea",
+   "mtime_utc": "2026-11-07T10:04:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261022.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261023.csv",
+   "bytes": 164962,
+   "sha256": "037229285844933863d8482e76efc15447ded74ab60c2330eee7d46266fb3cd6",
+   "mtime_utc": "2026-11-07T10:04:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261023.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261024.csv",
+   "bytes": 89587,
+   "sha256": "476a2328bebc4ad1fc39af61d209dd4b2dfeb648bb1d42d12b00fa46c41aab4b",
+   "mtime_utc": "2026-11-07T10:04:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:30Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261024.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261025.csv",
+   "bytes": 85841,
+   "sha256": "eaa33392ea2c2be9cf3b0190c756d65b81a492f1d915e889fbf4ba01f9ee8b66",
+   "mtime_utc": "2026-11-07T10:04:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261025.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261026.csv",
+   "bytes": 122123,
+   "sha256": "009b3beed50a200accd5a073bbda054b58a6afd01c0c4233722b373df1548207",
+   "mtime_utc": "2026-11-07T10:04:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261026.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261027.csv",
+   "bytes": 104812,
+   "sha256": "2c9096e4dabb02f3f3d58612466515f6f60ba720acd4afec4f5e229421e894dd",
+   "mtime_utc": "2026-11-07T10:04:31Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:31Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261027.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261028.csv",
+   "bytes": 171475,
+   "sha256": "ccf76523c1e07028fa1bc27e69d1ff21ac4b5f8fab6bd9c63c92eef497571086",
+   "mtime_utc": "2026-11-07T10:04:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261028.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261029.csv",
+   "bytes": 154169,
+   "sha256": "357aaf38da35eb56c25af993d3a6cebc8d77568e2a8e35853201b8d2b9f917b7",
+   "mtime_utc": "2026-11-07T10:04:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261029.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261030.csv",
+   "bytes": 133486,
+   "sha256": "24a0427017061600df054341496d9f6a738c859922847cace6e2528b532a1407",
+   "mtime_utc": "2026-11-07T10:04:32Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:32Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261030.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261031.csv",
+   "bytes": 67697,
+   "sha256": "2b77506f8f66d137aa6e413e38a1c3aba735bec8f75293e9117b1890c38cc4a1",
+   "mtime_utc": "2026-11-07T10:04:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261031.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261101.csv",
+   "bytes": 56222,
+   "sha256": "ac8ca9914868d97a93df653561f571de98038033ead999b2c4c1e338041d4a8e",
+   "mtime_utc": "2026-11-07T10:04:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261101.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261102.csv",
+   "bytes": 83084,
+   "sha256": "165eacdb76dc986247c5e3272354acb18797d0226a618b7afa1e83f662f0c358",
+   "mtime_utc": "2026-11-07T10:04:33Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:33Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261102.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261103.csv",
+   "bytes": 82128,
+   "sha256": "469e27d7214457f71ac962188d6211b89648759ddf11dcb06b5773ea88215309",
+   "mtime_utc": "2026-11-07T10:04:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261103.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261104.csv",
+   "bytes": 238616,
+   "sha256": "6a4e4e4957258a176b8f7b2b77fca38ac25a1f71647c38d50ac5afcea610c680",
+   "mtime_utc": "2026-11-07T10:04:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261104.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261105.csv",
+   "bytes": 177153,
+   "sha256": "4363fd4371b770e9ae3ac5715b61f0cad88a9398865e5db8fb61df159749d3dd",
+   "mtime_utc": "2026-11-07T10:04:34Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:34Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261105.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/daily_2026/20261106.csv",
+   "bytes": 94412,
+   "sha256": "e31d5f61a76c357ddc3245caacb62a27b75adaabea838995f2db2016738519d8",
+   "mtime_utc": "2026-11-07T10:04:35Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:04:35Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/20261106.csv"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/archive/2024_hotspots.zip",
+   "bytes": 135012428,
+   "sha256": "edf36565415b78e2d7cb61b1b8067e569820abb33b37e187b7854adf17557ec9",
+   "mtime_utc": "2026-11-07T10:02:50Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:50Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/archive/2024_hotspots.zip"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/archive/2024_perimeters.zip",
+   "bytes": 2786304,
+   "sha256": "00e4d8634ef2f224d60b924c483e2d8ecadd642cef6e19d4c6881486b9dcea39",
+   "mtime_utc": "2026-11-07T10:02:50Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:50Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/archive/2024_perimeters.zip"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/archive/2025_hotspots.zip",
+   "bytes": 146048945,
+   "sha256": "ae026cd6113b5c19ff71de1617a03c3d34d5b2376fe0fa42344606c5e46f8311",
+   "mtime_utc": "2026-11-07T10:02:53Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:53Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/archive/2025_hotspots.zip"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/archive/2025_perimeters.zip",
+   "bytes": 4731978,
+   "sha256": "cbb13bd8e11b3a0e1509561d12c4cce9f39aa80b5f09d8a0f531fce6446edec1",
+   "mtime_utc": "2026-11-07T10:02:54Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:54Z",
+    "http": "200",
+    "url": "https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/archive/2025_perimeters.zip"
+   }
+  },
+  {
+   "path": "raw/fire/cwfis_hotspots/archive/fireM3_hotspots_metadata_NAP_ISO_19115_2003.xml",
+   "bytes": 49096,
+   "sha256": "284a2bb76cf21a9abe4e9c42337294a98d93ef38c1030b3038079ae74bae4c7c",
+   "mtime_utc": "2026-11-07T10:02:55Z"
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/_fetch_log.tsv",
+   "bytes": 488,
+   "sha256": "971e48be5879541246a1dd81051383b3d79d2956da985a9849944bfb04adc360",
+   "mtime_utc": "2026-11-07T10:05:49Z"
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/derived_firms_in_bsfm_box.csv",
+   "bytes": 177,
+   "sha256": "20a19bf35c62434b46540c74c1d9891bc9d200f49018af232e1c41dea202a2a7",
+   "mtime_utc": "2026-11-07T10:06:04Z"
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/modis_2024_Canada.csv",
+   "bytes": 12052143,
+   "sha256": "6b9a9202ba19f89ec089072dc08a09eca8a7ab0a4c27d8434e169e7fc589a079",
+   "mtime_utc": "2026-11-07T10:05:42Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:42Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis/2024/modis_2024_Canada.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/modis_2025_Canada.csv",
+   "bytes": 12749281,
+   "sha256": "436a845a818fdfec02e7e70a8b01e0321ff8a906e3a7d45d585b9676343dff8c",
+   "mtime_utc": "2026-11-07T10:05:42Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:42Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis/2025/modis_2025_Canada.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/viirs-snpp_2024_Canada.csv",
+   "bytes": 58265064,
+   "sha256": "7a7131bcba610fe485e9c4353f7dfe5316b93289275e16952069e21cfb5301f8",
+   "mtime_utc": "2026-11-07T10:05:47Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:47Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp/2024/viirs-snpp_2024_Canada.csv"
+   }
+  },
+  {
+   "path": "raw/fire/firms_country_yearly/viirs-snpp_2025_Canada.csv",
+   "bytes": 73405312,
+   "sha256": "d3277e9340a56b224c295655abd08b3fd7cfbae683b2cf1f23d54093f1139a1d",
+   "mtime_utc": "2026-11-07T10:05:49Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:05:49Z",
+    "http": "200",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp/2025/viirs-snpp_2025_Canada.csv"
+   }
+  }
+ ]
+}

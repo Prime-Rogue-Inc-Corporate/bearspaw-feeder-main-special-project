@@ -1,0 +1,245 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "ALPSMLC30_N051W115_DSM",
+   "bbox": [
+    -115.0,
+    51.0,
+    -114.0,
+    52.0
+   ],
+   "type": "Feature",
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem"
+    },
+    {
+     "rel": "parent",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem"
+    },
+    {
+     "rel": "root",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem/items/ALPSMLC30_N051W115_DSM"
+    },
+    {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=alos-dem&item=ALPSMLC30_N051W115_DSM",
+     "type": "text/html",
+     "title": "Map of item"
+    }
+   ],
+   "assets": {
+    "data": {
+     "href": "https://ai4edataeuwest.blob.core.windows.net/alos-dem/AW3D30_global/ALPSMLC30_N051W115_DSM.tif",
+     "title": "N051W115",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+     "roles": [
+      "data"
+     ]
+    },
+    "tilejson": {
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=alos-dem&item=ALPSMLC30_N051W115_DSM&assets=data&colormap_name=terrain&rescale=-1000%2C4000",
+     "type": "application/json",
+     "roles": [
+      "tiles"
+     ],
+     "title": "TileJSON with default rendering"
+    },
+    "rendered_preview": {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=alos-dem&item=ALPSMLC30_N051W115_DSM&assets=data&colormap_name=terrain&rescale=-1000%2C4000",
+     "type": "image/png",
+     "roles": [
+      "overview"
+     ],
+     "title": "Rendered preview"
+    }
+   },
+   "_msft:ts": "2026-10-14T00:08:21.168186Z",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -114,
+       51
+      ],
+      [
+       -114,
+       52
+      ],
+      [
+       -115,
+       52
+      ],
+      [
+       -115,
+       51
+      ],
+      [
+       -114,
+       51
+      ]
+     ]
+    ]
+   },
+   "_msft:etag": "f9787c8d-96e3-4bc2-84f6-a3dd2e0fa361",
+   "collection": "alos-dem",
+   "properties": {
+    "gsd": 30,
+    "datetime": "2016-12-07T00:00:00Z",
+    "platform": "alos",
+    "proj:epsg": 4326,
+    "proj:shape": [
+     3600,
+     3600
+    ],
+    "instruments": [
+     "prism"
+    ],
+    "proj:transform": [
+     0.0002777777777777778,
+     0.0,
+     -115.0,
+     0.0,
+     -0.0002777777777777778,
+     52.0
+    ]
+   },
+   "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+   ],
+   "stac_version": "1.0.0"
+  },
+  {
+   "id": "ALPSMLC30_N050W115_DSM",
+   "bbox": [
+    -115.0,
+    50.0,
+    -114.0,
+    51.0
+   ],
+   "type": "Feature",
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem"
+    },
+    {
+     "rel": "parent",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem"
+    },
+    {
+     "rel": "root",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/alos-dem/items/ALPSMLC30_N050W115_DSM"
+    },
+    {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=alos-dem&item=ALPSMLC30_N050W115_DSM",
+     "type": "text/html",
+     "title": "Map of item"
+    }
+   ],
+   "assets": {
+    "data": {
+     "href": "https://ai4edataeuwest.blob.core.windows.net/alos-dem/AW3D30_global/ALPSMLC30_N050W115_DSM.tif",
+     "title": "N050W115",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+     "roles": [
+      "data"
+     ]
+    },
+    "tilejson": {
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=alos-dem&item=ALPSMLC30_N050W115_DSM&assets=data&colormap_name=terrain&rescale=-1000%2C4000",
+     "type": "application/json",
+     "roles": [
+      "tiles"
+     ],
+     "title": "TileJSON with default rendering"
+    },
+    "rendered_preview": {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=alos-dem&item=ALPSMLC30_N050W115_DSM&assets=data&colormap_name=terrain&rescale=-1000%2C4000",
+     "type": "image/png",
+     "roles": [
+      "overview"
+     ],
+     "title": "Rendered preview"
+    }
+   },
+   "_msft:ts": "2026-10-14T00:06:07.948752Z",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -114,
+       50
+      ],
+      [
+       -114,
+       51
+      ],
+      [
+       -115,
+       51
+      ],
+      [
+       -115,
+       50
+      ],
+      [
+       -114,
+       50
+      ]
+     ]
+    ]
+   },
+   "_msft:etag": "cbe6b926-e7ea-4bd5-8ff2-4b81cb4ddc60",
+   "collection": "alos-dem",
+   "properties": {
+    "gsd": 30,
+    "datetime": "2016-12-07T00:00:00Z",
+    "platform": "alos",
+    "proj:epsg": 4326,
+    "proj:shape": [
+     3600,
+     3600
+    ],
+    "instruments": [
+     "prism"
+    ],
+    "proj:transform": [
+     0.0002777777777777778,
+     0.0,
+     -115.0,
+     0.0,
+     -0.0002777777777777778,
+     51.0
+    ]
+   },
+   "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+   ],
+   "stac_version": "1.0.0"
+  }
+ ]
+}

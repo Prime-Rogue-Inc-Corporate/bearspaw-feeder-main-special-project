@@ -1,0 +1,24 @@
+{
+ "dataset": "NONE RETRIEVED - ERA5/ERA5-Land and other gridded reanalysis/soil sources were unreachable from this sandbox on 2026-11-07",
+ "attempts": {
+  "storage.googleapis.com (gs://gcp-public-data-arco-era5 ARCO Zarr)": "CONNECT 403; gsutil also 403; gcp-public-data-arco-era5.storage.googleapis.com 403",
+  "era5-pds.s3.amazonaws.com / s3.amazonaws.com/era5-pds / era5-pds.s3.us-east-1": "CONNECT 403",
+  "nsf-ncar-era5.s3.amazonaws.com (NCAR ERA5 on AWS)": "CONNECT 403",
+  "cds.climate.copernicus.eu": "CONNECT 403 (also needs key)",
+  "rda.ucar.edu / thredds.rda.ucar.edu / gdex.ucar.edu / osdf": "CONNECT 403",
+  "planetarycomputer.microsoft.com": "STAC API reachable (200) but blob storage (ai4edataeuwest/cpdataeuwest.blob.core.windows.net) CONNECT 403",
+  "power.larc.nasa.gov (MERRA-2 point API)": "CONNECT 403",
+  "psl.noaa.gov / downloads.psl.noaa.gov (NARR)": "CONNECT 403",
+  "noaa-gfs-bdp-pds / noaa-cfs-pds / noaa-nws-rtma-pds / noaa-rrfs-pds S3": "CONNECT 403",
+  "open-meteo": "blocked (per brief)",
+  "acis.alberta.ca (Alberta ag-weather soil temp)": "CONNECT 403",
+  "GeoMet WMS (geo.weather.gc.ca)": "reachable, but soil/CaLDAS/HRDLPS layers are current-run only",
+  "ECCC climate bulk": "no soil temperature fields at any Calgary station"
+ },
+ "substitute": "GOES-18 ABI land-surface skin temperature in raw/goes_lst. Soil temperature/moisture (ERA5-Land stl1-4, swvl1-4, sd, tp, sp, t2m) must be pulled in the pipeline workflow or from an environment with ARCO/CDS access.",
+ "folder": "raw/reanalysis",
+ "generated_utc": "2026-11-07T10:20:16Z",
+ "n_files": 0,
+ "total_bytes": 0,
+ "files": []
+}

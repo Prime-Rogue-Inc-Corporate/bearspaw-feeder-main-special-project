@@ -1,0 +1,331 @@
+{
+ "dataset": "ECCC/WSC hydrometric data via api.weather.gc.ca OGC API (hydrometric-daily-mean = HYDAT approved; hydrometric-realtime = provisional, rolling ~30 days) and MSC Datamart dd.weather.gc.ca/today/hydrometric (provisional, rolling ~30 days)",
+ "stations": {
+  "05BH004": "BOW RIVER AT CALGARY - daily Q+level 2015-01-01..2025-12-31; realtime 2026-10-08..2026-11-07",
+  "05BH005": "BOW RIVER NEAR COCHRANE (upstream) - daily 2015-03..2024-10-31 (seasonal record); realtime 2026-10-09..2026-11-01",
+  "05BH008": "BOW RIVER BELOW BEARSPAW DAM - daily Q only 2015..2021-12-30; no realtime, no datamart",
+  "05BJ001": "ELBOW RIVER BELOW GLENMORE DAM - daily 2015..2024-12-31; realtime 2026-10-08..2026-11-07",
+  "05BJ008": "GLENMORE RESERVOIR AT CALGARY - level only, daily 2015..2025-12-30; no realtime",
+  "05BJ010": "ELBOW RIVER AT SARCEE BRIDGE - daily 2015..2024-12-31; realtime 2026-10-08..2026-11-07",
+  "05BH015, 05BH016, 05BJ004, 05BM015": "realtime/datamart only (context: Jumpingpound Ck, West Nose Ck, Elbow at Bragg Creek, WID canal)"
+ },
+ "data_quality_flags": [
+  "Station-ID correction: 05BJ010 is ELBOW RIVER AT SARCEE BRIDGE; 'Elbow River below Glenmore Dam' is 05BJ001. Both pulled.",
+  "GAP: no WSC data reachable for 2026-01-01..2026-10-07 at any station (HYDAT not yet published for 2026; realtime is rolling 30 days). Covers the 9 Mar-1 Apr 2026 reinforcement shutdown -> not covered.",
+  "GAP: Elbow stations 05BJ001/05BJ010 HYDAT ends 2024-12-31 -> break 2 (30 Dec 2025) not covered for Elbow. Bow 05BH004 and Glenmore 05BJ008 do cover 30 Dec 2025 (05BJ008 last level 2025-12-30).",
+  "05BH005 HYDAT is seasonal (Mar-Oct) and ends 2024-10-31.",
+  "05BH008 (below Bearspaw Dam) discharge only, ends 2021-12-30; no level series.",
+  "05BH004 level has 31 missing days of 4018 in 2015-2025. 05BH004 discharge 2025-12-26..31 carries symbol 'Ice Conditions' (ice-affected estimate). 2024-06-03..07 values unflagged.",
+  "Realtime values are provisional; times in UTC (DATETIME) and LST (DATETIME_LST).",
+  "05BJ008 Glenmore Reservoir level: 2025-12-31 is null (last value 2025-12-30)."
+ ],
+ "blocked": {
+  "wateroffice.ec.gc.ca": "blocked (per brief)",
+  "rivers.alberta.ca": "CONNECT 403",
+  "environment.extranet.gov.ab.ca / open.alberta.ca / www.alberta.ca": "CONNECT 403"
+ },
+ "folder": "raw/hydrometric",
+ "generated_utc": "2026-11-07T10:20:26Z",
+ "n_files": 28,
+ "total_bytes": 40312171,
+ "files": [
+  {
+   "path": "raw/hydrometric/_fetch_log.tsv",
+   "bytes": 5783,
+   "sha256": "1f8fa9031bbd293ef77bca0098ba6b118f509546fe5bbf9ffa76bcd3013d4a0b",
+   "mtime_utc": "2026-11-07T10:02:30Z"
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BH004_2015-2026_off0.json",
+   "bytes": 1818420,
+   "sha256": "e9bc91d8d29cdfd8ea61266833eddf84ace1c11d1c23d9c110fa779dfcd7b62f",
+   "mtime_utc": "2026-11-07T10:01:56Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:01:56Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH004&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BH005_2015-2026_off0.json",
+   "bytes": 1224505,
+   "sha256": "92fb7f9db1f88d67eb7f196dae1fcb3e95bc4e20d9675a3aeb38c39a535e7d2c",
+   "mtime_utc": "2026-11-07T10:01:57Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:01:57Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH005&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BH008_2015-2026_off0.json",
+   "bytes": 1133218,
+   "sha256": "408a2133c728b20bd83eda61cf379ac6a6757e2dec2e7a417d07610e46e8e9ac",
+   "mtime_utc": "2026-11-07T10:01:58Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:01:58Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BH008&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BJ001_2015-2026_off0.json",
+   "bytes": 1682382,
+   "sha256": "27e17e38db3d99d0581830de51678fb138318429e9bec8dec069781ec61d479f",
+   "mtime_utc": "2026-11-07T10:01:58Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:01:58Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ001&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BJ008_2015-2026_off0.json",
+   "bytes": 1769526,
+   "sha256": "33296a8feb960b867ab0ad85552bfa52e336b267880419e2ae77c84f5ba5557a",
+   "mtime_utc": "2026-11-07T10:01:59Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:01:59Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ008&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-daily-mean_05BJ010_2015-2026_off0.json",
+   "bytes": 1702113,
+   "sha256": "fb0d6575c90a1fa68486473eea352e0d6ef1c9f5e738c7d16e31beab3afa82d8",
+   "mtime_utc": "2026-11-07T10:02:00Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:00Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-daily-mean/items?STATION_NUMBER=05BJ010&datetime=2015-01-01/2026-12-31&limit=10000&offset=0&sortby=DATE&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BH004_2026-realtime_off0.json",
+   "bytes": 4142275,
+   "sha256": "6ee78adbed08faa22e8a61dfcfe24fc7cccb2641c21452517ba1fb14558e5a01",
+   "mtime_utc": "2026-11-07T10:02:11Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:11Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH004&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BH005_2026-realtime_off0.json",
+   "bytes": 3233515,
+   "sha256": "479edb147f098d2c0b49fd682e594ce541d2455641dee69892a12eb417a2d0f0",
+   "mtime_utc": "2026-11-07T10:02:12Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:12Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH005&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BH015_2026-realtime_off0.json",
+   "bytes": 4338273,
+   "sha256": "54ccea8d5a51a3de59ec3c611ea131005a2f4b4a388267c5fa1ce8ce3191b998",
+   "mtime_utc": "2026-11-07T10:02:15Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:15Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH015&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BH016_2026-realtime_off0.json",
+   "bytes": 3249597,
+   "sha256": "bd761398fbe4115645f46f76dea69ccff80ba6278857508f9ee2fce5ef78d32c",
+   "mtime_utc": "2026-11-07T10:02:16Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:16Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BH016&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BJ001_2026-realtime_off0.json",
+   "bytes": 4220400,
+   "sha256": "380311b818fba08e5d8fa8857f3ce8b7101149f7e1c6ed9224a544141359c2e7",
+   "mtime_utc": "2026-11-07T10:02:13Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:13Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ001&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BJ004_2026-realtime_off0.json",
+   "bytes": 4195292,
+   "sha256": "ff8a956cd214ea1bf64b4f5466b3279ce72cb5570a69885a28158e20d945ddcf",
+   "mtime_utc": "2026-11-07T10:02:17Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:17Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ004&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-realtime_05BJ010_2026-realtime_off0.json",
+   "bytes": 4204784,
+   "sha256": "1c251b41fa8272411ffe7cf940a3f3f22a68178f1e1a365380fa452f47e65327",
+   "mtime_utc": "2026-11-07T10:02:14Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:14Z",
+    "http": "200",
+    "url": "https://api.weather.gc.ca/collections/hydrometric-realtime/items?STATION_NUMBER=05BJ010&datetime=2026-01-01T00:00:00Z/2026-12-31T00:00:00Z&limit=10000&offset=0&sortby=DATETIME&f=json"
+   }
+  },
+  {
+   "path": "raw/hydrometric/hydrometric-stations_bbox_calgary.json",
+   "bytes": 55087,
+   "sha256": "3113237fd6ebb54f21e39c2b36feb2b354597c489c11a9c6eb3e87c967ff3bcb",
+   "mtime_utc": "2026-11-07T10:01:46Z"
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH004_daily_hydrometric.csv",
+   "bytes": 466630,
+   "sha256": "90e5b9fa2be44ae8c93aeaa7f70a4302cafb58eeef005084826e4873ad96ac0f",
+   "mtime_utc": "2026-11-07T10:02:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:25Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH004_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH004_hourly_hydrometric.csv",
+   "bytes": 32632,
+   "sha256": "36452f2302e23ccb6101c26329bf2ade05dbeafc455365ffacdb4b3b5be1f0a5",
+   "mtime_utc": "2026-11-07T10:02:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:28Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH004_hourly_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH005_daily_hydrometric.csv",
+   "bytes": 380284,
+   "sha256": "67f01c303e0827cd96dc6b105fa19849824e8ef9a32e7d9ca1c355742dbd6fd7",
+   "mtime_utc": "2026-11-07T10:02:25Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:25Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH005_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH015_daily_hydrometric.csv",
+   "bytes": 464746,
+   "sha256": "f66c5bc4ff1e23adbbfab464fba73244df29ee30a38e368ba2b9fb1b4d6525a0",
+   "mtime_utc": "2026-11-07T10:02:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:26Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH015_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH015_hourly_hydrometric.csv",
+   "bytes": 29524,
+   "sha256": "94a8f185f52868ba695e9ba4e55ef84cc355c7626fda17cd7de66ccfa556e1b2",
+   "mtime_utc": "2026-11-07T10:02:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:29Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BH015_hourly_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BH016_daily_hydrometric.csv",
+   "bytes": 380009,
+   "sha256": "fc2195c3fd3790a9b685a257dba2c9e42199966bbf29b1bad864993b47f132dc",
+   "mtime_utc": "2026-11-07T10:02:26Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:26Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BH016_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ001_daily_hydrometric.csv",
+   "bytes": 466576,
+   "sha256": "fbf2072e7f17ef940983fd0b366cc066bccaa252505fb9b65c3423bd8c86be52",
+   "mtime_utc": "2026-11-07T10:02:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:27Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ001_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ001_hourly_hydrometric.csv",
+   "bytes": 32632,
+   "sha256": "f13b547db6bcf965d80f1784bc41ea82fcc810855cf6d04cb7299e954fc0f93b",
+   "mtime_utc": "2026-11-07T10:02:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:29Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ001_hourly_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ004_daily_hydrometric.csv",
+   "bytes": 466810,
+   "sha256": "cb1a5e186e5444b0fb2fcd0dd292ccbcfb51fd6dc360e5fef4f4e5d3e2640a5a",
+   "mtime_utc": "2026-11-07T10:02:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:27Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ004_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ004_hourly_hydrometric.csv",
+   "bytes": 32200,
+   "sha256": "1cef2270aaeacd518a270b6cb7dc12a5b27fc430d3b41822c66e8366347bbad1",
+   "mtime_utc": "2026-11-07T10:02:29Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:29Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ004_hourly_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ010_daily_hydrometric.csv",
+   "bytes": 456370,
+   "sha256": "d96929f25ccb78122df121fc9a15dd06d4b0d646dcf1c8b1de886aeddb8f6462",
+   "mtime_utc": "2026-11-07T10:02:27Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:27Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BJ010_daily_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BJ010_hourly_hydrometric.csv",
+   "bytes": 32254,
+   "sha256": "e936315be0201a5ac41ae359e703c5f5be5c8d1ccefa87ebed2d1ec2a79888fe",
+   "mtime_utc": "2026-11-07T10:02:30Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:30Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/hourly/AB_05BJ010_hourly_hydrometric.csv"
+   }
+  },
+  {
+   "path": "raw/hydrometric/datamart_today/AB_05BM015_daily_hydrometric.csv",
+   "bytes": 96334,
+   "sha256": "6c5d20da770f376be2ea5dbeaeb574f02b83e1934a5ce0781468e331b7a85c7a",
+   "mtime_utc": "2026-11-07T10:02:28Z",
+   "source": {
+    "retrieved_utc": "2026-11-07T10:02:28Z",
+    "http": "200",
+    "url": "https://dd.weather.gc.ca/today/hydrometric/csv/AB/daily/AB_05BM015_daily_hydrometric.csv"
+   }
+  }
+ ]
+}

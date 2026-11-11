@@ -1,0 +1,253 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "NASADEM_HGT_n51w115",
+   "bbox": [
+    -115.000139,
+    50.999861,
+    -113.999861,
+    52.000139
+   ],
+   "type": "Feature",
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem"
+    },
+    {
+     "rel": "parent",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem"
+    },
+    {
+     "rel": "root",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem/items/NASADEM_HGT_n51w115"
+    },
+    {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=nasadem&item=NASADEM_HGT_n51w115",
+     "type": "text/html",
+     "title": "Map of item"
+    }
+   ],
+   "assets": {
+    "tilejson": {
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=nasadem&item=NASADEM_HGT_n51w115&assets=elevation&colormap_name=terrain&rescale=-100%2C4000",
+     "type": "application/json",
+     "roles": [
+      "tiles"
+     ],
+     "title": "TileJSON with default rendering"
+    },
+    "elevation": {
+     "href": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_n51w115.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+     "roles": [
+      "data"
+     ],
+     "title": "Elevation"
+    },
+    "rendered_preview": {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=nasadem&item=NASADEM_HGT_n51w115&assets=elevation&colormap_name=terrain&rescale=-100%2C4000",
+     "type": "image/png",
+     "roles": [
+      "overview"
+     ],
+     "title": "Rendered preview"
+    }
+   },
+   "_msft:ts": "2026-10-17T13:28:09.715535Z",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.99986111,
+       50.99986111
+      ],
+      [
+       -113.99986111,
+       52.00013889
+      ],
+      [
+       -115.00013889,
+       52.00013889
+      ],
+      [
+       -115.00013889,
+       50.99986111
+      ],
+      [
+       -113.99986111,
+       50.99986111
+      ]
+     ]
+    ]
+   },
+   "_msft:etag": "444b7056-4e0b-4799-aae0-0459bcb1ac32",
+   "collection": "nasadem",
+   "properties": {
+    "datetime": "2000-02-20T00:00:00Z",
+    "proj:bbox": [
+     -115.00013888888888,
+     50.999861111111116,
+     -113.9998611111111,
+     52.00013888888889
+    ],
+    "proj:epsg": 4326,
+    "proj:shape": [
+     3601,
+     3601
+    ],
+    "proj:transform": [
+     0.0002777777777777778,
+     0.0,
+     -115.00013888888888,
+     0.0,
+     -0.0002777777777777778,
+     52.00013888888889,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+   ],
+   "stac_version": "1.0.0"
+  },
+  {
+   "id": "NASADEM_HGT_n50w115",
+   "bbox": [
+    -115.000139,
+    49.999861,
+    -113.999861,
+    51.000139
+   ],
+   "type": "Feature",
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem"
+    },
+    {
+     "rel": "parent",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem"
+    },
+    {
+     "rel": "root",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/nasadem/items/NASADEM_HGT_n50w115"
+    },
+    {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/map?collection=nasadem&item=NASADEM_HGT_n50w115",
+     "type": "text/html",
+     "title": "Map of item"
+    }
+   ],
+   "assets": {
+    "tilejson": {
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/tilejson.json?collection=nasadem&item=NASADEM_HGT_n50w115&assets=elevation&colormap_name=terrain&rescale=-100%2C4000",
+     "type": "application/json",
+     "roles": [
+      "tiles"
+     ],
+     "title": "TileJSON with default rendering"
+    },
+    "elevation": {
+     "href": "https://nasademeuwest.blob.core.windows.net/nasadem-cog/v001/NASADEM_HGT_n50w115.tif",
+     "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+     "roles": [
+      "data"
+     ],
+     "title": "Elevation"
+    },
+    "rendered_preview": {
+     "rel": "preview",
+     "href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=nasadem&item=NASADEM_HGT_n50w115&assets=elevation&colormap_name=terrain&rescale=-100%2C4000",
+     "type": "image/png",
+     "roles": [
+      "overview"
+     ],
+     "title": "Rendered preview"
+    }
+   },
+   "_msft:ts": "2026-10-17T13:27:50.071649Z",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -113.99986111,
+       49.99986111
+      ],
+      [
+       -113.99986111,
+       51.00013889
+      ],
+      [
+       -115.00013889,
+       51.00013889
+      ],
+      [
+       -115.00013889,
+       49.99986111
+      ],
+      [
+       -113.99986111,
+       49.99986111
+      ]
+     ]
+    ]
+   },
+   "_msft:etag": "2d0bc6fc-f083-4064-8ffc-ff249387be6d",
+   "collection": "nasadem",
+   "properties": {
+    "datetime": "2000-02-20T00:00:00Z",
+    "proj:bbox": [
+     -115.00013888888888,
+     49.999861111111116,
+     -113.9998611111111,
+     51.00013888888889
+    ],
+    "proj:epsg": 4326,
+    "proj:shape": [
+     3601,
+     3601
+    ],
+    "proj:transform": [
+     0.0002777777777777778,
+     0.0,
+     -115.00013888888888,
+     0.0,
+     -0.0002777777777777778,
+     51.00013888888889,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+   ],
+   "stac_version": "1.0.0"
+  }
+ ]
+}

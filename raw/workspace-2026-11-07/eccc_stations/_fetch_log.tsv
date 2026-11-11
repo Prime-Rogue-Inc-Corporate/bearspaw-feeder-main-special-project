@@ -1,0 +1,5 @@
+2026-11-07T10:19:09Z	200	https://api.weather.gc.ca/collections/swob-stations/items?bbox=-114.6,50.8,-113.6,51.4&f=json&limit=200	swob-stations_bbox_calgary.json
+2026-11-07T10:19:09Z	200	https://api.weather.gc.ca/collections/swob-partner-stations/items?bbox=-114.6,50.8,-113.6,51.4&f=json&limit=200	swob-partner-stations_bbox_calgary.json
+2026-11-07T09:58:00Z	200	https://api.weather.gc.ca/collections/climate-stations/items?bbox=-114.50,50.82,-113.70,51.32&limit=500&f=json	climate-stations_bbox_calgary_25km.json
+2026-11-07T09:58:00Z	200	https://api.weather.gc.ca/collections/climate-stations/items?bbox=-114.50,50.82,-113.70,51.32&limit=500&f=csv	climate-stations_bbox_calgary_25km.csv
+2026-11-07T10:00:00Z	200	https://geo.weather.gc.ca/geomet?service=WMS&request=GetCapabilities&version=1.3.0	geomet_wms_getcapabilities_2026-11-07.xml

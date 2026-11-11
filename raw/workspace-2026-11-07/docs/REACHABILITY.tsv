@@ -1,0 +1,14 @@
+host	result	tested_utc
+www.calgary.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+newsroom.calgary.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+content.presspage.com	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+pub-calgary.escribemeetings.com	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+open.alberta.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+www.alberta.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+livewirecalgary.com	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+globalnews.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+www.cbc.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+cbc.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+maps.calgary.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+data.calgary.ca	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z
+web.archive.org	REFUSED (proxy CONNECT 403, policy)	2026-11-07T09:59:19Z

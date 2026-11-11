@@ -1,0 +1,19 @@
+{
+ "dataset": "NONE RETRIEVED - seismic catalogue (negative control) unreachable",
+ "attempts": {
+  "earthquakescanada.nrcan.gc.ca (fdsnws event) https and http": "CONNECT 403 / blocked",
+  "www.seismescanada.rncan.gc.ca / www.seismo.nrcan.gc.ca": "CONNECT 403",
+  "service.iris.edu/fdsnws/event": "reachable but returns 'This service has been retired'",
+  "service.earthscope.org/fdsnws/event": "'This service has been retired'",
+  "earthquake.usgs.gov (ComCat)": "CONNECT 403",
+  "www.isc.ac.uk": "CONNECT 403",
+  "www.seismicportal.eu (EMSC)": "CONNECT 403",
+  "geofon.gfz.de": "CONNECT 403"
+ },
+ "todo": "Query https://earthquakescanada.nrcan.gc.ca/fdsnws/event/1/query?starttime=2023-04-01&endtime=2026-11-07&latitude=51.05&longitude=-114.07&maxradius=1.35&format=text (1.35 deg ~150 km) from the pipeline or another environment.",
+ "folder": "raw/seismic",
+ "generated_utc": "2026-11-07T10:20:16Z",
+ "n_files": 0,
+ "total_bytes": 0,
+ "files": []
+}

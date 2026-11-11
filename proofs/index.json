@@ -22,40 +22,46 @@
    "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:04Z",
    "sha256": "39724fdf4a0d9952a1c502cb01bba7ea888b11e6c9ced513959e7458f1eb0872",
    "stamped_utc": "2026-11-11T10:16:43Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:06Z",
    "sha256": "e64e93e06295582728981a33ee8f0787f7834e4d69288d5bf6958f6df6562538",
    "stamped_utc": "2026-11-11T09:45:33Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-data-request-page.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:07Z",
    "sha256": "207b0ca28728918b5a97bf7464f6f3b908e3296e3f17f82b46a2995f27f8da35",
    "stamped_utc": "2026-11-11T09:45:35Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-7.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:09Z",
    "sha256": "cb9dad2a494360901ef562bf2eff910205119b07ac02cbb9fd3fac5934dc1870",
    "stamped_utc": "2026-11-11T09:45:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-8.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:12Z",
    "sha256": "79a093c5335b5c87dcc046f1b5daea5908cd0015e0d6264e707d4815503bc768",
    "stamped_utc": "2026-11-11T09:45:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-11T0923Z-daily-demand-nov-9.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:13Z",
    "sha256": "c35984fc1f0822cd7037a380974b6055d477816c52fcd911e59068425fb14798",
    "stamped_utc": "2026-11-11T09:45:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
@@ -142,106 +148,123 @@
    "status": "confirmed"
   },
   "raw/city/pages/stage4-status/2026-11-11T0923Z.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:15Z",
    "sha256": "51cd4d065363dcc801762aade3b99771c5beb79de203573bddff4c80ba3a4e63",
    "stamped_utc": "2026-11-11T09:45:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2013.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:17Z",
    "sha256": "138850e589aae04d4f3b93abcc4a6a030573d323472a2009f43ec32367a4ab6e",
    "stamped_utc": "2026-11-11T09:45:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2014.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:20Z",
    "sha256": "0702360c78a6565228230516ec7c9ad5c4a06842754a0a1b3a9fd22821ebf58b",
    "stamped_utc": "2026-11-11T09:45:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2015.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:22Z",
    "sha256": "be48cce67751a16ca41e248d524d0f1d4257cf7f89f620e91c027825579c0d23",
    "stamped_utc": "2026-11-11T09:45:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2016.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:23Z",
    "sha256": "5ff19e52ccdbcc1e4afaac1af49cb169c2eed23fce3ae61a691a1fba6ebdc093",
    "stamped_utc": "2026-11-11T09:45:50Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2017.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:26Z",
    "sha256": "ca8b34236cd32fe88d9187816fd753ee76d28e3c92879daa5bc8e2c8573bb6a7",
    "stamped_utc": "2026-11-11T09:45:52Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2018.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:29Z",
    "sha256": "c66b7087c522f1734d357c84ed4db87b8076d4a5851914d56298264fc5b245a8",
    "stamped_utc": "2026-11-11T09:45:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2019.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:31Z",
    "sha256": "dc9dc71ec6614b9b7f535196076cb5be2d0c5ec5aec33171a0aa7dac03bbd235",
    "stamped_utc": "2026-11-11T09:45:58Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2020.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:33Z",
    "sha256": "bb4b77781603529f8ee1050671b56fefd54aa6f191d5cea03ca7e9d58979df92",
    "stamped_utc": "2026-11-11T09:46:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2021.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:35Z",
    "sha256": "da8325cc7fb957b0147c8031cbd59ac50ae825135ffcd6cb22720f6cf62003b2",
    "stamped_utc": "2026-11-11T09:46:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2022.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:37Z",
    "sha256": "7b5857c67b1f662ee1abadd07f65b8927e38b802e9f09783bf87e98a035ab9ef",
    "stamped_utc": "2026-11-11T09:46:04Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2023.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:39Z",
    "sha256": "46467cdf6f00f238a8518740619478f3e0a2f3632b2e6b1e2ccbb8498b5878b1",
    "stamped_utc": "2026-11-11T09:46:06Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2024.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:41Z",
    "sha256": "0b759e5942465a247af88b622e1acb1788c235db84d49b4618bbd28f06964171",
    "stamped_utc": "2026-11-11T09:46:08Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2025.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:44Z",
    "sha256": "c5941270360b131ee6cb0b9890bb980ef29ff8f09ad2599e209e66a9cf0a2e31",
    "stamped_utc": "2026-11-11T09:46:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2026.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:46Z",
    "sha256": "db3ab522978d4783ac7aa186e760c4d18c20c7e1eaa323cb65d0cff98704664e",
    "stamped_utc": "2026-11-11T09:46:12Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:47Z",
    "sha256": "70c8ec28020e35046c1c3ea0756d7a91b0ded53d13b90ae9779a8a85d2d282dc",
    "stamped_utc": "2026-11-11T09:46:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:49Z",
    "sha256": "25f96d5bd98af9ee84b152cb2c15bb14afcc31d4da24224921e754fb218bb927",
    "stamped_utc": "2026-11-11T09:46:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv": {
    "bitcoin_block": 974935,
@@ -307,10 +330,11 @@
    "status": "confirmed"
   },
   "raw/opendata/dpcu-jr23/2026-11-09T0648Z-water-main-breaks.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:52Z",
    "sha256": "66b2bb02821a5a88ecaf19fa4483845612fc5b2fcb3c084cc97bb843c7448ee9",
    "stamped_utc": "2026-11-11T09:46:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/opendata/w6h9-w33i/2026-11-07T1149Z-metadata.json": {
    "bitcoin_block": 974935,
@@ -341,1774 +365,2069 @@
    "status": "confirmed"
   },
   "raw/phmsa/2026-11-11T0936Z-PHMSA_Pipeline_Safety_Flagged_Incidents.zip": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:55Z",
    "sha256": "a4a9cb2157caf74f63a8c570657fc48779ccb11580cc2b4ece13cbc6d6f63826",
    "stamped_utc": "2026-11-11T09:46:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/README.md": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:56Z",
    "sha256": "aeab9c21223fb16d24008565bcea6d341363d6946e4dd7ca93402bc71fad6f7c",
    "stamped_utc": "2026-11-11T10:16:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-2026-replacement-stageA-stageB-maps_screenshot.png": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:58Z",
    "sha256": "2dac81fbb9287714d49a8e323e97e496dcbe10383d03c8c205fb6be8a320ead0",
    "stamped_utc": "2026-11-11T09:51:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-connection-locations-map_updated-2026-10-27_screenshot.png": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:21:59Z",
    "sha256": "705bac5b17423fe4eded0355f837b0d3c130cd07f6b22de2d875dce98becf4b8",
    "stamped_utc": "2026-11-11T09:51:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-connection-work-gallery_screenshot.png": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:01Z",
    "sha256": "828f160d22b7ecadcc2c720b2828e476afe745c47b068d5238d72116e6177d81",
    "stamped_utc": "2026-11-11T09:51:29Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-improvements-project-map_stageB-alignment-not-finalized.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:02Z",
    "sha256": "89c8cdbb4af3e7cc2dabd1a9723ef7ec33258b6510eb2b2927ff68d4edbfa94e",
    "stamped_utc": "2026-11-11T09:51:30Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/maps/city_bsfm-stageA-B-setup-sites-map_25-0051187-CRV-44015.png": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:05Z",
    "sha256": "4aebdd1ec2b43c64012f1e803d2734b527c5e84f5640b800b5579d2bb9e379a1",
    "stamped_utc": "2026-11-11T09:51:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/city/pages/calgary-ca_bsfm-replacement-project_text_as-of-2026-10-29_captured-by-kevin.txt": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:07Z",
    "sha256": "adc19e81a3d5b7900638ea1b07ee049a439d784e44e44d80a1dbdc4dc835fe57",
    "stamped_utc": "2026-11-11T09:51:33Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:08Z",
    "sha256": "119102d6b19401e5a38a7966a4286f3927cf100784154baa58c314515c174bc8",
    "stamped_utc": "2026-11-11T09:51:35Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/copernicus_glo30/cop_glo30_aoi_epsg32611_30m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:10Z",
    "sha256": "5492ead003b91cdac84b20a620c1bb71f5d4b596b8fb8c82733990cb7404510e",
    "stamped_utc": "2026-11-11T09:51:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/copernicus_glo30/cop_glo30_aoi_hillshade.png": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:11Z",
    "sha256": "4c371dc4409f7ab355c8b834e8d64889022e2fa7496251d0a219fd52c8977f79",
    "stamped_utc": "2026-11-11T09:51:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Download_Instructions.pdf": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:13Z",
    "sha256": "1db55eb9b236a26d7c913fa355d92f5fc88b29fcb440fbdda9fcd377b9f5642a",
    "stamped_utc": "2026-11-11T09:51:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Metadata_Model.html": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:14Z",
    "sha256": "589f84f5a5348d6a1a49f06b3851754e2f20d62070debdf2d1204cce69466a3d",
    "stamped_utc": "2026-11-11T09:51:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/HRDEM_Product_Specification.pdf": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:16Z",
    "sha256": "36ba2fd94d83b8afd939bc8b6b8cdb3c4528119efe626004ed4f821f63c5f75e",
    "stamped_utc": "2026-11-11T09:51:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.cpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:18Z",
    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
    "stamped_utc": "2026-11-11T09:51:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.prj": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:20Z",
    "sha256": "3fbbefc8cc50d7da4d1b429cfd8a57ee98ad7ee18cd093ab1f30c5953ba8cecb",
    "stamped_utc": "2026-11-11T09:51:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/index/ds/Datasets_Footprints.shx": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:22Z",
    "sha256": "a29374123d6b51a5b1a531f73c66476be953bbe6c839a15c5472e7d550557838",
    "stamped_utc": "2026-11-11T09:51:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/metadata/Metadata_DSM_NRCAN_Calgary_West_utm11_2020.gdb.zip": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:24Z",
    "sha256": "a4efa3f061e53015cb2ac81094dea1367748e819a6864670350ca020f1d065f7",
    "stamped_utc": "2026-11-11T09:51:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/metadata/Metadata_DTM_NRCAN_Calgary_West_utm11_2020.gdb.zip": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:27Z",
    "sha256": "edf19a813952754eed074872cacf7d1341fda0d26b5ca009d49b19790b80edea",
    "stamped_utc": "2026-11-11T09:51:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/hrdem/metadata/dsm_raw_tiles_SHA256SUMS_not_retained.txt": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:30Z",
    "sha256": "03d1afd5184f3aa1452d61f9cb8382da2394d7c00e5baada5dbdea8c196790f1",
    "stamped_utc": "2026-11-11T09:51:56Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/alos-dem__ALPSMLC30_N050W115_DSM_aoi_epsg32611_30m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:31Z",
    "sha256": "fdcaa4bc621f8e9e631407b8402638b8006fa5d64692e5ecdb127c03ad2851bd",
    "stamped_utc": "2026-11-11T09:51:58Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/alos-dem__ALPSMLC30_N051W115_DSM_aoi_epsg32611_30m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:33Z",
    "sha256": "6ff40a5187a594d5bafa285bdb78d5dfc4ff4ba6544bc62acc1529e8631cf0f6",
    "stamped_utc": "2026-11-11T09:52:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/cop-dem-glo-90__Copernicus_DSM_COG_30_N50_00_W115_00_DEM_aoi_epsg32611_90m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:35Z",
    "sha256": "127b31ae45ebc1106dc405ffd93921cca073ad78622b382e7aeafa9dcaf63c07",
    "stamped_utc": "2026-11-11T09:52:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/cop-dem-glo-90__Copernicus_DSM_COG_30_N51_00_W115_00_DEM_aoi_epsg32611_90m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:36Z",
    "sha256": "402a5bbec37b3a9450ccb951c6a1aaf8b77b6d45e89ece09adc33f114883c43d",
    "stamped_utc": "2026-11-11T09:52:04Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/fetch_log.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:38Z",
    "sha256": "86233223aabe7c29f3277ddc58521b9215bf5a080e8afb8f8f74ed491cac8a42",
    "stamped_utc": "2026-11-11T09:52:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/nasadem__NASADEM_HGT_n50w115_aoi_epsg32611_30m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:39Z",
    "sha256": "8bb9479e392c40218a1769f72537eef49a200a8c40daa581185f9d5fe2e7d10a",
    "stamped_utc": "2026-11-11T09:52:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/nasadem__NASADEM_HGT_n51w115_aoi_epsg32611_30m.tif": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:41Z",
    "sha256": "2231e0ef5a4243c4b5a8a9705afb862a127ddeebb25197cf3d0f8bf0ce3b3094",
    "stamped_utc": "2026-11-11T09:52:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/stac_pc_alos-dem.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:42Z",
    "sha256": "53581828454ec567fe0182d1274a65124403e436fec155b8b9c580b7fef5906e",
    "stamped_utc": "2026-11-11T09:52:16Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/stac_pc_cop-dem-glo-30.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:45Z",
    "sha256": "9453d7d72b95decc0c1035a3252c3ebd916e858efb4e76b4af07fbf4d3291935",
    "stamped_utc": "2026-11-11T09:52:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/stac_pc_cop-dem-glo-90.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:47Z",
    "sha256": "add17371b9565c57e35fe04dd59b517c081ddd19d3f5bb662d42baa00ee6f770",
    "stamped_utc": "2026-11-11T09:52:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/dem/other_pc/stac_pc_nasadem.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:49Z",
    "sha256": "74eb6c56183f1054bfd2da5c8447fe0005bd1076afb15331dee2254c9f75af46",
    "stamped_utc": "2026-11-11T09:52:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/docs/CAPTURES.jsonl": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:50Z",
    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "stamped_utc": "2026-11-11T09:52:24Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/docs/FETCH_QUEUE.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:53Z",
    "sha256": "5d29d25f540dfd37527b7c7a758f1c5417231a57e4bddb8842d3260c8d840ff2",
    "stamped_utc": "2026-11-11T09:52:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/docs/REACHABILITY.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:54Z",
    "sha256": "08f097e6a33e7e64c35d73a12aed4b3982a5af6bd4baf99d293a1bb82aec411f",
    "stamped_utc": "2026-11-11T09:52:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:22:57Z",
    "sha256": "663bfba6a91c0db01fb88c56b70a0a1553015f25c2d461af1e96522d3f985b0d",
    "stamped_utc": "2026-11-11T09:52:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/_fetch_log.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:00Z",
    "sha256": "aa01c3e16cc7de6b9686912e4c7fab3b2d39938f66e89c88257f3fdd91044648",
    "stamped_utc": "2026-11-11T09:52:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/climate-stations_bbox_calgary_25km.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:01Z",
    "sha256": "a1e2a40b7be1fdfad69a1517827bbfabe5c29219079b6af2c0e1ded3069a5451",
    "stamped_utc": "2026-11-11T09:52:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/climate-stations_bbox_calgary_25km.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:03Z",
    "sha256": "554ffd6b7f49fd93ff1434b9bd39ea2c76d2928c2219cf972953d7535c449e99",
    "stamped_utc": "2026-11-11T09:52:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/geomet_wms_getcapabilities_2026-11-07.xml": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:05Z",
    "sha256": "e48083d87d0c2f970f3f713b42bdf9047d7c1a224de8d6d7600f8981752ade52",
    "stamped_utc": "2026-11-11T09:52:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/swob-partner-stations_bbox_calgary.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:07Z",
    "sha256": "b765b50d3c1d6f5b3c5e0e0a20239108212a45caa0f57a7fc885fef92144a60c",
    "stamped_utc": "2026-11-11T09:52:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/eccc_stations/swob-stations_bbox_calgary.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:09Z",
    "sha256": "5e790e24b4fecb509f987caafc06a9d3fa597f51e393b64c7a60c45077e2bae7",
    "stamped_utc": "2026-11-11T09:52:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:10Z",
    "sha256": "1778c510cfe26436a4740c5e312dbb2f1b649f8ba8c68e04ae7e0a69378ab03e",
    "stamped_utc": "2026-11-11T09:52:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_24h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:12Z",
    "sha256": "f10359b7b0befcf2c637a4e7f51c821e93d7a1abd71844b744d334172c389a58",
    "stamped_utc": "2026-11-11T09:52:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_48h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:15Z",
    "sha256": "1d0169a1c20d15b36ff848525efcac2abed2d8bb06209807a9e9276df661cfac",
    "stamped_utc": "2026-11-11T09:52:50Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J1_VIIRS_C2_Canada_7d.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:17Z",
    "sha256": "486f80c8b86c7c7f153457812f086b9633d1b01af34bf8e8354cec7bc995b287",
    "stamped_utc": "2026-11-11T09:52:52Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_24h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:20Z",
    "sha256": "e2f637d7ab9771f1b5c033d77f2a8e43427cfac7e889e224c6488cce62d64314",
    "stamped_utc": "2026-11-11T09:52:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_48h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:22Z",
    "sha256": "39ba8c299b886a5e08d5efb69eb3ee397778ea42468247db7bdfd24d6a365d15",
    "stamped_utc": "2026-11-11T09:52:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/J2_VIIRS_C2_Canada_7d.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:24Z",
    "sha256": "bec5c5165ea8c13d7c91043f7ed20e51da076cdd3a3e6c80b310befaf1abe8a2",
    "stamped_utc": "2026-11-11T09:53:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_24h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:26Z",
    "sha256": "87f96b2bed8c1250b5b7b8e4269a3783ea6a513ef10eb4195fbbeccfd52dca90",
    "stamped_utc": "2026-11-11T09:53:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_48h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:29Z",
    "sha256": "5db99dcaec3d98984f05a0bd545046758e898e065bbc33d7e03a02667deac427",
    "stamped_utc": "2026-11-11T09:53:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/MODIS_C6_1_Canada_7d.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:31Z",
    "sha256": "f21a9c8b93e59561962064ad8adfe055457d77040278fcf6f5f2e4455c8afd1f",
    "stamped_utc": "2026-11-11T09:53:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_24h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:33Z",
    "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
    "stamped_utc": "2026-11-11T09:53:06Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_48h.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:36Z",
    "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
    "stamped_utc": "2026-11-11T09:53:08Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/SUOMI_VIIRS_C2_Canada_7d.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:38Z",
    "sha256": "995873cf6d70309eca507eaeffd88d6caf989144dd73dc721c62687b8068b695",
    "stamped_utc": "2026-11-11T09:53:14Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/fire/firms_public_snapshot/_fetch_log.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:40Z",
    "sha256": "bde28d3e84172c6dfccc61d957c4dfdb96f2605b63432afd6fd79dbf51dc9b2f",
    "stamped_utc": "2026-11-11T09:53:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/goes_lst/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:42Z",
    "sha256": "daf801163c89f2b2221f10f3145d1d0db4ae9294fc630d34884bbda7655e2a87",
    "stamped_utc": "2026-11-11T10:16:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/goes_lst/_fetch_log.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:44Z",
    "sha256": "b7dc334f2e894282af85ddefca11516ff12046c6f160d59bdfdce19a1d1d3339",
    "stamped_utc": "2026-11-11T10:16:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:46Z",
    "sha256": "67d72cd8479ac67713be50c1efa6390343e035b29e90465d52aeb02ba9aaab75",
    "stamped_utc": "2026-11-11T09:53:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/_fetch_log.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:49Z",
    "sha256": "1f8fa9031bbd293ef77bca0098ba6b118f509546fe5bbf9ffa76bcd3013d4a0b",
    "stamped_utc": "2026-11-11T09:53:21Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH004_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:51Z",
    "sha256": "90e5b9fa2be44ae8c93aeaa7f70a4302cafb58eeef005084826e4873ad96ac0f",
    "stamped_utc": "2026-11-11T09:53:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH004_hourly_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:53Z",
    "sha256": "36452f2302e23ccb6101c26329bf2ade05dbeafc455365ffacdb4b3b5be1f0a5",
    "stamped_utc": "2026-11-11T09:53:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH005_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:55Z",
    "sha256": "67f01c303e0827cd96dc6b105fa19849824e8ef9a32e7d9ca1c355742dbd6fd7",
    "stamped_utc": "2026-11-11T09:53:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH015_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:56Z",
    "sha256": "f66c5bc4ff1e23adbbfab464fba73244df29ee30a38e368ba2b9fb1b4d6525a0",
    "stamped_utc": "2026-11-11T09:53:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH015_hourly_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:23:59Z",
    "sha256": "94a8f185f52868ba695e9ba4e55ef84cc355c7626fda17cd7de66ccfa556e1b2",
    "stamped_utc": "2026-11-11T09:53:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BH016_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:02Z",
    "sha256": "fc2195c3fd3790a9b685a257dba2c9e42199966bbf29b1bad864993b47f132dc",
    "stamped_utc": "2026-11-11T09:53:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ001_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:05Z",
    "sha256": "fbf2072e7f17ef940983fd0b366cc066bccaa252505fb9b65c3423bd8c86be52",
    "stamped_utc": "2026-11-11T09:53:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ001_hourly_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:07Z",
    "sha256": "f13b547db6bcf965d80f1784bc41ea82fcc810855cf6d04cb7299e954fc0f93b",
    "stamped_utc": "2026-11-11T09:53:41Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ004_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:09Z",
    "sha256": "cb1a5e186e5444b0fb2fcd0dd292ccbcfb51fd6dc360e5fef4f4e5d3e2640a5a",
    "stamped_utc": "2026-11-11T09:53:43Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ004_hourly_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:10Z",
    "sha256": "1cef2270aaeacd518a270b6cb7dc12a5b27fc430d3b41822c66e8366347bbad1",
    "stamped_utc": "2026-11-11T09:53:45Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ010_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:12Z",
    "sha256": "d96929f25ccb78122df121fc9a15dd06d4b0d646dcf1c8b1de886aeddb8f6462",
    "stamped_utc": "2026-11-11T09:53:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BJ010_hourly_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:14Z",
    "sha256": "e936315be0201a5ac41ae359e703c5f5be5c8d1ccefa87ebed2d1ec2a79888fe",
    "stamped_utc": "2026-11-11T09:53:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/datamart_today/AB_05BM015_daily_hydrometric.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:15Z",
    "sha256": "6c5d20da770f376be2ea5dbeaeb574f02b83e1934a5ce0781468e331b7a85c7a",
    "stamped_utc": "2026-11-11T09:53:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH004_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:18Z",
    "sha256": "e9bc91d8d29cdfd8ea61266833eddf84ace1c11d1c23d9c110fa779dfcd7b62f",
    "stamped_utc": "2026-11-11T09:53:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH005_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:21Z",
    "sha256": "92fb7f9db1f88d67eb7f196dae1fcb3e95bc4e20d9675a3aeb38c39a535e7d2c",
    "stamped_utc": "2026-11-11T09:53:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BH008_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:22Z",
    "sha256": "408a2133c728b20bd83eda61cf379ac6a6757e2dec2e7a417d07610e46e8e9ac",
    "stamped_utc": "2026-11-11T09:53:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ001_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:24Z",
    "sha256": "27e17e38db3d99d0581830de51678fb138318429e9bec8dec069781ec61d479f",
    "stamped_utc": "2026-11-11T09:53:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ008_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:26Z",
    "sha256": "33296a8feb960b867ab0ad85552bfa52e336b267880419e2ae77c84f5ba5557a",
    "stamped_utc": "2026-11-11T09:54:01Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-daily-mean_05BJ010_2015-2026_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:27Z",
    "sha256": "fb0d6575c90a1fa68486473eea352e0d6ef1c9f5e738c7d16e31beab3afa82d8",
    "stamped_utc": "2026-11-11T09:54:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH004_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:30Z",
    "sha256": "6ee78adbed08faa22e8a61dfcfe24fc7cccb2641c21452517ba1fb14558e5a01",
    "stamped_utc": "2026-11-11T09:54:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH005_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:32Z",
    "sha256": "479edb147f098d2c0b49fd682e594ce541d2455641dee69892a12eb417a2d0f0",
    "stamped_utc": "2026-11-11T09:54:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH015_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:33Z",
    "sha256": "54ccea8d5a51a3de59ec3c611ea131005a2f4b4a388267c5fa1ce8ce3191b998",
    "stamped_utc": "2026-11-11T09:54:09Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BH016_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:35Z",
    "sha256": "bd761398fbe4115645f46f76dea69ccff80ba6278857508f9ee2fce5ef78d32c",
    "stamped_utc": "2026-11-11T09:54:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ001_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:36Z",
    "sha256": "380311b818fba08e5d8fa8857f3ce8b7101149f7e1c6ed9224a544141359c2e7",
    "stamped_utc": "2026-11-11T09:54:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ004_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:38Z",
    "sha256": "ff8a956cd214ea1bf64b4f5466b3279ce72cb5570a69885a28158e20d945ddcf",
    "stamped_utc": "2026-11-11T09:54:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-realtime_05BJ010_2026-realtime_off0.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:41Z",
    "sha256": "1c251b41fa8272411ffe7cf940a3f3f22a68178f1e1a365380fa452f47e65327",
    "stamped_utc": "2026-11-11T09:54:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/hydrometric/hydrometric-stations_bbox_calgary.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:42Z",
    "sha256": "3113237fd6ebb54f21e39c2b36feb2b354597c489c11a9c6eb3e87c967ff3bcb",
    "stamped_utc": "2026-11-11T09:54:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/landsat/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:44Z",
    "sha256": "cd17b3d5cd4d06b1ae38855c5b93d5ba7d18346c7401700421cc1bae5641068d",
    "stamped_utc": "2026-11-11T10:16:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/opendata/public_water_main_w6h9-w33i_2026-11-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:47Z",
    "sha256": "2c18250aba89a7da8ae34f51598543e65a9f412bee6c527c0b0a5230519d9e00",
    "stamped_utc": "2026-11-11T09:54:21Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/opendata/water_main_breaks_dpcu-jr23_2026-11-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:48Z",
    "sha256": "58a44b7714fdf750b43cfb9d39ec7be2a75c806a516bd169257c969a8f6e9367",
    "stamped_utc": "2026-11-11T09:54:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/reanalysis/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:50Z",
    "sha256": "8d00909c89bb73af6f52d40cbdcddf41ced59776bc45ce7018d238f28de86054",
    "stamped_utc": "2026-11-11T09:54:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/s1/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:51Z",
    "sha256": "6c7bdeda022874a58d7e26a00913513df35b5aa97341ef6efe65d5adfe52d276",
    "stamped_utc": "2026-11-11T10:16:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/s2/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:53Z",
    "sha256": "af6c1a8d6bde305b2e168251db459eeddfe8ceb948dc9fd4cb5704a6c0257152",
    "stamped_utc": "2026-11-11T10:16:41Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/seismic/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:56Z",
    "sha256": "1f4f1ee8e459d293e27a3f9183a4c517c8451fdaafbcf5058eba4171950ace22",
    "stamped_utc": "2026-11-11T09:54:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/MANIFEST.json": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:24:58Z",
    "sha256": "1c444077b97b30d43cb363f776e5a5e3451585d296a2e1b007e5c5e47ec5bcba",
    "stamped_utc": "2026-11-11T09:59:14Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/_fetch_log.tsv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:00Z",
    "sha256": "12795da511bfe432d7c833a71798f64e7ea48073457e3c8e68d6044585d4dcb3",
    "stamped_utc": "2026-11-11T09:59:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_daily_2023.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:01Z",
    "sha256": "864eb02af51aefcf40842541f6fca561ce7af6404bf8df66976590ba505ad279",
    "stamped_utc": "2026-11-11T09:59:16Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_daily_2024.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:03Z",
    "sha256": "3fc50c376495622e37a0920514b6fbc73c89fc95038344f288cc2d8237b8fde2",
    "stamped_utc": "2026-11-11T09:59:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_daily_2025.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:04Z",
    "sha256": "e69e13f90ba25ffa5f123080bbeb157eaaea1d7b5909d1e2315f3d79511259cd",
    "stamped_utc": "2026-11-11T09:59:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_daily_2026.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:06Z",
    "sha256": "0f8aa5f1689828cc1d4bd8413920db3bf30bf6c161bfc6f2dbe91d3050adf81c",
    "stamped_utc": "2026-11-11T09:59:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:09Z",
    "sha256": "3fb1e5ea514a683da761aa3bbe65d5be4d8cfe29c018e0032672a980ebc09bf6",
    "stamped_utc": "2026-11-11T09:59:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:10Z",
    "sha256": "94bd0eb984d96e1ab08ee018017725dbad2cd43ff7751083f321e87ba6e76a5d",
    "stamped_utc": "2026-11-11T09:59:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:12Z",
    "sha256": "3f37a3061397696e364884c707e1e73646d3c6896ec69a1260947c4cdfb8e61b",
    "stamped_utc": "2026-11-11T09:59:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:14Z",
    "sha256": "691eb6e2a10004aad7c2640a6e72511694898e7b0cc9dade770c0735bc2aa98b",
    "stamped_utc": "2026-11-11T09:59:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:17Z",
    "sha256": "ae663d4ecf1f586e4895ff5997468d07bfc4285947c9d77b490950e333ca5294",
    "stamped_utc": "2026-11-11T09:59:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:19Z",
    "sha256": "edda190cdbeca2273f8b1c3b7b243351b51d9321d9811d5685f87683f2daa359",
    "stamped_utc": "2026-11-11T09:59:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:20Z",
    "sha256": "a0949468124e5a0d30db3c886d15eec5ff61bb6428d9a5384b845ba847dfa944",
    "stamped_utc": "2026-11-11T09:59:30Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:22Z",
    "sha256": "f0036d88574d1a54d254c34fd57907fc5a2c55ed2d4922a5ac9690c7f36e8f3d",
    "stamped_utc": "2026-11-11T09:59:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2023-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:24Z",
    "sha256": "ef80a297242f7c2025c6ef55a0a0b62f64181b601aaf0832094cce6f4db19e0a",
    "stamped_utc": "2026-11-11T09:59:33Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:27Z",
    "sha256": "0b2e173c44d84c25570ebd0fefba9c65c5d80de625356121983e31e45a36cc6d",
    "stamped_utc": "2026-11-11T09:59:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:28Z",
    "sha256": "f461fba9febd10e6edfe2a803ae1d254971a2f2057f7fa162569240a10453c89",
    "stamped_utc": "2026-11-11T09:59:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:31Z",
    "sha256": "fb830abf25d2132cf55fcd13d187aa95519dccff1bc106751620a87087612ed7",
    "stamped_utc": "2026-11-11T09:59:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:33Z",
    "sha256": "909c035201cc5d56a1b9f69aeaf4c0f0fd6077bb09be0a5234fa258d9094503d",
    "stamped_utc": "2026-11-11T09:59:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:35Z",
    "sha256": "2ef62b280943dc61954ceb25601dc6871670eeb78eebd2156b2e99f013bbd81d",
    "stamped_utc": "2026-11-11T09:59:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:37Z",
    "sha256": "2991278e8e3b52ae382d5d916acacfaee5fd02ad5e6909da69f06649d68a2f21",
    "stamped_utc": "2026-11-11T09:59:41Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:38Z",
    "sha256": "cb80ebb2e705f6db2f84de9b4c4892653c52bbebc9f0dee004e66a8a67171f6f",
    "stamped_utc": "2026-11-11T09:59:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:40Z",
    "sha256": "84379dc5fcb965330500bafef9059d227dfabeda8019a9c0dc0b7cb70160c69e",
    "stamped_utc": "2026-11-11T09:59:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:43Z",
    "sha256": "464c9a735a590304712c5c95cfa2e67cb004c91235443f4201bb6a67b7e28d10",
    "stamped_utc": "2026-11-11T09:59:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:44Z",
    "sha256": "d45e4d543f08da9fbfd875cf129f19ad89dc4d7330b14d448cc2f71ee6da478d",
    "stamped_utc": "2026-11-11T09:59:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:47Z",
    "sha256": "51d5a30835a8bee4eb525d4b25328b1398ca5de0298cb2df8022ab15105b2478",
    "stamped_utc": "2026-11-11T09:59:50Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2024-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:48Z",
    "sha256": "d3e95227867a199340921d09812ff547f546aea3ea6700dcbbc42ec9c18fee40",
    "stamped_utc": "2026-11-11T09:59:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:51Z",
    "sha256": "f957f3230f93484f06f4d28afc7127b8bfe23b01bffe58a79285f4efcb239e4f",
    "stamped_utc": "2026-11-11T09:59:52Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:53Z",
    "sha256": "d15e3c8596235bb3f61c628402caed01708f5d49fa12ec238d0b303227a176f2",
    "stamped_utc": "2026-11-11T09:59:54Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:54Z",
    "sha256": "10549720f605ab7fcb89692a943b9a56d77c50ba9cc1f1656d00230a289ae0ce",
    "stamped_utc": "2026-11-11T09:59:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:56Z",
    "sha256": "3de1dc9516bf5ad5bcae5f583e8a82faaa90ef989d0c35365f82acbe5eaea966",
    "stamped_utc": "2026-11-11T09:59:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:25:58Z",
    "sha256": "a88a5a9a75d3625a36995a7d440907d554cb8427781a11e9e96eb826d35e525e",
    "stamped_utc": "2026-11-11T09:59:58Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:00Z",
    "sha256": "59b31a619efed913bbdbf516e9a0c2ac20b6dd63319cff93bafb8ff1bfc3ad72",
    "stamped_utc": "2026-11-11T10:00:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:02Z",
    "sha256": "81b13afff0cba493e259822b556a73bdd5a0210172d17012d0fd2c26286eb033",
    "stamped_utc": "2026-11-11T10:00:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:03Z",
    "sha256": "f3ec2c7dfc4fb93ae3789978d5f865fedaaf05ee664ae72f4a780922baab954b",
    "stamped_utc": "2026-11-11T10:00:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:05Z",
    "sha256": "19b004a4b3e41d952251afabfd718af63ec6f791acfbfd822e265e9775d559d4",
    "stamped_utc": "2026-11-11T10:00:08Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:07Z",
    "sha256": "0feb175e609eb654f4a54c502299da51a8c7c0d675358d4e4c4e1d4d77b4f00b",
    "stamped_utc": "2026-11-11T10:00:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:09Z",
    "sha256": "45ede6f28e111a833cd0ff5cbc9766635275ddf341c35d38e8332e2be7a02915",
    "stamped_utc": "2026-11-11T10:00:12Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2025-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:12Z",
    "sha256": "f0cfb4d9306b6cd2b4c8593f7ea0ad78281f4bce4d698b772187e62298597c89",
    "stamped_utc": "2026-11-11T10:00:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:14Z",
    "sha256": "e35e7e255fa870d9e7d77896ec0e92aca3e55774f9702c8cec2e17a674ce8036",
    "stamped_utc": "2026-11-11T10:00:16Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:15Z",
    "sha256": "324038d3906880c750fe04be1e63ac26342ceb146171c706f9f50868c0e5beb5",
    "stamped_utc": "2026-11-11T10:00:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:18Z",
    "sha256": "93d7f30da557743759956047ef9a2b27776c3cd25c5d92c363cfa6c440dd9ee2",
    "stamped_utc": "2026-11-11T10:00:21Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:20Z",
    "sha256": "d7122c77305e0ce46f421e9964b512cc4bd9af8883d225b3a3caaa0311f7c78e",
    "stamped_utc": "2026-11-11T10:00:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:23Z",
    "sha256": "ca17eeb215aeecc3d72df5b36b977ec9dc3281de9f816434d1044e1986156b69",
    "stamped_utc": "2026-11-11T10:00:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:25Z",
    "sha256": "3c95175231ab6aac6976a0739d9286975ce564129a06e7aad2056177c9d79120",
    "stamped_utc": "2026-11-11T10:00:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:26Z",
    "sha256": "83bb91abbbd61b395eee5a09a965c282a60471a1d6986a05d53191f5491667a4",
    "stamped_utc": "2026-11-11T10:00:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:28Z",
    "sha256": "3d71eeea389f35c51cfcd02cfd8cb1236784f5489c3ecfd68d959c1ea7217701",
    "stamped_utc": "2026-11-11T10:00:30Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:30Z",
    "sha256": "df9a11f5167d5edd8ff9f73126c312cfb6f8e53777ee70bd72945ff4132abc60",
    "stamped_utc": "2026-11-11T10:00:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:33Z",
    "sha256": "e3b3911df33652903e5449d9d269dc92f0bb8caabd97f9a6edcb654b2c61e4aa",
    "stamped_utc": "2026-11-11T10:00:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_cs_hourly_2026-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:34Z",
    "sha256": "7683077dfafb2ad5ac14db15ccf7e1a8f60ab3f2e42366d07502c7e0a6d4d197",
    "stamped_utc": "2026-11-11T10:00:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2015.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:37Z",
    "sha256": "be48cce67751a16ca41e248d524d0f1d4257cf7f89f620e91c027825579c0d23",
    "stamped_utc": "2026-11-11T10:00:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2016.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:39Z",
    "sha256": "5ff19e52ccdbcc1e4afaac1af49cb169c2eed23fce3ae61a691a1fba6ebdc093",
    "stamped_utc": "2026-11-11T10:00:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2017.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:41Z",
    "sha256": "ca8b34236cd32fe88d9187816fd753ee76d28e3c92879daa5bc8e2c8573bb6a7",
    "stamped_utc": "2026-11-11T10:00:41Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2018.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:43Z",
    "sha256": "c66b7087c522f1734d357c84ed4db87b8076d4a5851914d56298264fc5b245a8",
    "stamped_utc": "2026-11-11T10:00:43Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2019.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:44Z",
    "sha256": "dc9dc71ec6614b9b7f535196076cb5be2d0c5ec5aec33171a0aa7dac03bbd235",
    "stamped_utc": "2026-11-11T10:00:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2020.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:46Z",
    "sha256": "bb4b77781603529f8ee1050671b56fefd54aa6f191d5cea03ca7e9d58979df92",
    "stamped_utc": "2026-11-11T10:00:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2021.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:49Z",
    "sha256": "da8325cc7fb957b0147c8031cbd59ac50ae825135ffcd6cb22720f6cf62003b2",
    "stamped_utc": "2026-11-11T10:00:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2022.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:50Z",
    "sha256": "7b5857c67b1f662ee1abadd07f65b8927e38b802e9f09783bf87e98a035ab9ef",
    "stamped_utc": "2026-11-11T10:00:50Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2023.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:53Z",
    "sha256": "46467cdf6f00f238a8518740619478f3e0a2f3632b2e6b1e2ccbb8498b5878b1",
    "stamped_utc": "2026-11-11T10:00:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2024.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:55Z",
    "sha256": "0b759e5942465a247af88b622e1acb1788c235db84d49b4618bbd28f06964171",
    "stamped_utc": "2026-11-11T10:00:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2025.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:58Z",
    "sha256": "c5941270360b131ee6cb0b9890bb980ef29ff8f09ad2599e209e66a9cf0a2e31",
    "stamped_utc": "2026-11-11T10:00:54Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_daily_2026.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:26:59Z",
    "sha256": "299fe3a8ed5f503015dd6dc8fc521775b3db8a38289874cf2022c319495cf8b4",
    "stamped_utc": "2026-11-11T10:00:56Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:01Z",
    "sha256": "b1b34b658eac6ff044c895fabbef3af47b55ae121f664908596ae88dcaac1fbe",
    "stamped_utc": "2026-11-11T10:00:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:03Z",
    "sha256": "2797c9021728e15daba5fca04c1406e9fcc7b3dd49697ef526c216a88dbf239a",
    "stamped_utc": "2026-11-11T10:00:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:04Z",
    "sha256": "93ed9ff8fd9df67988d5c509de28d92eb7a24824a45c0a068e3b7be0930bef66",
    "stamped_utc": "2026-11-11T10:01:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:06Z",
    "sha256": "9004a2cc8870e71de4a63d2dd3eabbe549369f7a8bcdcbcfb4191d4860986286",
    "stamped_utc": "2026-11-11T10:01:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:08Z",
    "sha256": "62199126c99c2afa6899114c35f4493ed03409207001b209ba8cbe08bef377a0",
    "stamped_utc": "2026-11-11T10:01:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:10Z",
    "sha256": "ebfffa1c7e0ca8a601c054f81930953f12da48b3c0a541e8200dccf0897a475e",
    "stamped_utc": "2026-11-11T10:01:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:12Z",
    "sha256": "2c414158208d689e3a2ecfac8d0a611c1bfe0dc32a32699226c492da4dcd54d6",
    "stamped_utc": "2026-11-11T10:01:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:14Z",
    "sha256": "4bb47290ab327a883f1007bce1d82255529754d7ace009311ffcf92552e89702",
    "stamped_utc": "2026-11-11T10:01:09Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2023-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:17Z",
    "sha256": "b690825637bb987cd6d82e9403e2649e40a71c0f632c743f44152c21b5bbfeb9",
    "stamped_utc": "2026-11-11T10:01:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:18Z",
    "sha256": "44b75e4f7b3b599e6f54b3169fae5089849e6f616bdf976b4bde593600a45a19",
    "stamped_utc": "2026-11-11T10:01:12Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:21Z",
    "sha256": "2d0da24036191727dbceeeadf56483dc3aa6901808964bfbbe2e188e4cc92302",
    "stamped_utc": "2026-11-11T10:01:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:24Z",
    "sha256": "d96048cf29240baba15cdfed24c87a43cd5dc0bf6ed6746ca922c396e46e5369",
    "stamped_utc": "2026-11-11T10:01:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:26Z",
    "sha256": "03484fa5c093fb1bb927af6472e69de17ec799c66c80c709416e70d754d0999d",
    "stamped_utc": "2026-11-11T10:01:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:28Z",
    "sha256": "bae9481fc4643137cc3bbc1fb73e98f8fad8ec7d3198f475e1d0a28c7a5c833d",
    "stamped_utc": "2026-11-11T10:01:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:31Z",
    "sha256": "b63c7ff0f76c59e991826d61a247a5ae7bec8247e349763b145f5bcfc380f51a",
    "stamped_utc": "2026-11-11T10:01:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:34Z",
    "sha256": "c3ea817bb2b4e636abc4c78aaf860a90d09a5701d0cdab601354d4b07c668468",
    "stamped_utc": "2026-11-11T10:01:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:36Z",
    "sha256": "3830fcbddaa75f8979c27a8af4ea2af39bff4fb8e3d575976b2413cf9444bbbb",
    "stamped_utc": "2026-11-11T10:01:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:39Z",
    "sha256": "ad7caacc3e6c83d582089ff98d2b0b654becf5b6c5d088407a0b17369d9f539a",
    "stamped_utc": "2026-11-11T10:01:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:41Z",
    "sha256": "c57cca740bff841d45fa05fb0f7ad5bbcce77a506ad309d58f5f96ce0e1b1d42",
    "stamped_utc": "2026-11-11T10:01:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:43Z",
    "sha256": "9c2b41ad587e37cf02849bea55046f3a70c9d81e413bf125fcaff03b9eb6bc63",
    "stamped_utc": "2026-11-11T10:01:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2024-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:45Z",
    "sha256": "ec043170a1db2596e35d61df8f4f0cd3e22f241f53e28dc1510d46cc12b7c0ab",
    "stamped_utc": "2026-11-11T10:01:29Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:47Z",
    "sha256": "35fb4c84c3f99a9057fe9b8384ca9829b3c5c64b5c742f15a111b696ebe869da",
    "stamped_utc": "2026-11-11T10:01:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:50Z",
    "sha256": "c3111a8850de08bc6c317613154b924c4df765b213640651fc34c403a8600c3c",
    "stamped_utc": "2026-11-11T10:01:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:52Z",
    "sha256": "ed9390fa1fbf430c061168767022842b648e85609d5cb086008eb39fde01f169",
    "stamped_utc": "2026-11-11T10:01:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:54Z",
    "sha256": "b64783c3421599a4657613e94cb51e413139f98aa3ca0dfdcb99ec231b222996",
    "stamped_utc": "2026-11-11T10:01:35Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:57Z",
    "sha256": "bc553b7dde52ac52661549a58b7e5dc045fe95c5aab96af2876199937ec36d3f",
    "stamped_utc": "2026-11-11T10:01:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:27:58Z",
    "sha256": "527ac0548674b75e2d82623a69183337fff313ac14d89312d39d117fc581b267",
    "stamped_utc": "2026-11-11T10:01:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:00Z",
    "sha256": "106d3b69cda0f846c7874bd5c240c970be7fed88539b5ef873fc0b47747b17ee",
    "stamped_utc": "2026-11-11T10:01:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:02Z",
    "sha256": "52b0095df9caa97e713273bddef067eb2af2cb2e47f9808734fef31efdba7933",
    "stamped_utc": "2026-11-11T10:01:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:03Z",
    "sha256": "c744912c13bb2f7b7f249af782f04215d892326d2f971bc716776b8b0d77acaf",
    "stamped_utc": "2026-11-11T10:01:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:05Z",
    "sha256": "114fdc5a3dbef03c8e05f490489f7f29db93398768029bf4150d24eeb34501b3",
    "stamped_utc": "2026-11-11T10:01:45Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:08Z",
    "sha256": "11702d4e0d673a5e63b4533fe6473f4ee3ba2de73b82cc6273d1896f0f077237",
    "stamped_utc": "2026-11-11T10:01:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2025-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:09Z",
    "sha256": "21ce9779f00912641bce740c66f2b82e8acc7cd3832f4880262386eeae422e24",
    "stamped_utc": "2026-11-11T10:01:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:12Z",
    "sha256": "28d95e1bed20d32146bb5dd72ab34a73719adb7fffdd42659a84de577c0dd27e",
    "stamped_utc": "2026-11-11T10:01:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:15Z",
    "sha256": "cd61027c4b1ef15263b4f0e62fd2d3b78cd6409cedbf95bee68b2122a43ac078",
    "stamped_utc": "2026-11-11T10:01:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:16Z",
    "sha256": "dc321f734755231a666da7eb72a0cc0a1be40e8cfecdf096e9cacdc3d4c81569",
    "stamped_utc": "2026-11-11T10:01:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:19Z",
    "sha256": "cd6b3fc4217ffee99dc975285a81824ef77056aff3b6b1d470274f8a2efe4db4",
    "stamped_utc": "2026-11-11T10:01:56Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:21Z",
    "sha256": "2c34c6f27c6710f60cca7cca1244585fc3521717f93ce7cc4741ac3359418c97",
    "stamped_utc": "2026-11-11T10:01:58Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:23Z",
    "sha256": "a5f2ddcb36bd4ab8cc8062197fc5e58d9ac91b556e10d96e8988cf60f3c5c672",
    "stamped_utc": "2026-11-11T10:01:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:26Z",
    "sha256": "2cfafd763261d0e8cbb1b1ceb0a1d6e6033cfcc71fbf1a83fd5118485172d05e",
    "stamped_utc": "2026-11-11T10:02:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:28Z",
    "sha256": "50d470ccd766898bab15d5340944f9f21de5dc948d22c9be434e447aad0e1885",
    "stamped_utc": "2026-11-11T10:02:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:29Z",
    "sha256": "795ef79c2164865ec298154d6c28b75c17a3d9129ed09ab4960aa17ac3b1e2d5",
    "stamped_utc": "2026-11-11T10:02:04Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:31Z",
    "sha256": "25021a75221fa837061788427373bf6d509b06d46133850b056dae3e9fdc57f0",
    "stamped_utc": "2026-11-11T10:02:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_intl_hourly_2026-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:33Z",
    "sha256": "c0700bcbccd64dce26d7bf6ae2e03cc0be7ea3b8e7c077e8a5d5bb3a048af87f",
    "stamped_utc": "2026-11-11T10:02:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_daily_2023.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:36Z",
    "sha256": "c9d35fcf4e93c17c745e5a027e9a860807b35768d9e3ad306b077216f6a12fcc",
    "stamped_utc": "2026-11-11T10:02:08Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_daily_2024.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:38Z",
    "sha256": "24d1ac0429f54dbf7435a36faf9287df0074f8b2c674fc2b2970f20bca86f53f",
    "stamped_utc": "2026-11-11T10:02:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_daily_2025.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:40Z",
    "sha256": "a9c41acf3ba3aebc762559787b5ca92e8f16f75985c6c05df79c41b99a240f7d",
    "stamped_utc": "2026-11-11T10:02:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_daily_2026.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:43Z",
    "sha256": "313052ff86387172dcd51612495b112dc2d340dd8a1e4af1e3975f4f33a854bb",
    "stamped_utc": "2026-11-11T10:02:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:45Z",
    "sha256": "9feb138e0cf35a7507033799ffe8be720ae8712adcb4cff8143792bd33010d69",
    "stamped_utc": "2026-11-11T10:02:14Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:48Z",
    "sha256": "626d0280175b71bbba5d3ff51cc97783d470137ce35861dc193b01a88c1aa1b7",
    "stamped_utc": "2026-11-11T10:02:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:49Z",
    "sha256": "57dd9394cd3f32110370a39ae1f12a5de9d64f9795e3632d70fae0eb7b61856e",
    "stamped_utc": "2026-11-11T10:02:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:52Z",
    "sha256": "b204c2aab8e87feeb7559525f9ea6cceeae6cd2b0cabc2b4166fb8b1dcce229b",
    "stamped_utc": "2026-11-11T10:02:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:54Z",
    "sha256": "8d7d58fa32e246d189aa7711a594bb7cacad46d1aed72973d2b8443ee2f08fce",
    "stamped_utc": "2026-11-11T10:02:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:56Z",
    "sha256": "bf4d36ae3d4a8707f47ff8727e4d0cff65db7fd468a7203de724c2bb8acb5194",
    "stamped_utc": "2026-11-11T10:02:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:57Z",
    "sha256": "2c6091d6c91e434ac1ef9956a319b8acf048928d60404ef144f1af66e9ccd524",
    "stamped_utc": "2026-11-11T10:02:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:28:59Z",
    "sha256": "fcd1a33503bb4ae1d9d3a6107b4b59adc8a79fbc92b6a716802126bf6590f2bb",
    "stamped_utc": "2026-11-11T10:02:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2023-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:01Z",
    "sha256": "1b656d9574fac6f40829967bfb44d18dc8f92ae98141c430524bf97f853a34ed",
    "stamped_utc": "2026-11-11T10:02:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:03Z",
    "sha256": "aab596c07b98b505620ab214cc13e1f595b8744aa3e2c44c781218a816b78a86",
    "stamped_utc": "2026-11-11T10:02:29Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:05Z",
    "sha256": "695f4f9c1745bef8d77f8a730753214b48bdcbab7673b7e79ee3b744a1e3bc84",
    "stamped_utc": "2026-11-11T10:02:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:07Z",
    "sha256": "823d321b2863ffae5b1130db77a3c0d1a2490793a9e83bbbf952ca3ec6aacd89",
    "stamped_utc": "2026-11-11T10:02:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:09Z",
    "sha256": "6e05080047dd95381882d9463deda29e1bb4a2f3646626b8ec60a53c244a7c54",
    "stamped_utc": "2026-11-11T10:02:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:11Z",
    "sha256": "3f6490e1b288e74358db5204aa108e0377149fc4c576d3db87a6012f6bae77ff",
    "stamped_utc": "2026-11-11T10:02:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:12Z",
    "sha256": "1701520997be4c5e10b838fa2e8fb51f33adf6c6c87410b8bf51b2ff78a4bdbe",
    "stamped_utc": "2026-11-11T10:02:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:14Z",
    "sha256": "6dd655b7a813e22444d4b25af3cc26b906fb434be39181a935847ae60901162a",
    "stamped_utc": "2026-11-11T10:02:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:16Z",
    "sha256": "b7b5464a10733a39e4ea31927179e760e4a3c93fe6ef4b13c1a09c33fbd24053",
    "stamped_utc": "2026-11-11T10:02:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:19Z",
    "sha256": "f014c4bcaf9d7dbab03fafbf95cd89fda6f04934c98a7fb9518c624d06290cd8",
    "stamped_utc": "2026-11-11T10:02:43Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:20Z",
    "sha256": "e8f917733221fe206c7267883ce51b907417ddd71999cff79cc17be182c9cd57",
    "stamped_utc": "2026-11-11T10:02:45Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:23Z",
    "sha256": "59cb0b38c53ee90c57052c6e848650755c99883f0e4f669ffd2d66692622f97d",
    "stamped_utc": "2026-11-11T10:02:46Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2024-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:25Z",
    "sha256": "709ff70cb1853369984a9880a96bb668c1d73e65da952a7b326b413599981728",
    "stamped_utc": "2026-11-11T10:02:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:27Z",
    "sha256": "3119a47b2ce1ce58f4fcf8df5975dbda20ebdac3e745d8848a3deba8c2534e01",
    "stamped_utc": "2026-11-11T10:02:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:30Z",
    "sha256": "89c8f1ad971653c3e92127fbde6342f3614ea60a625092f91897239751957248",
    "stamped_utc": "2026-11-11T10:02:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:33Z",
    "sha256": "8e115e5f7f0aedf30563c03818f43e0c12a9fd01281d879dd2ec23917d24e367",
    "stamped_utc": "2026-11-11T10:02:52Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:34Z",
    "sha256": "0a9fd73c4b58ff8d96ae16e5187b2741305d905451b537bb6f6fb9b6fd7f9e1f",
    "stamped_utc": "2026-11-11T10:02:54Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:37Z",
    "sha256": "2e59003af8211b2283dfb58b6c9970ed168f1be0aee58495266bbb92a78d27c3",
    "stamped_utc": "2026-11-11T10:02:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:40Z",
    "sha256": "59197d66b7a1e2113b3729813852beb18f3b11ba52bf95fefe71a888cd522ffc",
    "stamped_utc": "2026-11-11T10:02:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:41Z",
    "sha256": "ac293ec196cafdca4bf71b8219c4d64dd372dd6276f1192a3de7e0eab72320ca",
    "stamped_utc": "2026-11-11T10:02:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:43Z",
    "sha256": "97f2bff7ef388589532f73b90bfd3c6640b37f34d7aee9cd8e306de0e5c33464",
    "stamped_utc": "2026-11-11T10:03:01Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:44Z",
    "sha256": "684c21673ced5baac1e7e11b1fae5e5d5eeab670daa7f6921f6edd1a3f32f5a4",
    "stamped_utc": "2026-11-11T10:03:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:46Z",
    "sha256": "e6f9b06210b87bfcc705ed0a34d2f820f71ff426b68e2c1089fe3e1c286c18cd",
    "stamped_utc": "2026-11-11T10:03:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:47Z",
    "sha256": "5062f71b2efb18ac8dc5b53ba6a107d295b0a21cdf340fb8394e236b3bf510fe",
    "stamped_utc": "2026-11-11T10:03:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2025-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:49Z",
    "sha256": "2131fc1e2b760f3e5359caa6871f2534f0265d4fd47a095b01ce7673f818a6cd",
    "stamped_utc": "2026-11-11T10:03:08Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:50Z",
    "sha256": "3dbb614f17a5429d59f105aaf5c4a15c5613926771af70c6587bb7259ddc1a0e",
    "stamped_utc": "2026-11-11T10:03:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:52Z",
    "sha256": "01b304e8bc2e72ee6bda398cb85d11e7318f7e4c11d6ca183b31718734a76de4",
    "stamped_utc": "2026-11-11T10:03:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:55Z",
    "sha256": "ee94f24b7280d97b465be0ffca8b07026195ca77734d94d3b6cc792fcacd19b0",
    "stamped_utc": "2026-11-11T10:03:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:56Z",
    "sha256": "8d6d62a5f48fd531d22d059fb6d4d6516b2ec80df3ee02e8135ef0b7434d7237",
    "stamped_utc": "2026-11-11T10:03:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:29:58Z",
    "sha256": "3db25e6abe4757ec1e0e549006f538db2e0282dba31d168be54f2c22af94b7a2",
    "stamped_utc": "2026-11-11T10:03:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:00Z",
    "sha256": "104f3584f76df101c65bc1736174c5e657565f2298ed3d4fafd19df989e9af32",
    "stamped_utc": "2026-11-11T10:03:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:02Z",
    "sha256": "5d2ada5a0d9adf7b7d516ee5d9183c0da316847be67c5c5c06324f2c6fa50090",
    "stamped_utc": "2026-11-11T10:03:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:05Z",
    "sha256": "2654bd6d3a3c0d3a6dafe908bed135ec3549c84d3ec9c786a593ee31f4921291",
    "stamped_utc": "2026-11-11T10:03:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:07Z",
    "sha256": "d3e65c16ffcbf1afd21c5d49b95629058e975b8841b4bef91525e2b8ca0356ff",
    "stamped_utc": "2026-11-11T10:03:24Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:10Z",
    "sha256": "0c1cbdc4018179bb4d5fbae69d69ba504a8db42aeb65e45014dcd66b1b54ef96",
    "stamped_utc": "2026-11-11T10:03:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_calgary_springbank_a_hourly_2026-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:12Z",
    "sha256": "88077387e0068d998dcc58d4443c02e0f9b2f82a07d5bee1fc1ec01bfbac74fa",
    "stamped_utc": "2026-11-11T10:03:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_daily_2023.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:15Z",
    "sha256": "ccdb83ef96f47ae46d223cdfc1aa1588eda5fe62da3a5edefa46135de065aedb",
    "stamped_utc": "2026-11-11T10:03:30Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_daily_2024.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:17Z",
    "sha256": "42ef4d6a4f740a231ca42d6bb8ecad944e0ede4dd7e008fa766e85aa409ae4f7",
    "stamped_utc": "2026-11-11T10:03:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_daily_2025.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:18Z",
    "sha256": "5eb175789b3207401fa8b2e7cdf1d1bcccbd0bd66bd494a4044c248b21eb5d9e",
    "stamped_utc": "2026-11-11T10:03:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_daily_2026.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:21Z",
    "sha256": "1e18df4d886c7f55383f151027e8b29991a52f894dd3c6c9fa79ce5608bff2fa",
    "stamped_utc": "2026-11-11T10:03:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:23Z",
    "sha256": "364697d36247cfc32dcb5eb5a7cc5dfcca86780728e1d92104f8fe68d1f3e22a",
    "stamped_utc": "2026-11-11T10:03:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:26Z",
    "sha256": "b78e83529fda80fdd0cfb7046cabf4ee4682ab9f87d7547af872eddf7ca0f696",
    "stamped_utc": "2026-11-11T10:03:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:27Z",
    "sha256": "67f9c7195f2d2f0e8b1714aa0c051ee994c5f1b6bc0868279472c178c5b4b20a",
    "stamped_utc": "2026-11-11T10:03:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:29Z",
    "sha256": "4daee239a35cb4d64c8a6689b40a5e702b20b20051d563ebb7e950dc6c0908aa",
    "stamped_utc": "2026-11-11T10:03:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:32Z",
    "sha256": "825c3a5ee3beeeb8acb8127de17688fb3de4c71ae1b75f23d593c6e176b25f93",
    "stamped_utc": "2026-11-11T10:03:45Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:34Z",
    "sha256": "60049ddd953b30239e857b0c722676a4cf4b06a0fd410f746ef75472de6b4310",
    "stamped_utc": "2026-11-11T10:03:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:36Z",
    "sha256": "04f10b16e45a9ae05e576508bc363d192b1d2fecacbb70e0aa797f420944eb80",
    "stamped_utc": "2026-11-11T10:03:49Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:39Z",
    "sha256": "e206f756eb0b03b6629a65b79c4e0e694b86e0cd209f51df8b263d5fd86424ad",
    "stamped_utc": "2026-11-11T10:03:51Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2023-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:41Z",
    "sha256": "5b954eb0eb90fc0453c1c05cbdd9586b4cbb1b33040d2c09dc77af916600c095",
    "stamped_utc": "2026-11-11T10:03:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:43Z",
    "sha256": "e2aa97b567218fc8286310a760f3db2cf4c5550cd930e075efb8bd0625560673",
    "stamped_utc": "2026-11-11T10:03:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:45Z",
    "sha256": "d61ef49dad72e80dd1f095ba479275b189faf4954b1668d8aacb828344c8dc48",
    "stamped_utc": "2026-11-11T10:03:56Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:47Z",
    "sha256": "405a656cedf4136fa72c1abc5a0d21f74cff1f7cce9433f32a0b8860c92b0827",
    "stamped_utc": "2026-11-11T10:03:58Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:49Z",
    "sha256": "4e9f1da6d0ed7037e5e170b43c3ab83536cea6742d8b39c6ed2c4299dd6c7f2b",
    "stamped_utc": "2026-11-11T10:03:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:51Z",
    "sha256": "c678b27ba0e69748656fa5de145331e2fb5238b0c865a2e44e097b76125be1f6",
    "stamped_utc": "2026-11-11T10:04:01Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:53Z",
    "sha256": "9bae2dd7fc2f825b76f37d97aad8421886579666853803dc6e29b14ce2d32a70",
    "stamped_utc": "2026-11-11T10:04:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:54Z",
    "sha256": "3c7cdfefed701acac8f414ae3abd7e67f5f14f958f2a52df78df46f5d72cf8d4",
    "stamped_utc": "2026-11-11T10:04:04Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:57Z",
    "sha256": "4c754a0ba16c667a809c4df851d097680bde9985f2f7611763a474ff7a43f503",
    "stamped_utc": "2026-11-11T10:04:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:30:59Z",
    "sha256": "915617435f1a408710a69a986620ebb1b22c19e2b147b84d5715fef04655bdf7",
    "stamped_utc": "2026-11-11T10:04:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:01Z",
    "sha256": "d3f68098663cfdc26c4ecd008e6998d85bef5111715d13360cf34e92eb40338f",
    "stamped_utc": "2026-11-11T10:04:09Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:02Z",
    "sha256": "264b28fdc2a49ec1b968527e6be20a107812d28867d17f623cc86962e32f94ad",
    "stamped_utc": "2026-11-11T10:04:10Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2024-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:05Z",
    "sha256": "53a3c75703bf62c39ed220a432013c9f08fac6e1d02e47a8c59b4981d8d8546f",
    "stamped_utc": "2026-11-11T10:04:12Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:07Z",
    "sha256": "1e2983d046e87028ac7ce37b805a7ff467c76cdbf1f58a70ab47ccb553a5de26",
    "stamped_utc": "2026-11-11T10:04:13Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:08Z",
    "sha256": "cae0d430a7f08443208097c9ffd11b10676f024c6eb3686bc5aeb176d1441d17",
    "stamped_utc": "2026-11-11T10:04:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:10Z",
    "sha256": "4477e0bdd1148bb3105ed399d81af054568436340b97f28e3ad22d0995b6fada",
    "stamped_utc": "2026-11-11T10:04:16Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:13Z",
    "sha256": "a6415e3a2a97bb167ebebdcefe4b4159fd48681153bd7796d13f172bb0745ef3",
    "stamped_utc": "2026-11-11T10:04:18Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:15Z",
    "sha256": "71936b960b56e2a1900300c1b6ebc15b217c9132e93d5ac8f4d2c71f1af7e151",
    "stamped_utc": "2026-11-11T10:04:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:17Z",
    "sha256": "38ffdd0088d4b4df4ce28cda8f2d5ef54e6879a8f73a8b9009c3b8cea73a505c",
    "stamped_utc": "2026-11-11T10:04:21Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:18Z",
    "sha256": "7b451d09a2052548c036ea565f9bed06e2798f8bf5bd193c3ab3c41cedaca469",
    "stamped_utc": "2026-11-11T10:04:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:21Z",
    "sha256": "1d1cf5d7ae182c90fa94e10620cfb01996c45692b17bcc6d142a094839f43300",
    "stamped_utc": "2026-11-11T10:04:24Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:24Z",
    "sha256": "2367021c27e9b984e897c249ea2fd6f978afe0abce458f2126b8a143ab82c7c1",
    "stamped_utc": "2026-11-11T10:04:26Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:26Z",
    "sha256": "dbb1122b8415c918db1a881387db081032fc8d059644c6c1e563877b3ec6e35a",
    "stamped_utc": "2026-11-11T10:04:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:28Z",
    "sha256": "d8a82e8072e40b5aa2265d1ddc3f02eadc8e3351f93074e7718b7dc043ba007d",
    "stamped_utc": "2026-11-11T10:04:28Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2025-12.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:31Z",
    "sha256": "c180dde21aa1200520cfef833e3c16383ced5c5fc1edfab1d92fba9f24958558",
    "stamped_utc": "2026-11-11T10:04:30Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-01.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:33Z",
    "sha256": "277de55808b0510373cf5bf7c563f0341a43ddbd8d0902f8331f758abb33efef",
    "stamped_utc": "2026-11-11T10:04:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-02.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:34Z",
    "sha256": "f692e5fac20c38685b00fc0d644c054930557058cb2810a8a3b0c1bbef3e6107",
    "stamped_utc": "2026-11-11T10:04:32Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-03.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:37Z",
    "sha256": "14054af4395164030f1ae19f116bc4643a4267e183eb68c6f0337cd575569027",
    "stamped_utc": "2026-11-11T10:04:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-04.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:39Z",
    "sha256": "118a88719b438f994c2aae12c295f1fbb5a52ec6f0ede071431b9490d90d945d",
    "stamped_utc": "2026-11-11T10:04:35Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-05.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:41Z",
    "sha256": "d01b27337e6b5f35dddfc32731e8bba5956f4626608512c453929cbb4a3381b2",
    "stamped_utc": "2026-11-11T10:04:37Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-06.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:43Z",
    "sha256": "8befc8a0227ab433b68f5b421f517bc51f4bc0f0e8593e9db7e430ebbf421c02",
    "stamped_utc": "2026-11-11T10:04:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-07.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:44Z",
    "sha256": "c9dce1343008ecb5c2321c2feca06667e11c11248e042dd06c7b25f9944ebf89",
    "stamped_utc": "2026-11-11T10:04:39Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-08.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:46Z",
    "sha256": "76d0f35c49c73837bc43b246ff172e50d563626e83cd164d3dff0f577d5767dc",
    "stamped_utc": "2026-11-11T10:04:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-09.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:47Z",
    "sha256": "b23321a236c2b60515ae25dd86577e6aa3a22b19cb2dcb50fee7aaee0b8bd6fb",
    "stamped_utc": "2026-11-11T10:04:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-10.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:49Z",
    "sha256": "d3d3daf380d556757293685bd70fdfaff6adcc515da4ecc8006c8f792f1cc008",
    "stamped_utc": "2026-11-11T10:04:43Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/workspace-2026-11-07/weather/eccc_cop_upper_hourly_2026-11.csv": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975429,
+   "confirmed_seen_utc": "2026-11-11T14:31:51Z",
    "sha256": "2139d58db057f8c52295d3cf3351bdaf48a33608af20f3ed219e3bacd3525a1e",
    "stamped_utc": "2026-11-11T10:04:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "site/project.yaml": {
    "bitcoin_block": 975030,

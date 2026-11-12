@@ -15,16 +15,18 @@
    "status": "confirmed"
   },
   "README.md": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:45Z",
    "sha256": "48d85baf985af10a3ba5e2793569cb0f81a76e8af2fe51db9b4dec6819a82da6",
    "stamped_utc": "2026-11-12T00:25:44Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:47Z",
    "sha256": "7757a142dd82fbfd4c95a28800a0e77caae07baff7bfd59c92c5b3fa4df20eda",
    "stamped_utc": "2026-11-12T00:26:42Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
    "bitcoin_block": 975429,
@@ -62,160 +64,186 @@
    "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0023Z-daily-demand-nov-10.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:50Z",
    "sha256": "b1f085ca21f77ef053d7afee636877f66f64e4d66b96b01d13e4aaf5f83e7152",
    "stamped_utc": "2026-11-12T00:25:45Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-10.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:53Z",
    "sha256": "5e9ec2854d4d18ae9be9b245ae85ffc58bb08627ce7586c65c2dd7d02562db3d",
    "stamped_utc": "2026-11-12T00:25:47Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-11.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:56Z",
    "sha256": "b20a7a66b8f799589e28d8f2e823fee47f3f5e489bce0bf985cbbe62aa8a3292",
    "stamped_utc": "2026-11-12T00:25:48Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-12.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:07:59Z",
    "sha256": "ed0fe668109095faae033748ce231b897367f1cb2d719794900cf3e5608c6e0c",
    "stamped_utc": "2026-11-12T00:25:50Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-13.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:02Z",
    "sha256": "67b5b0b00868ff31bf57846b5e7a77a2ced63b376f133ea299b94c79dcb7961a",
    "stamped_utc": "2026-11-12T00:25:53Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-14.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:06Z",
    "sha256": "0249f41f76b7e902d22cf118bb1423d952f483a48fca6e6ee9b9628734aecb67",
    "stamped_utc": "2026-11-12T00:25:55Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-15.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:09Z",
    "sha256": "5c4fb855cf083be306579062e46dd20245ea8b3d2b1e6d163228dcd431c8f661",
    "stamped_utc": "2026-11-12T00:25:57Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-16.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:12Z",
    "sha256": "fabb3e21558c5f5ff02d1fa0fe91cece83db0a4a838d59b0bbd6c48641654a7e",
    "stamped_utc": "2026-11-12T00:25:59Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-17.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:15Z",
    "sha256": "8b4440e06a124f696faadbfb77245102648e354a57e78827a8963ec1515fe0ed",
    "stamped_utc": "2026-11-12T00:26:01Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-18.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:18Z",
    "sha256": "01f88a819a9af2033f93440cd0351f7e26bca5e9d00f57b28a30c8ab9e1cfc3b",
    "stamped_utc": "2026-11-12T00:26:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-19.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:22Z",
    "sha256": "87e62ae44109cde6135d5215b86eb84ebfabffdfcca3f1a857b03882e580cd43",
    "stamped_utc": "2026-11-12T00:26:05Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-20.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:25Z",
    "sha256": "a6a5a6cb62afe65d9c6c1ab9a51d562a59bb810d339edb519029727134632b0f",
    "stamped_utc": "2026-11-12T00:26:07Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-21.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:28Z",
    "sha256": "51a708caac8761d82b3080feb279b318ef78568add31ddf3c8b3806cef3a236d",
    "stamped_utc": "2026-11-12T00:26:09Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-22.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:31Z",
    "sha256": "a255d7ccdfe3b2a875773560f18c3279b9786ba545cde5268f1d8ece7d422f0d",
    "stamped_utc": "2026-11-12T00:26:11Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-24.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:34Z",
    "sha256": "3cf357fb0c213ef3cfe1f50dba4d0510eb9fa927b1467979fe2744b25b95618e",
    "stamped_utc": "2026-11-12T00:26:15Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-25.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:38Z",
    "sha256": "d6c6b3f282290a07751cbb2894eb90613ec1a1a1d98a8bbf518efd80ec2e085f",
    "stamped_utc": "2026-11-12T00:26:17Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-26.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:41Z",
    "sha256": "dd58bb0f9f0401d07af6b1f85052fc2be2285a86213c529d9291d26c6061a0c4",
    "stamped_utc": "2026-11-12T00:26:19Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-27.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:44Z",
    "sha256": "26b3a02053afccd0c1514576b12aacf3f957a349dab226edc6b9cbe28b3769b1",
    "stamped_utc": "2026-11-12T00:26:20Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-28.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:47Z",
    "sha256": "5dd927eb5e40a102bced8c67a4dd4dae267c4b28e4cd86575ad725a16fa7c6fc",
    "stamped_utc": "2026-11-12T00:26:22Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-29.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:50Z",
    "sha256": "b451ce4a327029109960b14d0d6c835b06af6457fec4aac3536796c8d2f6331c",
    "stamped_utc": "2026-11-12T00:26:23Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-30.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:54Z",
    "sha256": "c6611e79a1af2be7ddfe47919f289f2e4370e80df6b13891ff7bc30305809e14",
    "stamped_utc": "2026-11-12T00:26:25Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-31.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:08:57Z",
    "sha256": "497d81e0d9a1d858b5dd8e02f4efb23c1649c173c77c6d0fcbb66837c0303988",
    "stamped_utc": "2026-11-12T00:26:27Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-mar-9.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:00Z",
    "sha256": "cb358a9f247bfbd424d959b089f7d9b39b57415ca9217a64d630168b5ce4bbdb",
    "stamped_utc": "2026-11-12T00:26:29Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-nov-4.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:03Z",
    "sha256": "8a25ef590db1947378ce4bd8dadfd719ae934881b2e3e9df787da4642fcca2cc",
    "stamped_utc": "2026-11-12T00:26:31Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-nov-5.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:06Z",
    "sha256": "e6374a60f9aa3d68d730f338de5253eabc109df09466b25eed7257ddc2d553d0",
    "stamped_utc": "2026-11-12T00:26:33Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-12T0024Z-daily-demand-nov-6.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:09Z",
    "sha256": "a52bdfad1d0b4dae15d2c80dc2a852d80fd0bb90e0a6f92cde6e13a2ab933054",
    "stamped_utc": "2026-11-12T00:26:34Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
@@ -407,10 +435,11 @@
    "status": "confirmed"
   },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:12Z",
    "sha256": "f272b94282f40d82325ac46e93293bd956960ffbf2ea5d5cdd393231bd0752cd",
    "stamped_utc": "2026-11-12T00:26:36Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf": {
    "bitcoin_block": 975429,
@@ -2597,10 +2626,11 @@
    "status": "confirmed"
   },
   "tools/fetch_demand.py": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:15Z",
    "sha256": "a2977702410586afd19e92e7083b38062d49a448a0e364cc9cd9c74815c78884",
    "stamped_utc": "2026-11-12T00:26:38Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "tools/stamp.py": {
    "bitcoin_block": 974918,
@@ -2610,10 +2640,11 @@
    "status": "confirmed"
   },
   "trigger/demand-backfill.txt": {
-   "bitcoin_block": null,
+   "bitcoin_block": 975499,
+   "confirmed_seen_utc": "2026-11-12T07:09:18Z",
    "sha256": "ea847e74c675b1336aecfbc8620db80770831073ff0c40bb5c86f4fb263bdb10",
    "stamped_utc": "2026-11-12T00:26:40Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "trigger/fetch.tsv": {
    "bitcoin_block": 975030,

@@ -1,0 +1,31 @@
+# Daily demand charts to collect by name (see tools/fetch_demand.py). One file name or URL per line.
+# 11 Nov 2026: a probe of every month and day found these. March 2026 is the earlier shutdown; no chart exists for 23 March.
+daily-demand-mar-9.jpg
+daily-demand-mar-10.jpg
+daily-demand-mar-11.jpg
+daily-demand-mar-12.jpg
+daily-demand-mar-13.jpg
+daily-demand-mar-14.jpg
+daily-demand-mar-15.jpg
+daily-demand-mar-16.jpg
+daily-demand-mar-17.jpg
+daily-demand-mar-18.jpg
+daily-demand-mar-19.jpg
+daily-demand-mar-20.jpg
+daily-demand-mar-21.jpg
+daily-demand-mar-22.jpg
+daily-demand-mar-24.jpg
+daily-demand-mar-25.jpg
+daily-demand-mar-26.jpg
+daily-demand-mar-27.jpg
+daily-demand-mar-28.jpg
+daily-demand-mar-29.jpg
+daily-demand-mar-30.jpg
+daily-demand-mar-31.jpg
+daily-demand-nov-4.jpg
+daily-demand-nov-5.jpg
+daily-demand-nov-6.jpg
+daily-demand-nov-7.jpg
+daily-demand-nov-8.jpg
+daily-demand-nov-9.jpg
+daily-demand-nov-10.jpg

@@ -22,10 +22,11 @@
    "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": null,
+   "bitcoin_block": 976346,
+   "confirmed_seen_utc": "2026-11-18T00:56:27Z",
    "sha256": "f077e656131497a6fa933833b4971cfc3c686b1bb19ebcc8602f3051ec81142b",
    "stamped_utc": "2026-11-17T22:59:03Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
    "bitcoin_block": 975429,
@@ -280,10 +281,11 @@
    "status": "confirmed"
   },
   "raw/city/daily-demand/2026-11-17T2258Z-daily-demand-nov-16.jpg": {
-   "bitcoin_block": null,
+   "bitcoin_block": 976346,
+   "confirmed_seen_utc": "2026-11-18T00:56:29Z",
    "sha256": "c8a184d1c5d3357f1aee81564477e4208554384ad0c4fcf6901f89bfc7a0c625",
    "stamped_utc": "2026-11-17T22:59:00Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
@@ -475,10 +477,11 @@
    "status": "confirmed"
   },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": null,
+   "bitcoin_block": 976346,
+   "confirmed_seen_utc": "2026-11-18T00:56:31Z",
    "sha256": "9db78d4e84cd466711f692845d7859683f0d0d92fdd7d93272dcdf7e727696d7",
    "stamped_utc": "2026-11-17T22:59:02Z",
-   "status": "pending"
+   "status": "confirmed"
   },
   "raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf": {
    "bitcoin_block": 975429,

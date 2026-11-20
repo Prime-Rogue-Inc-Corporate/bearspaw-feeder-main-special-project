@@ -40,6 +40,7 @@ f302acb324392ce6ded5e762350d30ad388a57c7a847bd6ebd34e14d56905ac9  raw/city/daily
 c8a184d1c5d3357f1aee81564477e4208554384ad0c4fcf6901f89bfc7a0c625  raw/city/daily-demand/2026-11-17T2258Z-daily-demand-nov-16.jpg
 3ec1b49eb94810c79e807847b9739ca7a31df90c35825215420f83b83b8a2258  raw/city/daily-demand/2026-11-18T2238Z-daily-demand-nov-17.jpg
 317b79ba1ff50fb330cf411d807ac9a4cbaff01f0169c5dc2699efdc834fcbc5  raw/city/daily-demand/2026-11-19T2241Z-daily-demand-nov-18.jpg
+20f5ca5dbea9551a020630504a935cb220669799b2c3b4f4b9b637c5e90002ba  raw/city/daily-demand/2026-11-20T2215Z-daily-demand-nov-19.jpg
 826a3dc5423ac20c1c462866c27291e52b0b8b18742dcad896e081b55d83fe06  raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html
 0bf7ecfba56200db5333b04659034dfcad7d730f38daf2878b86b0baafdefbb4  raw/city/newsroom/2026-11-07T1154Z-2026-10-95pct-installation.html
 54ca99ef9acf8db7e0bc9e3f832c056ed02e718a8a421ef68ca19d0e15f29807  raw/city/newsroom/2026-11-07T1154Z-2026-11-02-get-ready.html
@@ -67,7 +68,7 @@ da8325cc7fb957b0147c8031cbd59ac50ae825135ffcd6cb22720f6cf62003b2  raw/eccc/clima
 0b759e5942465a247af88b622e1acb1788c235db84d49b4618bbd28f06964171  raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2024.csv
 c5941270360b131ee6cb0b9890bb980ef29ff8f09ad2599e209e66a9cf0a2e31  raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2025.csv
 db3ab522978d4783ac7aa186e760c4d18c20c7e1eaa323cb65d0cff98704664e  raw/eccc/climate-daily/50430-calgary-intl-a/2026-11-09T0648Z-daily-2026.csv
-7310e822f6cfe0480b300df2eb446db08527344f061c0585adbbc2b5eba37411  raw/fetch-log.jsonl
+3e8be3f0508da80a434943324a83a5a91ae522b3164954b363497bce0005fdb8  raw/fetch-log.jsonl
 25f96d5bd98af9ee84b152cb2c15bb14afcc31d4da24224921e754fb218bb927  raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf
 f2613eb95d670396dbb3ad0112e6a7b1c00c58e03b556e68343f82dc609266d4  raw/opendata/35ra-9556/2026-11-07T1149Z-traffic-incidents-latest.csv
 c681e2dc35904c09dbb6fdb927a29d9ecc2412bf9fe98ca55302dd8dcb155616  raw/opendata/3x6m-4vs7/2026-11-07T1152Z-newsroom-latest.csv

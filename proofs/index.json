@@ -22,11 +22,10 @@
    "status": "confirmed"
   },
   "SHA256SUMS": {
-   "bitcoin_block": 976796,
-   "confirmed_seen_utc": "2026-11-21T02:12:16Z",
-   "sha256": "1abcb51c6ac00275ff9b09b7f69fdc2c67965ee278371ef8e691af393ab31dfd",
-   "stamped_utc": "2026-11-20T22:16:38Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "762edd03bd81f329194030d9cd32cd1006c2ddbe6c4824670f416c00cd6a4359",
+   "stamped_utc": "2026-11-21T20:56:38Z",
+   "status": "pending"
   },
   "raw/aeso/eea-events/2026-11-11T0917Z-EEA-Events-2006-Nov_21_2024.xlsx": {
    "bitcoin_block": 975429,
@@ -308,6 +307,12 @@
    "stamped_utc": "2026-11-20T22:16:35Z",
    "status": "confirmed"
   },
+  "raw/city/daily-demand/2026-11-21T2055Z-daily-demand-nov-20.jpg": {
+   "bitcoin_block": null,
+   "sha256": "696d5b496d2dc1c117c54f353433d5110c16eaa66dcfa72a0c6ecf3003c3ec75",
+   "stamped_utc": "2026-11-21T20:56:35Z",
+   "status": "pending"
+  },
   "raw/city/newsroom/2026-11-07T1149Z-nov4-restrictions.html": {
    "bitcoin_block": 974935,
    "confirmed_seen_utc": "2026-11-07T17:44:53Z",
@@ -498,11 +503,10 @@
    "status": "confirmed"
   },
   "raw/fetch-log.jsonl": {
-   "bitcoin_block": 976796,
-   "confirmed_seen_utc": "2026-11-21T02:12:20Z",
-   "sha256": "3e8be3f0508da80a434943324a83a5a91ae522b3164954b363497bce0005fdb8",
-   "stamped_utc": "2026-11-20T22:16:36Z",
-   "status": "confirmed"
+   "bitcoin_block": null,
+   "sha256": "037f47fa973d046547dc7f59de9a29a0a6965462daf5b4b5539cf84074002e4d",
+   "stamped_utc": "2026-11-21T20:56:36Z",
+   "status": "pending"
   },
   "raw/msa/2026-11-11T0917Z-January-and-April-2024-Event-Report.pdf": {
    "bitcoin_block": 975429,
@@ -3076,6 +3080,22 @@
    "proof": "proofs/SHA256SUMS.554e68126cd1.ots",
    "sha256": "554e68126cd1470b2986b29598cb8b98b3a259ccb5e68f7ba301f6eab9988122",
    "stamped_utc": "2026-11-19T22:42:00Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": 976796,
+   "path": "raw/fetch-log.jsonl",
+   "proof": "proofs/raw/fetch-log.jsonl.3e8be3f0508d.ots",
+   "sha256": "3e8be3f0508da80a434943324a83a5a91ae522b3164954b363497bce0005fdb8",
+   "stamped_utc": "2026-11-20T22:16:36Z",
+   "status": "confirmed"
+  },
+  {
+   "bitcoin_block": 976796,
+   "path": "SHA256SUMS",
+   "proof": "proofs/SHA256SUMS.1abcb51c6ac0.ots",
+   "sha256": "1abcb51c6ac00275ff9b09b7f69fdc2c67965ee278371ef8e691af393ab31dfd",
+   "stamped_utc": "2026-11-20T22:16:38Z",
    "status": "confirmed"
   }
  ]
